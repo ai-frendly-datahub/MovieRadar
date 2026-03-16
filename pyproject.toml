@@ -150,3 +150,6 @@ module = [
     "playwright.*",
 ]
 ignore_missing_imports = true
+
+[tool.setuptools.packages.find]
+include = ["movieradar*"]
