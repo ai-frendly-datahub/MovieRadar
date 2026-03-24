@@ -2,15 +2,31 @@ category_name: "movie"
 display_name: "영화 레이더"
 
 sources:
-  # 씨네21 - 한국 대표 영화 전문 매거진 RSS
-  - name: "씨네21"
+  - name: "동아일보 문화"
     type: "rss"
-    url: "http://www.cine21.com/rss/news"
+    url: "https://rss.donga.com/culture.xml"
 
-  # 씨네21 리뷰 RSS
-  - name: "씨네21 리뷰"
+  - name: "매일경제 문화연예"
     type: "rss"
-    url: "http://www.cine21.com/rss/review"
+    url: "https://www.mk.co.kr/rss/30000023/"
+
+  - name: "한겨레 문화"
+    type: "rss"
+    url: "https://www.hani.co.kr/rss/culture/"
+
+  - name: "중앙일보 문화"
+    type: "rss"
+    url: "https://rss.joins.com/joins_culture_list.xml"
+
+  # Variety - 글로벌 엔터테인먼트 전문 매체
+  - name: "Variety"
+    type: "rss"
+    url: "https://variety.com/feed/"
+
+  # Hollywood Reporter - 할리우드 영화 전문 매체
+  - name: "Hollywood Reporter"
+    type: "rss"
+    url: "https://www.hollywoodreporter.com/feed/"
 
   # KOFIC 영화관입장권통합전산망 - 일별 박스오피스 (JS 렌더링)
   - name: "KOFIC 박스오피스"
@@ -61,6 +77,15 @@ entities:
       - "연상호"
       - "정병길"
       - "김한민"
+      - "한재림"
+      - "장항준"
+      - "이원태"
+      - "김용화"
+      - "추창민"
+      - "Martin Scorsese"
+      - "Quentin Tarantino"
+      - "Greta Gerwig"
+      - "Steven Spielberg"
 
   - name: "Actor"
     display_name: "배우"
@@ -83,6 +108,26 @@ entities:
       - "수지"
       - "아이유"
       - "탕웨이"
+      - "유아인"
+      - "조인성"
+      - "김태리"
+      - "전지현"
+      - "이민호"
+      - "조승우"
+      - "김수현"
+      - "이영애"
+      - "김윤석"
+      - "류준열"
+      - "Leonardo DiCaprio"
+      - "Brad Pitt"
+      - "Tom Cruise"
+      - "Scarlett Johansson"
+      - "Margot Robbie"
+      - "Zendaya"
+      - "Ryan Gosling"
+      - "Cillian Murphy"
+      - "Christopher Nolan"
+      - "Denis Villeneuve"
 
   - name: "Award"
     display_name: "수상/영화제"
@@ -112,3 +157,20 @@ entities:
       - "매출액"
       - "스크린수"
       - "예매율"
+
+  - name: "Studio"
+    display_name: "제작사/배급사"
+    keywords:
+      - "CJ ENM"
+      - "롯데엔터테인먼트"
+      - "쇼박스"
+      - "NEW"
+      - "넥스트엔터테인먼트월드"
+      - "에이스메이커"
+      - "Disney"
+      - "Warner Bros"
+      - "Universal"
+      - "Sony"
+      - "Paramount"
+      - "A24"
+      - "Netflix"
