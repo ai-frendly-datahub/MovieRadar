@@ -1,9 +1,8 @@
 from __future__ import annotations
 
 import pytest
-from pathlib import Path
 
-from movieradar.models import Article, CategoryConfig, Source, EntityDefinition
+from movieradar.models import Article, CategoryConfig, EntityDefinition, Source
 
 
 @pytest.fixture

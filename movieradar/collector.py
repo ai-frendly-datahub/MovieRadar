@@ -23,6 +23,7 @@ from .exceptions import NetworkError, ParseError, SourceError
 from .models import Article, Source
 from .resilience import get_circuit_breaker_manager
 
+
 _JS_SOURCE_TYPES = frozenset({"javascript", "browser"})
 
 logger = structlog.get_logger()

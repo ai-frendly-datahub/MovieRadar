@@ -13,11 +13,12 @@ a descriptive error string so the caller can log a warning and continue.
 
 from __future__ import annotations
 
-from typing import Any, TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 import structlog
 
 from .models import Article
+
 
 if TYPE_CHECKING:
     from .models import Source
