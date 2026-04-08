@@ -30,26 +30,56 @@ sources:
   - name: "Variety Film"
     type: "rss"
     url: "https://variety.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   - name: "Hollywood Reporter"
     type: "rss"
     url: "https://www.hollywoodreporter.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   - name: "Deadline"
     type: "rss"
     url: "https://deadline.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   - name: "Screen Rant"
     type: "rss"
     url: "https://screenrant.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   - name: "Collider"
     type: "rss"
     url: "https://collider.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   - name: "IndieWire"
     type: "rss"
     url: "https://www.indiewire.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   # NOTE: 2026-04-02 테스트에서 동작하지 않음 (404)
   # - name: "Film School Rejects"
@@ -60,15 +90,30 @@ sources:
   - name: "What's on Netflix"
     type: "rss"
     url: "https://www.whats-on-netflix.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   - name: "Decider"
     type: "rss"
     url: "https://decider.com/feed/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C1_rss"
+    content_type: "news"
 
   # === 박스오피스 데이터 ===
   - name: "KOFIC 박스오피스"
     type: "javascript"
     url: "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do"
+    language: "ko"
+    country: "KR"
+    trust_tier: "T1_official"
+    collection_tier: "C2_js"
+    content_type: "boxoffice"
     config:
       wait_for: ".board_box"
       content_selector: "tr"
@@ -76,6 +121,11 @@ sources:
   - name: "Box Office Mojo"
     type: "javascript"
     url: "https://www.boxofficemojo.com/"
+    language: "en"
+    country: "US"
+    trust_tier: "T2_institutional"
+    collection_tier: "C2_js"
+    content_type: "boxoffice"
     config:
       wait_for: "table"
 
@@ -83,6 +133,10 @@ sources:
   - name: "관광 문화행사 MCP"
     type: "mcp"
     url: "https://github.com/harimkang/mcp-korea-tourism-api"
+    language: "ko"
+    country: "KR"
+    trust_tier: "T1_official"
+    content_type: "news"
     config:
       transport: stdio
       command: uvx
@@ -103,6 +157,10 @@ sources:
   - name: "서울 문화행사 MCP"
     type: "mcp"
     url: "https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp"
+    language: "ko"
+    country: "KR"
+    trust_tier: "T1_official"
+    content_type: "news"
     config:
       transport: stdio
       command: npx
