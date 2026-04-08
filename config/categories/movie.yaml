@@ -3,25 +3,28 @@ display_name: "영화 레이더"
 
 sources:
   # === 국내 영화 뉴스 ===
-  - name: "씨네21"
-    type: "rss"
-    url: "http://www.cine21.com/rss/news"
+  # NOTE: 2026-04-02 품질점검 - RSS 비활성화, HTML 메인페이지로 리다이렉트 (F등급)
+  # - name: "씨네21"
+  #   type: "rss"
+  #   url: "http://www.cine21.com/rss/news"
 
-  - name: "씨네21 리뷰"
-    type: "rss"
-    url: "http://www.cine21.com/rss/review"
+  # NOTE: 2026-04-02 품질점검 - RSS 비활성화, HTML 메인페이지로 리다이렉트 (F등급)
+  # - name: "씨네21 리뷰"
+  #   type: "rss"
+  #   url: "http://www.cine21.com/rss/review"
 
-  - name: "맥스무비"
-    type: "rss"
-    url: "https://www.maxmovie.com/rss"
+  # NOTE: 아래 소스들은 2026-04-02 테스트에서 동작하지 않음 (403/404)
+  # - name: "맥스무비"
+  #   type: "rss"
+  #   url: "https://www.maxmovie.com/rss"
 
-  - name: "무비스트"
-    type: "rss"
-    url: "https://www.movist.com/rss/news.xml"
+  # - name: "무비스트"
+  #   type: "rss"
+  #   url: "https://www.movist.com/rss/news.xml"
 
-  - name: "스포츠경향 영화"
-    type: "rss"
-    url: "https://sports.khan.co.kr/rss/rss_skn_movie.xml"
+  # - name: "스포츠경향 영화"
+  #   type: "rss"
+  #   url: "https://sports.khan.co.kr/rss/rss_skn_movie.xml"
 
   # === 글로벌 영화 뉴스 ===
   - name: "Variety Film"
@@ -48,9 +51,10 @@ sources:
     type: "rss"
     url: "https://www.indiewire.com/feed/"
 
-  - name: "Film School Rejects"
-    type: "rss"
-    url: "https://filmschoolrejects.com/feed/"
+  # NOTE: 2026-04-02 테스트에서 동작하지 않음 (404)
+  # - name: "Film School Rejects"
+  #   type: "rss"
+  #   url: "https://filmschoolrejects.com/feed/"
 
   # === OTT/스트리밍 ===
   - name: "What's on Netflix"
@@ -74,6 +78,46 @@ sources:
     url: "https://www.boxofficemojo.com/"
     config:
       wait_for: "table"
+
+  # === MCP 서버 소스 (한국 문화 데이터) ===
+  - name: "관광 문화행사 MCP"
+    type: "mcp"
+    url: "https://github.com/harimkang/mcp-korea-tourism-api"
+    config:
+      transport: stdio
+      command: uvx
+      args: ["--from", "git+https://github.com/harimkang/mcp-korea-tourism-api", "mcp-korea-tourism-api"]
+      env:
+        TOUR_API_KEY: "${TOUR_API_KEY}"
+      tool: get_festival_events
+      arguments:
+        area_code: "1"
+        event_start_date: "20260401"
+      transform:
+        title_field: title
+        link_field: detail_url
+        summary_fields: ["addr1", "event_start_date", "event_end_date"]
+        published_field: event_start_date
+
+  # NOTE: be-node-seoul-data-mcp는 npm에 없음 - git URL 사용
+  - name: "서울 문화행사 MCP"
+    type: "mcp"
+    url: "https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp"
+    config:
+      transport: stdio
+      command: npx
+      args: ["-y", "git+https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp"]
+      env:
+        SEOUL_API_KEY: "${SEOUL_API_KEY}"
+      tool: get_cultural_events
+      arguments:
+        codename: ""
+        date: "2026-04"
+      transform:
+        title_field: title
+        link_field: org_link
+        summary_fields: ["place", "date", "use_fee"]
+        published_field: strt_date
 
 entities:
   - name: "Genre"
@@ -341,3 +385,98 @@ entities:
       - "streaming"
       - "구독"
       - "subscription"
+      # 추가 OTT 키워드
+      - "Hulu"
+      - "Peacock"
+      - "Paramount+"
+      - "Max"
+      - "Prime Video"
+      - "watch"
+      - "watching"
+      - "binge"
+      - "bingeing"
+      - "series"
+      - "show"
+      - "shows"
+      - "release"
+      - "releases"
+      - "released"
+      - "available"
+      - "coming"
+      - "premiere"
+      - "premieres"
+      - "공개"
+      - "출시"
+      - "신작"
+      - "시리즈"
+
+  - name: "FilmGeneral"
+    display_name: "영화 일반"
+    keywords:
+      - "film"
+      - "films"
+      - "movie"
+      - "movies"
+      - "cinema"
+      - "cinematic"
+      - "theatrical"
+      - "screen"
+      - "screens"
+      - "watch"
+      - "watching"
+      - "see"
+      - "seeing"
+      - "view"
+      - "viewing"
+      - "audience"
+      - "audiences"
+      - "viewer"
+      - "viewers"
+      - "review"
+      - "reviews"
+      - "rating"
+      - "ratings"
+      - "score"
+      - "scores"
+      - "critic"
+      - "critics"
+      - "영화"
+      - "관객"
+      - "리뷰"
+      - "평점"
+      - "평가"
+      - "관람"
+      - "추천"
+      - "기대작"
+      - "화제작"
+      # Ultra-common article words
+      - "story"
+      - "stories"
+      - "article"
+      - "news"
+      - "today"
+      - "year"
+      - "years"
+      - "time"
+      - "now"
+      - "best"
+      - "most"
+      - "top"
+      - "one"
+      - "two"
+      - "new"
+      - "latest"
+      - "first"
+      - "here"
+      - "this"
+      - "my"
+      - "just"
+      - "share"
+      - "post"
+      - "help"
+      - "advice"
+      - "question"
+      - "anyone"
+      - "looking"
+      - "need"
+      - "want"

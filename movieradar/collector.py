@@ -16,6 +16,7 @@ import requests
 import structlog
 from pybreaker import CircuitBreakerError
 from radar_core import AdaptiveThrottler, CrawlHealthStore
+from radar_core.url_extractor import extract_url_content_safe
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -350,6 +351,13 @@ def _collect_single(
                         value = first_item.get("value")
                         if isinstance(value, str):
                             summary = value
+
+            # URL extraction fallback when summary is short or empty
+            link = _entry_text(entry, "link").strip()
+            if len(summary.strip()) < 50 and link:
+                extracted = extract_url_content_safe(link, timeout=timeout)
+                if extracted and len(extracted) > len(summary):
+                    summary = extracted
 
             items.append(
                 Article(
