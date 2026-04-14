@@ -1,53 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-visual-system="radar-unified-v2" data-visual-surface="index">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark">
   <title>Movie Radar - Reports Index</title>
 
-  
+
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap">
 
-  
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/themes/dark.css">
 
   <style>
-    
-    :root {
-      
-      --bg-primary: #0a0e17;
-      --bg-secondary: #111827;
-      --bg-card: rgba(20, 28, 44, 0.85);
-      --bg-card-hover: rgba(30, 40, 60, 0.95);
-      --bg-glass: rgba(10, 16, 30, 0.72);
 
-      
+    :root {
+
+      --bg-primary: #0b0b0f;
+      --bg-secondary: #121116;
+      --bg-card: rgba(28, 26, 34, 0.85);
+      --bg-card-hover: rgba(36, 33, 43, 0.95);
+      --bg-glass: rgba(24, 22, 29, 0.72);
+
+
       --text-primary: #e4e6eb;
       --text-secondary: #b0b3b8;
       --text-muted: #6b7280;
       --text-faint: rgba(233, 238, 251, 0.52);
 
-      
-      --accent-primary: #4a9eff;
-      --accent-secondary: #33d6c5;
+
+      --accent-primary: #33d6c5;
+      --accent-secondary: #f6c84c;
       --accent-highlight: #f6c84c;
       --accent-danger: #ff5b6e;
 
-      
-      --border-color: rgba(150, 190, 255, 0.14);
-      --border-highlight: rgba(150, 190, 255, 0.22);
-      --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.28);
-      --shadow-glow: 0 0 40px rgba(74, 158, 255, 0.12);
 
-      
+      --border-color: rgba(244, 244, 247, 0.14);
+      --border-highlight: rgba(244, 244, 247, 0.22);
+      --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.28);
+      --shadow-glow: 0 0 40px rgba(51, 214, 197, 0.12);
+
+
       --space-1: 0.25rem;
       --space-2: 0.5rem;
       --space-3: 0.75rem;
@@ -58,25 +58,25 @@
       --space-10: 2.5rem;
       --space-12: 3rem;
 
-      
+
       --radius-sm: 6px;
       --radius-md: 10px;
-      --radius-lg: 14px;
-      --radius-xl: 20px;
+      --radius-lg: 8px;
+      --radius-xl: 8px;
 
-      
+
       --font-sans: "Pretendard Variable", "Pretendard", ui-sans-serif, system-ui, -apple-system, sans-serif;
       --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 
-      
+
       --transition-fast: 0.15s ease-out;
       --transition-normal: 0.25s ease-out;
 
-      
+
       --max-width: 1280px;
     }
 
-    
+
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -93,9 +93,7 @@
       line-height: 1.6;
       color: var(--text-primary);
       background: var(--bg-primary);
-      background-image:
-        radial-gradient(ellipse at 20% 0%, rgba(74, 158, 255, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 100%, rgba(51, 214, 197, 0.06) 0%, transparent 50%);
+      background-image: linear-gradient(180deg, var(--bg-primary), var(--bg-secondary) 58%, #08080b);
       min-height: 100vh;
     }
 
@@ -109,14 +107,14 @@
       color: var(--accent-secondary);
     }
 
-    
+
     .page-container {
       max-width: var(--max-width);
       margin: 0 auto;
       padding: var(--space-6);
     }
 
-    
+
     .header {
       background: var(--bg-glass);
       backdrop-filter: blur(16px);
@@ -171,7 +169,7 @@
       letter-spacing: 0.05em;
     }
 
-    
+
     .widgets-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -185,7 +183,7 @@
       }
     }
 
-    
+
     .widget {
       background: var(--bg-card);
       backdrop-filter: blur(12px);
@@ -226,7 +224,7 @@
       min-height: 280px;
     }
 
-    
+
     .flatpickr-calendar {
       background: transparent !important;
       box-shadow: none !important;
@@ -258,13 +256,13 @@
       color: var(--bg-primary) !important;
     }
 
-    
+
     #trend-chart {
       width: 100%;
       height: 260px;
     }
 
-    
+
     .search-container {
       margin-bottom: var(--space-6);
     }
@@ -335,7 +333,7 @@
       font-weight: 600;
     }
 
-    
+
     .reports-section {
       margin-bottom: var(--space-6);
     }
@@ -371,7 +369,7 @@
       }
     }
 
-    
+
     .report-card {
       background: var(--bg-card);
       border: 1px solid var(--border-color);
@@ -454,7 +452,7 @@
       color: var(--accent-secondary);
     }
 
-    
+
     .empty-state {
       text-align: center;
       padding: var(--space-12);
@@ -471,7 +469,7 @@
       font-size: 1rem;
     }
 
-    
+
     .footer {
       text-align: center;
       padding: var(--space-6);
@@ -486,7 +484,7 @@
       color: var(--text-faint);
     }
 
-    
+
     .hidden {
       display: none !important;
     }
@@ -506,7 +504,7 @@
 </head>
 <body>
   <div class="page-container">
-    
+
     <header class="header">
       <h1 class="header__title">Movie Radar</h1>
       <p class="header__subtitle">Track trends and insights from collected data</p>
@@ -516,32 +514,32 @@
           <span class="stat-value">2</span>
           <span class="stat-label">Total Reports</span>
         </div>
-        
+
         <div class="stat-item">
           <span class="stat-value">2026-04-14</span>
           <span class="stat-label">Latest Report</span>
         </div>
-        
-        
+
+
       </div>
     </header>
 
-    
+
     <div class="widgets-grid">
-      
+
       <div class="widget">
         <h2 class="widget__title">Select Date</h2>
         <div id="calendar-container"></div>
       </div>
 
-      
+
       <div class="widget">
         <h2 class="widget__title">Activity Trend</h2>
         <canvas id="trend-chart" aria-label="Report activity trend chart" role="img"></canvas>
       </div>
     </div>
 
-    
+
     <div class="search-container">
       <div class="search-input-wrapper">
         <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -567,21 +565,21 @@
       </div>
     </div>
 
-    
+
     <section class="reports-section">
       <div class="section-header">
         <h2 class="section-title">All Reports</h2>
       </div>
 
       <div id="reports-grid" class="reports-grid">
-        
-          
+
+
           <a href="movie_20260414.html" class="report-card" data-date="2026-04-14" data-name="movie - 2026-04-14" data-title="movie - 2026-04-14" data-entities="">
             <div class="report-card__header">
               <span class="report-card__date">2026-04-14</span>
-              
+
               <span class="report-card__badge">Daily</span>
-              
+
             </div>
             <div class="report-card__meta">
               <span class="report-card__meta-item">
@@ -592,18 +590,18 @@
                 View Report
               </span>
             </div>
-            
+
             <div class="report-card__entities" data-summary-date="2026-04-14">
-              
+
             </div>
           </a>
-          
+
           <a href="movie_report.html" class="report-card" data-date="" data-name="Movie Report" data-title="Movie Report" data-entities="">
             <div class="report-card__header">
               <span class="report-card__date">Movie Report</span>
-              
+
               <span class="report-card__badge" style="background: rgba(246, 200, 76, 0.15); color: var(--accent-highlight);">Latest</span>
-              
+
             </div>
             <div class="report-card__meta">
               <span class="report-card__meta-item">
@@ -614,50 +612,51 @@
                 View Report
               </span>
             </div>
-            
+
             <div class="report-card__entities" data-summary-date="">
-              
+
             </div>
           </a>
-          
-        
+
+
       </div>
     </section>
 
-    
+
     <footer class="footer">
       <p>
         Generated by <strong>Movie Radar</strong> &middot;
         <span class="footer__timestamp">
-          
-            
-              2026-04-14T11:55:02.339213+00:00
-            
-          
+
+
+              2026-04-14T12:19:13.005877+00:00
+
+
         </span>
       </p>
     </footer>
   </div>
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
 
   <script>
-    
+
     const RADAR_DATA = {
       name: "Movie Radar",
       reports: [{"date": "2026-04-14", "date_label": "2026-04-14", "display_name": "movie - 2026-04-14", "filename": "movie_20260414.html"}, {"date": "", "date_label": "", "display_name": "Movie Report", "filename": "movie_report.html"}],
-      summaries: [{"date": "2026-04-14", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 195, "top_entities": [{"name": "FilmGeneral", "count": 396}, {"name": "Platform", "count": 145}, {"name": "Genre", "count": 144}, {"name": "Studio", "count": 115}, {"name": "BoxOffice", "count": 37}, {"name": "Award", "count": 19}, {"name": "Actor", "count": 18}, {"name": "Director", "count": 16}]}, {"date": "2026-04-13", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 190, "top_entities": [{"name": "FilmGeneral", "count": 371}, {"name": "Genre", "count": 161}, {"name": "Platform", "count": 154}, {"name": "Studio", "count": 71}, {"name": "Actor", "count": 26}, {"name": "BoxOffice", "count": 16}, {"name": "Director", "count": 12}, {"name": "Award", "count": 11}]}, {"date": "2026-04-12", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 193, "top_entities": [{"name": "FilmGeneral", "count": 385}, {"name": "Platform", "count": 167}, {"name": "Genre", "count": 140}, {"name": "Studio", "count": 94}, {"name": "Actor", "count": 25}, {"name": "Award", "count": 14}, {"name": "Director", "count": 13}, {"name": "BoxOffice", "count": 11}]}, {"date": "2026-04-11", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 195, "top_entities": [{"name": "FilmGeneral", "count": 385}, {"name": "Platform", "count": 196}, {"name": "Genre", "count": 146}, {"name": "Studio", "count": 125}, {"name": "Actor", "count": 23}, {"name": "Director", "count": 16}, {"name": "BoxOffice", "count": 15}, {"name": "Award", "count": 14}]}, {"date": "2026-04-10", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 196, "top_entities": [{"name": "FilmGeneral", "count": 383}, {"name": "Platform", "count": 193}, {"name": "Genre", "count": 153}, {"name": "Studio", "count": 115}, {"name": "Actor", "count": 25}, {"name": "BoxOffice", "count": 21}, {"name": "Award", "count": 17}, {"name": "Director", "count": 13}]}, {"date": "2026-04-09", "category": "movie", "article_count": 192, "source_count": 10, "matched_count": 184, "top_entities": [{"name": "FilmGeneral", "count": 350}, {"name": "Platform", "count": 176}, {"name": "Genre", "count": 139}, {"name": "Studio", "count": 127}, {"name": "Actor", "count": 25}, {"name": "BoxOffice", "count": 24}, {"name": "Award", "count": 13}, {"name": "Director", "count": 11}]}, {"date": "2026-04-08", "category": "movie", "article_count": 106, "source_count": 10, "matched_count": 101, "top_entities": [{"name": "FilmGeneral", "count": 192}, {"name": "Platform", "count": 107}, {"name": "Genre", "count": 82}, {"name": "Studio", "count": 80}, {"name": "BoxOffice", "count": 16}, {"name": "Actor", "count": 15}, {"name": "Director", "count": 6}, {"name": "Award", "count": 5}]}, {"date": "2026-04-07", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 141, "top_entities": [{"name": "Genre", "count": 133}, {"name": "Studio", "count": 85}, {"name": "Platform", "count": 31}, {"name": "Actor", "count": 23}, {"name": "BoxOffice", "count": 21}, {"name": "Award", "count": 4}, {"name": "Director", "count": 2}]}, {"date": "2026-04-06", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 139, "top_entities": [{"name": "Genre", "count": 144}, {"name": "Studio", "count": 88}, {"name": "Platform", "count": 37}, {"name": "Actor", "count": 23}, {"name": "BoxOffice", "count": 21}, {"name": "Director", "count": 8}, {"name": "Award", "count": 3}]}, {"date": "2026-04-05", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 143, "top_entities": [{"name": "Genre", "count": 143}, {"name": "Studio", "count": 103}, {"name": "Platform", "count": 42}, {"name": "Actor", "count": 22}, {"name": "BoxOffice", "count": 15}, {"name": "Award", "count": 12}, {"name": "Director", "count": 8}]}, {"date": "2026-04-04", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 158, "top_entities": [{"name": "Genre", "count": 159}, {"name": "Studio", "count": 113}, {"name": "Platform", "count": 54}, {"name": "BoxOffice", "count": 20}, {"name": "Actor", "count": 19}, {"name": "Award", "count": 15}, {"name": "Director", "count": 13}]}, {"date": "2026-04-03", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 163, "top_entities": [{"name": "Genre", "count": 157}, {"name": "Studio", "count": 118}, {"name": "Platform", "count": 58}, {"name": "BoxOffice", "count": 18}, {"name": "Actor", "count": 15}, {"name": "Award", "count": 14}, {"name": "Director", "count": 10}]}, {"date": "2026-04-02", "category": "movie", "article_count": 200, "source_count": 14, "matched_count": 141, "top_entities": [{"name": "Genre", "count": 142}, {"name": "Studio", "count": 94}, {"name": "Platform", "count": 55}, {"name": "BoxOffice", "count": 18}, {"name": "Actor", "count": 14}, {"name": "Director", "count": 11}, {"name": "Award", "count": 8}]}, {"date": "2026-04-01", "category": "movie", "article_count": 200, "source_count": 11, "matched_count": 164, "top_entities": [{"name": "FilmGeneral", "count": 219}, {"name": "Genre", "count": 142}, {"name": "Platform", "count": 112}, {"name": "Studio", "count": 95}, {"name": "BoxOffice", "count": 21}, {"name": "Actor", "count": 15}, {"name": "Award", "count": 10}, {"name": "Director", "count": 8}]}, {"date": "2026-03-31", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 50, "top_entities": [{"name": "Genre", "count": 25}, {"name": "BoxOffice", "count": 20}, {"name": "Studio", "count": 10}, {"name": "Actor", "count": 4}, {"name": "Award", "count": 1}, {"name": "Director", "count": 1}]}, {"date": "2026-03-30", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 51, "top_entities": [{"name": "Genre", "count": 28}, {"name": "BoxOffice", "count": 15}, {"name": "Studio", "count": 14}, {"name": "Award", "count": 3}, {"name": "Actor", "count": 3}, {"name": "Director", "count": 1}]}, {"date": "2026-03-29", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 47, "top_entities": [{"name": "Genre", "count": 30}, {"name": "Studio", "count": 12}, {"name": "BoxOffice", "count": 8}, {"name": "Actor", "count": 3}, {"name": "Award", "count": 3}, {"name": "Director", "count": 1}]}, {"date": "2026-03-28", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 51, "top_entities": [{"name": "Genre", "count": 27}, {"name": "Studio", "count": 12}, {"name": "BoxOffice", "count": 11}, {"name": "Actor", "count": 6}, {"name": "Award", "count": 3}, {"name": "Director", "count": 1}]}, {"date": "2026-03-27", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 46, "top_entities": [{"name": "Genre", "count": 26}, {"name": "Studio", "count": 11}, {"name": "BoxOffice", "count": 8}, {"name": "Actor", "count": 7}, {"name": "Director", "count": 1}]}, {"date": "2026-03-26", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 52, "top_entities": [{"name": "Genre", "count": 22}, {"name": "Studio", "count": 19}, {"name": "BoxOffice", "count": 16}, {"name": "Actor", "count": 5}, {"name": "Award", "count": 1}]}, {"date": "2026-03-25", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 59, "top_entities": [{"name": "Genre", "count": 27}, {"name": "Studio", "count": 24}, {"name": "BoxOffice", "count": 18}, {"name": "Actor", "count": 7}, {"name": "Director", "count": 2}, {"name": "Award", "count": 1}]}, {"date": "2026-03-24", "category": "movie", "article_count": 130, "source_count": 6, "matched_count": 39, "top_entities": [{"name": "Genre", "count": 23}, {"name": "BoxOffice", "count": 13}, {"name": "Studio", "count": 11}, {"name": "Actor", "count": 4}, {"name": "Director", "count": 2}]}, {"date": "2026-03-23", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 34, "top_entities": [{"name": "Genre", "count": 13}, {"name": "BoxOffice", "count": 10}, {"name": "Studio", "count": 8}, {"name": "Actor", "count": 7}, {"name": "Award", "count": 1}, {"name": "Director", "count": 1}]}, {"date": "2026-03-22", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 22, "top_entities": [{"name": "Genre", "count": 10}, {"name": "Studio", "count": 10}, {"name": "BoxOffice", "count": 4}, {"name": "Actor", "count": 2}, {"name": "Director", "count": 1}, {"name": "Award", "count": 1}]}, {"date": "2026-03-21", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 35, "top_entities": [{"name": "Genre", "count": 16}, {"name": "Studio", "count": 12}, {"name": "BoxOffice", "count": 6}, {"name": "Actor", "count": 4}, {"name": "Award", "count": 3}]}, {"date": "2026-03-20", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 47, "top_entities": [{"name": "Genre", "count": 25}, {"name": "BoxOffice", "count": 15}, {"name": "Studio", "count": 9}, {"name": "Award", "count": 7}, {"name": "Actor", "count": 6}, {"name": "Director", "count": 1}]}, {"date": "2026-03-19", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 56, "top_entities": [{"name": "Genre", "count": 38}, {"name": "BoxOffice", "count": 16}, {"name": "Award", "count": 11}, {"name": "Actor", "count": 8}, {"name": "Studio", "count": 7}, {"name": "Director", "count": 2}]}, {"date": "2026-03-18", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 55, "top_entities": [{"name": "Genre", "count": 34}, {"name": "Award", "count": 16}, {"name": "BoxOffice", "count": 10}, {"name": "Actor", "count": 6}, {"name": "Studio", "count": 6}, {"name": "Director", "count": 1}]}, {"date": "2026-03-17", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 65, "top_entities": [{"name": "Genre", "count": 40}, {"name": "Award", "count": 39}, {"name": "BoxOffice", "count": 10}, {"name": "Actor", "count": 5}, {"name": "Studio", "count": 4}, {"name": "Director", "count": 3}]}, {"date": "2026-03-16", "category": "movie", "article_count": 0, "source_count": 0, "matched_count": 0, "top_entities": []}],
-      generatedAt: "2026-04-14T11:55:02.339213+00:00"
+      summaries: [{"date": "2026-04-14", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 194, "top_entities": [{"name": "FilmGeneral", "count": 399}, {"name": "Platform", "count": 143}, {"name": "Genre", "count": 138}, {"name": "Studio", "count": 115}, {"name": "BoxOffice", "count": 38}, {"name": "Award", "count": 21}, {"name": "Actor", "count": 18}, {"name": "Director", "count": 17}]}, {"date": "2026-04-13", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 190, "top_entities": [{"name": "FilmGeneral", "count": 371}, {"name": "Genre", "count": 161}, {"name": "Platform", "count": 154}, {"name": "Studio", "count": 71}, {"name": "Actor", "count": 26}, {"name": "BoxOffice", "count": 16}, {"name": "Director", "count": 12}, {"name": "Award", "count": 11}]}, {"date": "2026-04-12", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 193, "top_entities": [{"name": "FilmGeneral", "count": 385}, {"name": "Platform", "count": 167}, {"name": "Genre", "count": 140}, {"name": "Studio", "count": 94}, {"name": "Actor", "count": 25}, {"name": "Award", "count": 14}, {"name": "Director", "count": 13}, {"name": "BoxOffice", "count": 11}]}, {"date": "2026-04-11", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 195, "top_entities": [{"name": "FilmGeneral", "count": 385}, {"name": "Platform", "count": 196}, {"name": "Genre", "count": 146}, {"name": "Studio", "count": 125}, {"name": "Actor", "count": 23}, {"name": "Director", "count": 16}, {"name": "BoxOffice", "count": 15}, {"name": "Award", "count": 14}]}, {"date": "2026-04-10", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 196, "top_entities": [{"name": "FilmGeneral", "count": 383}, {"name": "Platform", "count": 193}, {"name": "Genre", "count": 153}, {"name": "Studio", "count": 115}, {"name": "Actor", "count": 25}, {"name": "BoxOffice", "count": 21}, {"name": "Award", "count": 17}, {"name": "Director", "count": 13}]}, {"date": "2026-04-09", "category": "movie", "article_count": 192, "source_count": 10, "matched_count": 184, "top_entities": [{"name": "FilmGeneral", "count": 350}, {"name": "Platform", "count": 176}, {"name": "Genre", "count": 139}, {"name": "Studio", "count": 127}, {"name": "Actor", "count": 25}, {"name": "BoxOffice", "count": 24}, {"name": "Award", "count": 13}, {"name": "Director", "count": 11}]}, {"date": "2026-04-08", "category": "movie", "article_count": 106, "source_count": 10, "matched_count": 101, "top_entities": [{"name": "FilmGeneral", "count": 192}, {"name": "Platform", "count": 107}, {"name": "Genre", "count": 82}, {"name": "Studio", "count": 80}, {"name": "BoxOffice", "count": 16}, {"name": "Actor", "count": 15}, {"name": "Director", "count": 6}, {"name": "Award", "count": 5}]}, {"date": "2026-04-07", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 141, "top_entities": [{"name": "Genre", "count": 133}, {"name": "Studio", "count": 85}, {"name": "Platform", "count": 31}, {"name": "Actor", "count": 23}, {"name": "BoxOffice", "count": 21}, {"name": "Award", "count": 4}, {"name": "Director", "count": 2}]}, {"date": "2026-04-06", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 139, "top_entities": [{"name": "Genre", "count": 144}, {"name": "Studio", "count": 88}, {"name": "Platform", "count": 37}, {"name": "Actor", "count": 23}, {"name": "BoxOffice", "count": 21}, {"name": "Director", "count": 8}, {"name": "Award", "count": 3}]}, {"date": "2026-04-05", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 143, "top_entities": [{"name": "Genre", "count": 143}, {"name": "Studio", "count": 103}, {"name": "Platform", "count": 42}, {"name": "Actor", "count": 22}, {"name": "BoxOffice", "count": 15}, {"name": "Award", "count": 12}, {"name": "Director", "count": 8}]}, {"date": "2026-04-04", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 158, "top_entities": [{"name": "Genre", "count": 159}, {"name": "Studio", "count": 113}, {"name": "Platform", "count": 54}, {"name": "BoxOffice", "count": 20}, {"name": "Actor", "count": 19}, {"name": "Award", "count": 15}, {"name": "Director", "count": 13}]}, {"date": "2026-04-03", "category": "movie", "article_count": 200, "source_count": 10, "matched_count": 163, "top_entities": [{"name": "Genre", "count": 157}, {"name": "Studio", "count": 118}, {"name": "Platform", "count": 58}, {"name": "BoxOffice", "count": 18}, {"name": "Actor", "count": 15}, {"name": "Award", "count": 14}, {"name": "Director", "count": 10}]}, {"date": "2026-04-02", "category": "movie", "article_count": 200, "source_count": 14, "matched_count": 141, "top_entities": [{"name": "Genre", "count": 142}, {"name": "Studio", "count": 94}, {"name": "Platform", "count": 55}, {"name": "BoxOffice", "count": 18}, {"name": "Actor", "count": 14}, {"name": "Director", "count": 11}, {"name": "Award", "count": 8}]}, {"date": "2026-04-01", "category": "movie", "article_count": 200, "source_count": 11, "matched_count": 164, "top_entities": [{"name": "FilmGeneral", "count": 219}, {"name": "Genre", "count": 142}, {"name": "Platform", "count": 112}, {"name": "Studio", "count": 95}, {"name": "BoxOffice", "count": 21}, {"name": "Actor", "count": 15}, {"name": "Award", "count": 10}, {"name": "Director", "count": 8}]}, {"date": "2026-03-31", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 50, "top_entities": [{"name": "Genre", "count": 25}, {"name": "BoxOffice", "count": 20}, {"name": "Studio", "count": 10}, {"name": "Actor", "count": 4}, {"name": "Award", "count": 1}, {"name": "Director", "count": 1}]}, {"date": "2026-03-30", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 51, "top_entities": [{"name": "Genre", "count": 28}, {"name": "BoxOffice", "count": 15}, {"name": "Studio", "count": 14}, {"name": "Award", "count": 3}, {"name": "Actor", "count": 3}, {"name": "Director", "count": 1}]}, {"date": "2026-03-29", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 47, "top_entities": [{"name": "Genre", "count": 30}, {"name": "Studio", "count": 12}, {"name": "BoxOffice", "count": 8}, {"name": "Actor", "count": 3}, {"name": "Award", "count": 3}, {"name": "Director", "count": 1}]}, {"date": "2026-03-28", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 51, "top_entities": [{"name": "Genre", "count": 27}, {"name": "Studio", "count": 12}, {"name": "BoxOffice", "count": 11}, {"name": "Actor", "count": 6}, {"name": "Award", "count": 3}, {"name": "Director", "count": 1}]}, {"date": "2026-03-27", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 46, "top_entities": [{"name": "Genre", "count": 26}, {"name": "Studio", "count": 11}, {"name": "BoxOffice", "count": 8}, {"name": "Actor", "count": 7}, {"name": "Director", "count": 1}]}, {"date": "2026-03-26", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 52, "top_entities": [{"name": "Genre", "count": 22}, {"name": "Studio", "count": 19}, {"name": "BoxOffice", "count": 16}, {"name": "Actor", "count": 5}, {"name": "Award", "count": 1}]}, {"date": "2026-03-25", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 59, "top_entities": [{"name": "Genre", "count": 27}, {"name": "Studio", "count": 24}, {"name": "BoxOffice", "count": 18}, {"name": "Actor", "count": 7}, {"name": "Director", "count": 2}, {"name": "Award", "count": 1}]}, {"date": "2026-03-24", "category": "movie", "article_count": 130, "source_count": 6, "matched_count": 39, "top_entities": [{"name": "Genre", "count": 23}, {"name": "BoxOffice", "count": 13}, {"name": "Studio", "count": 11}, {"name": "Actor", "count": 4}, {"name": "Director", "count": 2}]}, {"date": "2026-03-23", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 34, "top_entities": [{"name": "Genre", "count": 13}, {"name": "BoxOffice", "count": 10}, {"name": "Studio", "count": 8}, {"name": "Actor", "count": 7}, {"name": "Award", "count": 1}, {"name": "Director", "count": 1}]}, {"date": "2026-03-22", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 22, "top_entities": [{"name": "Genre", "count": 10}, {"name": "Studio", "count": 10}, {"name": "BoxOffice", "count": 4}, {"name": "Actor", "count": 2}, {"name": "Director", "count": 1}, {"name": "Award", "count": 1}]}, {"date": "2026-03-21", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 35, "top_entities": [{"name": "Genre", "count": 16}, {"name": "Studio", "count": 12}, {"name": "BoxOffice", "count": 6}, {"name": "Actor", "count": 4}, {"name": "Award", "count": 3}]}, {"date": "2026-03-20", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 47, "top_entities": [{"name": "Genre", "count": 25}, {"name": "BoxOffice", "count": 15}, {"name": "Studio", "count": 9}, {"name": "Award", "count": 7}, {"name": "Actor", "count": 6}, {"name": "Director", "count": 1}]}, {"date": "2026-03-19", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 56, "top_entities": [{"name": "Genre", "count": 38}, {"name": "BoxOffice", "count": 16}, {"name": "Award", "count": 11}, {"name": "Actor", "count": 8}, {"name": "Studio", "count": 7}, {"name": "Director", "count": 2}]}, {"date": "2026-03-18", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 55, "top_entities": [{"name": "Genre", "count": 34}, {"name": "Award", "count": 16}, {"name": "BoxOffice", "count": 10}, {"name": "Actor", "count": 6}, {"name": "Studio", "count": 6}, {"name": "Director", "count": 1}]}, {"date": "2026-03-17", "category": "movie", "article_count": 200, "source_count": 6, "matched_count": 65, "top_entities": [{"name": "Genre", "count": 40}, {"name": "Award", "count": 39}, {"name": "BoxOffice", "count": 10}, {"name": "Actor", "count": 5}, {"name": "Studio", "count": 4}, {"name": "Director", "count": 3}]}, {"date": "2026-03-16", "category": "movie", "article_count": 0, "source_count": 0, "matched_count": 0, "top_entities": []}],
+      generatedAt: "2026-04-14T12:19:13.005877+00:00"
     };
 
-    
+
     const availableDates = RADAR_DATA.reports
       .filter(r => r.date)
       .map(r => r.date);
 
-    
+
+    // TODO: Task 7
     (function initCalendar() {
       const calendarContainer = document.getElementById('calendar-container');
       if (!calendarContainer || typeof flatpickr === 'undefined') {
@@ -722,14 +721,15 @@
       });
     })();
 
-    
+
+    // TODO: Task 8
     (function initSearch() {
       const searchInput = document.getElementById('search-input');
       const searchClear = document.getElementById('search-clear');
       const searchResults = document.getElementById('search-results');
       const resultsCount = document.getElementById('results-count');
       const reportsGrid = document.getElementById('reports-grid');
-      
+
       if (!searchInput || !reportsGrid) return;
 
       // Build entity lookup map from summaries
@@ -764,13 +764,13 @@
           const title = (card.dataset.title || card.dataset.name || '').toLowerCase();
           const date = (card.dataset.date || '').toLowerCase();
           const entities = (card.dataset.entities || '').toLowerCase();
-          
+
           // Match against title, date, and entities
-          const matches = !normalizedQuery || 
-            title.includes(normalizedQuery) || 
+          const matches = !normalizedQuery ||
+            title.includes(normalizedQuery) ||
             date.includes(normalizedQuery) ||
             entities.includes(normalizedQuery);
-          
+
           card.style.display = matches ? '' : 'none';
           if (matches) visibleCount++;
         });
@@ -805,7 +805,7 @@
       const debouncedSearch = debounce(function(e) {
         const query = e.target.value;
         filterReports(query);
-        
+
         // Toggle clear button visibility
         if (searchClear) {
           searchClear.style.display = query ? 'flex' : 'none';
@@ -836,7 +836,7 @@
       });
     })();
 
-    
+
     // Build summary lookup map for tooltip entity display
     const chartSummaryByDate = new Map();
     if (RADAR_DATA.summaries && Array.isArray(RADAR_DATA.summaries)) {
@@ -1013,7 +1013,7 @@
       });
     }
 
-    
+
     function debounce(func, wait) {
       let timeout;
       return function executedFunction(...args) {
@@ -1026,7 +1026,7 @@
       };
     }
 
-    
+
     // Populate entity tags for each report card from summaries data
     function populateEntityTags() {
       if (!RADAR_DATA.summaries || RADAR_DATA.summaries.length === 0) return;
