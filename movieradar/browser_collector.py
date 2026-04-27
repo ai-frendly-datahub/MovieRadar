@@ -80,7 +80,13 @@ def collect_browser_sources(
 
     try:
         source_dicts: list[dict[str, Any]] = [
-            {"name": s.name, "type": s.type, "url": s.url} for s in sources
+            {
+                "name": s.name,
+                "type": s.type,
+                "url": s.url,
+                "config": s.config,
+            }
+            for s in sources
         ]
         core_articles, errors = _core_collect(
             sources=source_dicts,

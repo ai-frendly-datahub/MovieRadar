@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from datetime import UTC, datetime
 
 from movieradar.models import Article, CategoryConfig
@@ -94,6 +95,56 @@ def test_generate_index_html(tmp_path):
     rendered = index_path.read_text(encoding="utf-8")
     assert "Movie Radar" in rendered
     assert "test_20240315.html" in rendered
+
+
+def test_generate_report_injects_movie_quality_panel(tmp_path, monkeypatch):
+    """Generated report contains MovieRadar quality telemetry when provided."""
+    fixed_now = datetime(2024, 3, 15, 9, 30, tzinfo=UTC)
+
+    class FixedDateTime(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            if tz is None:
+                return fixed_now.replace(tzinfo=None)
+            return fixed_now.astimezone(tz)
+
+    monkeypatch.setattr("radar_core.report_utils.datetime", FixedDateTime)
+
+    output_path = tmp_path / "reports" / "test_report.html"
+    generate_report(
+        category=_sample_category(),
+        articles=_sample_articles(),
+        output_path=output_path,
+        stats={"sources": 1, "collected": 1, "matched": 1, "window_days": 7},
+        quality_report={
+            "summary": {
+                "movie_signal_event_count": 1,
+                "box_office_events": 1,
+                "event_required_field_gap_count": 2,
+            },
+            "events": [
+                {
+                    "event_model": "box_office",
+                    "source": "KOFIC",
+                    "canonical_key": "movie:123456",
+                    "canonical_key_status": "complete",
+                    "required_field_gaps": [],
+                }
+            ],
+            "daily_review_items": [],
+        },
+    )
+    html = output_path.read_text(encoding="utf-8")
+    assert 'id="movie-quality"' in html
+    assert "Movie Quality" in html
+    assert "movie:123456" in html
+
+    summary_payload = json.loads(
+        (tmp_path / "reports" / "test_20240315_summary.json").read_text(encoding="utf-8")
+    )
+    assert summary_payload["ontology"]["repo"] == "MovieRadar"
+    assert summary_payload["ontology"]["ontology_version"] == "0.1.0"
+    assert "media.box_office" in summary_payload["ontology"]["event_model_ids"]
 
 
 def test_generate_report_with_errors(tmp_path, monkeypatch):

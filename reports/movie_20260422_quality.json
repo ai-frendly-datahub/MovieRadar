@@ -1,0 +1,657 @@
+{
+  "category": "movie",
+  "generated_at": "2026-04-22T22:02:49.616777+00:00",
+  "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
+  "summary": {
+    "total_sources": 12,
+    "enabled_sources": 12,
+    "tracked_sources": 3,
+    "fresh_sources": 1,
+    "stale_sources": 2,
+    "missing_sources": 0,
+    "missing_event_sources": 0,
+    "unknown_event_date_sources": 0,
+    "not_tracked_sources": 9,
+    "skipped_disabled_sources": 0,
+    "collection_error_count": 0,
+    "reservation_ranking_events": 0,
+    "box_office_events": 2,
+    "ott_ranking_events": 0,
+    "release_calendar_events": 1,
+    "movie_signal_event_count": 3,
+    "official_or_operational_event_count": 1,
+    "news_proxy_event_count": 0,
+    "complete_canonical_key_count": 2,
+    "proxy_canonical_key_count": 1,
+    "missing_canonical_key_count": 0,
+    "movie_id_present_count": 0,
+    "normalized_title_present_count": 3,
+    "release_year_present_count": 2,
+    "rank_present_count": 0,
+    "gross_present_count": 0,
+    "platform_present_count": 1,
+    "event_required_field_gap_count": 7,
+    "tracked_source_gap_count": 2,
+    "missing_event_model_count": 2,
+    "source_backlog_candidate_count": 4,
+    "daily_review_item_count": 12
+  },
+  "sources": [
+    {
+      "source": "Variety Film",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 5,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Hollywood Reporter",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Deadline",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Screen Rant",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "media",
+      "info_purpose": [
+        "review"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Collider",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "media",
+      "info_purpose": [
+        "review"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 2,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "IndieWire",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "review",
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "tracked": true,
+      "event_model": "release_calendar",
+      "freshness_sla_days": 14.0,
+      "status": "fresh",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-04-11T10:59:07+00:00",
+      "age_days": 11.46,
+      "latest_title": "The Secrets Behind the Stunning Visuals of The Oscar-Winning ‘KPop Demon Hunters’ With Gary H. Lee",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/kpop-demon-hunters-gary-lee-interview/",
+      "latest_source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Decider",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "media",
+      "info_purpose": [
+        "ott_review"
+      ],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "KOFIC 박스오피스",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "official",
+      "info_purpose": [
+        "box_office",
+        "korean_box_office"
+      ],
+      "tracked": true,
+      "event_model": "box_office",
+      "freshness_sla_days": 1.0,
+      "status": "stale",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-04-12T16:41:44.141433+00:00",
+      "age_days": 10.22,
+      "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
+      "latest_source_signal": [
+        "box_office",
+        "boxoffice",
+        "korean_box_office",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Box Office Mojo",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "market_data",
+      "info_purpose": [
+        "box_office"
+      ],
+      "tracked": true,
+      "event_model": "box_office",
+      "freshness_sla_days": 1.0,
+      "status": "stale",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-04-12T16:41:48.568195+00:00",
+      "age_days": 10.22,
+      "latest_title": "Home - Box Office Mojo",
+      "latest_url": "https://www.boxofficemojo.com/",
+      "latest_source_signal": [
+        "box_office",
+        "boxoffice",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "errors": []
+    },
+    {
+      "source": "관광 문화행사 MCP",
+      "source_type": "mcp",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "서울 문화행사 MCP",
+      "source_type": "mcp",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "source": "Box Office Mojo",
+      "source_type": "javascript",
+      "trust_tier": "T2_institutional",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "market_data",
+      "info_purpose": [
+        "box_office"
+      ],
+      "event_model": "box_office",
+      "title": "Home - Box Office Mojo",
+      "url": "https://www.boxofficemojo.com/",
+      "source_url": "https://www.boxofficemojo.com/",
+      "event_at": "2026-04-12T16:41:48.568195+00:00",
+      "movie_id": "",
+      "normalized_title": "Home - Box Office Mojo",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "box office",
+      "rank": null,
+      "gross": null,
+      "platform_name": "release",
+      "release_date": "",
+      "box_office": [
+        "box office"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "release"
+      ],
+      "platform": [
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "viewing",
+        "news",
+        "time",
+        "top",
+        "new",
+        "latest",
+        "this",
+        "help"
+      ],
+      "source_signal": [
+        "box_office",
+        "boxoffice",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "canonical_key": "movie:home-box-office-mojo:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "box_office:907d712300a5:20260412",
+      "required_field_proxy": {
+        "movie_id": false,
+        "rank": false,
+        "gross": false,
+        "market": true
+      },
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "source": "KOFIC 박스오피스",
+      "source_type": "javascript",
+      "trust_tier": "T1_official",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "official",
+      "info_purpose": [
+        "box_office",
+        "korean_box_office"
+      ],
+      "event_model": "box_office",
+      "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
+      "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
+      "event_at": "2026-04-12T16:41:44.141433+00:00",
+      "movie_id": "",
+      "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "release_year": "1971",
+      "country": "KR",
+      "region": "KR",
+      "market": "박스오피스",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "2026-04-08",
+      "box_office": [
+        "박스오피스",
+        "관객수",
+        "흥행",
+        "개봉",
+        "매출액",
+        "스크린수",
+        "예매율",
+        "누적관객",
+        "극장",
+        "영화관",
+        "상영"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "영화",
+        "관객"
+      ],
+      "source_signal": [
+        "box_office",
+        "boxoffice",
+        "korean_box_office",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:1971:kr",
+      "canonical_key_status": "complete",
+      "event_key": "box_office:3f6e43757676:20260412",
+      "required_field_proxy": {
+        "movie_id": false,
+        "rank": false,
+        "gross": false,
+        "market": true
+      },
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Secrets Behind the Stunning Visuals of The Oscar-Winning ‘KPop Demon Hunters’ With Gary H. Lee",
+      "url": "https://www.whats-on-netflix.com/interviews/kpop-demon-hunters-gary-lee-interview/",
+      "source_url": "https://www.whats-on-netflix.com/interviews/kpop-demon-hunters-gary-lee-interview/",
+      "event_at": "2026-04-11T10:59:07+00:00",
+      "movie_id": "",
+      "normalized_title": "The Secrets Behind the Stunning Visuals of The Oscar-Winning ‘KPop Demon Hunters’ With Gary H. Lee",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "oscar"
+      ],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:08711462aa02",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:16a32e4a1523:20260411",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    }
+  ],
+  "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "box_office",
+      "source": "Box Office Mojo",
+      "title": "Home - Box Office Mojo",
+      "canonical_key": "movie:home-box-office-mojo:2026:us",
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "box_office",
+      "source": "KOFIC 박스오피스",
+      "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:1971:kr",
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Secrets Behind the Stunning Visuals of The Oscar-Winning ‘KPop Demon Hunters’ With Gary H. Lee",
+      "canonical_key": "movie_source:what-s-on-netflix:08711462aa02",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Secrets Behind the Stunning Visuals of The Oscar-Winning ‘KPop Demon Hunters’ With Gary H. Lee",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "source_stale",
+      "source": "KOFIC 박스오피스",
+      "event_model": "box_office",
+      "age_days": 10.22
+    },
+    {
+      "reason": "source_stale",
+      "source": "Box Office Mojo",
+      "event_model": "box_office",
+      "age_days": 10.22
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "reservation_ranking"
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "ott_ranking"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "KOFIC daily box office API",
+      "signal_type": "box_office",
+      "activation_gate": "API key, movie code mapping, and gross date retention"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Korean ticket reservation ranking pages",
+      "signal_type": "reservation_ranking",
+      "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Netflix Top 10 dataset",
+      "signal_type": "ott_ranking",
+      "activation_gate": "title/year canonicalization, region mapping, and weekly window handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Distributor release calendars",
+      "signal_type": "release_calendar",
+      "activation_gate": "distributor taxonomy, duplicate title handling, and source evidence retention"
+    }
+  ],
+  "source_backlog": {
+    "operational_candidates": [
+      {
+        "id": "kofic_daily_boxoffice_api",
+        "name": "KOFIC daily box office API",
+        "signal_type": "box_office",
+        "activation_gate": "API key, movie code mapping, and gross date retention"
+      },
+      {
+        "id": "korean_ticket_reservation_ranking",
+        "name": "Korean ticket reservation ranking pages",
+        "signal_type": "reservation_ranking",
+        "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
+      },
+      {
+        "id": "netflix_top10_dataset",
+        "name": "Netflix Top 10 dataset",
+        "signal_type": "ott_ranking",
+        "activation_gate": "title/year canonicalization, region mapping, and weekly window handling"
+      },
+      {
+        "id": "distributor_release_calendars",
+        "name": "Distributor release calendars",
+        "signal_type": "release_calendar",
+        "activation_gate": "distributor taxonomy, duplicate title handling, and source evidence retention"
+      }
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-25",
+  "category": "movie",
+  "article_count": 76,
+  "source_count": 10,
+  "matched_count": 76,
+  "top_entities": [
+    {
+      "name": "FilmGeneral",
+      "count": 170
+    },
+    {
+      "name": "SourceSignal",
+      "count": 122
+    },
+    {
+      "name": "Platform",
+      "count": 83
+    },
+    {
+      "name": "Studio",
+      "count": 70
+    },
+    {
+      "name": "Genre",
+      "count": 58
+    },
+    {
+      "name": "BoxOffice",
+      "count": 23
+    },
+    {
+      "name": "Actor",
+      "count": 11
+    },
+    {
+      "name": "Director",
+      "count": 7
+    },
+    {
+      "name": "Award",
+      "count": 7
+    }
+  ],
+  "sources": {
+    "Box Office Mojo": 1,
+    "KOFIC 박스오피스": 1,
+    "Variety Film": 8,
+    "Collider": 9,
+    "Hollywood Reporter": 6,
+    "Deadline": 14,
+    "Screen Rant": 7,
+    "What's on Netflix": 10,
+    "Decider": 5,
+    "IndieWire": 15
+  },
+  "generated_at": "2026-04-25T02:00:07.088635+09:00",
+  "ontology": {
+    "repo": "MovieRadar",
+    "category": "movie",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "media.box_office",
+      "media.ott_ranking",
+      "media.release_calendar",
+      "media.reservation_ranking"
+    ],
+    "event_model_mappings": {
+      "box_office": "media.box_office",
+      "release_calendar": "media.release_calendar",
+      "reservation_ranking": "media.reservation_ranking",
+      "ott_ranking": "media.ott_ranking"
+    },
+    "entity_type_hints": [
+      "media.movie_title",
+      "evidence.url"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "verification_evidence"
+    ],
+    "source_role_mappings": {
+      "KOFIC 박스오피스": "operational_evidence",
+      "Box Office Mojo": "verification_evidence",
+      "What's on Netflix": "context_only"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required"
+    ]
+  }
+}

@@ -26,6 +26,7 @@ from .resilience import get_circuit_breaker_manager
 
 
 _JS_SOURCE_TYPES = frozenset({"javascript", "browser"})
+_RSS_SOURCE_TYPES = frozenset({"rss"})
 
 logger = structlog.get_logger()
 
@@ -207,11 +208,22 @@ def collect_sources(
     Pass 2: JavaScript/browser sources collected sequentially via Playwright.
     """
     # --- Source splitting ---------------------------------------------------
-    rss_sources = [s for s in sources if s.type.lower() not in _JS_SOURCE_TYPES]
-    js_sources = [s for s in sources if s.type.lower() in _JS_SOURCE_TYPES]
+    enabled_sources = [source for source in sources if source.enabled]
+    skipped_sources = [source for source in sources if not source.enabled]
+    unsupported_sources = [
+        source
+        for source in enabled_sources
+        if source.type.lower() not in _RSS_SOURCE_TYPES | _JS_SOURCE_TYPES
+    ]
+    rss_sources = [s for s in enabled_sources if s.type.lower() in _RSS_SOURCE_TYPES]
+    js_sources = [s for s in enabled_sources if s.type.lower() in _JS_SOURCE_TYPES]
 
     articles: list[Article] = []
-    errors: list[str] = []
+    errors: list[str] = [
+        f"{source.name}: Source disabled by config" for source in skipped_sources
+    ] + [
+        f"{source.name}: Unsupported source type '{source.type}'" for source in unsupported_sources
+    ]
 
     # --- Pass 1: RSS sources via ThreadPoolExecutor (parallel) --------------
     if rss_sources:

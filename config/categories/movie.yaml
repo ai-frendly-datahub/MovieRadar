@@ -1,540 +1,624 @@
-category_name: "movie"
-display_name: "영화 레이더"
-
+category_name: movie
+display_name: 영화 레이더
+data_quality:
+  priority: P2
+  primary_motion: intelligence
+  weakest_dimension: authority
+  quality_outputs:
+    freshness_report: reports/movie_quality.json
+    dated_freshness_report_pattern: reports/movie_YYYYMMDD_quality.json
+    tracked_event_models:
+    - reservation_ranking
+    - box_office
+    - ott_ranking
+    - release_calendar
+  event_models:
+    reservation_ranking:
+      date_fields:
+      - ranking_date
+      - collected_at
+      required_fields:
+      - movie_id
+      - rank
+      - market
+      - source_url
+    box_office:
+      date_fields:
+      - gross_date
+      - collected_at
+      required_fields:
+      - movie_id
+      - rank
+      - gross
+      - market
+    ott_ranking:
+      date_fields:
+      - ranking_date
+      - collected_at
+      required_fields:
+      - movie_id
+      - platform
+      - rank
+      - region
+    release_calendar:
+      date_fields:
+      - release_date
+      - collected_at
+      required_fields:
+      - title
+      - release_year
+      - country
+      - source_url
+  canonical_keys:
+    movie:
+    - normalized_title
+    - release_year
+    - country
+    - director
+    market_ranking:
+    - movie_id
+    - market
+    - ranking_date
+    - source
+  freshness_sla:
+    reservation_ranking_days: 1
+    box_office_days: 1
+    ott_ranking_days: 7
+    release_calendar_days: 14
+  quality_gates:
+  - 작품명, 개봉연도, 국가를 canonical movie key로 유지한다
+  - 극장 흥행과 OTT 순위를 별도 레이어로 분리한다
+  - 예매일, 개봉일, 수집일을 별도 필드로 유지한다
+  - 관객 평점과 박스오피스 추이는 분리 출력한다
+source_backlog:
+  operational_candidates:
+  - id: kofic_daily_boxoffice_api
+    name: KOFIC daily box office API
+    signal_type: box_office
+    activation_gate: API key, movie code mapping, and gross date retention
+  - id: korean_ticket_reservation_ranking
+    name: Korean ticket reservation ranking pages
+    signal_type: reservation_ranking
+    activation_gate: ToS review, ranking parser stability, and market/date tagging
+  - id: netflix_top10_dataset
+    name: Netflix Top 10 dataset
+    signal_type: ott_ranking
+    activation_gate: title/year canonicalization, region mapping, and weekly window
+      handling
+  - id: distributor_release_calendars
+    name: Distributor release calendars
+    signal_type: release_calendar
+    activation_gate: distributor taxonomy, duplicate title handling, and source evidence
+      retention
 sources:
-  # === 국내 영화 뉴스 ===
-  # NOTE: 2026-04-02 품질점검 - RSS 비활성화, HTML 메인페이지로 리다이렉트 (F등급)
-  # - name: "씨네21"
-  #   type: "rss"
-  #   url: "http://www.cine21.com/rss/news"
-
-  # NOTE: 2026-04-02 품질점검 - RSS 비활성화, HTML 메인페이지로 리다이렉트 (F등급)
-  # - name: "씨네21 리뷰"
-  #   type: "rss"
-  #   url: "http://www.cine21.com/rss/review"
-
-  # NOTE: 아래 소스들은 2026-04-02 테스트에서 동작하지 않음 (403/404)
-  # - name: "맥스무비"
-  #   type: "rss"
-  #   url: "https://www.maxmovie.com/rss"
-
-  # - name: "무비스트"
-  #   type: "rss"
-  #   url: "https://www.movist.com/rss/news.xml"
-
-  # - name: "스포츠경향 영화"
-  #   type: "rss"
-  #   url: "https://sports.khan.co.kr/rss/rss_skn_movie.xml"
-
-  # === 글로벌 영화 뉴스 ===
-  - name: "Variety Film"
-    type: "rss"
-    url: "https://variety.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Hollywood Reporter"
-    type: "rss"
-    url: "https://www.hollywoodreporter.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Deadline"
-    type: "rss"
-    url: "https://deadline.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Screen Rant"
-    type: "rss"
-    url: "https://screenrant.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Collider"
-    type: "rss"
-    url: "https://collider.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "IndieWire"
-    type: "rss"
-    url: "https://www.indiewire.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  # NOTE: 2026-04-02 테스트에서 동작하지 않음 (404)
-  # - name: "Film School Rejects"
-  #   type: "rss"
-  #   url: "https://filmschoolrejects.com/feed/"
-
-  # === OTT/스트리밍 ===
-  - name: "What's on Netflix"
-    type: "rss"
-    url: "https://www.whats-on-netflix.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Decider"
-    type: "rss"
-    url: "https://decider.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  # === 박스오피스 데이터 ===
-  - name: "KOFIC 박스오피스"
-    type: "javascript"
-    url: "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    collection_tier: "C2_js"
-    content_type: "boxoffice"
-    config:
-      wait_for: ".board_box"
-      content_selector: "tr"
-
-  - name: "Box Office Mojo"
-    type: "javascript"
-    url: "https://www.boxofficemojo.com/"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C2_js"
-    content_type: "boxoffice"
-    config:
-      wait_for: "table"
-
-  # === MCP 서버 소스 (한국 문화 데이터) ===
-  - name: "관광 문화행사 MCP"
-    type: "mcp"
-    url: "https://github.com/harimkang/mcp-korea-tourism-api"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    content_type: "news"
-    config:
-      transport: stdio
-      command: uvx
-      args: ["--from", "git+https://github.com/harimkang/mcp-korea-tourism-api", "mcp-korea-tourism-api"]
-      env:
-        TOUR_API_KEY: "${TOUR_API_KEY}"
-      tool: get_festival_events
-      arguments:
-        area_code: "1"
-        event_start_date: "20260401"
-      transform:
-        title_field: title
-        link_field: detail_url
-        summary_fields: ["addr1", "event_start_date", "event_end_date"]
-        published_field: event_start_date
-
-  # NOTE: be-node-seoul-data-mcp는 npm에 없음 - git URL 사용
-  - name: "서울 문화행사 MCP"
-    type: "mcp"
-    url: "https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    content_type: "news"
-    config:
-      transport: stdio
-      command: npx
-      args: ["-y", "git+https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp"]
-      env:
-        SEOUL_API_KEY: "${SEOUL_API_KEY}"
-      tool: get_cultural_events
-      arguments:
-        codename: ""
-        date: "2026-04"
-      transform:
-        title_field: title
-        link_field: org_link
-        summary_fields: ["place", "date", "use_fee"]
-        published_field: strt_date
-
+- name: Variety Film
+  type: rss
+  url: https://variety.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: trade_media
+  info_purpose:
+  - industry_news
+  config:
+    event_model: editorial_coverage
+- name: Hollywood Reporter
+  type: rss
+  url: https://www.hollywoodreporter.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: trade_media
+  info_purpose:
+  - industry_news
+  config:
+    event_model: editorial_coverage
+- name: Deadline
+  type: rss
+  url: https://deadline.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: trade_media
+  info_purpose:
+  - industry_news
+  config:
+    event_model: editorial_coverage
+- name: Screen Rant
+  type: rss
+  url: https://screenrant.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: media
+  info_purpose:
+  - review
+  config:
+    event_model: editorial_coverage
+- name: Collider
+  type: rss
+  url: https://collider.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: media
+  info_purpose:
+  - review
+  config:
+    event_model: editorial_coverage
+- name: IndieWire
+  type: rss
+  url: https://www.indiewire.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: trade_media
+  info_purpose:
+  - review
+  - industry_news
+  config:
+    event_model: editorial_coverage
+- name: What's on Netflix
+  type: rss
+  url: https://www.whats-on-netflix.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: release_calendar
+  producer_role: platform_media
+  info_purpose:
+  - ott_release
+  - release_calendar
+  config:
+    event_model: release_calendar
+- name: Decider
+  type: rss
+  url: https://decider.com/feed/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: news
+  producer_role: media
+  info_purpose:
+  - ott_review
+  config:
+    event_model: editorial_coverage
+- name: KOFIC 박스오피스
+  type: javascript
+  url: https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  collection_tier: C2_js
+  content_type: boxoffice
+  producer_role: official
+  info_purpose:
+  - box_office
+  - korean_box_office
+  config:
+    event_model: box_office
+    wait_for: table
+    content_selector: tbody
+- name: Box Office Mojo
+  type: javascript
+  url: https://www.boxofficemojo.com/
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C2_js
+  content_type: boxoffice
+  producer_role: market_data
+  info_purpose:
+  - box_office
+  config:
+    event_model: box_office
+    wait_for: main
+    content_selector: main
+- name: 관광 문화행사 MCP
+  type: mcp
+  url: https://github.com/harimkang/mcp-korea-tourism-api
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  content_type: news
+  config:
+    transport: stdio
+    command: uvx
+    args:
+    - --from
+    - git+https://github.com/harimkang/mcp-korea-tourism-api
+    - mcp-korea-tourism-api
+    env:
+      TOUR_API_KEY: ${TOUR_API_KEY}
+    tool: get_festival_events
+    arguments:
+      area_code: '1'
+      event_start_date: '20260401'
+    transform:
+      title_field: title
+      link_field: detail_url
+      summary_fields:
+      - addr1
+      - event_start_date
+      - event_end_date
+      published_field: event_start_date
+    event_model: editorial_coverage
+- name: 서울 문화행사 MCP
+  type: mcp
+  url: https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  content_type: news
+  config:
+    transport: stdio
+    command: npx
+    args:
+    - -y
+    - git+https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp
+    env:
+      SEOUL_API_KEY: ${SEOUL_API_KEY}
+    tool: get_cultural_events
+    arguments:
+      codename: ''
+      date: 2026-04
+    transform:
+      title_field: title
+      link_field: org_link
+      summary_fields:
+      - place
+      - date
+      - use_fee
+      published_field: strt_date
+    event_model: editorial_coverage
 entities:
-  - name: "Genre"
-    display_name: "장르"
-    keywords:
-      # 한국어
-      - "액션"
-      - "드라마"
-      - "코미디"
-      - "스릴러"
-      - "SF"
-      - "공포"
-      - "로맨스"
-      - "판타지"
-      - "애니메이션"
-      - "다큐멘터리"
-      - "범죄"
-      - "전쟁"
-      - "뮤지컬"
-      - "멜로"
-      - "미스터리"
-      - "느와르"
-      - "모험"
-      - "가족"
-      - "영화"
-      - "시리즈"
-      - "OTT"
-      - "시즌"
-      - "에피소드"
-      - "재난"
-      - "좀비"
-      - "사극"
-      - "무협"
-      - "서부극"
-      # 영어
-      - "action"
-      - "drama"
-      - "comedy"
-      - "thriller"
-      - "horror"
-      - "romance"
-      - "fantasy"
-      - "animation"
-      - "documentary"
-      - "crime"
-      - "war"
-      - "musical"
-      - "mystery"
-      - "adventure"
-      - "streaming"
-      - "season"
-      - "episode"
-      - "superhero"
-      - "sci-fi"
-      - "western"
-
-  - name: "Director"
-    display_name: "감독"
-    keywords:
-      # 한국 감독
-      - "봉준호"
-      - "박찬욱"
-      - "이창동"
-      - "김기덕"
-      - "홍상수"
-      - "최동훈"
-      - "류승완"
-      - "김지운"
-      - "나홍진"
-      - "윤종빈"
-      - "이정재"
-      - "황동혁"
-      - "연상호"
-      - "정병길"
-      - "김한민"
-      - "장재현"
-      - "이원태"
-      - "한재림"
-      - "우민호"
-      - "윤제균"
-      # 할리우드 감독
-      - "Spielberg"
-      - "Nolan"
-      - "Tarantino"
-      - "Scorsese"
-      - "Villeneuve"
-      - "director"
-      - "감독"
-      - "연출"
-      - "데뷔작"
-      - "신작"
-
-  - name: "Actor"
-    display_name: "배우"
-    keywords:
-      # 한국 배우
-      - "송강호"
-      - "전도연"
-      - "이병헌"
-      - "하정우"
-      - "최민식"
-      - "황정민"
-      - "설경구"
-      - "정우성"
-      - "김혜수"
-      - "손예진"
-      - "이정재"
-      - "마동석"
-      - "공유"
-      - "강동원"
-      - "정해인"
-      - "수지"
-      - "아이유"
-      - "탕웨이"
-      - "현빈"
-      - "송중기"
-      - "박서준"
-      - "류준열"
-      - "이동휘"
-      - "박보영"
-      - "김태리"
-      - "전지현"
-      - "한소희"
-      # 일반
-      - "주연"
-      - "조연"
-      - "캐스팅"
-      - "출연"
-      - "배역"
-      - "연기"
-      - "starring"
-      - "cast"
-      - "actor"
-      - "actress"
-      - "celebrity"
-
-  - name: "Award"
-    display_name: "수상/영화제"
-    keywords:
-      # 국제 영화제
-      - "칸"
-      - "베니스"
-      - "베를린"
-      - "아카데미"
-      - "오스카"
-      - "골든글로브"
-      - "BAFTA"
-      - "토론토"
-      - "선댄스"
-      - "Cannes"
-      - "Oscar"
-      - "Academy Award"
-      - "Golden Globe"
-      # 국내 영화제/시상식
-      - "부산국제영화제"
-      - "전주국제영화제"
-      - "대종상"
-      - "청룡영화상"
-      - "백상예술대상"
-      - "부일영화상"
-      - "춘사영화상"
-      - "BIFF"
-      - "JIFF"
-      # 일반
-      - "수상"
-      - "노미네이트"
-      - "후보"
-      - "nominee"
-      - "winner"
-      - "award"
-
-  - name: "BoxOffice"
-    display_name: "박스오피스"
-    keywords:
-      # 흥행 지표
-      - "박스오피스"
-      - "관객수"
-      - "흥행"
-      - "개봉"
-      - "1위"
-      - "천만"
-      - "백만"
-      - "매출액"
-      - "스크린수"
-      - "예매율"
-      - "누적관객"
-      - "일매출"
-      - "주말흥행"
-      - "개봉성적"
-      # 극장
-      - "극장"
-      - "영화관"
-      - "IMAX"
-      - "CGV"
-      - "롯데시네마"
-      - "메가박스"
-      - "4DX"
-      - "ScreenX"
-      # 개봉 관련
-      - "상영"
-      - "개봉작"
-      - "재개봉"
-      - "시사회"
-      - "preview"
-      - "premiere"
-      - "trailer"
-      - "예고편"
-      - "box office"
-      - "opening weekend"
-      - "blockbuster"
-      - "대작"
-      - "상영시간"
-
-  - name: "Studio"
-    display_name: "제작사/배급사"
-    keywords:
-      # 국내
-      - "CJ ENM"
-      - "쇼박스"
-      - "NEW"
-      - "메가박스플러스엠"
-      - "롯데엔터테인먼트"
-      - "워너브러더스코리아"
-      - "소니픽쳐스코리아"
-      # 할리우드
-      - "Disney"
-      - "Warner Bros"
-      - "Universal"
-      - "Sony Pictures"
-      - "Paramount"
-      - "20th Century"
-      - "Lionsgate"
-      - "A24"
-      - "Netflix"
-      - "Amazon"
-      - "Apple TV+"
-      # 일반
-      - "제작"
-      - "배급"
-      - "production"
-      - "release"
-      - "studio"
-      - "distributor"
-
-  - name: "Platform"
-    display_name: "OTT/플랫폼"
-    keywords:
-      - "넷플릭스"
-      - "Netflix"
-      - "웨이브"
-      - "왓챠"
-      - "쿠팡플레이"
-      - "티빙"
-      - "디즈니플러스"
-      - "Disney+"
-      - "애플TV"
-      - "Apple TV"
-      - "아마존프라임"
-      - "HBO Max"
-      - "시즌"
-      - "seezn"
-      - "오리지널"
-      - "독점"
-      - "스트리밍"
-      - "streaming"
-      - "구독"
-      - "subscription"
-      # 추가 OTT 키워드
-      - "Hulu"
-      - "Peacock"
-      - "Paramount+"
-      - "Max"
-      - "Prime Video"
-      - "watch"
-      - "watching"
-      - "binge"
-      - "bingeing"
-      - "series"
-      - "show"
-      - "shows"
-      - "release"
-      - "releases"
-      - "released"
-      - "available"
-      - "coming"
-      - "premiere"
-      - "premieres"
-      - "공개"
-      - "출시"
-      - "신작"
-      - "시리즈"
-
-  - name: "FilmGeneral"
-    display_name: "영화 일반"
-    keywords:
-      - "film"
-      - "films"
-      - "movie"
-      - "movies"
-      - "cinema"
-      - "cinematic"
-      - "theatrical"
-      - "screen"
-      - "screens"
-      - "watch"
-      - "watching"
-      - "see"
-      - "seeing"
-      - "view"
-      - "viewing"
-      - "audience"
-      - "audiences"
-      - "viewer"
-      - "viewers"
-      - "review"
-      - "reviews"
-      - "rating"
-      - "ratings"
-      - "score"
-      - "scores"
-      - "critic"
-      - "critics"
-      - "영화"
-      - "관객"
-      - "리뷰"
-      - "평점"
-      - "평가"
-      - "관람"
-      - "추천"
-      - "기대작"
-      - "화제작"
-      # Ultra-common article words
-      - "story"
-      - "stories"
-      - "article"
-      - "news"
-      - "today"
-      - "year"
-      - "years"
-      - "time"
-      - "now"
-      - "best"
-      - "most"
-      - "top"
-      - "one"
-      - "two"
-      - "new"
-      - "latest"
-      - "first"
-      - "here"
-      - "this"
-      - "my"
-      - "just"
-      - "share"
-      - "post"
-      - "help"
-      - "advice"
-      - "question"
-      - "anyone"
-      - "looking"
-      - "need"
-      - "want"
+- name: Genre
+  display_name: 장르
+  keywords:
+  - 액션
+  - 드라마
+  - 코미디
+  - 스릴러
+  - SF
+  - 공포
+  - 로맨스
+  - 판타지
+  - 애니메이션
+  - 다큐멘터리
+  - 범죄
+  - 전쟁
+  - 뮤지컬
+  - 멜로
+  - 미스터리
+  - 느와르
+  - 모험
+  - 가족
+  - 영화
+  - 시리즈
+  - OTT
+  - 시즌
+  - 에피소드
+  - 재난
+  - 좀비
+  - 사극
+  - 무협
+  - 서부극
+  - action
+  - drama
+  - comedy
+  - thriller
+  - horror
+  - romance
+  - fantasy
+  - animation
+  - documentary
+  - crime
+  - war
+  - musical
+  - mystery
+  - adventure
+  - streaming
+  - season
+  - episode
+  - superhero
+  - sci-fi
+  - western
+- name: Director
+  display_name: 감독
+  keywords:
+  - 봉준호
+  - 박찬욱
+  - 이창동
+  - 김기덕
+  - 홍상수
+  - 최동훈
+  - 류승완
+  - 김지운
+  - 나홍진
+  - 윤종빈
+  - 이정재
+  - 황동혁
+  - 연상호
+  - 정병길
+  - 김한민
+  - 장재현
+  - 이원태
+  - 한재림
+  - 우민호
+  - 윤제균
+  - Spielberg
+  - Nolan
+  - Tarantino
+  - Scorsese
+  - Villeneuve
+  - director
+  - 감독
+  - 연출
+  - 데뷔작
+  - 신작
+- name: Actor
+  display_name: 배우
+  keywords:
+  - 송강호
+  - 전도연
+  - 이병헌
+  - 하정우
+  - 최민식
+  - 황정민
+  - 설경구
+  - 정우성
+  - 김혜수
+  - 손예진
+  - 이정재
+  - 마동석
+  - 공유
+  - 강동원
+  - 정해인
+  - 수지
+  - 아이유
+  - 탕웨이
+  - 현빈
+  - 송중기
+  - 박서준
+  - 류준열
+  - 이동휘
+  - 박보영
+  - 김태리
+  - 전지현
+  - 한소희
+  - 주연
+  - 조연
+  - 캐스팅
+  - 출연
+  - 배역
+  - 연기
+  - starring
+  - cast
+  - actor
+  - actress
+  - celebrity
+- name: Award
+  display_name: 수상/영화제
+  keywords:
+  - 칸
+  - 베니스
+  - 베를린
+  - 아카데미
+  - 오스카
+  - 골든글로브
+  - BAFTA
+  - 토론토
+  - 선댄스
+  - Cannes
+  - Oscar
+  - Academy Award
+  - Golden Globe
+  - 부산국제영화제
+  - 전주국제영화제
+  - 대종상
+  - 청룡영화상
+  - 백상예술대상
+  - 부일영화상
+  - 춘사영화상
+  - BIFF
+  - JIFF
+  - 수상
+  - 노미네이트
+  - 후보
+  - nominee
+  - winner
+  - award
+- name: BoxOffice
+  display_name: 박스오피스
+  keywords:
+  - 박스오피스
+  - 관객수
+  - 흥행
+  - 개봉
+  - 1위
+  - 천만
+  - 백만
+  - 매출액
+  - 스크린수
+  - 예매율
+  - 누적관객
+  - 일매출
+  - 주말흥행
+  - 개봉성적
+  - 극장
+  - 영화관
+  - IMAX
+  - CGV
+  - 롯데시네마
+  - 메가박스
+  - 4DX
+  - ScreenX
+  - 상영
+  - 개봉작
+  - 재개봉
+  - 시사회
+  - preview
+  - premiere
+  - trailer
+  - 예고편
+  - box office
+  - opening weekend
+  - blockbuster
+  - 대작
+  - 상영시간
+- name: Studio
+  display_name: 제작사/배급사
+  keywords:
+  - CJ ENM
+  - 쇼박스
+  - NEW
+  - 메가박스플러스엠
+  - 롯데엔터테인먼트
+  - 워너브러더스코리아
+  - 소니픽쳐스코리아
+  - Disney
+  - Warner Bros
+  - Universal
+  - Sony Pictures
+  - Paramount
+  - 20th Century
+  - Lionsgate
+  - A24
+  - Netflix
+  - Amazon
+  - Apple TV+
+  - 제작
+  - 배급
+  - production
+  - release
+  - studio
+  - distributor
+- name: Platform
+  display_name: OTT/플랫폼
+  keywords:
+  - 넷플릭스
+  - Netflix
+  - 웨이브
+  - 왓챠
+  - 쿠팡플레이
+  - 티빙
+  - 디즈니플러스
+  - Disney+
+  - 애플TV
+  - Apple TV
+  - 아마존프라임
+  - HBO Max
+  - 시즌
+  - seezn
+  - 오리지널
+  - 독점
+  - 스트리밍
+  - streaming
+  - 구독
+  - subscription
+  - Hulu
+  - Peacock
+  - Paramount+
+  - Max
+  - Prime Video
+  - watch
+  - watching
+  - binge
+  - bingeing
+  - series
+  - show
+  - shows
+  - release
+  - releases
+  - released
+  - available
+  - coming
+  - premiere
+  - premieres
+  - 공개
+  - 출시
+  - 신작
+  - 시리즈
+- name: FilmGeneral
+  display_name: 영화 일반
+  keywords:
+  - film
+  - films
+  - movie
+  - movies
+  - cinema
+  - cinematic
+  - theatrical
+  - screen
+  - screens
+  - watch
+  - watching
+  - see
+  - seeing
+  - view
+  - viewing
+  - audience
+  - audiences
+  - viewer
+  - viewers
+  - review
+  - reviews
+  - rating
+  - ratings
+  - score
+  - scores
+  - critic
+  - critics
+  - 영화
+  - 관객
+  - 리뷰
+  - 평점
+  - 평가
+  - 관람
+  - 추천
+  - 기대작
+  - 화제작
+  - story
+  - stories
+  - article
+  - news
+  - today
+  - year
+  - years
+  - time
+  - now
+  - best
+  - most
+  - top
+  - one
+  - two
+  - new
+  - latest
+  - first
+  - here
+  - this
+  - my
+  - just
+  - share
+  - post
+  - help
+  - advice
+  - question
+  - anyone
+  - looking
+  - need
+  - want

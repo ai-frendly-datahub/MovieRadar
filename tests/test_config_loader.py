@@ -7,6 +7,7 @@ import pytest
 
 from movieradar.config_loader import (
     load_category_config,
+    load_category_quality_config,
     load_notification_config,
     load_settings,
 )
@@ -215,12 +216,77 @@ entities:
     keywords:
       - 영화
       - 한국
-"""
+""",
+            encoding="utf-8",
         )
         config = load_category_config("korean", categories_dir=tmp_path)
         assert config.display_name == "영화"
         assert config.sources[0].name == "한국영화소스"
         assert "영화" in config.entities[0].keywords
+
+    def test_load_category_preserves_source_metadata(self, tmp_path):
+        """Preserves source taxonomy fields and collector config."""
+        cat_file = tmp_path / "movie.yaml"
+        cat_file.write_text(
+            """
+category_name: movie
+sources:
+  - name: KOFIC
+    type: javascript
+    url: https://example.com/boxoffice
+    enabled: false
+    language: ko
+    country: KR
+    trust_tier: T1_official
+    weight: 2.0
+    content_type: boxoffice
+    collection_tier: C2_js
+    producer_role: official
+    info_purpose: [box_office]
+    config:
+      wait_for: table
+    event_model: box_office
+entities: []
+"""
+        )
+        config = load_category_config("movie", categories_dir=tmp_path)
+        source = config.sources[0]
+        assert source.enabled is False
+        assert source.language == "ko"
+        assert source.country == "KR"
+        assert source.trust_tier == "T1_official"
+        assert source.weight == 2.0
+        assert source.content_type == "boxoffice"
+        assert source.collection_tier == "C2_js"
+        assert source.producer_role == "official"
+        assert source.info_purpose == ["box_office"]
+        assert source.config["wait_for"] == "table"
+        assert source.config["event_model"] == "box_office"
+
+    def test_load_category_quality_config(self, tmp_path):
+        """Returns quality contract sections from category YAML."""
+        cat_file = tmp_path / "movie.yaml"
+        cat_file.write_text(
+            """
+category_name: movie
+data_quality:
+  quality_outputs:
+    tracked_event_models:
+      - box_office
+source_backlog:
+  operational_candidates:
+    - id: kofic_daily_boxoffice_api
+sources: []
+entities: []
+"""
+        )
+        quality = load_category_quality_config("movie", categories_dir=tmp_path)
+        assert quality["data_quality"] == {
+            "quality_outputs": {"tracked_event_models": ["box_office"]}
+        }
+        assert quality["source_backlog"] == {
+            "operational_candidates": [{"id": "kofic_daily_boxoffice_api"}]
+        }
 
 
 class TestLoadNotificationConfig:

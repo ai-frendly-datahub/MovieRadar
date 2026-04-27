@@ -15,6 +15,7 @@ from movieradar.collector import (
     _parse_retry_after,
     _resolve_max_workers,
     _JS_SOURCE_TYPES,
+    collect_sources,
 )
 from movieradar.exceptions import NetworkError, ParseError, SourceError
 from movieradar.models import Source
@@ -229,6 +230,22 @@ class TestSourceModel:
         )
         assert source.name == "BrowserSource"
         assert source.type == "browser"
+
+
+class TestSourceSplitting:
+    """Tests for source filtering before collection."""
+
+    def test_collect_sources_reports_disabled_and_unsupported_sources(self):
+        sources = [
+            Source(name="Disabled", type="rss", url="https://example.com/feed", enabled=False),
+            Source(name="MCPSource", type="mcp", url="https://example.com/mcp"),
+        ]
+
+        articles, errors = collect_sources(sources, category="movie")
+
+        assert articles == []
+        assert "Disabled: Source disabled by config" in errors
+        assert "MCPSource: Unsupported source type 'mcp'" in errors
 
 
 class TestCollectorExceptions:
