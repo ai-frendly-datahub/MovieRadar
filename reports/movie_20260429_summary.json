@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-29",
+  "category": "movie",
+  "article_count": 7,
+  "source_count": 7,
+  "matched_count": 7,
+  "top_entities": [
+    {
+      "name": "SourceSignal",
+      "count": 18
+    },
+    {
+      "name": "FilmGeneral",
+      "count": 17
+    },
+    {
+      "name": "Platform",
+      "count": 9
+    },
+    {
+      "name": "Genre",
+      "count": 8
+    },
+    {
+      "name": "Studio",
+      "count": 7
+    },
+    {
+      "name": "BoxOffice",
+      "count": 4
+    }
+  ],
+  "sources": {
+    "Box Office Mojo": 1,
+    "KOFIC 박스오피스": 1,
+    "Screen Rant": 1,
+    "Variety Film": 1,
+    "Hollywood Reporter": 1,
+    "Decider": 1,
+    "What's on Netflix": 1
+  },
+  "generated_at": "2026-04-29T00:00:45.245846+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "title": "Home - Box Office Mojo",
+        "source_url": "https://www.boxofficemojo.com/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+        "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Screen Rant",
+        "headline": "Warner Bros' Stance On Future Game Of Thrones Projects Is Worrying After Season 8's Mistakes",
+        "source_url": "https://screenrant.com/game-of-thrones-future-warner-bros-infinite-problem/",
+        "published_at": "2026-04-28T06:00:23+00:00",
+        "summary": "As Game of Thrones pushes into new territory many still wonder if the franchise can maintain its quality across an entire cinematic universe."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Variety Film",
+        "headline": "Kate McKinnon and Sister Emily Lynne Reunite for Sequel to ‘Heads Will Roll’ Fantasy Spoof at Audible",
+        "source_url": "https://variety.com/2026/digital/news/kate-mckinnon-emily-lynne-heads-will-roll-season-2-audible-1236729831/",
+        "published_at": "2026-04-28T06:00:00+00:00",
+        "summary": "Kate McKinnon’s gloriously unhinged Queen Mortuana from audio series “Heads Will Roll” and her raven sidekick JoJo, voiced by McKinnon’s sister Emily Lynne, are back for more medieval hijinks and absurdist palace intrigue. “Heads Will Roll: Heir Apparent,” from Audible and Lorne Michaels’ Broadway Video Enterprises, premieres June 25. The series will be available exclusively […]"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Hollywood Reporter",
+        "headline": "‘Deep Water’ Review: A Stoical Aaron Eckhart Leads Renny Harlin’s Twofer of Airplane Disaster Movie and Sharksploitation Schlockbuster",
+        "source_url": "https://www.hollywoodreporter.com/movies/movie-reviews/deep-water-review-aaron-eckhart-renny-harlin-ben-kingsley-1236578712/",
+        "published_at": "2026-04-28T06:00:00+00:00",
+        "summary": "Ben Kingsley also stars in a survival thriller about a ditched commercial airline flight that unleashes fresh hell when the surviving passengers become a mako buffet."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Decider",
+        "headline": "What Time Does ‘Widow’s Bay’ Come Out On Apple TV? ‘Widow’s Bay’ Premiere Dates, Time, And More",
+        "source_url": "https://decider.com/2026/04/28/when-does-widows-bay-come-out-apple-tv-what-time-widows-bay-premiere-date/",
+        "published_at": "2026-04-28T05:30:00+00:00",
+        "summary": "Don't miss a moment of Katie Dippold's new horror comedy."
+      }
+    },
+    {
+      "event_model_payload": {
+        "title": "Sweet Magnolias Season 5: Netflix Release Date & Everything To Know About Next Season",
+        "source_url": "https://www.whats-on-netflix.com/news/sweet-magnolias-season-5-everything-we-know-about-the-next-season-04-2026/"
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "MovieRadar",
+    "category": "movie",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "media.box_office",
+      "media.editorial_coverage",
+      "media.ott_ranking",
+      "media.release_calendar",
+      "media.reservation_ranking"
+    ],
+    "event_model_mappings": {
+      "box_office": "media.box_office",
+      "release_calendar": "media.release_calendar",
+      "reservation_ranking": "media.reservation_ranking",
+      "ott_ranking": "media.ott_ranking",
+      "editorial_coverage": "media.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "media.movie_title",
+      "evidence.url"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "verification_evidence"
+    ],
+    "source_role_mappings": {
+      "KOFIC 박스오피스": "operational_evidence",
+      "Box Office Mojo": "verification_evidence",
+      "What's on Netflix": "context_only"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required"
+    ]
+  }
+}

@@ -288,6 +288,20 @@ entities: []
             "operational_candidates": [{"id": "kofic_daily_boxoffice_api"}]
         }
 
+    def test_real_movie_mcp_sources_are_cataloged_disabled(self):
+        """MCP culture sources stay cataloged but out of the standard collector path."""
+        config = load_category_config("movie")
+        by_name = {source.name: source for source in config.sources}
+
+        tourism_mcp = by_name["관광 문화행사 MCP"]
+        seoul_mcp = by_name["서울 문화행사 MCP"]
+
+        assert tourism_mcp.type == "mcp"
+        assert tourism_mcp.enabled is False
+        assert "not collected by the standard" in tourism_mcp.config["skip_reason"]
+        assert seoul_mcp.type == "mcp"
+        assert seoul_mcp.enabled is False
+
 
 class TestLoadNotificationConfig:
     """Unit tests for load_notification_config function."""

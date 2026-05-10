@@ -209,7 +209,6 @@ def collect_sources(
     """
     # --- Source splitting ---------------------------------------------------
     enabled_sources = [source for source in sources if source.enabled]
-    skipped_sources = [source for source in sources if not source.enabled]
     unsupported_sources = [
         source
         for source in enabled_sources
@@ -220,8 +219,6 @@ def collect_sources(
 
     articles: list[Article] = []
     errors: list[str] = [
-        f"{source.name}: Source disabled by config" for source in skipped_sources
-    ] + [
         f"{source.name}: Unsupported source type '{source.type}'" for source in unsupported_sources
     ]
 

@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-30",
+  "category": "movie",
+  "article_count": 6,
+  "source_count": 6,
+  "matched_count": 6,
+  "top_entities": [
+    {
+      "name": "FilmGeneral",
+      "count": 17
+    },
+    {
+      "name": "SourceSignal",
+      "count": 14
+    },
+    {
+      "name": "BoxOffice",
+      "count": 6
+    },
+    {
+      "name": "Genre",
+      "count": 4
+    },
+    {
+      "name": "Platform",
+      "count": 4
+    },
+    {
+      "name": "Studio",
+      "count": 3
+    },
+    {
+      "name": "Actor",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "Box Office Mojo": 1,
+    "KOFIC 박스오피스": 1,
+    "Collider": 1,
+    "Screen Rant": 1,
+    "Hollywood Reporter": 1,
+    "Decider": 1
+  },
+  "generated_at": "2026-04-30T08:56:03.980952+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "title": "Home - Box Office Mojo",
+        "source_url": "https://www.boxofficemojo.com/"
+      }
+    },
+    {
+      "event_model_payload": {
+        "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+        "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Collider",
+        "headline": "Tom Cruise's 130-Minute 'Reacher' Attempt is a Quiet Streaming Hit",
+        "source_url": "https://collider.com/tom-cruise-jack-reacher-streaming-hit-paramount-plus-april-2026/",
+        "published_at": "2026-04-29T14:45:13+00:00",
+        "summary": "Christopher McQuarrie's 2012 film adaptation of Lee Child's Jack Reacher novel, starring Tom Cruise, is currently dominating streaming."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Screen Rant",
+        "headline": "Jenna Ortega's Jurassic World Series On Netflix Is The Franchise's Best Since 1993",
+        "source_url": "https://screenrant.com/jurassic-park-camp-cretaceous-best-since-1993/",
+        "published_at": "2026-04-29T14:36:18+00:00",
+        "summary": "One change elevated star Jenna Ortega's lesser-known Jurassic World project to the top of the blockbuster franchise, outdoing Jurassic Park's sequels."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Hollywood Reporter",
+        "headline": "Box Office Preview: ‘Devil Wears Prada 2’ to Sew Up at Least $70M-$75M in U.S. Opening, $175M Globally",
+        "source_url": "https://www.hollywoodreporter.com/news/general-news/box-office-devil-wears-prada-2-1236579757/",
+        "published_at": "2026-04-29T14:28:24+00:00",
+        "summary": "The sequel — reuniting Anne Hathaway, Meryl Streep, Emily Blunt and Stanley Tucci —  is the first chick flick to ever kick off the summer box office as superheroes get their capes overhauled."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Decider",
+        "headline": "Stream It Or Skip It: ‘How to Make a Killing’ on VOD, A Black Comedy Led By an Uninspired Glen Powell",
+        "source_url": "https://decider.com/2026/04/29/glen-powell-how-to-make-a-killing-stream-it-or-skip-it/",
+        "published_at": "2026-04-29T14:00:00+00:00",
+        "summary": "Powell headlines a cast including Ed Harris and Margaret Qualley, but the movie’s frustratingly less than the sum of its parts."
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "MovieRadar",
+    "category": "movie",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "media.box_office",
+      "media.editorial_coverage",
+      "media.ott_ranking",
+      "media.release_calendar",
+      "media.reservation_ranking"
+    ],
+    "event_model_mappings": {
+      "box_office": "media.box_office",
+      "release_calendar": "media.release_calendar",
+      "reservation_ranking": "media.reservation_ranking",
+      "ott_ranking": "media.ott_ranking",
+      "editorial_coverage": "media.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "media.movie_title",
+      "evidence.url"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "verification_evidence"
+    ],
+    "source_role_mappings": {
+      "KOFIC 박스오피스": "operational_evidence",
+      "Box Office Mojo": "verification_evidence",
+      "What's on Netflix": "context_only"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required"
+    ]
+  }
+}

@@ -1,40 +1,40 @@
 {
   "category": "movie",
-  "generated_at": "2026-04-28T00:41:01.790251+00:00",
+  "generated_at": "2026-04-28T15:00:25.536200+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
     "enabled_sources": 12,
     "tracked_sources": 3,
-    "fresh_sources": 1,
-    "stale_sources": 2,
+    "fresh_sources": 3,
+    "stale_sources": 0,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
     "not_tracked_sources": 9,
     "skipped_disabled_sources": 0,
-    "collection_error_count": 0,
+    "collection_error_count": 2,
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 10,
-    "movie_signal_event_count": 12,
+    "release_calendar_events": 11,
+    "movie_signal_event_count": 13,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 8,
+    "complete_canonical_key_count": 9,
     "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 12,
-    "release_year_present_count": 8,
+    "normalized_title_present_count": 13,
+    "release_year_present_count": 9,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 10,
+    "platform_present_count": 11,
     "event_required_field_gap_count": 10,
-    "tracked_source_gap_count": 2,
+    "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 18
+    "daily_review_item_count": 16
   },
   "sources": [
     {
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 8,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 10,
-      "event_count": 10,
-      "latest_event_at": "2026-04-24T07:09:37+00:00",
-      "age_days": 3.73,
-      "latest_title": "Netflix’s ‘Office Romance’ Starring J.Lo & Brett Goldstein Gets R-Rating Ahead of June Release",
-      "latest_url": "https://www.whats-on-netflix.com/news/office-romance-what-we-know-so-far-about-netflixs-new-rom-com-starring-jennifer-lopez-04-2026/",
+      "article_count": 11,
+      "event_count": 11,
+      "latest_event_at": "2026-04-28T05:11:49+00:00",
+      "age_days": 0.41,
+      "latest_title": "Sweet Magnolias Season 5: Netflix Release Date & Everything To Know About Next Season",
+      "latest_url": "https://www.whats-on-netflix.com/news/sweet-magnolias-season-5-everything-we-know-about-the-next-season-04-2026/",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 6,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -251,11 +251,11 @@
       "tracked": true,
       "event_model": "box_office",
       "freshness_sla_days": 1.0,
-      "status": "stale",
+      "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-04-24T16:59:55.668018+00:00",
-      "age_days": 3.32,
+      "latest_event_at": "2026-04-28T15:00:37.577123+00:00",
+      "age_days": 0.0,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -281,11 +281,11 @@
       "tracked": true,
       "event_model": "box_office",
       "freshness_sla_days": 1.0,
-      "status": "stale",
+      "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-04-24T17:00:00.934251+00:00",
-      "age_days": 3.32,
+      "latest_event_at": "2026-04-28T15:00:41.766775+00:00",
+      "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
       "latest_source_signal": [
@@ -316,7 +316,9 @@
       "latest_title": "",
       "latest_url": "",
       "latest_source_signal": [],
-      "errors": []
+      "errors": [
+        "관광 문화행사 MCP: Unsupported source type 'mcp'"
+      ]
     },
     {
       "source": "서울 문화행사 MCP",
@@ -338,7 +340,9 @@
       "latest_title": "",
       "latest_url": "",
       "latest_source_signal": [],
-      "errors": []
+      "errors": [
+        "서울 문화행사 MCP: Unsupported source type 'mcp'"
+      ]
     }
   ],
   "events": [
@@ -356,7 +360,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-04-24T17:00:00.934251+00:00",
+      "event_at": "2026-04-28T15:00:41.766775+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -381,6 +385,7 @@
         "release"
       ],
       "film_general": [
+        "film",
         "movie",
         "movies",
         "story",
@@ -399,7 +404,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260424",
+      "event_key": "box_office:907d712300a5:20260428",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -427,7 +432,7 @@
       "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "event_at": "2026-04-24T16:59:55.668018+00:00",
+      "event_at": "2026-04-28T15:00:37.577123+00:00",
       "movie_id": "",
       "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "release_year": "2026",
@@ -459,7 +464,7 @@
       ],
       "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
       "canonical_key_status": "complete",
-      "event_key": "box_office:b50a67506aec:20260424",
+      "event_key": "box_office:b50a67506aec:20260428",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -471,6 +476,63 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Sweet Magnolias Season 5: Netflix Release Date & Everything To Know About Next Season",
+      "url": "https://www.whats-on-netflix.com/news/sweet-magnolias-season-5-everything-we-know-about-the-next-season-04-2026/",
+      "source_url": "https://www.whats-on-netflix.com/news/sweet-magnolias-season-5-everything-we-know-about-the-next-season-04-2026/",
+      "event_at": "2026-04-28T05:11:49+00:00",
+      "movie_id": "",
+      "normalized_title": "Sweet Magnolias Season 5: Netflix Release Date & Everything To Know About Next Season",
+      "release_year": "2025",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "show",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:sweet-magnolias-season-5-netflix-release-date-everything-to-know-about-next-season:2025:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:379f61a1a298:20260428",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -1156,18 +1218,6 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "source_stale",
-      "source": "KOFIC 박스오피스",
-      "event_model": "box_office",
-      "age_days": 3.32
-    },
-    {
-      "reason": "source_stale",
-      "source": "Box Office Mojo",
-      "event_model": "box_office",
-      "age_days": 3.32
-    },
-    {
       "reason": "missing_event_model",
       "event_model": "reservation_ranking"
     },
@@ -1228,5 +1278,8 @@
       }
     ]
   },
-  "errors": []
+  "errors": [
+    "관광 문화행사 MCP: Unsupported source type 'mcp'",
+    "서울 문화행사 MCP: Unsupported source type 'mcp'"
+  ]
 }

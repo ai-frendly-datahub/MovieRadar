@@ -98,6 +98,7 @@ def run(
         category_cfg.sources,
     )
     storage.close()
+    quality_articles = _dedupe_articles([*classified, *quality_articles])
 
     matched_count = sum(1 for a in scoped_articles if a.matched_entities)
     recent_matched_count = sum(1 for a in recent_articles if a.matched_entities)
@@ -158,6 +159,14 @@ def run(
         print(f"[Radar] Snapshot saved at {snapshot_path}")
 
     return output_path
+
+
+def _dedupe_articles(articles: list) -> list:
+    deduped = {}
+    for article in articles:
+        key = f"{article.source}:{article.link or article.title}"
+        deduped.setdefault(key, article)
+    return list(deduped.values())
 
 
 def parse_args() -> argparse.Namespace:

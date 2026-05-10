@@ -231,11 +231,15 @@ sources:
 - name: 관광 문화행사 MCP
   type: mcp
   url: https://github.com/harimkang/mcp-korea-tourism-api
+  enabled: false
   language: ko
   country: KR
   trust_tier: T1_official
   content_type: news
+  notes: "Standard MovieRadar collector does not execute MCP sources yet; keep cataloged until MCP collection is routed through an activation audit/canary path."
   config:
+    skip_reason: "MCP source is cataloged but not collected by the standard RSS/browser movie pipeline."
+    reenable_gate: "Enable only after MCP command/env/tool allowlist, API key policy, and transform contract tests pass."
     transport: stdio
     command: uvx
     args:
@@ -260,11 +264,15 @@ sources:
 - name: 서울 문화행사 MCP
   type: mcp
   url: https://github.com/pinnaclesoft-ko/be-node-seoul-data-mcp
+  enabled: false
   language: ko
   country: KR
   trust_tier: T1_official
   content_type: news
+  notes: "Standard MovieRadar collector does not execute MCP sources yet; keep cataloged until MCP collection is routed through an activation audit/canary path."
   config:
+    skip_reason: "MCP source is cataloged but not collected by the standard RSS/browser movie pipeline."
+    reenable_gate: "Enable only after MCP command/env/tool allowlist, API key policy, and transform contract tests pass."
     transport: stdio
     command: npx
     args:

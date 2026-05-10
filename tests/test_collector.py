@@ -235,7 +235,7 @@ class TestSourceModel:
 class TestSourceSplitting:
     """Tests for source filtering before collection."""
 
-    def test_collect_sources_reports_disabled_and_unsupported_sources(self):
+    def test_collect_sources_skips_disabled_sources_and_reports_enabled_unsupported_sources(self):
         sources = [
             Source(name="Disabled", type="rss", url="https://example.com/feed", enabled=False),
             Source(name="MCPSource", type="mcp", url="https://example.com/mcp"),
@@ -244,7 +244,7 @@ class TestSourceSplitting:
         articles, errors = collect_sources(sources, category="movie")
 
         assert articles == []
-        assert "Disabled: Source disabled by config" in errors
+        assert all("Disabled" not in error for error in errors)
         assert "MCPSource: Unsupported source type 'mcp'" in errors
 
 
