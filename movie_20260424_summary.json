@@ -1,54 +1,92 @@
 {
   "date": "2026-04-24",
   "category": "movie",
-  "article_count": 200,
+  "article_count": 50,
   "source_count": 10,
-  "matched_count": 195,
+  "matched_count": 50,
   "top_entities": [
     {
       "name": "FilmGeneral",
-      "count": 392
+      "count": 91
+    },
+    {
+      "name": "SourceSignal",
+      "count": 83
     },
     {
       "name": "Platform",
-      "count": 185
+      "count": 59
     },
     {
       "name": "Genre",
-      "count": 141
+      "count": 41
     },
     {
       "name": "Studio",
-      "count": 112
-    },
-    {
-      "name": "Actor",
-      "count": 30
+      "count": 40
     },
     {
       "name": "BoxOffice",
-      "count": 28
+      "count": 17
+    },
+    {
+      "name": "Actor",
+      "count": 8
     },
     {
       "name": "Award",
-      "count": 13
+      "count": 6
     },
     {
       "name": "Director",
-      "count": 9
+      "count": 5
     }
   ],
   "sources": {
     "Box Office Mojo": 1,
     "KOFIC 박스오피스": 1,
-    "Screen Rant": 30,
-    "Deadline": 28,
-    "Variety Film": 23,
-    "Hollywood Reporter": 22,
-    "Collider": 26,
-    "Decider": 21,
-    "IndieWire": 24,
-    "What's on Netflix": 24
+    "Decider": 4,
+    "Deadline": 9,
+    "Screen Rant": 4,
+    "Collider": 6,
+    "IndieWire": 10,
+    "Variety Film": 5,
+    "What's on Netflix": 7,
+    "Hollywood Reporter": 3
   },
-  "generated_at": "2026-04-24T16:01:03.549084+09:00"
+  "generated_at": "2026-04-24T05:34:08.930907+09:00",
+  "ontology": {
+    "repo": "MovieRadar",
+    "category": "movie",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "media.box_office",
+      "media.ott_ranking",
+      "media.release_calendar",
+      "media.reservation_ranking"
+    ],
+    "event_model_mappings": {
+      "box_office": "media.box_office",
+      "release_calendar": "media.release_calendar",
+      "reservation_ranking": "media.reservation_ranking",
+      "ott_ranking": "media.ott_ranking"
+    },
+    "entity_type_hints": [
+      "media.movie_title",
+      "evidence.url"
+    ],
+    "source_role_ids": [
+      "context_only",
+      "operational_evidence",
+      "verification_evidence"
+    ],
+    "source_role_mappings": {
+      "KOFIC 박스오피스": "operational_evidence",
+      "Box Office Mojo": "verification_evidence",
+      "What's on Netflix": "context_only"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required"
+    ]
+  }
 }
