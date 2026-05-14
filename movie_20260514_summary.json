@@ -1,65 +1,61 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "category": "movie",
-  "article_count": 8,
-  "source_count": 8,
-  "matched_count": 8,
+  "article_count": 40,
+  "source_count": 10,
+  "matched_count": 40,
   "top_entities": [
     {
       "name": "FilmGeneral",
-      "count": 30
+      "count": 104
     },
     {
       "name": "SourceSignal",
-      "count": 16
+      "count": 65
     },
     {
       "name": "Platform",
-      "count": 10
-    },
-    {
-      "name": "Studio",
-      "count": 5
+      "count": 26
     },
     {
       "name": "Genre",
-      "count": 4
+      "count": 25
     },
     {
-      "name": "BoxOffice",
-      "count": 3
-    },
-    {
-      "name": "Actor",
-      "count": 3
+      "name": "Studio",
+      "count": 16
     },
     {
       "name": "Award",
-      "count": 3
+      "count": 16
+    },
+    {
+      "name": "Actor",
+      "count": 11
+    },
+    {
+      "name": "BoxOffice",
+      "count": 9
     },
     {
       "name": "Director",
-      "count": 1
+      "count": 5
     }
   ],
   "sources": {
     "Box Office Mojo": 1,
-    "Collider": 1,
-    "Screen Rant": 1,
-    "What's on Netflix": 1,
-    "Hollywood Reporter": 1,
-    "Variety Film": 1,
-    "Deadline": 1,
-    "IndieWire": 1
+    "KOFIC 박스오피스": 1,
+    "Hollywood Reporter": 7,
+    "Variety Film": 5,
+    "IndieWire": 10,
+    "Collider": 6,
+    "Screen Rant": 3,
+    "Deadline": 5,
+    "Decider": 1,
+    "What's on Netflix": 1
   },
-  "generated_at": "2026-05-13T21:27:06.060318+09:00",
+  "generated_at": "2026-05-14T11:29:33.320279+09:00",
   "articles": [
-    {
-      "event_model_payload": {
-        "title": "Home - Box Office Mojo",
-        "source_url": "https://www.boxofficemojo.com/"
-      }
-    },
     {
       "event_model_payload": {
         "source_name": "Collider",
@@ -120,41 +116,5 @@
         "summary": "Cannes: Phuong Mai Nguyen's adaptation of the graphic memoir of the same name is stunning to see, much harder to truly feel."
       }
     }
-  ],
-  "ontology": {
-    "repo": "MovieRadar",
-    "category": "movie",
-    "ontology_version": "0.1.0",
-    "event_model_ids": [
-      "media.box_office",
-      "media.editorial_coverage",
-      "media.ott_ranking",
-      "media.release_calendar",
-      "media.reservation_ranking"
-    ],
-    "event_model_mappings": {
-      "box_office": "media.box_office",
-      "release_calendar": "media.release_calendar",
-      "reservation_ranking": "media.reservation_ranking",
-      "ott_ranking": "media.ott_ranking",
-      "editorial_coverage": "media.editorial_coverage"
-    },
-    "entity_type_hints": [
-      "media.movie_title",
-      "evidence.url"
-    ],
-    "source_role_ids": [
-      "context_only",
-      "operational_evidence",
-      "verification_evidence"
-    ],
-    "source_role_mappings": {
-      "KOFIC 박스오피스": "operational_evidence",
-      "Box Office Mojo": "verification_evidence",
-      "What's on Netflix": "context_only"
-    },
-    "evidence_policy_ids": [
-      "traceable_url_required"
-    ]
-  }
+  ]
 }
