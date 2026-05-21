@@ -1,0 +1,1889 @@
+{
+  "category": "movie",
+  "generated_at": "2026-05-21T09:42:44.145633+00:00",
+  "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
+  "summary": {
+    "total_sources": 12,
+    "enabled_sources": 10,
+    "tracked_sources": 3,
+    "fresh_sources": 3,
+    "stale_sources": 0,
+    "missing_sources": 0,
+    "missing_event_sources": 0,
+    "unknown_event_date_sources": 0,
+    "not_tracked_sources": 7,
+    "skipped_disabled_sources": 2,
+    "collection_error_count": 0,
+    "reservation_ranking_events": 0,
+    "box_office_events": 2,
+    "ott_ranking_events": 0,
+    "release_calendar_events": 20,
+    "movie_signal_event_count": 22,
+    "official_or_operational_event_count": 1,
+    "news_proxy_event_count": 0,
+    "complete_canonical_key_count": 14,
+    "proxy_canonical_key_count": 8,
+    "missing_canonical_key_count": 0,
+    "movie_id_present_count": 0,
+    "normalized_title_present_count": 22,
+    "release_year_present_count": 14,
+    "rank_present_count": 0,
+    "gross_present_count": 0,
+    "platform_present_count": 21,
+    "event_required_field_gap_count": 14,
+    "tracked_source_gap_count": 0,
+    "missing_event_model_count": 2,
+    "source_backlog_candidate_count": 4,
+    "daily_review_item_count": 24
+  },
+  "sources": [
+    {
+      "source": "Variety Film",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 36,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Hollywood Reporter",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 27,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Deadline",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 32,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Screen Rant",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "media",
+      "info_purpose": [
+        "review"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 12,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Collider",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "media",
+      "info_purpose": [
+        "review"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 23,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "IndieWire",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "review",
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 39,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "tracked": true,
+      "event_model": "release_calendar",
+      "freshness_sla_days": 14.0,
+      "status": "fresh",
+      "article_count": 20,
+      "event_count": 20,
+      "latest_event_at": "2026-05-21T00:17:54+00:00",
+      "age_days": 0.39,
+      "latest_title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
+      "latest_url": "https://www.whats-on-netflix.com/news/portlandia-at-netflix-is-a-joke-new-podcast-and-behind-the-scenes-stories",
+      "latest_source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Decider",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "media",
+      "info_purpose": [
+        "ott_review"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 7,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "KOFIC 박스오피스",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "official",
+      "info_purpose": [
+        "box_office",
+        "korean_box_office"
+      ],
+      "tracked": true,
+      "event_model": "box_office",
+      "freshness_sla_days": 1.0,
+      "status": "fresh",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-21T09:42:33.913523+00:00",
+      "age_days": 0.0,
+      "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
+      "latest_source_signal": [
+        "box_office",
+        "boxoffice",
+        "korean_box_office",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "errors": []
+    },
+    {
+      "source": "Box Office Mojo",
+      "source_type": "javascript",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "market_data",
+      "info_purpose": [
+        "box_office"
+      ],
+      "tracked": true,
+      "event_model": "box_office",
+      "freshness_sla_days": 1.0,
+      "status": "fresh",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-05-21T09:42:38.339156+00:00",
+      "age_days": 0.0,
+      "latest_title": "Home - Box Office Mojo",
+      "latest_url": "https://www.boxofficemojo.com/",
+      "latest_source_signal": [
+        "box_office",
+        "boxoffice",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "errors": []
+    },
+    {
+      "source": "관광 문화행사 MCP",
+      "source_type": "mcp",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "서울 문화행사 MCP",
+      "source_type": "mcp",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "source": "Box Office Mojo",
+      "source_type": "javascript",
+      "trust_tier": "T2_institutional",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "market_data",
+      "info_purpose": [
+        "box_office"
+      ],
+      "event_model": "box_office",
+      "title": "Home - Box Office Mojo",
+      "url": "https://www.boxofficemojo.com/",
+      "source_url": "https://www.boxofficemojo.com/",
+      "event_at": "2026-05-21T09:42:38.339156+00:00",
+      "movie_id": "",
+      "normalized_title": "Home - Box Office Mojo",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "box office",
+      "rank": null,
+      "gross": null,
+      "platform_name": "release",
+      "release_date": "",
+      "box_office": [
+        "box office"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "release"
+      ],
+      "platform": [
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "viewing",
+        "time",
+        "top",
+        "new",
+        "latest"
+      ],
+      "source_signal": [
+        "box_office",
+        "boxoffice",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "canonical_key": "movie:home-box-office-mojo:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "box_office:907d712300a5:20260521",
+      "required_field_proxy": {
+        "movie_id": false,
+        "rank": false,
+        "gross": false,
+        "market": true
+      },
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "source": "KOFIC 박스오피스",
+      "source_type": "javascript",
+      "trust_tier": "T1_official",
+      "content_type": "boxoffice",
+      "collection_tier": "C2_js",
+      "producer_role": "official",
+      "info_purpose": [
+        "box_office",
+        "korean_box_office"
+      ],
+      "event_model": "box_office",
+      "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
+      "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
+      "event_at": "2026-05-21T09:42:33.913523+00:00",
+      "movie_id": "",
+      "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "release_year": "2026",
+      "country": "KR",
+      "region": "KR",
+      "market": "박스오피스",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "2026-05-13",
+      "box_office": [
+        "박스오피스",
+        "극장",
+        "영화관"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "영화"
+      ],
+      "source_signal": [
+        "box_office",
+        "boxoffice",
+        "korean_box_office",
+        "movie_text_context",
+        "official_movie_data"
+      ],
+      "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
+      "canonical_key_status": "complete",
+      "event_key": "box_office:b50a67506aec:20260521",
+      "required_field_proxy": {
+        "movie_id": false,
+        "rank": false,
+        "gross": false,
+        "market": true
+      },
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
+      "url": "https://www.whats-on-netflix.com/news/portlandia-at-netflix-is-a-joke-new-podcast-and-behind-the-scenes-stories",
+      "source_url": "https://www.whats-on-netflix.com/news/portlandia-at-netflix-is-a-joke-new-podcast-and-behind-the-scenes-stories",
+      "event_at": "2026-05-21T00:17:54+00:00",
+      "movie_id": "",
+      "normalized_title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "stories",
+        "years",
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:ec7b152802e1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:088bb049a50b:20260521",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Is Netflix Finally Embracing the Theatrical Business? (And Should It?)",
+      "url": "https://www.whats-on-netflix.com/news/is-netflix-finally-embracing-the-theatrical-business-and-should-it",
+      "source_url": "https://www.whats-on-netflix.com/news/is-netflix-finally-embracing-the-theatrical-business-and-should-it",
+      "event_at": "2026-05-20T11:57:46+00:00",
+      "movie_id": "",
+      "normalized_title": "Is Netflix Finally Embracing the Theatrical Business? (And Should It?)",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "amazon"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "theatrical"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6121833c1d94",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:36c7b856f0b5:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "David Fincher’s Cliff Booth Movie Sets December Netflix Premiere And Takes Narnia’s IMAX Slot",
+      "url": "https://www.whats-on-netflix.com/news/david-finchers-cliff-booth-movie-netflix-release-date-theatrical-release",
+      "source_url": "https://www.whats-on-netflix.com/news/david-finchers-cliff-booth-movie-netflix-release-date-theatrical-release",
+      "event_at": "2026-05-20T10:07:47+00:00",
+      "movie_id": "",
+      "normalized_title": "David Fincher’s Cliff Booth Movie Sets December Netflix Premiere And Takes Narnia’s IMAX Slot",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "imax",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "imax",
+        "premiere"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "premiere"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8cf386489239",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:53b093d6031b:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Husbands in Action’: Cast, Plot, and Release Date for Netflix’s Next Big Korean Movie",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/husbands-in-action-netflix-k-drama-comedy-what-else-we-know-so-far",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/husbands-in-action-netflix-k-drama-comedy-what-else-we-know-so-far",
+      "event_at": "2026-05-20T09:19:26+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Husbands in Action’: Cast, Plot, and Release Date for Netflix’s Next Big Korean Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:faed10a208ca",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3f9664e5f064:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Unveils ‘Michael Jackson: The Verdict’ Docuseries Featuring Unseen Courtroom Accounts",
+      "url": "https://www.whats-on-netflix.com/news/michael-jackson-the-verdict-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/michael-jackson-the-verdict-netflix-release-date",
+      "event_at": "2026-05-20T08:43:30+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Unveils ‘Michael Jackson: The Verdict’ Docuseries Featuring Unseen Courtroom Accounts",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "lionsgate",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movie",
+        "theatrical"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-unveils-michael-jackson-the-verdict-docuseries-featuring-unseen-courtroom-accounts:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ca071c26d727:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Notes from the Last Row’ Thriller K-Drama: June 2026 Release & What We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/notes-from-the-last-row-netflix-k-drama-preview",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/notes-from-the-last-row-netflix-k-drama-preview",
+      "event_at": "2026-05-20T06:00:41+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Notes from the Last Row’ Thriller K-Drama: June 2026 Release & What We Know So Far",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "released"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:notes-from-the-last-row-thriller-k-drama-june-2026-release-what-we-know-so-far:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:8cbf1f081adb:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "K-Drama ‘Agent Kim Reactivated’ With Choi Dae Hoon and Yoon Kyung Ho Confirms Netflix Release",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/sbs-k-drama-agent-kim-reactivated-coming-to-netflix-in-june-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/sbs-k-drama-agent-kim-reactivated-coming-to-netflix-in-june-2026",
+      "event_at": "2026-05-20T05:52:05+00:00",
+      "movie_id": "",
+      "normalized_title": "K-Drama ‘Agent Kim Reactivated’ With Choi Dae Hoon and Yoon Kyung Ho Confirms Netflix Release",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:k-drama-agent-kim-reactivated-with-choi-dae-hoon-and-yoon-kyung-ho-confirms-netflix-release:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:d2bb9efa0d09:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Maternal Instinct’: Shocking Texas True Crime Documentary Coming to Netflix in June 2026",
+      "url": "https://www.whats-on-netflix.com/news/taylor-parker-maternal-instinct-documentary",
+      "source_url": "https://www.whats-on-netflix.com/news/taylor-parker-maternal-instinct-documentary",
+      "event_at": "2026-05-20T03:14:05+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Maternal Instinct’: Shocking Texas True Crime Documentary Coming to Netflix in June 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:maternal-instinct-shocking-texas-true-crime-documentary-coming-to-netflix-in-june-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:6f16e45a54ad:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Netflix Movies and Shows With Certified Fresh Ratings in 2026 (So Far)",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/netflix-certified-fresh-movies-shows-2026",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/netflix-certified-fresh-movies-shows-2026",
+      "event_at": "2026-05-20T01:15:47+00:00",
+      "movie_id": "",
+      "normalized_title": "New Netflix Movies and Shows With Certified Fresh Ratings in 2026 (So Far)",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "shows"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "rating",
+        "ratings",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-netflix-movies-and-shows-with-certified-fresh-ratings-in-2026-so-far:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:6a0db4181e08:20260520",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Sports Documentaries Coming to Netflix in 2026",
+      "url": "https://www.whats-on-netflix.com/news/sports/sports-documentaries-coming-to-netflix-in-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/sports/sports-documentaries-coming-to-netflix-in-2026",
+      "event_at": "2026-05-19T23:55:03+00:00",
+      "movie_id": "",
+      "normalized_title": "Sports Documentaries Coming to Netflix in 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:sports-documentaries-coming-to-netflix-in-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:65ca6113fe72:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Ronda Rousey vs Gina Carano Fight Viewership Averaged 12.4M on Netflix – Here’s How It Compares",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/ronda-rousey-vs-gina-carano-viewership",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/ronda-rousey-vs-gina-carano-viewership",
+      "event_at": "2026-05-19T13:23:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Ronda Rousey vs Gina Carano Fight Viewership Averaged 12.4M on Netflix – Here’s How It Compares",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "years",
+        "two",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:10616ce69989",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:95018683a3c9:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘The Crash’: Where Does the Mackenzie Shirilla Case Stand Today?",
+      "url": "https://www.whats-on-netflix.com/news/the-crash-where-does-the-mackenzie-shirilla-case-stand-today",
+      "source_url": "https://www.whats-on-netflix.com/news/the-crash-where-does-the-mackenzie-shirilla-case-stand-today",
+      "event_at": "2026-05-19T05:59:55+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘The Crash’: Where Does the Mackenzie Shirilla Case Stand Today?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "today",
+        "here",
+        "need"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7fc12132f463",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:25cfe76a2a36:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look at What’s Coming to Netflix UK in June 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/first-look-at-whats-coming-to-netflix-uk-in-june-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/first-look-at-whats-coming-to-netflix-uk-in-june-2026",
+      "event_at": "2026-05-19T05:41:30+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look at What’s Coming to Netflix UK in June 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-uk-in-june-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e29369fca94e:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Formula 1 Canadian Grand Prix on Netflix: Start Times and Everything You Need To Know",
+      "url": "https://www.whats-on-netflix.com/news/formula-1-canadian-grand-prix-on-netflix-start-times-and-everything-you-need-to-know",
+      "source_url": "https://www.whats-on-netflix.com/news/formula-1-canadian-grand-prix-on-netflix-start-times-and-everything-you-need-to-know",
+      "event_at": "2026-05-19T05:27:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Formula 1 Canadian Grand Prix on Netflix: Start Times and Everything You Need To Know",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first",
+        "need"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:45435babb553",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b67f3ed151e7:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Spooky in Love’ TVN K-Drama Starring Park Eun Bin is Coming to Netflix in July 2026",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/spooky-in-love-tvn-k-drama-starring-park-eun-bin-is-coming-to-netflix-in-july-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/spooky-in-love-tvn-k-drama-starring-park-eun-bin-is-coming-to-netflix-in-july-2026",
+      "event_at": "2026-05-19T01:41:15+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Spooky in Love’ TVN K-Drama Starring Park Eun Bin is Coming to Netflix in July 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:spooky-in-love-tvn-k-drama-starring-park-eun-bin-is-coming-to-netflix-in-july-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c84397e657c8:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Stephanie Hsu and Will Sharpe’s Acclaimed Animated Romance ‘In Waves’ is Heading to Netflix",
+      "url": "https://www.whats-on-netflix.com/news/in-waves-animated-movie-coming-to-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/in-waves-animated-movie-coming-to-netflix",
+      "event_at": "2026-05-19T01:36:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Stephanie Hsu and Will Sharpe’s Acclaimed Animated Romance ‘In Waves’ is Heading to Netflix",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "cannes"
+      ],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:stephanie-hsu-and-will-sharpe-s-acclaimed-animated-romance-in-waves-is-heading-to-netflix:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:72aff0374b2f:20260519",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix This Week: May 18th to 24th, 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-may-18th-to-24th-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-may-18th-to-24th-2026",
+      "event_at": "2026-05-18T06:20:33+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix This Week: May 18th to 24th, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "time",
+        "new",
+        "first",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-this-week-may-18th-to-24th-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:41ea60b67cc8:20260518",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Dochabi (WT)’ Korean Historical-Action Film Starring Kim Do Hoon & Filming to Begin August 2026",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/dochabi-wt-korean-historical-action-film-starring-kim-do-hoon-filming-to-begin-august-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/dochabi-wt-korean-historical-action-film-starring-kim-do-hoon-filming-to-begin-august-2026",
+      "event_at": "2026-05-18T04:30:29+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Dochabi (WT)’ Korean Historical-Action Film Starring Kim Do Hoon & Filming to Begin August 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:dochabi-wt-korean-historical-action-film-starring-kim-do-hoon-filming-to-begin-august-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:6fd4be2da553:20260518",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Angel Studios’ Animated Epic ‘David’ Sets Netflix Release In US and Other Territories",
+      "url": "https://www.whats-on-netflix.com/news/angel-studios-animated-epic-david-sets-netflix-release-in-us-and-other-territories",
+      "source_url": "https://www.whats-on-netflix.com/news/angel-studios-animated-epic-david-sets-netflix-release-in-us-and-other-territories",
+      "event_at": "2026-05-18T04:04:23+00:00",
+      "movie_id": "",
+      "normalized_title": "Angel Studios’ Animated Epic ‘David’ Sets Netflix Release In US and Other Territories",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:70cd37568447",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2f16ba156c1a:20260518",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Will Ferrell’s Comedy Series ‘The Hawk’ Debuts New First Looks Ahead of Netflix Premiere",
+      "url": "https://www.whats-on-netflix.com/news/the-hawk-will-ferrell-series-netflix-comedy-everything-we-know-so-far-05-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/the-hawk-will-ferrell-series-netflix-comedy-everything-we-know-so-far-05-2026",
+      "event_at": "2026-05-13T03:15:12+00:00",
+      "movie_id": "",
+      "normalized_title": "Will Ferrell’s Comedy Series ‘The Hawk’ Debuts New First Looks Ahead of Netflix Premiere",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming",
+        "premiere"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:will-ferrell-s-comedy-series-the-hawk-debuts-new-first-looks-ahead-of-netflix-premiere:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:186b1e05ff3a:20260513",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    }
+  ],
+  "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "box_office",
+      "source": "Box Office Mojo",
+      "title": "Home - Box Office Mojo",
+      "canonical_key": "movie:home-box-office-mojo:2026:us",
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "box_office",
+      "source": "KOFIC 박스오피스",
+      "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
+      "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
+      "required_field_gaps": [
+        "movie_id",
+        "rank",
+        "gross"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
+      "canonical_key": "movie_source:what-s-on-netflix:ec7b152802e1",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Is Netflix Finally Embracing the Theatrical Business? (And Should It?)",
+      "canonical_key": "movie_source:what-s-on-netflix:6121833c1d94",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Is Netflix Finally Embracing the Theatrical Business? (And Should It?)",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "David Fincher’s Cliff Booth Movie Sets December Netflix Premiere And Takes Narnia’s IMAX Slot",
+      "canonical_key": "movie_source:what-s-on-netflix:8cf386489239",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "David Fincher’s Cliff Booth Movie Sets December Netflix Premiere And Takes Narnia’s IMAX Slot",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Husbands in Action’: Cast, Plot, and Release Date for Netflix’s Next Big Korean Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:faed10a208ca",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Husbands in Action’: Cast, Plot, and Release Date for Netflix’s Next Big Korean Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ronda Rousey vs Gina Carano Fight Viewership Averaged 12.4M on Netflix – Here’s How It Compares",
+      "canonical_key": "movie_source:what-s-on-netflix:10616ce69989",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ronda Rousey vs Gina Carano Fight Viewership Averaged 12.4M on Netflix – Here’s How It Compares",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘The Crash’: Where Does the Mackenzie Shirilla Case Stand Today?",
+      "canonical_key": "movie_source:what-s-on-netflix:7fc12132f463",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘The Crash’: Where Does the Mackenzie Shirilla Case Stand Today?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Formula 1 Canadian Grand Prix on Netflix: Start Times and Everything You Need To Know",
+      "canonical_key": "movie_source:what-s-on-netflix:45435babb553",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Formula 1 Canadian Grand Prix on Netflix: Start Times and Everything You Need To Know",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Angel Studios’ Animated Epic ‘David’ Sets Netflix Release In US and Other Territories",
+      "canonical_key": "movie_source:what-s-on-netflix:70cd37568447",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Angel Studios’ Animated Epic ‘David’ Sets Netflix Release In US and Other Territories",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "reservation_ranking"
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "ott_ranking"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "KOFIC daily box office API",
+      "signal_type": "box_office",
+      "activation_gate": "API key, movie code mapping, and gross date retention"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Korean ticket reservation ranking pages",
+      "signal_type": "reservation_ranking",
+      "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Netflix Top 10 dataset",
+      "signal_type": "ott_ranking",
+      "activation_gate": "title/year canonicalization, region mapping, and weekly window handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Distributor release calendars",
+      "signal_type": "release_calendar",
+      "activation_gate": "distributor taxonomy, duplicate title handling, and source evidence retention"
+    }
+  ],
+  "source_backlog": {
+    "operational_candidates": [
+      {
+        "id": "kofic_daily_boxoffice_api",
+        "name": "KOFIC daily box office API",
+        "signal_type": "box_office",
+        "activation_gate": "API key, movie code mapping, and gross date retention"
+      },
+      {
+        "id": "korean_ticket_reservation_ranking",
+        "name": "Korean ticket reservation ranking pages",
+        "signal_type": "reservation_ranking",
+        "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
+      },
+      {
+        "id": "netflix_top10_dataset",
+        "name": "Netflix Top 10 dataset",
+        "signal_type": "ott_ranking",
+        "activation_gate": "title/year canonicalization, region mapping, and weekly window handling"
+      },
+      {
+        "id": "distributor_release_calendars",
+        "name": "Distributor release calendars",
+        "signal_type": "release_calendar",
+        "activation_gate": "distributor taxonomy, duplicate title handling, and source evidence retention"
+      }
+    ]
+  },
+  "errors": []
+}
