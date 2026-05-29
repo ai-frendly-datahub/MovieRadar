@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-05-28T10:03:23.909242+00:00",
+  "generated_at": "2026-05-29T09:56:19.548887+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,24 +17,24 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 36,
-    "movie_signal_event_count": 38,
+    "release_calendar_events": 51,
+    "movie_signal_event_count": 53,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 23,
-    "proxy_canonical_key_count": 15,
+    "complete_canonical_key_count": 32,
+    "proxy_canonical_key_count": 21,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 38,
-    "release_year_present_count": 23,
+    "normalized_title_present_count": 53,
+    "release_year_present_count": 32,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 37,
-    "event_required_field_gap_count": 21,
+    "platform_present_count": 52,
+    "event_required_field_gap_count": 27,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 38
+    "daily_review_item_count": 50
   },
   "sources": [
     {
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 36,
-      "event_count": 36,
-      "latest_event_at": "2026-05-23T08:31:32+00:00",
-      "age_days": 5.06,
-      "latest_title": "New Releases on Netflix This Week: Memorial Day Weekend 2026",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-memorial-day-weekend-2026",
+      "article_count": 51,
+      "event_count": 51,
+      "latest_event_at": "2026-05-29T00:35:53+00:00",
+      "age_days": 0.39,
+      "latest_title": "When Will Nate Bargatze’s ‘The Breadwinner’ Be on Netflix?",
+      "latest_url": "https://www.whats-on-netflix.com/news/the-breadwinner-netflix-release-date",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -253,7 +254,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-05-28T10:03:15.940462+00:00",
+      "latest_event_at": "2026-05-29T09:56:07.997289+00:00",
       "age_days": 0.0,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
@@ -283,7 +284,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-05-28T10:03:19.881180+00:00",
+      "latest_event_at": "2026-05-29T09:56:13.690679+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +356,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-05-28T10:03:19.881180+00:00",
+      "event_at": "2026-05-29T09:56:13.690679+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -397,7 +398,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260528",
+      "event_key": "box_office:907d712300a5:20260529",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -425,7 +426,7 @@
       "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "event_at": "2026-05-28T10:03:15.940462+00:00",
+      "event_at": "2026-05-29T09:56:07.997289+00:00",
       "movie_id": "",
       "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "release_year": "2026",
@@ -458,7 +459,7 @@
       ],
       "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
       "canonical_key_status": "complete",
-      "event_key": "box_office:b50a67506aec:20260528",
+      "event_key": "box_office:b50a67506aec:20260529",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -470,6 +471,921 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "When Will Nate Bargatze’s ‘The Breadwinner’ Be on Netflix?",
+      "url": "https://www.whats-on-netflix.com/news/the-breadwinner-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-breadwinner-netflix-release-date",
+      "event_at": "2026-05-29T00:35:53+00:00",
+      "movie_id": "",
+      "normalized_title": "When Will Nate Bargatze’s ‘The Breadwinner’ Be on Netflix?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:3e0f18cfd5e5",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d068df698efe:20260529",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New French Medical Show Shooting For Netflix; Singer-Actress Izïa Higelin Starring in Maternité",
+      "url": "https://www.whats-on-netflix.com/news/new-french-medical-show-shooting-for-netflix-singer-actress-izia-higelin-starring-in-maternite",
+      "source_url": "https://www.whats-on-netflix.com/news/new-french-medical-show-shooting-for-netflix-singer-actress-izia-higelin-starring-in-maternite",
+      "event_at": "2026-05-28T08:49:06+00:00",
+      "movie_id": "",
+      "normalized_title": "New French Medical Show Shooting For Netflix; Singer-Actress Izïa Higelin Starring in Maternité",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [
+        "starring",
+        "actress"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "show"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:64abe0dc658f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:0adbb1afc327:20260528",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Best of the Best’: Netflix Coming-of-Age Dance Comedy Starring Hasan Minhaj & Maitreyi Ramakrishnan Set for September 2026",
+      "url": "https://www.whats-on-netflix.com/news/best-of-the-best-movie-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/best-of-the-best-movie-netflix-release-date",
+      "event_at": "2026-05-28T06:37:42+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Best of the Best’: Netflix Coming-of-Age Dance Comedy Starring Hasan Minhaj & Maitreyi Ramakrishnan Set for September 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "best",
+        "here"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:best-of-the-best-netflix-coming-of-age-dance-comedy-starring-hasan-minhaj-maitreyi-ramakrishnan-set-for-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:837ddf051e36:20260528",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Drops Stunning First Trailer and New Stills for Dark Fantasy Stop-Motion Movie ‘I Am Frankelda’",
+      "url": "https://www.whats-on-netflix.com/news/i-am-frankelda-netflix-first-look-trailer",
+      "source_url": "https://www.whats-on-netflix.com/news/i-am-frankelda-netflix-first-look-trailer",
+      "event_at": "2026-05-28T06:13:54+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Drops Stunning First Trailer and New Stills for Dark Fantasy Stop-Motion Movie ‘I Am Frankelda’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:59fe5826e901",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5fe6e086bbbd:20260528",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "10 Best New Movies on Netflix in June 2026",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/best-new-movies-netflix-june-2026",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-new-movies-netflix-june-2026",
+      "event_at": "2026-05-28T05:59:38+00:00",
+      "movie_id": "",
+      "normalized_title": "10 Best New Movies on Netflix in June 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies",
+        "best",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:10-best-new-movies-on-netflix-in-june-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:54d0c2b08a32:20260528",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "One Piece Season 3: Netflix Release Date Estimate & Everything We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/one-piece-season-3-netflix-release-date-everything-we-know-06-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/one-piece-season-3-netflix-release-date-everything-we-know-06-2026",
+      "event_at": "2026-05-28T04:34:36+00:00",
+      "movie_id": "",
+      "normalized_title": "One Piece Season 3: Netflix Release Date Estimate & Everything We Know So Far",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "one",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:one-piece-season-3-netflix-release-date-estimate-everything-we-know-so-far:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:2cb95127e373:20260528",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Do Theatrical Movies Outperform Streaming Originals on Streaming? A Deep Dive Into the 2026 Data",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/theatrical-vs-streaming-netflix-viewership-data",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/theatrical-vs-streaming-netflix-viewership-data",
+      "event_at": "2026-05-28T01:48:13+00:00",
+      "movie_id": "",
+      "normalized_title": "Do Theatrical Movies Outperform Streaming Originals on Streaming? A Deep Dive Into the 2026 Data",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "streaming",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [
+        "streaming",
+        "releases"
+      ],
+      "film_general": [
+        "films",
+        "movies",
+        "theatrical",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:do-theatrical-movies-outperform-streaming-originals-on-streaming-a-deep-dive-into-the-2026-data:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:8e3b73814e41:20260528",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Behind the Scenes of ‘Apex’: VFX Supervisor Gavin McKenzie on Crafting the Film’s Intense Climbing Scenes",
+      "url": "https://www.whats-on-netflix.com/news/apex-netflix-vfx-gavin-mckenzie-interview",
+      "source_url": "https://www.whats-on-netflix.com/news/apex-netflix-vfx-gavin-mckenzie-interview",
+      "event_at": "2026-05-27T06:16:44+00:00",
+      "movie_id": "",
+      "normalized_title": "Behind the Scenes of ‘Apex’: VFX Supervisor Gavin McKenzie on Crafting the Film’s Intense Climbing Scenes",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:35ae4fd1cc70",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:506e5ce837eb:20260527",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix UK in June 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/whats-coming-to-netflix-uk-in-june-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/whats-coming-to-netflix-uk-in-june-2026",
+      "event_at": "2026-05-27T05:48:30+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix UK in June 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-uk-in-june-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:4a90f9251a46:20260527",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Enola Holmes 3 Netflix Release Date, Teaser Trailer, Full Cast and What to Expect",
+      "url": "https://www.whats-on-netflix.com/news/enola-holmes-3-release-date-trailer-plot",
+      "source_url": "https://www.whats-on-netflix.com/news/enola-holmes-3-release-date-trailer-plot",
+      "event_at": "2026-05-27T03:12:31+00:00",
+      "movie_id": "",
+      "normalized_title": "Enola Holmes 3 Netflix Release Date, Teaser Trailer, Full Cast and What to Expect",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "here",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:94304eca2f15",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:99cde68344f1:20260527",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Do Not Climb over the Wall’ Netflix K-Drama Starring Moon Sang Min & Shin Si Ah to Begin Filming in September 2026",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/do-not-climb-over-the-wall-netflix-k-drama",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/do-not-climb-over-the-wall-netflix-k-drama",
+      "event_at": "2026-05-27T00:58:56+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Do Not Climb over the Wall’ Netflix K-Drama Starring Moon Sang Min & Shin Si Ah to Begin Filming in September 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:do-not-climb-over-the-wall-netflix-k-drama-starring-moon-sang-min-shin-si-ah-to-begin-filming-in-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:20ca6fa5f73a:20260527",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Movie Netflix Has Bought at the Cannes Film Festival Including The Four 2026 Pickups",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/netflix-cannes-film-festival-2026-acquisitions",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/netflix-cannes-film-festival-2026-acquisitions",
+      "event_at": "2026-05-26T09:36:58+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Movie Netflix Has Bought at the Cannes Film Festival Including The Four 2026 Pickups",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "cannes",
+        "award"
+      ],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:every-movie-netflix-has-bought-at-the-cannes-film-festival-including-the-four-2026-pickups:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:60508f4cdc75:20260526",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Comic Book Adaptation Movie & Series in Works at Netflix",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-comic-book-adaptations-status",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-comic-book-adaptations-status",
+      "event_at": "2026-05-26T06:58:11+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Comic Book Adaptation Movie & Series in Works at Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movie",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bc1b38a85949",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1f44c96a586a:20260526",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "TF1 and Netflix Preps Their Landmark New Partnership For Launch in June 2026",
+      "url": "https://www.whats-on-netflix.com/news/netflix-live-tv-channels-tf1-partnership",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-live-tv-channels-tf1-partnership",
+      "event_at": "2026-05-26T04:14:00+00:00",
+      "movie_id": "",
+      "normalized_title": "TF1 and Netflix Preps Their Landmark New Partnership For Launch in June 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "new",
+        "here",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:tf1-and-netflix-preps-their-landmark-new-partnership-for-launch-in-june-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c8d4cf3faa0f:20260526",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Ribbon Hero’: Netflix’s New ‘Princess Knight’ Inspired Anime Film Reveals First Trailer and Release Date",
+      "url": "https://www.whats-on-netflix.com/news/anime/the-ribbon-hero-princess-knight-netflix-anime-movie",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/the-ribbon-hero-princess-knight-netflix-anime-movie",
+      "event_at": "2026-05-26T03:34:18+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Ribbon Hero’: Netflix’s New ‘Princess Knight’ Inspired Anime Film Reveals First Trailer and Release Date",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "film",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-ribbon-hero-netflix-s-new-princess-knight-inspired-anime-film-reveals-first-trailer-and-release-date:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0b57694e44ba:20260526",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -2634,6 +3550,108 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When Will Nate Bargatze’s ‘The Breadwinner’ Be on Netflix?",
+      "canonical_key": "movie_source:what-s-on-netflix:3e0f18cfd5e5",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When Will Nate Bargatze’s ‘The Breadwinner’ Be on Netflix?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "New French Medical Show Shooting For Netflix; Singer-Actress Izïa Higelin Starring in Maternité",
+      "canonical_key": "movie_source:what-s-on-netflix:64abe0dc658f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "New French Medical Show Shooting For Netflix; Singer-Actress Izïa Higelin Starring in Maternité",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Drops Stunning First Trailer and New Stills for Dark Fantasy Stop-Motion Movie ‘I Am Frankelda’",
+      "canonical_key": "movie_source:what-s-on-netflix:59fe5826e901",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Drops Stunning First Trailer and New Stills for Dark Fantasy Stop-Motion Movie ‘I Am Frankelda’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Behind the Scenes of ‘Apex’: VFX Supervisor Gavin McKenzie on Crafting the Film’s Intense Climbing Scenes",
+      "canonical_key": "movie_source:what-s-on-netflix:35ae4fd1cc70",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Behind the Scenes of ‘Apex’: VFX Supervisor Gavin McKenzie on Crafting the Film’s Intense Climbing Scenes",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Enola Holmes 3 Netflix Release Date, Teaser Trailer, Full Cast and What to Expect",
+      "canonical_key": "movie_source:what-s-on-netflix:94304eca2f15",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Enola Holmes 3 Netflix Release Date, Teaser Trailer, Full Cast and What to Expect",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Comic Book Adaptation Movie & Series in Works at Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:bc1b38a85949",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Comic Book Adaptation Movie & Series in Works at Netflix",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
