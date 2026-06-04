@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-03T11:00:55.323990+00:00",
+  "generated_at": "2026-06-04T09:57:55.016497+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 53,
-    "movie_signal_event_count": 55,
+    "release_calendar_events": 43,
+    "movie_signal_event_count": 45,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 28,
+    "complete_canonical_key_count": 23,
+    "proxy_canonical_key_count": 22,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 55,
-    "release_year_present_count": 27,
+    "normalized_title_present_count": 45,
+    "release_year_present_count": 23,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 54,
-    "event_required_field_gap_count": 34,
+    "platform_present_count": 44,
+    "event_required_field_gap_count": 28,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 53,
-      "event_count": 53,
+      "article_count": 43,
+      "event_count": 43,
       "latest_event_at": "2026-06-02T10:30:09+00:00",
-      "age_days": 1.02,
+      "age_days": 1.98,
       "latest_title": "Netflix’s Most Watched Series and Movies Ever",
       "latest_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
       "latest_source_signal": [
@@ -254,7 +254,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-03T11:00:47.677891+00:00",
-      "age_days": 0.0,
+      "age_days": 0.96,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -283,7 +283,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-03T11:00:51.561467+00:00",
+      "latest_event_at": "2026-06-04T09:57:50.553960+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +355,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-03T11:00:51.561467+00:00",
+      "event_at": "2026-06-04T09:57:50.553960+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -384,8 +384,6 @@
         "movies",
         "time",
         "top",
-        "one",
-        "two",
         "new",
         "latest"
       ],
@@ -397,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260603",
+      "event_key": "box_office:907d712300a5:20260604",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3087,593 +3085,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Harlan Coben’s ‘Myron Bolitar’ Gets Major Update as Netflix to Begin Production in July 2026",
-      "url": "https://www.whats-on-netflix.com/news/myron-bolitar-netflix-harlan-coben-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/myron-bolitar-netflix-harlan-coben-everything-we-know",
-      "event_at": "2026-05-21T07:03:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Harlan Coben’s ‘Myron Bolitar’ Gets Major Update as Netflix to Begin Production in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:harlan-coben-s-myron-bolitar-gets-major-update-as-netflix-to-begin-production-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:ef9e62b2123b:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Emily in Paris’ to End with Season 6 at Netflix; Filming Underway in Greece",
-      "url": "https://www.whats-on-netflix.com/news/emily-in-paris-to-end-with-season-6-at-netflix-filming-underway-in-greece",
-      "source_url": "https://www.whats-on-netflix.com/news/emily-in-paris-to-end-with-season-6-at-netflix-filming-underway-in-greece",
-      "event_at": "2026-05-21T06:33:19+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Emily in Paris’ to End with Season 6 at Netflix; Filming Underway in Greece",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "time"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e038f076620c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f8e2691538c2:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Incredible Heist of Hallelujah Jones’ Starring Janelle Monáe to Begin Filming in LA in June 2026",
-      "url": "https://www.whats-on-netflix.com/news/the-incredible-heist-of-hallelujah-jones-netflix-movie-taika-waititi",
-      "source_url": "https://www.whats-on-netflix.com/news/the-incredible-heist-of-hallelujah-jones-netflix-movie-taika-waititi",
-      "event_at": "2026-05-21T05:35:32+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Incredible Heist of Hallelujah Jones’ Starring Janelle Monáe to Begin Filming in LA in June 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-incredible-heist-of-hallelujah-jones-starring-janelle-mon-e-to-begin-filming-in-la-in-june-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:5b109898bce9:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Emilia Jones and Alison Oliver To Star In Period Drama Movie ‘Bad Bridgets’ For Netflix",
-      "url": "https://www.whats-on-netflix.com/news/bad-bridgets-netflix-movie-release-date-cast-plot",
-      "source_url": "https://www.whats-on-netflix.com/news/bad-bridgets-netflix-movie-release-date-cast-plot",
-      "event_at": "2026-05-21T05:18:13+00:00",
-      "movie_id": "",
-      "normalized_title": "Emilia Jones and Alison Oliver To Star In Period Drama Movie ‘Bad Bridgets’ For Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:dd656c75340a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e6ec5d469a45:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in June 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-june-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-june-2026",
-      "event_at": "2026-05-21T04:36:34+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in June 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-june-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:cd75dda0993d:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Breakfast Club’ to Become Netflix’s First-Ever Daily Live Show",
-      "url": "https://www.whats-on-netflix.com/news/when-is-the-breakfast-club-live-on-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/when-is-the-breakfast-club-live-on-netflix",
-      "event_at": "2026-05-21T03:37:50+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Breakfast Club’ to Become Netflix’s First-Ever Daily Live Show",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "show"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:5c4d203d48a5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:261a3c4e863f:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Finding Her Edge’ Season 2 Gets Major Production Update: Filming Begins in September 2026",
-      "url": "https://www.whats-on-netflix.com/news/finding-her-edge-season-2-netflix-release-date-filming-schedule",
-      "source_url": "https://www.whats-on-netflix.com/news/finding-her-edge-season-2-netflix-release-date-filming-schedule",
-      "event_at": "2026-05-21T03:12:18+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Finding Her Edge’ Season 2 Gets Major Production Update: Filming Begins in September 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "release",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "production",
-        "release"
-      ],
-      "platform": [
-        "release"
-      ],
-      "film_general": [
-        "story",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:finding-her-edge-season-2-gets-major-production-update-filming-begins-in-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:843a482426c5:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Award-Winning Sundance Doc ‘André Is an Idiot’ Sets Netflix US SVOD Debut",
-      "url": "https://www.whats-on-netflix.com/news/andre-is-an-idiot-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/andre-is-an-idiot-netflix-release-date",
-      "event_at": "2026-05-21T02:48:14+00:00",
-      "movie_id": "",
-      "normalized_title": "Award-Winning Sundance Doc ‘André Is an Idiot’ Sets Netflix US SVOD Debut",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "winner",
-        "award"
-      ],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ca2930adfaa7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:bea371627086:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
-      "url": "https://www.whats-on-netflix.com/news/portlandia-at-netflix-is-a-joke-new-podcast-and-behind-the-scenes-stories",
-      "source_url": "https://www.whats-on-netflix.com/news/portlandia-at-netflix-is-a-joke-new-podcast-and-behind-the-scenes-stories",
-      "event_at": "2026-05-21T00:17:54+00:00",
-      "movie_id": "",
-      "normalized_title": "Portlandia at Netflix Is a Joke: New Podcast and Behind-the-Scenes Stories",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "stories",
-        "years",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ec7b152802e1",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:088bb049a50b:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Is Netflix Finally Embracing the Theatrical Business? (And Should It?)",
-      "url": "https://www.whats-on-netflix.com/news/is-netflix-finally-embracing-the-theatrical-business-and-should-it",
-      "source_url": "https://www.whats-on-netflix.com/news/is-netflix-finally-embracing-the-theatrical-business-and-should-it",
-      "event_at": "2026-05-20T11:57:46+00:00",
-      "movie_id": "",
-      "normalized_title": "Is Netflix Finally Embracing the Theatrical Business? (And Should It?)",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "amazon"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "theatrical"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:6121833c1d94",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:36c7b856f0b5:20260520",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4076,38 +3487,24 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Emily in Paris’ to End with Season 6 at Netflix; Filming Underway in Greece",
-      "canonical_key": "movie_source:what-s-on-netflix:e038f076620c",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "reservation_ranking"
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Emily in Paris’ to End with Season 6 at Netflix; Filming Underway in Greece",
-      "canonical_key_status": "source_proxy"
+      "reason": "missing_event_model",
+      "event_model": "ott_ranking"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Emilia Jones and Alison Oliver To Star In Period Drama Movie ‘Bad Bridgets’ For Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:dd656c75340a",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_backlog_pending",
+      "source": "KOFIC daily box office API",
+      "signal_type": "box_office",
+      "activation_gate": "API key, movie code mapping, and gross date retention"
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Emilia Jones and Alison Oliver To Star In Period Drama Movie ‘Bad Bridgets’ For Netflix",
-      "canonical_key_status": "source_proxy"
+      "reason": "source_backlog_pending",
+      "source": "Korean ticket reservation ranking pages",
+      "signal_type": "reservation_ranking",
+      "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
     }
   ],
   "source_backlog": {
