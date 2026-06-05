@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-04T09:57:55.016497+00:00",
+  "generated_at": "2026-06-05T09:52:11.699607+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,24 +17,24 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 43,
-    "movie_signal_event_count": 45,
+    "release_calendar_events": 36,
+    "movie_signal_event_count": 38,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 23,
-    "proxy_canonical_key_count": 22,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 18,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 45,
-    "release_year_present_count": 23,
+    "normalized_title_present_count": 38,
+    "release_year_present_count": 20,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 44,
-    "event_required_field_gap_count": 28,
+    "platform_present_count": 37,
+    "event_required_field_gap_count": 24,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 50
+    "daily_review_item_count": 44
   },
   "sources": [
     {
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 43,
-      "event_count": 43,
+      "article_count": 36,
+      "event_count": 36,
       "latest_event_at": "2026-06-02T10:30:09+00:00",
-      "age_days": 1.98,
+      "age_days": 2.97,
       "latest_title": "Netflix’s Most Watched Series and Movies Ever",
       "latest_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
       "latest_source_signal": [
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -253,8 +253,8 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-03T11:00:47.677891+00:00",
-      "age_days": 0.96,
+      "latest_event_at": "2026-06-05T09:52:04.399144+00:00",
+      "age_days": 0.0,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -283,7 +283,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-04T09:57:50.553960+00:00",
+      "latest_event_at": "2026-06-05T09:52:08.119209+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +355,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-04T09:57:50.553960+00:00",
+      "event_at": "2026-06-05T09:52:08.119209+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260604",
+      "event_key": "box_office:907d712300a5:20260605",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -423,7 +423,7 @@
       "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "event_at": "2026-06-03T11:00:47.677891+00:00",
+      "event_at": "2026-06-05T09:52:04.399144+00:00",
       "movie_id": "",
       "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "release_year": "2026",
@@ -455,7 +455,7 @@
       ],
       "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
       "canonical_key_status": "complete",
-      "event_key": "box_office:b50a67506aec:20260603",
+      "event_key": "box_office:b50a67506aec:20260605",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -2662,429 +2662,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Formula 1 Canadian Grand Prix on Netflix: Every Start Time and Everything You Need To Know",
-      "url": "https://www.whats-on-netflix.com/news/formula-1-canadian-grand-prix-on-netflix-start-times-and-everything-you-need-to-know",
-      "source_url": "https://www.whats-on-netflix.com/news/formula-1-canadian-grand-prix-on-netflix-start-times-and-everything-you-need-to-know",
-      "event_at": "2026-05-22T09:42:09+00:00",
-      "movie_id": "",
-      "normalized_title": "Formula 1 Canadian Grand Prix on Netflix: Every Start Time and Everything You Need To Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "watch"
-      ],
-      "film_general": [
-        "watch",
-        "time",
-        "first",
-        "here",
-        "this",
-        "need"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:016f340c7605",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:b7dd8d2b6960:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Acquires Star-Studded Satirical Thriller ‘Sacrifice’ Starring Chris Evans and Anya Taylor-Joy",
-      "url": "https://www.whats-on-netflix.com/news/sacrifice-netflix-movie-chris-evans-anya-taylor-joy",
-      "source_url": "https://www.whats-on-netflix.com/news/sacrifice-netflix-movie-chris-evans-anya-taylor-joy",
-      "event_at": "2026-05-22T08:06:23+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Acquires Star-Studded Satirical Thriller ‘Sacrifice’ Starring Chris Evans and Anya Taylor-Joy",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring",
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:2c9d43ffa3e5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:297e40d68f5d:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Behind the Scenes of ‘Remarkably Bright Creatures’: Cinematographer Ashley Connor on Adapting the Beloved Novel for Netflix",
-      "url": "https://www.whats-on-netflix.com/interviews/remarkably-bright-creatures-netflix-ashley-connor-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/remarkably-bright-creatures-netflix-ashley-connor-interview",
-      "event_at": "2026-05-22T05:56:08+00:00",
-      "movie_id": "",
-      "normalized_title": "Behind the Scenes of ‘Remarkably Bright Creatures’: Cinematographer Ashley Connor on Adapting the Beloved Novel for Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:300a608fb57d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:de17ca7fb0f9:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘My Life with the Walter Boys’ Season 4 Sets Summer 2026 Filming Start Date",
-      "url": "https://www.whats-on-netflix.com/news/my-life-with-the-walter-boys-season-4-filming-start-date",
-      "source_url": "https://www.whats-on-netflix.com/news/my-life-with-the-walter-boys-season-4-filming-start-date",
-      "event_at": "2026-05-22T04:34:47+00:00",
-      "movie_id": "",
-      "normalized_title": "‘My Life with the Walter Boys’ Season 4 Sets Summer 2026 Filming Start Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "my"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:my-life-with-the-walter-boys-season-4-sets-summer-2026-filming-start-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f9a7483694a0:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Husbands in Action’ Netflix’s South Korean Comedy Film Sets June 2026 Release",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/husbands-in-action-netflix-k-drama-comedy-what-else-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/husbands-in-action-netflix-k-drama-comedy-what-else-we-know-so-far",
-      "event_at": "2026-05-22T03:23:26+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Husbands in Action’ Netflix’s South Korean Comedy Film Sets June 2026 Release",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "film",
-        "new",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:husbands-in-action-netflix-s-south-korean-comedy-film-sets-june-2026-release:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:bc1085d251c7:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Chinese Sci-Fi Blockbuster ‘Per Aspera Ad Astra’ Starring Dylan Wang Sets Netflix Release",
-      "url": "https://www.whats-on-netflix.com/news/per-aspera-ad-astra-netflix-release-date-june-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/per-aspera-ad-astra-netflix-release-date-june-2026",
-      "event_at": "2026-05-22T01:42:38+00:00",
-      "movie_id": "",
-      "normalized_title": "Chinese Sci-Fi Blockbuster ‘Per Aspera Ad Astra’ Starring Dylan Wang Sets Netflix Release",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "blockbuster",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "blockbuster"
-      ],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:chinese-sci-fi-blockbuster-per-aspera-ad-astra-starring-dylan-wang-sets-netflix-release:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:2151e6176108:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Remembering ‘Max’; Netflix’s Old “AI” Search Before AI Was Even A Thing",
-      "url": "https://www.whats-on-netflix.com/news/remembering-max-netflixs-old-ai-search-before-ai-was-even-a-thing",
-      "source_url": "https://www.whats-on-netflix.com/news/remembering-max-netflixs-old-ai-search-before-ai-was-even-a-thing",
-      "event_at": "2026-05-21T11:06:55+00:00",
-      "movie_id": "",
-      "normalized_title": "Remembering ‘Max’; Netflix’s Old “AI” Search Before AI Was Even A Thing",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "max",
-        "watch"
-      ],
-      "film_general": [
-        "watch",
-        "most",
-        "one",
-        "help"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:cbd2e6ad1cf6",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:8824a2077bca:20260521",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3419,74 +2996,6 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Formula 1 Canadian Grand Prix on Netflix: Every Start Time and Everything You Need To Know",
-      "canonical_key": "movie_source:what-s-on-netflix:016f340c7605",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Formula 1 Canadian Grand Prix on Netflix: Every Start Time and Everything You Need To Know",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Acquires Star-Studded Satirical Thriller ‘Sacrifice’ Starring Chris Evans and Anya Taylor-Joy",
-      "canonical_key": "movie_source:what-s-on-netflix:2c9d43ffa3e5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Acquires Star-Studded Satirical Thriller ‘Sacrifice’ Starring Chris Evans and Anya Taylor-Joy",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Behind the Scenes of ‘Remarkably Bright Creatures’: Cinematographer Ashley Connor on Adapting the Beloved Novel for Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:300a608fb57d",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Behind the Scenes of ‘Remarkably Bright Creatures’: Cinematographer Ashley Connor on Adapting the Beloved Novel for Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Remembering ‘Max’; Netflix’s Old “AI” Search Before AI Was Even A Thing",
-      "canonical_key": "movie_source:what-s-on-netflix:cbd2e6ad1cf6",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Remembering ‘Max’; Netflix’s Old “AI” Search Before AI Was Even A Thing",
-      "canonical_key_status": "source_proxy"
-    },
-    {
       "reason": "missing_event_model",
       "event_model": "reservation_ranking"
     },
@@ -3505,6 +3014,18 @@
       "source": "Korean ticket reservation ranking pages",
       "signal_type": "reservation_ranking",
       "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Netflix Top 10 dataset",
+      "signal_type": "ott_ranking",
+      "activation_gate": "title/year canonicalization, region mapping, and weekly window handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Distributor release calendars",
+      "signal_type": "release_calendar",
+      "activation_gate": "distributor taxonomy, duplicate title handling, and source evidence retention"
     }
   ],
   "source_backlog": {
