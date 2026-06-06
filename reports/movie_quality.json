@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-05T09:52:11.699607+00:00",
+  "generated_at": "2026-06-06T08:35:08.839065+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,24 +17,24 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 36,
-    "movie_signal_event_count": 38,
+    "release_calendar_events": 33,
+    "movie_signal_event_count": 35,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 18,
+    "complete_canonical_key_count": 18,
+    "proxy_canonical_key_count": 17,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 38,
-    "release_year_present_count": 20,
+    "normalized_title_present_count": 35,
+    "release_year_present_count": 18,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 37,
-    "event_required_field_gap_count": 24,
+    "platform_present_count": 34,
+    "event_required_field_gap_count": 23,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 44
+    "daily_review_item_count": 42
   },
   "sources": [
     {
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 36,
-      "event_count": 36,
+      "article_count": 33,
+      "event_count": 33,
       "latest_event_at": "2026-06-02T10:30:09+00:00",
-      "age_days": 2.97,
+      "age_days": 3.92,
       "latest_title": "Netflix’s Most Watched Series and Movies Ever",
       "latest_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
       "latest_source_signal": [
@@ -254,7 +254,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-05T09:52:04.399144+00:00",
-      "age_days": 0.0,
+      "age_days": 0.95,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -283,7 +283,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-05T09:52:08.119209+00:00",
+      "latest_event_at": "2026-06-06T08:35:02.493351+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +355,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-05T09:52:08.119209+00:00",
+      "event_at": "2026-06-06T08:35:02.493351+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -374,7 +374,8 @@
       "award": [],
       "studio": [
         "new",
-        "release"
+        "release",
+        "studio"
       ],
       "platform": [
         "release"
@@ -382,10 +383,14 @@
       "film_general": [
         "movie",
         "movies",
+        "viewing",
+        "story",
         "time",
         "top",
+        "two",
         "new",
-        "latest"
+        "latest",
+        "my"
       ],
       "source_signal": [
         "box_office",
@@ -395,7 +400,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260605",
+      "event_key": "box_office:907d712300a5:20260606",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -2479,189 +2484,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week: Memorial Day Weekend 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-memorial-day-weekend-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-memorial-day-weekend-2026",
-      "event_at": "2026-05-23T08:31:32+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week: Memorial Day Weekend 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "releases"
-      ],
-      "film_general": [
-        "new",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-memorial-day-weekend-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:04661f93fcd0:20260523",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Mamoru Hosoda’s Anime Movie ‘Scarlet’ Sets Netflix Debut for June 2026",
-      "url": "https://www.whats-on-netflix.com/news/anime/scarlet-anime-movie-netflix-us-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/anime/scarlet-anime-movie-netflix-us-release-date",
-      "event_at": "2026-05-23T08:08:30+00:00",
-      "movie_id": "",
-      "normalized_title": "Mamoru Hosoda’s Anime Movie ‘Scarlet’ Sets Netflix Debut for June 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "movie",
-        "here",
-        "this",
-        "need"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:mamoru-hosoda-s-anime-movie-scarlet-sets-netflix-debut-for-june-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:31145ad82c80:20260523",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ladies First’ Netflix Movie Review: Sacha Baron Cohen’s Remake is a Fun, If Familiar, Gender-Swap Comedy",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/ladies-first-netflix-movie-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/ladies-first-netflix-movie-review",
-      "event_at": "2026-05-22T13:35:00+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ladies First’ Netflix Movie Review: Sacha Baron Cohen’s Remake is a Fun, If Familiar, Gender-Swap Comedy",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "review",
-        "new",
-        "first",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:30695123c207",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a008dd25d45b:20260522",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2976,23 +2798,6 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Every Comic Book Adaptation Movie & Series in Works at Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ladies First’ Netflix Movie Review: Sacha Baron Cohen’s Remake is a Fun, If Familiar, Gender-Swap Comedy",
-      "canonical_key": "movie_source:what-s-on-netflix:30695123c207",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ladies First’ Netflix Movie Review: Sacha Baron Cohen’s Remake is a Fun, If Familiar, Gender-Swap Comedy",
       "canonical_key_status": "source_proxy"
     },
     {
