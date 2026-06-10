@@ -1,13 +1,13 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-09T09:44:58.740840+00:00",
+  "generated_at": "2026-06-10T10:01:52.662828+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
     "enabled_sources": 10,
     "tracked_sources": 3,
-    "fresh_sources": 3,
-    "stale_sources": 0,
+    "fresh_sources": 2,
+    "stale_sources": 1,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
@@ -17,21 +17,21 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 56,
-    "movie_signal_event_count": 58,
+    "release_calendar_events": 60,
+    "movie_signal_event_count": 62,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 32,
+    "complete_canonical_key_count": 28,
+    "proxy_canonical_key_count": 34,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 58,
-    "release_year_present_count": 26,
+    "normalized_title_present_count": 62,
+    "release_year_present_count": 28,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 54,
-    "event_required_field_gap_count": 38,
-    "tracked_source_gap_count": 0,
+    "platform_present_count": 58,
+    "event_required_field_gap_count": 40,
+    "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
     "daily_review_item_count": 50
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 100,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 56,
-      "event_count": 56,
-      "latest_event_at": "2026-06-09T00:18:49+00:00",
-      "age_days": 0.39,
-      "latest_title": "Paul Mescal and Jessie Buckley’s Heartbreaking Oscar-Winning Period Drama Is Heading to Netflix",
-      "latest_url": "https://www.whats-on-netflix.com/news/hamnet-netflix-release-date",
+      "article_count": 60,
+      "event_count": 60,
+      "latest_event_at": "2026-06-09T13:03:49+00:00",
+      "age_days": 0.87,
+      "latest_title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/office-romance-netflix-director-interview-jennifer-lopez-brett-goldstein",
       "latest_source_signal": [
-        "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +225,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -251,11 +249,11 @@
       "tracked": true,
       "event_model": "box_office",
       "freshness_sla_days": 1.0,
-      "status": "fresh",
+      "status": "stale",
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-09T09:44:50.476408+00:00",
-      "age_days": 0.0,
+      "age_days": 1.01,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -284,7 +282,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-09T09:44:53.974834+00:00",
+      "latest_event_at": "2026-06-10T10:01:46.699264+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -356,7 +354,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-09T09:44:53.974834+00:00",
+      "event_at": "2026-06-10T10:01:46.699264+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -391,6 +389,7 @@
         "two",
         "new",
         "latest",
+        "this",
         "my"
       ],
       "source_signal": [
@@ -401,7 +400,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260609",
+      "event_key": "box_office:907d712300a5:20260610",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -412,6 +411,126 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
+      "url": "https://www.whats-on-netflix.com/interviews/office-romance-netflix-director-interview-jennifer-lopez-brett-goldstein",
+      "source_url": "https://www.whats-on-netflix.com/interviews/office-romance-netflix-director-interview-jennifer-lopez-brett-goldstein",
+      "event_at": "2026-06-09T13:03:49+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8b8b52b8d215",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c13b242538dc:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Jennifer Lopez’s ‘Office Romance’ Dominates Netflix Global Charts, But How Does Its Launch Stack Up?",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/office-romance-netflix-jennifer-lopez-ratings-viewership",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/office-romance-netflix-jennifer-lopez-ratings-viewership",
+      "event_at": "2026-06-09T10:19:42+00:00",
+      "movie_id": "",
+      "normalized_title": "Jennifer Lopez’s ‘Office Romance’ Dominates Netflix Global Charts, But How Does Its Launch Stack Up?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "top",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:759c7c60ecb2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e5296e9d4b45:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -473,6 +592,301 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘3 Body Problem’ Season 3 Now In Production for Netflix; Back Filming in the United Kingdom",
+      "url": "https://www.whats-on-netflix.com/news/3-body-problem-season-3-now-in-production",
+      "source_url": "https://www.whats-on-netflix.com/news/3-body-problem-season-3-now-in-production",
+      "event_at": "2026-06-09T09:30:53+00:00",
+      "movie_id": "",
+      "normalized_title": "‘3 Body Problem’ Season 3 Now In Production for Netflix; Back Filming in the United Kingdom",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "now",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:cc4856ab919e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:07a3adb01ee3:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s Most Anticipated Movies: ‘Enola Holmes 3’ and Greta Gerwig’s ‘Narnia’ Dominate the Charts",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-most-anticipated-movies-june-2026-enola-holmes-3-narnia",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-most-anticipated-movies-june-2026-enola-holmes-3-narnia",
+      "event_at": "2026-06-09T07:45:13+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s Most Anticipated Movies: ‘Enola Holmes 3’ and Greta Gerwig’s ‘Narnia’ Dominate the Charts",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies",
+        "most"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-s-most-anticipated-movies-enola-holmes-3-and-greta-gerwig-s-narnia-dominate-the-charts:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:47705abe0985:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Is ‘Gilmore Girls’ About To Leave Netflix Globally? Removal Dates Explained",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/is-gilmore-girls-leaving-netflix-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/is-gilmore-girls-leaving-netflix-2026",
+      "event_at": "2026-06-09T05:56:10+00:00",
+      "movie_id": "",
+      "normalized_title": "Is ‘Gilmore Girls’ About To Leave Netflix Globally? Removal Dates Explained",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:is-gilmore-girls-about-to-leave-netflix-globally-removal-dates-explained:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c5338d56a4c9:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Witness’: How Director Alex Winckler Handled the Weight of a Real-Life Tragedy",
+      "url": "https://www.whats-on-netflix.com/interviews/the-witness-netflix-director-alex-winckler-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/the-witness-netflix-director-alex-winckler-interview",
+      "event_at": "2026-06-09T04:07:30+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Witness’: How Director Alex Winckler Handled the Weight of a Real-Life Tragedy",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [
+        "bafta"
+      ],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4c8b43fcdc5f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:09a2224e5f10:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Enola Holmes 3 Netflix Release Date, Official Trailer, Full Cast and What to Expect",
+      "url": "https://www.whats-on-netflix.com/news/enola-holmes-3-release-date-trailer-plot-06-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/enola-holmes-3-release-date-trailer-plot-06-2026",
+      "event_at": "2026-06-09T03:11:31+00:00",
+      "movie_id": "",
+      "normalized_title": "Enola Holmes 3 Netflix Release Date, Official Trailer, Full Cast and What to Expect",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "here",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:enola-holmes-3-netflix-release-date-official-trailer-full-cast-and-what-to-expect:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:1d4d728c86a5:20260609",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3659,193 +4073,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Behind the Scenes of ‘Apex’: VFX Supervisor Gavin McKenzie on Crafting the Film’s Intense Climbing Scenes",
-      "url": "https://www.whats-on-netflix.com/news/apex-netflix-vfx-gavin-mckenzie-interview",
-      "source_url": "https://www.whats-on-netflix.com/news/apex-netflix-vfx-gavin-mckenzie-interview",
-      "event_at": "2026-05-27T06:16:44+00:00",
-      "movie_id": "",
-      "normalized_title": "Behind the Scenes of ‘Apex’: VFX Supervisor Gavin McKenzie on Crafting the Film’s Intense Climbing Scenes",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:35ae4fd1cc70",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:506e5ce837eb:20260527",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Enola Holmes 3 Netflix Release Date, Teaser Trailer, Full Cast and What to Expect",
-      "url": "https://www.whats-on-netflix.com/news/enola-holmes-3-release-date-trailer-plot",
-      "source_url": "https://www.whats-on-netflix.com/news/enola-holmes-3-release-date-trailer-plot",
-      "event_at": "2026-05-27T03:12:31+00:00",
-      "movie_id": "",
-      "normalized_title": "Enola Holmes 3 Netflix Release Date, Teaser Trailer, Full Cast and What to Expect",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:94304eca2f15",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:99cde68344f1:20260527",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Do Not Climb over the Wall’ Netflix K-Drama Starring Moon Sang Min & Shin Si Ah to Begin Filming in September 2026",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/do-not-climb-over-the-wall-netflix-k-drama",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/do-not-climb-over-the-wall-netflix-k-drama",
-      "event_at": "2026-05-27T00:58:56+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Do Not Climb over the Wall’ Netflix K-Drama Starring Moon Sang Min & Shin Si Ah to Begin Filming in September 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:do-not-climb-over-the-wall-netflix-k-drama-starring-moon-sang-min-shin-si-ah-to-begin-filming-in-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:20ca6fa5f73a:20260527",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3863,6 +4090,40 @@
     },
     {
       "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
+      "canonical_key": "movie_source:what-s-on-netflix:8b8b52b8d215",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Jennifer Lopez’s ‘Office Romance’ Dominates Netflix Global Charts, But How Does Its Launch Stack Up?",
+      "canonical_key": "movie_source:what-s-on-netflix:759c7c60ecb2",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Jennifer Lopez’s ‘Office Romance’ Dominates Netflix Global Charts, But How Does Its Launch Stack Up?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "box_office",
       "source": "KOFIC 박스오피스",
       "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
@@ -3872,6 +4133,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘3 Body Problem’ Season 3 Now In Production for Netflix; Back Filming in the United Kingdom",
+      "canonical_key": "movie_source:what-s-on-netflix:cc4856ab919e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘3 Body Problem’ Season 3 Now In Production for Netflix; Back Filming in the United Kingdom",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Witness’: How Director Alex Winckler Handled the Weight of a Real-Life Tragedy",
+      "canonical_key": "movie_source:what-s-on-netflix:4c8b43fcdc5f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Witness’: How Director Alex Winckler Handled the Weight of a Real-Life Tragedy",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4211,74 +4506,6 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Netflix Crime Drama ‘All the Sinners Bleed’ Starring Sope Dirisu Wraps Filming: Everything We Know",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Long-Gestating ‘The Seven Husbands of Evelyn Hugo’ Movie Adaptation Gets Its Third Director",
-      "canonical_key": "movie_source:what-s-on-netflix:288e38b05ab9",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Long-Gestating ‘The Seven Husbands of Evelyn Hugo’ Movie Adaptation Gets Its Third Director",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Live-Action ‘Eloise’ Movie: First Look at Mae Schenk in Iconic Role in New York City",
-      "canonical_key": "movie_source:what-s-on-netflix:be39e370c850",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Live-Action ‘Eloise’ Movie: First Look at Mae Schenk in Iconic Role in New York City",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Roman’: Martin Scorsese and ‘Billions’ Creators Team Up for New Netflix Las Vegas Drama Starring Oscar Isaac",
-      "canonical_key": "movie_source:what-s-on-netflix:760ffaa691b7",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Roman’: Martin Scorsese and ‘Billions’ Creators Team Up for New Netflix Las Vegas Drama Starring Oscar Isaac",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Director Millicent Shelton Channels Classic Action Cinema for Netflix’s ‘Nemesis’ Series",
-      "canonical_key": "movie_source:what-s-on-netflix:bf4e1cb4ada9",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Director Millicent Shelton Channels Classic Action Cinema for Netflix’s ‘Nemesis’ Series",
       "canonical_key_status": "source_proxy"
     }
   ],
