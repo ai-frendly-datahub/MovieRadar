@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-15T12:15:47.243469+00:00",
+  "generated_at": "2026-06-16T11:12:06.318834+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 59,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
-    "proxy_canonical_key_count": 27,
+    "complete_canonical_key_count": 33,
+    "proxy_canonical_key_count": 26,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 59,
-    "release_year_present_count": 32,
+    "release_year_present_count": 33,
     "rank_present_count": 0,
     "gross_present_count": 0,
     "platform_present_count": 55,
-    "event_required_field_gap_count": 33,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,12 +200,13 @@
       "status": "fresh",
       "article_count": 57,
       "event_count": 57,
-      "latest_event_at": "2026-06-15T01:56:43+00:00",
-      "age_days": 0.43,
-      "latest_title": "KPop Demon Hunters Celebrates One Year Anniversary With Slew of Announcements and Features",
-      "latest_url": "https://www.whats-on-netflix.com/news/kpop-demon-hunters-one-year-anniversary-week",
+      "latest_event_at": "2026-06-16T01:20:03+00:00",
+      "age_days": 0.41,
+      "latest_title": "Guillermo del Toro and Chuck Hogan’s ‘The Boy in the Iron Box’ Netflix Movie Adaptation: Post-Production, Cast & What We Know So Far",
+      "latest_url": "https://www.whats-on-netflix.com/news/the-boy-in-the-iron-box-netflix-movie-everything-we-know",
       "latest_source_signal": [
         "movie_text_context",
+        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -227,7 +228,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -254,7 +255,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-15T12:15:37.661533+00:00",
+      "latest_event_at": "2026-06-16T11:11:58.329031+00:00",
       "age_days": 0.0,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
@@ -284,7 +285,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-15T12:15:41.815783+00:00",
+      "latest_event_at": "2026-06-16T11:12:02.282391+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -356,7 +357,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-15T12:15:41.815783+00:00",
+      "event_at": "2026-06-16T11:12:02.282391+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -400,7 +401,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260615",
+      "event_key": "box_office:907d712300a5:20260616",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -428,7 +429,7 @@
       "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "event_at": "2026-06-15T12:15:37.661533+00:00",
+      "event_at": "2026-06-16T11:11:58.329031+00:00",
       "movie_id": "",
       "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "release_year": "2026",
@@ -460,7 +461,7 @@
       ],
       "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
       "canonical_key_status": "complete",
-      "event_key": "box_office:b50a67506aec:20260615",
+      "event_key": "box_office:b50a67506aec:20260616",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -472,6 +473,311 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Guillermo del Toro and Chuck Hogan’s ‘The Boy in the Iron Box’ Netflix Movie Adaptation: Post-Production, Cast & What We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/the-boy-in-the-iron-box-netflix-movie-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/the-boy-in-the-iron-box-netflix-movie-everything-we-know",
+      "event_at": "2026-06-16T01:20:03+00:00",
+      "movie_id": "",
+      "normalized_title": "Guillermo del Toro and Chuck Hogan’s ‘The Boy in the Iron Box’ Netflix Movie Adaptation: Post-Production, Cast & What We Know So Far",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "post"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:79d500ebbaa3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b62f95f13b84:20260616",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Spanish Mystery Thriller ‘The Truthers’ Gets New Trailer And First Looks Ahead of Netflix Release",
+      "url": "https://www.whats-on-netflix.com/news/the-truthers-netflix-movie-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/the-truthers-netflix-movie-everything-we-know",
+      "event_at": "2026-06-16T00:58:01+00:00",
+      "movie_id": "",
+      "normalized_title": "Spanish Mystery Thriller ‘The Truthers’ Gets New Trailer And First Looks Ahead of Netflix Release",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "film",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e73df17c3813",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:189769bf26bc:20260616",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Gilmore Girls’ Officially Leaving Netflix in July 2026 But Not Everywhere",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/gilmore-girls-leaving-netflix-removal-date",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/gilmore-girls-leaving-netflix-removal-date",
+      "event_at": "2026-06-15T11:10:53+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Gilmore Girls’ Officially Leaving Netflix in July 2026 But Not Everywhere",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:gilmore-girls-officially-leaving-netflix-in-july-2026-but-not-everywhere:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c55e8e25f9ad:20260615",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/every-netflix-original-movie-released-in-the-criterion-collection",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/every-netflix-original-movie-released-in-the-criterion-collection",
+      "event_at": "2026-06-15T08:00:14+00:00",
+      "movie_id": "",
+      "normalized_title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases"
+      ],
+      "film_general": [
+        "movies"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:20123b1c4590",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e9b91860ba6a:20260615",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Saturn Return’ Romantic Drama Starring Charles Melton & Rachel Brosnahan is Headed to Netflix in 2026",
+      "url": "https://www.whats-on-netflix.com/news/saturn-return-netflix-movie-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/saturn-return-netflix-movie-everything-we-know",
+      "event_at": "2026-06-15T06:17:34+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Saturn Return’ Romantic Drama Starring Charles Melton & Rachel Brosnahan is Headed to Netflix in 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:saturn-return-romantic-drama-starring-charles-melton-rachel-brosnahan-is-headed-to-netflix-in-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:8cd0d94b36b1:20260615",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3548,308 +3854,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s Most Watched Series and Movies Ever",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "event_at": "2026-06-02T10:30:09+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s Most Watched Series and Movies Ever",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:842e7eb5c59e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:21609f2c78e4:20260602",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘War Machine 2’ In the Works at Netflix: Alan Ritchson and Patrick Hughes to Return",
-      "url": "https://www.whats-on-netflix.com/news/war-machine-2-netflix-sequel-confirmed",
-      "source_url": "https://www.whats-on-netflix.com/news/war-machine-2-netflix-sequel-confirmed",
-      "event_at": "2026-06-02T10:20:35+00:00",
-      "movie_id": "",
-      "normalized_title": "‘War Machine 2’ In the Works at Netflix: Alan Ritchson and Patrick Hughes to Return",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "time",
-        "most",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:b4daadccd1fb",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a280202fa227:20260602",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Bridgerton’ Season 4 Becomes the First Season to Miss Netflix’s All-Time Top 10 List",
-      "url": "https://www.whats-on-netflix.com/news/bridgerton-season-4-becomes-the-first-season-to-miss-netflixs-all-time-top-10-list",
-      "source_url": "https://www.whats-on-netflix.com/news/bridgerton-season-4-becomes-the-first-season-to-miss-netflixs-all-time-top-10-list",
-      "event_at": "2026-06-02T09:55:10+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Bridgerton’ Season 4 Becomes the First Season to Miss Netflix’s All-Time Top 10 List",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "time",
-        "most",
-        "top",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1b414ccf34dc",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:eea0826fcd63:20260602",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Corrections’ Netflix Limited Series Starring Meryl Streep: Filming Eyed for November 2026",
-      "url": "https://www.whats-on-netflix.com/news/the-corrections-meryl-streep-netflix-series",
-      "source_url": "https://www.whats-on-netflix.com/news/the-corrections-meryl-streep-netflix-series",
-      "event_at": "2026-06-02T01:58:34+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Corrections’ Netflix Limited Series Starring Meryl Streep: Filming Eyed for November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-corrections-netflix-limited-series-starring-meryl-streep-filming-eyed-for-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:2e39a2aad601:20260602",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Crime Drama ‘All the Sinners Bleed’ Starring Sope Dirisu Wraps Filming: Everything We Know",
-      "url": "https://www.whats-on-netflix.com/news/all-the-sinners-bleed-netflix-adaptation-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/all-the-sinners-bleed-netflix-adaptation-everything-we-know",
-      "event_at": "2026-06-02T01:12:05+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Crime Drama ‘All the Sinners Bleed’ Starring Sope Dirisu Wraps Filming: Everything We Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "spielberg"
-      ],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1cb8dedc46ad",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:eb2da0c42247:20260602",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3876,6 +3880,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Guillermo del Toro and Chuck Hogan’s ‘The Boy in the Iron Box’ Netflix Movie Adaptation: Post-Production, Cast & What We Know So Far",
+      "canonical_key": "movie_source:what-s-on-netflix:79d500ebbaa3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Guillermo del Toro and Chuck Hogan’s ‘The Boy in the Iron Box’ Netflix Movie Adaptation: Post-Production, Cast & What We Know So Far",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Spanish Mystery Thriller ‘The Truthers’ Gets New Trailer And First Looks Ahead of Netflix Release",
+      "canonical_key": "movie_source:what-s-on-netflix:e73df17c3813",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Spanish Mystery Thriller ‘The Truthers’ Gets New Trailer And First Looks Ahead of Netflix Release",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "canonical_key": "movie_source:what-s-on-netflix:20123b1c4590",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4232,57 +4287,6 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "‘The Witness’: What Happened to André and Alex & Where Are They Now?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jennifer Lopez Enters Her ‘Happy Era’ as She Discusses New Netflix Movie ‘Office Romance’ at NYC Premiere",
-      "canonical_key": "movie_source:what-s-on-netflix:89be1dedb2fa",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jennifer Lopez Enters Her ‘Happy Era’ as She Discusses New Netflix Movie ‘Office Romance’ at NYC Premiere",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Box Office Hit ‘David’ is Now on Netflix: The Creators Discuss the Animated Biblical Epic",
-      "canonical_key": "movie_source:what-s-on-netflix:38db25d14886",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Box Office Hit ‘David’ is Now on Netflix: The Creators Discuss the Animated Biblical Epic",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Most Watched Series and Movies Ever",
-      "canonical_key": "movie_source:what-s-on-netflix:842e7eb5c59e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Most Watched Series and Movies Ever",
       "canonical_key_status": "source_proxy"
     }
   ],
