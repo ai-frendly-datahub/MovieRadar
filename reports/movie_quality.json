@@ -1,13 +1,13 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-18T10:21:58.551368+00:00",
+  "generated_at": "2026-06-19T10:27:55.888992+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
     "enabled_sources": 10,
     "tracked_sources": 3,
-    "fresh_sources": 3,
-    "stale_sources": 0,
+    "fresh_sources": 2,
+    "stale_sources": 1,
     "missing_sources": 0,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
@@ -17,21 +17,21 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 66,
-    "movie_signal_event_count": 68,
+    "release_calendar_events": 65,
+    "movie_signal_event_count": 67,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 39,
+    "complete_canonical_key_count": 38,
     "proxy_canonical_key_count": 29,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 68,
-    "release_year_present_count": 39,
+    "normalized_title_present_count": 67,
+    "release_year_present_count": 38,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 67,
+    "platform_present_count": 66,
     "event_required_field_gap_count": 35,
-    "tracked_source_gap_count": 0,
+    "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
     "daily_review_item_count": 50
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 99,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 66,
-      "event_count": 66,
-      "latest_event_at": "2026-06-18T00:47:49+00:00",
-      "age_days": 0.4,
-      "latest_title": "The Rest Is Football Becomes First Podcast On Netflix That Breaks Into The Top 10s",
-      "latest_url": "https://www.whats-on-netflix.com/news/the-rest-is-football-netflix-top-10-hit",
+      "article_count": 65,
+      "event_count": 65,
+      "latest_event_at": "2026-06-18T23:47:41+00:00",
+      "age_days": 0.44,
+      "latest_title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
+      "latest_url": "https://www.whats-on-netflix.com/news/soundtracks/voicemails-for-isabelle-soundtrack-songs-guide",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -250,11 +250,11 @@
       "tracked": true,
       "event_model": "box_office",
       "freshness_sla_days": 1.0,
-      "status": "fresh",
+      "status": "stale",
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-18T10:21:47.490303+00:00",
-      "age_days": 0.0,
+      "age_days": 1.0,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -283,7 +283,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-18T10:21:52.752868+00:00",
+      "latest_event_at": "2026-06-19T10:27:50.738697+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +355,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-18T10:21:52.752868+00:00",
+      "event_at": "2026-06-19T10:27:50.738697+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -398,7 +398,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260618",
+      "event_key": "box_office:907d712300a5:20260619",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -409,6 +409,182 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
+      "url": "https://www.whats-on-netflix.com/news/soundtracks/voicemails-for-isabelle-soundtrack-songs-guide",
+      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/voicemails-for-isabelle-soundtrack-songs-guide",
+      "event_at": "2026-06-18T23:47:41+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:2e717dcada83",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:583425968731:20260618",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/voicemails-for-isabelle-netflix-movie-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/voicemails-for-isabelle-netflix-movie-review",
+      "event_at": "2026-06-18T23:15:16+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "watch"
+      ],
+      "film_general": [
+        "watch",
+        "review"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7f57171a22a7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c7b04fc0460d:20260618",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
+      "url": "https://www.whats-on-netflix.com/interviews/the-witness-how-rob-williams-collaborated-with-andre-alex-hanscombe-to-tell-their-story",
+      "source_url": "https://www.whats-on-netflix.com/interviews/the-witness-how-rob-williams-collaborated-with-andre-alex-hanscombe-to-tell-their-story",
+      "event_at": "2026-06-18T11:29:55+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "bafta"
+      ],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "story"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f25f825b33e9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e56be9b6f988:20260618",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -483,12 +659,127 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "The Rest Is Football Becomes First Podcast On Netflix That Breaks Into The Top 10s",
+      "title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/netflix-discontinues-leaving-soon-code",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/netflix-discontinues-leaving-soon-code",
+      "event_at": "2026-06-18T07:32:02+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movies",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:691a009df56a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f511b40c77e0:20260618",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Running Point’ Season 3 on Netflix: Filming Eyed for September 2026",
+      "url": "https://www.whats-on-netflix.com/news/running-point-season-3-on-netflix-everything-we-know-so-far",
+      "source_url": "https://www.whats-on-netflix.com/news/running-point-season-3-on-netflix-everything-we-know-so-far",
+      "event_at": "2026-06-18T05:28:23+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Running Point’ Season 3 on Netflix: Filming Eyed for September 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:running-point-season-3-on-netflix-filming-eyed-for-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e6b0fd0922a9:20260618",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
       "url": "https://www.whats-on-netflix.com/news/the-rest-is-football-netflix-top-10-hit",
       "source_url": "https://www.whats-on-netflix.com/news/the-rest-is-football-netflix-top-10-hit",
       "event_at": "2026-06-18T00:47:49+00:00",
       "movie_id": "",
-      "normalized_title": "The Rest Is Football Becomes First Podcast On Netflix That Breaks Into The Top 10s",
+      "normalized_title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
       "release_year": "",
       "country": "US",
       "region": "US",
@@ -517,9 +808,9 @@
         "ott_release_context",
         "release_calendar"
       ],
-      "canonical_key": "movie_source:what-s-on-netflix:1707bc01d922",
+      "canonical_key": "movie_source:what-s-on-netflix:7fd1dec162c8",
       "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1c437c66283e:20260618",
+      "event_key": "release_calendar:3f048f1f1b94:20260618",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -4040,361 +4331,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New K-Dramas on Netflix in July 2026",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/new-k-dramas-netflix-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/new-k-dramas-netflix-july-2026",
-      "event_at": "2026-06-05T07:01:46+00:00",
-      "movie_id": "",
-      "normalized_title": "New K-Dramas on Netflix in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-k-dramas-on-netflix-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e2a44ec85e7e:20260605",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Picks Up Documentary on Artist Jean-Michel Basquiat, Co-Directed by ‘The Perfect Neighbor’ Editor",
-      "url": "https://www.whats-on-netflix.com/news/netflix-picks-up-documentary-on-artist-jean-michel-basquiat-co-directed-by-the-perfect-neighbor-editor",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-picks-up-documentary-on-artist-jean-michel-basquiat-co-directed-by-the-perfect-neighbor-editor",
-      "event_at": "2026-06-05T06:45:28+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Picks Up Documentary on Artist Jean-Michel Basquiat, Co-Directed by ‘The Perfect Neighbor’ Editor",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:15ddca24f6e5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:fa2eb3b26700:20260605",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Office Romance’ Netflix Soundtrack: Every Song in the Jennifer Lopez Rom-Com",
-      "url": "https://www.whats-on-netflix.com/news/soundtracks/office-romance-soundtrack-netflix-songs",
-      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/office-romance-soundtrack-netflix-songs",
-      "event_at": "2026-06-05T05:40:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Office Romance’ Netflix Soundtrack: Every Song in the Jennifer Lopez Rom-Com",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:6f09b1376793",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6acb85ac7fd9:20260605",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at What’s Coming to Netflix in July 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-july-2026",
-      "event_at": "2026-06-05T03:31:42+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at What’s Coming to Netflix in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0d8bc5848875:20260605",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix UK Adds 56 New Movies and TV Shows This Week: ‘Office Romance’, ‘The Witness’ and ‘Creed’",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/new-netflix-uk-releases-office-romance",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/new-netflix-uk-releases-office-romance",
-      "event_at": "2026-06-05T02:21:15+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix UK Adds 56 New Movies and TV Shows This Week: ‘Office Romance’, ‘The Witness’ and ‘Creed’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:edd171039e68",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:70c6f9166b0d:20260605",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix is Testing a Major Redesign for Its Website Interface",
-      "url": "https://www.whats-on-netflix.com/news/netflix-website-redesign-testing",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-website-redesign-testing",
-      "event_at": "2026-06-04T23:43:23+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix is Testing a Major Redesign for Its Website Interface",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:912f7f5eb628",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:fbe86dad7771:20260604",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4412,6 +4348,57 @@
     },
     {
       "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
+      "canonical_key": "movie_source:what-s-on-netflix:2e717dcada83",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
+      "canonical_key": "movie_source:what-s-on-netflix:7f57171a22a7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
+      "canonical_key": "movie_source:what-s-on-netflix:f25f825b33e9",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "box_office",
       "source": "KOFIC 박스오피스",
       "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
@@ -4426,8 +4413,8 @@
       "reason": "missing_required_fields",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "The Rest Is Football Becomes First Podcast On Netflix That Breaks Into The Top 10s",
-      "canonical_key": "movie_source:what-s-on-netflix:1707bc01d922",
+      "title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
+      "canonical_key": "movie_source:what-s-on-netflix:691a009df56a",
       "required_field_gaps": [
         "release_year"
       ]
@@ -4436,7 +4423,24 @@
       "reason": "proxy_canonical_key",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "The Rest Is Football Becomes First Podcast On Netflix That Breaks Into The Top 10s",
+      "title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
+      "canonical_key": "movie_source:what-s-on-netflix:7fd1dec162c8",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -4760,74 +4764,6 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "YouTuber Mark Rober To Bring ‘Camp CrunchLabs’ to Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:f840cd0082e5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "YouTuber Mark Rober To Bring ‘Camp CrunchLabs’ to Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Jennifer Lopez Netflix Movie Ranked From Worst to Best",
-      "canonical_key": "movie_source:what-s-on-netflix:cfca119e0158",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Jennifer Lopez Netflix Movie Ranked From Worst to Best",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Boroughs’ Composer John Paesano on Capturing the Magic of Spielberg-Era Adventure in New Netflix Series",
-      "canonical_key": "movie_source:what-s-on-netflix:2a562b71cfba",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Boroughs’ Composer John Paesano on Capturing the Magic of Spielberg-Era Adventure in New Netflix Series",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-      "canonical_key": "movie_source:what-s-on-netflix:aeebe8749c4e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
       "canonical_key_status": "source_proxy"
     }
   ],
