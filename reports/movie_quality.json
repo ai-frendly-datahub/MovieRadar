@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-19T10:27:55.888992+00:00",
+  "generated_at": "2026-06-20T08:57:22.420707+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 65,
-    "movie_signal_event_count": 67,
+    "release_calendar_events": 68,
+    "movie_signal_event_count": 70,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 38,
-    "proxy_canonical_key_count": 29,
+    "proxy_canonical_key_count": 32,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 67,
+    "normalized_title_present_count": 70,
     "release_year_present_count": 38,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 66,
-    "event_required_field_gap_count": 35,
+    "platform_present_count": 69,
+    "event_required_field_gap_count": 38,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 99,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 61,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 71,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 65,
-      "event_count": 65,
-      "latest_event_at": "2026-06-18T23:47:41+00:00",
-      "age_days": 0.44,
-      "latest_title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
-      "latest_url": "https://www.whats-on-netflix.com/news/soundtracks/voicemails-for-isabelle-soundtrack-songs-guide",
+      "article_count": 68,
+      "event_count": 68,
+      "latest_event_at": "2026-06-19T09:34:56+00:00",
+      "age_days": 0.97,
+      "latest_title": "Hands-On With Netflix’s New TF1+ Hub, Livestreams and Programming in France",
+      "latest_url": "https://www.whats-on-netflix.com/news/hands-on-with-netflixs-new-tf1-hub-livestreams-and-programming-in-france",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -254,7 +254,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-18T10:21:47.490303+00:00",
-      "age_days": 1.0,
+      "age_days": 1.94,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -283,7 +283,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-19T10:27:50.738697+00:00",
+      "latest_event_at": "2026-06-20T08:57:17.835218+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +355,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-19T10:27:50.738697+00:00",
+      "event_at": "2026-06-20T08:57:17.835218+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -370,7 +370,9 @@
         "box office"
       ],
       "director": [],
-      "actor": [],
+      "actor": [
+        "celebrity"
+      ],
       "award": [],
       "studio": [
         "new",
@@ -382,7 +384,6 @@
       "film_general": [
         "movie",
         "movies",
-        "story",
         "time",
         "best",
         "top",
@@ -398,7 +399,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260619",
+      "event_key": "box_office:907d712300a5:20260620",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -409,6 +410,363 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Hands-On With Netflix’s New TF1+ Hub, Livestreams and Programming in France",
+      "url": "https://www.whats-on-netflix.com/news/hands-on-with-netflixs-new-tf1-hub-livestreams-and-programming-in-france",
+      "source_url": "https://www.whats-on-netflix.com/news/hands-on-with-netflixs-new-tf1-hub-livestreams-and-programming-in-france",
+      "event_at": "2026-06-19T09:34:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Hands-On With Netflix’s New TF1+ Hub, Livestreams and Programming in France",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d3bde166c391",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4c473fd56e0d:20260619",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Amazing Digital Circus’ Finale: What Time is ‘The Last Act’ on Netflix Tonight?",
+      "url": "https://www.whats-on-netflix.com/news/the-amazing-digital-circus-finale-netflix-release-time",
+      "source_url": "https://www.whats-on-netflix.com/news/the-amazing-digital-circus-finale-netflix-release-time",
+      "event_at": "2026-06-19T09:00:28+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Amazing Digital Circus’ Finale: What Time is ‘The Last Act’ on Netflix Tonight?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "theatrical",
+        "time"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c8dade41d7f9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:bd7a6e6600f9:20260619",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "From ‘Set It Up’ to ‘Voicemails for Isabelle’: Every Zoey Deutch Netflix Movie Ranked",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/zoey-deutch-netflix-movies-ranked",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/zoey-deutch-netflix-movies-ranked",
+      "event_at": "2026-06-19T07:12:30+00:00",
+      "movie_id": "",
+      "normalized_title": "From ‘Set It Up’ to ‘Voicemails for Isabelle’: Every Zoey Deutch Netflix Movie Ranked",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "best"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:060b59e75412",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c84681f60f29:20260619",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Annecy Film Festival 2026: Full Netflix Schedule & Live Coverage",
+      "url": "https://www.whats-on-netflix.com/news/annecy-international-film-festival-2026-whats-on-netflix-live-coverage",
+      "source_url": "https://www.whats-on-netflix.com/news/annecy-international-film-festival-2026-whats-on-netflix-live-coverage",
+      "event_at": "2026-06-19T05:38:47+00:00",
+      "movie_id": "",
+      "normalized_title": "Annecy Film Festival 2026: Full Netflix Schedule & Live Coverage",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:annecy-film-festival-2026-full-netflix-schedule-live-coverage:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:4926d5e7013a:20260619",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix & MAPPA Drops Big Updates for ‘Beat & Motion’ ‘Jimoto Saiko!’ & Sunrise x Shaft Collaboration",
+      "url": "https://www.whats-on-netflix.com/news/anime/netflix-new-anime-announcements-mappa",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/netflix-new-anime-announcements-mappa",
+      "event_at": "2026-06-19T05:03:12+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix & MAPPA Drops Big Updates for ‘Beat & Motion’ ‘Jimoto Saiko!’ & Sunrise x Shaft Collaboration",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6c5b1e944b76",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2d29e60d78c9:20260619",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New on Netflix UK This Week: Harlan Coben’s ‘I Will Find You’ and ‘Wonka’",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-new-releases-i-will-find-you",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-new-releases-i-will-find-you",
+      "event_at": "2026-06-19T02:37:24+00:00",
+      "movie_id": "",
+      "normalized_title": "New on Netflix UK This Week: Harlan Coben’s ‘I Will Find You’ and ‘Wonka’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "latest",
+        "here",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f0c2dfdd18c7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e29a5b6fdc74:20260619",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4142,195 +4500,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: June 6, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-june-6th",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-june-6th",
-      "event_at": "2026-06-06T07:19:11+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: June 6, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-june-6-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:98a9f857d2d2:20260606",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/office-romance-netflix-movie-review-jlo-brett-goldstein",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/office-romance-netflix-movie-review-jlo-brett-goldstein",
-      "event_at": "2026-06-06T04:15:57+00:00",
-      "movie_id": "",
-      "normalized_title": "Jennifer Lopez’s ‘Office Romance’ on Netflix: Is the New Ted Lasso-Style Rom-Com Worth Watching?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watching"
-      ],
-      "film_general": [
-        "movie",
-        "watching",
-        "new",
-        "looking"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:aeebe8749c4e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f7341a645139:20260606",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Mexico 86’ Netflix Movie Review: Diego Luna Steals the Show in Entertaining Sports Drama",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/mexico-86-netflix-movie-diego-luna",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/mexico-86-netflix-movie-diego-luna",
-      "event_at": "2026-06-06T04:09:49+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Mexico 86’ Netflix Movie Review: Diego Luna Steals the Show in Entertaining Sports Drama",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "show"
-      ],
-      "film_general": [
-        "movie",
-        "review",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:0f94c80e6e59",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3129b028e2b8:20260606",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4345,6 +4514,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Hands-On With Netflix’s New TF1+ Hub, Livestreams and Programming in France",
+      "canonical_key": "movie_source:what-s-on-netflix:d3bde166c391",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Hands-On With Netflix’s New TF1+ Hub, Livestreams and Programming in France",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Amazing Digital Circus’ Finale: What Time is ‘The Last Act’ on Netflix Tonight?",
+      "canonical_key": "movie_source:what-s-on-netflix:c8dade41d7f9",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Amazing Digital Circus’ Finale: What Time is ‘The Last Act’ on Netflix Tonight?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "From ‘Set It Up’ to ‘Voicemails for Isabelle’: Every Zoey Deutch Netflix Movie Ranked",
+      "canonical_key": "movie_source:what-s-on-netflix:060b59e75412",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "From ‘Set It Up’ to ‘Voicemails for Isabelle’: Every Zoey Deutch Netflix Movie Ranked",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix & MAPPA Drops Big Updates for ‘Beat & Motion’ ‘Jimoto Saiko!’ & Sunrise x Shaft Collaboration",
+      "canonical_key": "movie_source:what-s-on-netflix:6c5b1e944b76",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix & MAPPA Drops Big Updates for ‘Beat & Motion’ ‘Jimoto Saiko!’ & Sunrise x Shaft Collaboration",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "New on Netflix UK This Week: Harlan Coben’s ‘I Will Find You’ and ‘Wonka’",
+      "canonical_key": "movie_source:what-s-on-netflix:f0c2dfdd18c7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "New on Netflix UK This Week: Harlan Coben’s ‘I Will Find You’ and ‘Wonka’",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4679,91 +4933,6 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Genres and Formats Netflix Has Largely Abandoned In Recent Years",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
-      "canonical_key": "movie_source:what-s-on-netflix:8b8b52b8d215",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Office Romance’ Director Ol Parker on the Secrets to Crafting the Perfect Modern Netflix Rom-Com",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jennifer Lopez’s ‘Office Romance’ Dominates Netflix Global Charts, But How Does Its Launch Stack Up?",
-      "canonical_key": "movie_source:what-s-on-netflix:759c7c60ecb2",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jennifer Lopez’s ‘Office Romance’ Dominates Netflix Global Charts, But How Does Its Launch Stack Up?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘3 Body Problem’ Season 3 Now In Production for Netflix; Back Filming in the United Kingdom",
-      "canonical_key": "movie_source:what-s-on-netflix:cc4856ab919e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘3 Body Problem’ Season 3 Now In Production for Netflix; Back Filming in the United Kingdom",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Witness’: How Director Alex Winckler Handled the Weight of a Real-Life Tragedy",
-      "canonical_key": "movie_source:what-s-on-netflix:4c8b43fcdc5f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Witness’: How Director Alex Winckler Handled the Weight of a Real-Life Tragedy",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:2ab894f36fa6",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
       "canonical_key_status": "source_proxy"
     }
   ],
