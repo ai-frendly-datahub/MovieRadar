@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-06-24T09:31:17.934031+00:00",
+  "generated_at": "2026-06-25T09:23:47.825130+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 68,
-    "movie_signal_event_count": 70,
+    "release_calendar_events": 74,
+    "movie_signal_event_count": 76,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
-    "proxy_canonical_key_count": 38,
+    "complete_canonical_key_count": 33,
+    "proxy_canonical_key_count": 43,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 70,
-    "release_year_present_count": 32,
+    "normalized_title_present_count": 76,
+    "release_year_present_count": 33,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 69,
-    "event_required_field_gap_count": 44,
+    "platform_present_count": 74,
+    "event_required_field_gap_count": 49,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 68,
-      "event_count": 68,
-      "latest_event_at": "2026-06-23T23:39:23+00:00",
-      "age_days": 0.41,
-      "latest_title": "Netflix Drops First ‘Sakamoto Days’ Season 2 Teaser At Annecy Ahead of January 2027 Release",
-      "latest_url": "https://www.whats-on-netflix.com/news/anime/sakamoto-days-season-2-netflix-release-date-teaser",
+      "article_count": 74,
+      "event_count": 74,
+      "latest_event_at": "2026-06-24T22:45:17+00:00",
+      "age_days": 0.44,
+      "latest_title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
+      "latest_url": "https://www.whats-on-netflix.com/news/dept-q-season-2-casts-the-last-kingdom-star-ross-anderson-as-filming-begins",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -255,7 +255,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-18T10:21:47.490303+00:00",
-      "age_days": 5.96,
+      "age_days": 6.96,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -284,7 +284,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-06-24T09:31:12.629945+00:00",
+      "latest_event_at": "2026-06-25T09:23:44.038312+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -356,7 +356,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-06-24T09:31:12.629945+00:00",
+      "event_at": "2026-06-25T09:23:44.038312+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -401,7 +401,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260624",
+      "event_key": "box_office:907d712300a5:20260625",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -412,6 +412,600 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
+      "url": "https://www.whats-on-netflix.com/news/dept-q-season-2-casts-the-last-kingdom-star-ross-anderson-as-filming-begins",
+      "source_url": "https://www.whats-on-netflix.com/news/dept-q-season-2-casts-the-last-kingdom-star-ross-anderson-as-filming-begins",
+      "event_at": "2026-06-24T22:45:17+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4563976b5642",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f0b4df35f42e:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/new-on-netflix-uk-july-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-on-netflix-uk-july-2026",
+      "event_at": "2026-06-24T12:27:18+00:00",
+      "movie_id": "",
+      "normalized_title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "show",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:every-new-movie-and-tv-show-coming-to-netflix-uk-in-july-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:cd3db99ae108:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘THE ONE PIECE’ Trailer and First Looks Is Already Dividing The Internet",
+      "url": "https://www.whats-on-netflix.com/news/anime/the-one-piece-netflix-anime-teaser-fans-divided",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/the-one-piece-netflix-anime-teaser-fans-divided",
+      "event_at": "2026-06-24T11:08:15+00:00",
+      "movie_id": "",
+      "normalized_title": "‘THE ONE PIECE’ Trailer and First Looks Is Already Dividing The Internet",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "one",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:db1833f213e1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4da86a7f59d6:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Voicemails for Isabelle’ Cinematographer Julia Swain on Fighting to Keep Key Scenes and Creating a Warm 90s Rom-Com Feel",
+      "url": "https://www.whats-on-netflix.com/interviews/voicemails-for-isabelle-cinematographer-julia-swain-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/voicemails-for-isabelle-cinematographer-julia-swain-interview",
+      "event_at": "2026-06-24T09:15:22+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Voicemails for Isabelle’ Cinematographer Julia Swain on Fighting to Keep Key Scenes and Creating a Warm 90s Rom-Com Feel",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e2d7b032cc5a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:04be7ae3225e:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Brad Bird’s ‘Ray Gunn’: Everything We Learned About Netflix’s Retro-Futuristic Noir at Annecy",
+      "url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-release-date-brad-bird",
+      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-release-date-brad-bird",
+      "event_at": "2026-06-24T06:40:12+00:00",
+      "movie_id": "",
+      "normalized_title": "Brad Bird’s ‘Ray Gunn’: Everything We Learned About Netflix’s Retro-Futuristic Noir at Annecy",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:ffc306bab343",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5a9f30bc7384:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets November Release Date for Animated Cinderella Spin-Off ‘Steps’ With New First Looks",
+      "url": "https://www.whats-on-netflix.com/news/steps-netflix-release-date-first-look",
+      "source_url": "https://www.whats-on-netflix.com/news/steps-netflix-release-date-first-look",
+      "event_at": "2026-06-24T06:08:59+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets November Release Date for Animated Cinderella Spin-Off ‘Steps’ With New First Looks",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "blockbuster",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "blockbuster"
+      ],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-november-release-date-for-animated-cinderella-spin-off-steps-with-new-first-looks:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:348ef0765b1b:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Ghostbusters: Night Shift’: Everything We Learned at the Netflix Annecy Showcase",
+      "url": "https://www.whats-on-netflix.com/news/ghostbusters-night-shift-everything-we-learned-at-the-netflix-showcase",
+      "source_url": "https://www.whats-on-netflix.com/news/ghostbusters-night-shift-everything-we-learned-at-the-netflix-showcase",
+      "event_at": "2026-06-24T05:40:57+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Ghostbusters: Night Shift’: Everything We Learned at the Netflix Annecy Showcase",
+      "release_year": "1994",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:ghostbusters-night-shift-everything-we-learned-at-the-netflix-annecy-showcase:1994:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:90d56de1331c:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Ray Gunn’ and ‘Steps’ Get Netflix Release Dates Plus First Looks At ‘Ghostbusters: Night Shift’ and ‘The One Piece’",
+      "url": "https://www.whats-on-netflix.com/news/next-on-netflix-animation-annecy-2026-ray-gunn-steps-ghostbusters-the-one-piece",
+      "source_url": "https://www.whats-on-netflix.com/news/next-on-netflix-animation-annecy-2026-ray-gunn-steps-ghostbusters-the-one-piece",
+      "event_at": "2026-06-24T04:40:11+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Ray Gunn’ and ‘Steps’ Get Netflix Release Dates Plus First Looks At ‘Ghostbusters: Night Shift’ and ‘The One Piece’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "one",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:ray-gunn-and-steps-get-netflix-release-dates-plus-first-looks-at-ghostbusters-night-shift-and-the-one-piece:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c528ecde0c21:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Good Girls’ Leaving Netflix Globally (Except for the United States For Now)",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/good-girls-leaving-netflix",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/good-girls-leaving-netflix",
+      "event_at": "2026-06-24T02:02:33+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Good Girls’ Leaving Netflix Globally (Except for the United States For Now)",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "now"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:good-girls-leaving-netflix-globally-except-for-the-united-states-for-now:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:874eb8d17697:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘Kennedy’ Series Nears Production Wrap With Emotional Beach Scenes in the UK",
+      "url": "https://www.whats-on-netflix.com/news/netflix-kennedy-series-production-wrap-photos",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-kennedy-series-production-wrap-photos",
+      "event_at": "2026-06-24T01:00:05+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘Kennedy’ Series Nears Production Wrap With Emotional Beach Scenes in the UK",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:fa79c77d4e47",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3c2d3c213c92:20260624",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -589,6 +1183,68 @@
       "required_field_gaps": [
         "release_year"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The One Piece’ Remake New Episode Poster, Teaser Trailer, First Look Images & February 2027 Release",
+      "url": "https://www.whats-on-netflix.com/news/anime/the-one-piece-remake-new-poster-and-february-2027-release",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/the-one-piece-remake-new-poster-and-february-2027-release",
+      "event_at": "2026-06-23T06:30:53+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The One Piece’ Remake New Episode Poster, Teaser Trailer, First Look Images & February 2027 Release",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "release",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "release",
+        "studio"
+      ],
+      "platform": [
+        "release"
+      ],
+      "film_general": [
+        "one",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-one-piece-remake-new-episode-poster-teaser-trailer-first-look-images-february-2027-release:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:492dfa78742f:20260623",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -4032,66 +4688,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/new-on-netflix-uk-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-on-netflix-uk-july-2026",
-      "event_at": "2026-06-13T02:00:18+00:00",
-      "movie_id": "",
-      "normalized_title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "show",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:every-new-movie-and-tv-show-coming-to-netflix-uk-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:cd3db99ae108:20260613",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "‘Avatar: The Last Airbender’ Season 2 Episode Runtimes Bring A Welcome Surprise",
       "url": "https://www.whats-on-netflix.com/news/avatar-the-last-airbender-season-2-episode-runtimes-bring-a-welcome-surprise",
       "source_url": "https://www.whats-on-netflix.com/news/avatar-the-last-airbender-season-2-episode-runtimes-bring-a-welcome-surprise",
@@ -4305,245 +4901,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s USWNT World Cup Movie ‘The 99’ers’: Cast, Plot, Release Year & Everything We Know",
-      "url": "https://www.whats-on-netflix.com/news/the-99ers-netflix-sports-drama-everything-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/the-99ers-netflix-sports-drama-everything-we-know-so-far",
-      "event_at": "2026-06-11T04:37:04+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s USWNT World Cup Movie ‘The 99’ers’: Cast, Plot, Release Year & Everything We Know",
-      "release_year": "1999",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "year",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-uswnt-world-cup-movie-the-99-ers-cast-plot-release-year-everything-we-know:1999:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:c0b979c95fa6:20260611",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Grown Ups 3’ at Netflix Gearing Up For July 2026 Filming Start With New Plot Details Revealed",
-      "url": "https://www.whats-on-netflix.com/news/grown-ups-3-netflix-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/grown-ups-3-netflix-everything-we-know",
-      "event_at": "2026-06-11T03:35:31+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Grown Ups 3’ at Netflix Gearing Up For July 2026 Filming Start With New Plot Details Revealed",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "years",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:grown-ups-3-at-netflix-gearing-up-for-july-2026-filming-start-with-new-plot-details-revealed:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7e070293b625:20260611",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Hadewych Minis and Geert van Rampelberg to Star in New Netflix Dutch Psychological Drama",
-      "url": "https://www.whats-on-netflix.com/news/new-netflix-dutch-drama-series-2027",
-      "source_url": "https://www.whats-on-netflix.com/news/new-netflix-dutch-drama-series-2027",
-      "event_at": "2026-06-11T01:04:32+00:00",
-      "movie_id": "",
-      "normalized_title": "Hadewych Minis and Geert van Rampelberg to Star in New Netflix Dutch Psychological Drama",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:hadewych-minis-and-geert-van-rampelberg-to-star-in-new-netflix-dutch-psychological-drama:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:925d839a9f04:20260611",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Enigma Variations’ Netflix Limited Series Starring Aaron Taylor-Johnson Starts Filming in July 2026",
-      "url": "https://www.whats-on-netflix.com/news/enigma-variations-tv-series-adaptation-on-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/enigma-variations-tv-series-adaptation-on-netflix",
-      "event_at": "2026-06-11T00:13:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Enigma Variations’ Netflix Limited Series Starring Aaron Taylor-Johnson Starts Filming in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:enigma-variations-netflix-limited-series-starring-aaron-taylor-johnson-starts-filming-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:5a8ab4c6fb5f:20260611",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4558,6 +4915,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
+      "canonical_key": "movie_source:what-s-on-netflix:4563976b5642",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘THE ONE PIECE’ Trailer and First Looks Is Already Dividing The Internet",
+      "canonical_key": "movie_source:what-s-on-netflix:db1833f213e1",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘THE ONE PIECE’ Trailer and First Looks Is Already Dividing The Internet",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Voicemails for Isabelle’ Cinematographer Julia Swain on Fighting to Keep Key Scenes and Creating a Warm 90s Rom-Com Feel",
+      "canonical_key": "movie_source:what-s-on-netflix:e2d7b032cc5a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Voicemails for Isabelle’ Cinematographer Julia Swain on Fighting to Keep Key Scenes and Creating a Warm 90s Rom-Com Feel",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Brad Bird’s ‘Ray Gunn’: Everything We Learned About Netflix’s Retro-Futuristic Noir at Annecy",
+      "canonical_key": "movie_source:what-s-on-netflix:ffc306bab343",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Brad Bird’s ‘Ray Gunn’: Everything We Learned About Netflix’s Retro-Futuristic Noir at Annecy",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Kennedy’ Series Nears Production Wrap With Emotional Beach Scenes in the UK",
+      "canonical_key": "movie_source:what-s-on-netflix:fa79c77d4e47",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Kennedy’ Series Nears Production Wrap With Emotional Beach Scenes in the UK",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4891,93 +5333,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
-      "canonical_key": "movie_source:what-s-on-netflix:7f57171a22a7",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
-      "canonical_key": "movie_source:what-s-on-netflix:f25f825b33e9",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "box_office",
-      "source": "KOFIC 박스오피스",
-      "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
-      "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
-      "required_field_gaps": [
-        "movie_id",
-        "rank",
-        "gross"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
-      "canonical_key": "movie_source:what-s-on-netflix:691a009df56a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
-      "canonical_key": "movie_source:what-s-on-netflix:7fd1dec162c8",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
-      "canonical_key_status": "source_proxy"
     }
   ],
   "source_backlog": {
