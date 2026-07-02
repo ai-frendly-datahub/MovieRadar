@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-01T09:48:15.030834+00:00",
+  "generated_at": "2026-07-02T08:57:31.761216+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 2,
     "ott_ranking_events": 0,
-    "release_calendar_events": 77,
-    "movie_signal_event_count": 79,
+    "release_calendar_events": 73,
+    "movie_signal_event_count": 75,
     "official_or_operational_event_count": 1,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 33,
-    "proxy_canonical_key_count": 46,
+    "complete_canonical_key_count": 31,
+    "proxy_canonical_key_count": 44,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 79,
-    "release_year_present_count": 33,
+    "normalized_title_present_count": 75,
+    "release_year_present_count": 31,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 74,
-    "event_required_field_gap_count": 52,
+    "platform_present_count": 70,
+    "event_required_field_gap_count": 50,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 77,
-      "event_count": 77,
+      "article_count": 73,
+      "event_count": 73,
       "latest_event_at": "2026-07-01T00:22:23+00:00",
-      "age_days": 0.39,
+      "age_days": 1.36,
       "latest_title": "Barbie Ferreira and Devon Bostick’s Indie Comedy ‘Mile End Kicks’ Sets Netflix Streaming Debut",
       "latest_url": "https://www.whats-on-netflix.com/news/mile-end-kicks-netflix-release-date",
       "latest_source_signal": [
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -254,7 +254,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-06-18T10:21:47.490303+00:00",
-      "age_days": 12.98,
+      "age_days": 13.94,
       "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
       "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
       "latest_source_signal": [
@@ -283,7 +283,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-01T09:48:08.591328+00:00",
+      "latest_event_at": "2026-07-02T08:57:28.005519+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +355,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-01T09:48:08.591328+00:00",
+      "event_at": "2026-07-02T08:57:28.005519+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -392,8 +392,7 @@
         "top",
         "new",
         "latest",
-        "my",
-        "want"
+        "my"
       ],
       "source_signal": [
         "box_office",
@@ -403,7 +402,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260701",
+      "event_key": "box_office:907d712300a5:20260702",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -4832,239 +4831,6 @@
         "rank",
         "gross"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/netflix-discontinues-leaving-soon-code",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/netflix-discontinues-leaving-soon-code",
-      "event_at": "2026-06-18T07:32:02+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Quietly Changes How To Find Movies and Series Leaving The Service",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movies",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:691a009df56a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f511b40c77e0:20260618",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Running Point’ Season 3 on Netflix: Filming Eyed for September 2026",
-      "url": "https://www.whats-on-netflix.com/news/running-point-season-3-on-netflix-everything-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/running-point-season-3-on-netflix-everything-we-know-so-far",
-      "event_at": "2026-06-18T05:28:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Running Point’ Season 3 on Netflix: Filming Eyed for September 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:running-point-season-3-on-netflix-filming-eyed-for-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e6b0fd0922a9:20260618",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
-      "url": "https://www.whats-on-netflix.com/news/the-rest-is-football-netflix-top-10-hit",
-      "source_url": "https://www.whats-on-netflix.com/news/the-rest-is-football-netflix-top-10-hit",
-      "event_at": "2026-06-18T00:47:49+00:00",
-      "movie_id": "",
-      "normalized_title": "The Rest Is Football Becomes First Podcast On Netflix To Break Into Top 10s",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "show"
-      ],
-      "film_general": [
-        "top",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7fd1dec162c8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3f048f1f1b94:20260618",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Finding Her Edge’ Season 2 Gets Major Production Update: Filming Begins in August 2026",
-      "url": "https://www.whats-on-netflix.com/news/finding-her-edge-season-2-netflix-release-date-filming-schedule",
-      "source_url": "https://www.whats-on-netflix.com/news/finding-her-edge-season-2-netflix-release-date-filming-schedule",
-      "event_at": "2026-06-17T23:47:18+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Finding Her Edge’ Season 2 Gets Major Production Update: Filming Begins in August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "release",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "production",
-        "release"
-      ],
-      "platform": [
-        "release"
-      ],
-      "film_general": [
-        "story",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:finding-her-edge-season-2-gets-major-production-update-filming-begins-in-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:4792167e9c09:20260617",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
