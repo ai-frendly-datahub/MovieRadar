@@ -1,36 +1,36 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-02T08:57:31.761216+00:00",
+  "generated_at": "2026-07-03T09:19:05.467343+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
     "enabled_sources": 10,
     "tracked_sources": 3,
     "fresh_sources": 2,
-    "stale_sources": 1,
-    "missing_sources": 0,
+    "stale_sources": 0,
+    "missing_sources": 1,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
     "not_tracked_sources": 7,
     "skipped_disabled_sources": 2,
     "collection_error_count": 0,
     "reservation_ranking_events": 0,
-    "box_office_events": 2,
+    "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 73,
-    "movie_signal_event_count": 75,
-    "official_or_operational_event_count": 1,
+    "release_calendar_events": 65,
+    "movie_signal_event_count": 66,
+    "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 31,
-    "proxy_canonical_key_count": 44,
+    "complete_canonical_key_count": 29,
+    "proxy_canonical_key_count": 37,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 75,
-    "release_year_present_count": 31,
+    "normalized_title_present_count": 66,
+    "release_year_present_count": 29,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 70,
-    "event_required_field_gap_count": 50,
+    "platform_present_count": 62,
+    "event_required_field_gap_count": 40,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -39,54 +39,6 @@
   "sources": [
     {
       "source": "Variety Film",
-      "source_type": "rss",
-      "enabled": true,
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "trade_media",
-      "info_purpose": [
-        "industry_news"
-      ],
-      "tracked": false,
-      "event_model": "editorial_coverage",
-      "freshness_sla_days": null,
-      "status": "not_tracked",
-      "article_count": 91,
-      "event_count": 0,
-      "latest_event_at": null,
-      "age_days": null,
-      "latest_title": "",
-      "latest_url": "",
-      "latest_source_signal": [],
-      "errors": []
-    },
-    {
-      "source": "Hollywood Reporter",
-      "source_type": "rss",
-      "enabled": true,
-      "trust_tier": "T2_institutional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "trade_media",
-      "info_purpose": [
-        "industry_news"
-      ],
-      "tracked": false,
-      "event_model": "editorial_coverage",
-      "freshness_sla_days": null,
-      "status": "not_tracked",
-      "article_count": 67,
-      "event_count": 0,
-      "latest_event_at": null,
-      "age_days": null,
-      "latest_title": "",
-      "latest_url": "",
-      "latest_source_signal": [],
-      "errors": []
-    },
-    {
-      "source": "Deadline",
       "source_type": "rss",
       "enabled": true,
       "trust_tier": "T2_institutional",
@@ -110,6 +62,54 @@
       "errors": []
     },
     {
+      "source": "Hollywood Reporter",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 68,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
+      "source": "Deadline",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "trade_media",
+      "info_purpose": [
+        "industry_news"
+      ],
+      "tracked": false,
+      "event_model": "editorial_coverage",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 92,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "errors": []
+    },
+    {
       "source": "Screen Rant",
       "source_type": "rss",
       "enabled": true,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 73,
-      "event_count": 73,
+      "article_count": 65,
+      "event_count": 65,
       "latest_event_at": "2026-07-01T00:22:23+00:00",
-      "age_days": 1.36,
+      "age_days": 2.37,
       "latest_title": "Barbie Ferreira and Devon Bostick’s Indie Comedy ‘Mile End Kicks’ Sets Netflix Streaming Debut",
       "latest_url": "https://www.whats-on-netflix.com/news/mile-end-kicks-netflix-release-date",
       "latest_source_signal": [
@@ -250,20 +250,14 @@
       "tracked": true,
       "event_model": "box_office",
       "freshness_sla_days": 1.0,
-      "status": "stale",
-      "article_count": 1,
-      "event_count": 1,
-      "latest_event_at": "2026-06-18T10:21:47.490303+00:00",
-      "age_days": 13.94,
-      "latest_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
-      "latest_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "latest_source_signal": [
-        "box_office",
-        "boxoffice",
-        "korean_box_office",
-        "movie_text_context",
-        "official_movie_data"
-      ],
+      "status": "missing",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
       "errors": []
     },
     {
@@ -283,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-02T08:57:28.005519+00:00",
+      "latest_event_at": "2026-07-03T09:19:01.101288+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -355,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-02T08:57:28.005519+00:00",
+      "event_at": "2026-07-03T09:19:01.101288+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -402,7 +396,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260702",
+      "event_key": "box_office:907d712300a5:20260703",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -4297,539 +4291,6 @@
       },
       "required_field_gaps": [
         "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Amazing Digital Circus’ Finale: What Time is ‘The Last Act’ on Netflix Tonight?",
-      "url": "https://www.whats-on-netflix.com/news/the-amazing-digital-circus-finale-netflix-release-time",
-      "source_url": "https://www.whats-on-netflix.com/news/the-amazing-digital-circus-finale-netflix-release-time",
-      "event_at": "2026-06-19T09:00:28+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Amazing Digital Circus’ Finale: What Time is ‘The Last Act’ on Netflix Tonight?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "theatrical",
-        "time"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c8dade41d7f9",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:bd7a6e6600f9:20260619",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "From ‘Set It Up’ to ‘Voicemails for Isabelle’: Every Zoey Deutch Netflix Movie Ranked",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/zoey-deutch-netflix-movies-ranked",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/zoey-deutch-netflix-movies-ranked",
-      "event_at": "2026-06-19T07:12:30+00:00",
-      "movie_id": "",
-      "normalized_title": "From ‘Set It Up’ to ‘Voicemails for Isabelle’: Every Zoey Deutch Netflix Movie Ranked",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "best"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:060b59e75412",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c84681f60f29:20260619",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Annecy Film Festival 2026: Full Netflix Schedule & Live Coverage",
-      "url": "https://www.whats-on-netflix.com/news/annecy-international-film-festival-2026-whats-on-netflix-live-coverage",
-      "source_url": "https://www.whats-on-netflix.com/news/annecy-international-film-festival-2026-whats-on-netflix-live-coverage",
-      "event_at": "2026-06-19T05:38:47+00:00",
-      "movie_id": "",
-      "normalized_title": "Annecy Film Festival 2026: Full Netflix Schedule & Live Coverage",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:annecy-film-festival-2026-full-netflix-schedule-live-coverage:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:4926d5e7013a:20260619",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix & MAPPA Drops Big Updates for ‘Beat & Motion’ ‘Jimoto Saiko!’ & Sunrise x Shaft Collaboration",
-      "url": "https://www.whats-on-netflix.com/news/anime/netflix-new-anime-announcements-mappa",
-      "source_url": "https://www.whats-on-netflix.com/news/anime/netflix-new-anime-announcements-mappa",
-      "event_at": "2026-06-19T05:03:12+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix & MAPPA Drops Big Updates for ‘Beat & Motion’ ‘Jimoto Saiko!’ & Sunrise x Shaft Collaboration",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:6c5b1e944b76",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2d29e60d78c9:20260619",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New on Netflix UK This Week: Harlan Coben’s ‘I Will Find You’ and ‘Wonka’",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-new-releases-i-will-find-you",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-new-releases-i-will-find-you",
-      "event_at": "2026-06-19T02:37:24+00:00",
-      "movie_id": "",
-      "normalized_title": "New on Netflix UK This Week: Harlan Coben’s ‘I Will Find You’ and ‘Wonka’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new",
-        "latest",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:f0c2dfdd18c7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e29a5b6fdc74:20260619",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
-      "url": "https://www.whats-on-netflix.com/news/soundtracks/voicemails-for-isabelle-soundtrack-songs-guide",
-      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/voicemails-for-isabelle-soundtrack-songs-guide",
-      "event_at": "2026-06-18T23:47:41+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Voicemails for Isabelle’ Soundtrack: Full List of Songs In Netflix Rom-Com",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:2e717dcada83",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:583425968731:20260618",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/voicemails-for-isabelle-netflix-movie-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/voicemails-for-isabelle-netflix-movie-review",
-      "event_at": "2026-06-18T23:15:16+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Voicemails for Isabelle’ Review: Is Zoey Deutch’s Netflix Romance Worth a Watch?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "watch",
-        "review"
-      ],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7f57171a22a7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c7b04fc0460d:20260618",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
-      "url": "https://www.whats-on-netflix.com/interviews/the-witness-how-rob-williams-collaborated-with-andre-alex-hanscombe-to-tell-their-story",
-      "source_url": "https://www.whats-on-netflix.com/interviews/the-witness-how-rob-williams-collaborated-with-andre-alex-hanscombe-to-tell-their-story",
-      "event_at": "2026-06-18T11:29:55+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Witness’: How Rob Williams Collaborated With André & Alex Hanscombe To Tell Their Story",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "bafta"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "story"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:f25f825b33e9",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e56be9b6f988:20260618",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "KOFIC 박스오피스",
-      "source_type": "javascript",
-      "trust_tier": "T1_official",
-      "content_type": "boxoffice",
-      "collection_tier": "C2_js",
-      "producer_role": "official",
-      "info_purpose": [
-        "box_office",
-        "korean_box_office"
-      ],
-      "event_model": "box_office",
-      "title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
-      "url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "source_url": "https://www.kobis.or.kr/kobis/business/stat/boxs/findDailyBoxOfficeList.do",
-      "event_at": "2026-06-18T10:21:47.490303+00:00",
-      "movie_id": "",
-      "normalized_title": "KOFIC 영화관 입장권 통합전산망 :: 일별 박스오피스",
-      "release_year": "2026",
-      "country": "KR",
-      "region": "KR",
-      "market": "박스오피스",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "2026-06-17",
-      "box_office": [
-        "박스오피스",
-        "영화관"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [],
-      "film_general": [
-        "영화"
-      ],
-      "source_signal": [
-        "box_office",
-        "boxoffice",
-        "korean_box_office",
-        "movie_text_context",
-        "official_movie_data"
-      ],
-      "canonical_key": "movie:kofic-영화관-입장권-통합전산망-일별-박스오피스:2026:kr",
-      "canonical_key_status": "complete",
-      "event_key": "box_office:b50a67506aec:20260618",
-      "required_field_proxy": {
-        "movie_id": false,
-        "rank": false,
-        "gross": false,
-        "market": true
-      },
-      "required_field_gaps": [
-        "movie_id",
-        "rank",
-        "gross"
       ]
     }
   ],
