@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-05T08:53:18.117766+00:00",
+  "generated_at": "2026-07-06T10:23:22.115621+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 61,
-    "movie_signal_event_count": 62,
+    "release_calendar_events": 56,
+    "movie_signal_event_count": 57,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 28,
-    "proxy_canonical_key_count": 34,
+    "complete_canonical_key_count": 26,
+    "proxy_canonical_key_count": 31,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 62,
-    "release_year_present_count": 28,
+    "normalized_title_present_count": 57,
+    "release_year_present_count": 26,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 58,
-    "event_required_field_gap_count": 37,
+    "platform_present_count": 53,
+    "event_required_field_gap_count": 34,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 61,
-      "event_count": 61,
+      "article_count": 56,
+      "event_count": 56,
       "latest_event_at": "2026-07-01T00:22:23+00:00",
-      "age_days": 4.35,
+      "age_days": 5.42,
       "latest_title": "Barbie Ferreira and Devon Bostick’s Indie Comedy ‘Mile End Kicks’ Sets Netflix Streaming Debut",
       "latest_url": "https://www.whats-on-netflix.com/news/mile-end-kicks-netflix-release-date",
       "latest_source_signal": [
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-05T08:53:13.187178+00:00",
+      "latest_event_at": "2026-07-06T10:23:17.807407+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-05T08:53:13.187178+00:00",
+      "event_at": "2026-07-06T10:23:17.807407+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -382,7 +382,6 @@
         "movies",
         "story",
         "time",
-        "best",
         "top",
         "new",
         "latest",
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260705",
+      "event_key": "box_office:907d712300a5:20260706",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3734,313 +3733,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:48f1119da9ac",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:49a3f61cc532:20260622",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at ‘Alley Cats’: Ricky Gervais Reunites ‘After Life’ Cast for Netflix Series With Trailer and Images",
-      "url": "https://www.whats-on-netflix.com/news/alley-cats-ricky-gervais-netflix-cast-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/alley-cats-ricky-gervais-netflix-cast-first-look",
-      "event_at": "2026-06-22T04:00:00+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at ‘Alley Cats’: Ricky Gervais Reunites ‘After Life’ Cast for Netflix Series With Trailer and Images",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e19dac817601",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ab79b6d493ac:20260622",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Korean Reality Series ‘Take a Hike!’ Set for August 2026 Release on Netflix",
-      "url": "https://www.whats-on-netflix.com/news/take-a-hike-korean-reality-series-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/take-a-hike-korean-reality-series-netflix-release-date",
-      "event_at": "2026-06-22T01:35:06+00:00",
-      "movie_id": "",
-      "normalized_title": "New Korean Reality Series ‘Take a Hike!’ Set for August 2026 Release on Netflix",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "show",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-korean-reality-series-take-a-hike-set-for-august-2026-release-on-netflix:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b350f03e47f6:20260622",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Spoon! Amazon’s 2016 ‘The Tick’ Reboot is Officially Hitting Netflix (Including the US)",
-      "url": "https://www.whats-on-netflix.com/news/the-tick-2016-prime-video-reboot-netflix-release",
-      "source_url": "https://www.whats-on-netflix.com/news/the-tick-2016-prime-video-reboot-netflix-release",
-      "event_at": "2026-06-21T11:44:01+00:00",
-      "movie_id": "",
-      "normalized_title": "Spoon! Amazon’s 2016 ‘The Tick’ Reboot is Officially Hitting Netflix (Including the US)",
-      "release_year": "2016",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "amazon"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [
-        "news"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:spoon-amazon-s-2016-the-tick-reboot-is-officially-hitting-netflix-including-the-us:2016:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:af2020c2ad05:20260621",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘In Waves’ Netflix Movie Review: A Beautifully Raw, Heartbreaking Animated Tearjerker",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/in-waves-netflix-movie-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/in-waves-netflix-movie-review",
-      "event_at": "2026-06-21T10:48:52+00:00",
-      "movie_id": "",
-      "normalized_title": "‘In Waves’ Netflix Movie Review: A Beautifully Raw, Heartbreaking Animated Tearjerker",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "review",
-        "stories",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d320ebf63bb5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6f5bd8af8a5f:20260621",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Teases Mysterious New Game with Creepy CCTV Video",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-games-motion-detected-sci-fi-horror-teaser",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-games-motion-detected-sci-fi-horror-teaser",
-      "event_at": "2026-06-21T10:13:55+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Teases Mysterious New Game with Creepy CCTV Video",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:da8de972e713",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3c73cb883348:20260621",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
