@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-07T09:42:05.639794+00:00",
+  "generated_at": "2026-07-08T08:28:46.774169+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 61,
-    "movie_signal_event_count": 62,
+    "release_calendar_events": 58,
+    "movie_signal_event_count": 59,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 30,
-    "proxy_canonical_key_count": 32,
+    "complete_canonical_key_count": 24,
+    "proxy_canonical_key_count": 35,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 62,
-    "release_year_present_count": 30,
+    "normalized_title_present_count": 59,
+    "release_year_present_count": 24,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 58,
-    "event_required_field_gap_count": 35,
+    "platform_present_count": 55,
+    "event_required_field_gap_count": 38,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 61,
-      "event_count": 61,
-      "latest_event_at": "2026-07-06T07:38:32+00:00",
-      "age_days": 1.09,
-      "latest_title": "Netflix’s 13 Going on 30 Reboot: Filming Underway & Everything We Know So Far",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflixs-13-going-on-30-reboot-filming-begins-everything-we-know-so-far",
+      "article_count": 58,
+      "event_count": 58,
+      "latest_event_at": "2026-07-07T12:12:36+00:00",
+      "age_days": 0.84,
+      "latest_title": "How ‘America’s Sweethearts: Dallas Cowboys Cheerleaders’ Gets Its Cinematic Look: Interview with Cinematographer Jonathan Nicholas",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/americas-sweethearts-dallas-cowboys-cheerleaders-cinematographer-interview",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-07T09:42:00.891173+00:00",
+      "latest_event_at": "2026-07-08T08:28:43.217036+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-07T09:42:00.891173+00:00",
+      "event_at": "2026-07-08T08:28:43.217036+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260707",
+      "event_key": "box_office:907d712300a5:20260708",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +406,310 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "How ‘America’s Sweethearts: Dallas Cowboys Cheerleaders’ Gets Its Cinematic Look: Interview with Cinematographer Jonathan Nicholas",
+      "url": "https://www.whats-on-netflix.com/interviews/americas-sweethearts-dallas-cowboys-cheerleaders-cinematographer-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/americas-sweethearts-dallas-cowboys-cheerleaders-cinematographer-interview",
+      "event_at": "2026-07-07T12:12:36+00:00",
+      "movie_id": "",
+      "normalized_title": "How ‘America’s Sweethearts: Dallas Cowboys Cheerleaders’ Gets Its Cinematic Look: Interview with Cinematographer Jonathan Nicholas",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "cinematic"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c23fdd813fca",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5e666eed5c69:20260707",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Top 10: Avatar: The Last Airbender S2 Continues Struggle as Worst Neighbor Ever Sets Franchise High",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10-avatar-the-last-airbender-s2-continues-struggle-as-worst-neighbor-ever-sets-franchise-high",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10-avatar-the-last-airbender-s2-continues-struggle-as-worst-neighbor-ever-sets-franchise-high",
+      "event_at": "2026-07-07T11:45:04+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Top 10: Avatar: The Last Airbender S2 Continues Struggle as Worst Neighbor Ever Sets Franchise High",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "ratings",
+        "top",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:28386e5793fc",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c63085e84792:20260707",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Could Enola Holmes 4 Be In Doubt? Third Movie Viewership Down Nearly 60% on Prior Entry",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/enola-holmes-3-netflix-viewership-ratings-drop",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/enola-holmes-3-netflix-viewership-ratings-drop",
+      "event_at": "2026-07-07T10:50:04+00:00",
+      "movie_id": "",
+      "normalized_title": "Could Enola Holmes 4 Be In Doubt? Third Movie Viewership Down Nearly 60% on Prior Entry",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "movie",
+        "top",
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4a10f972d868",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ead5b967e41b:20260707",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What Movies Are Netflix Trying to Make Next? Studio Mandate Report Provides Some Hints",
+      "url": "https://www.whats-on-netflix.com/news/what-movies-are-netflix-trying-to-make-next-leaked-studio-mandate-provides-some-hints",
+      "source_url": "https://www.whats-on-netflix.com/news/what-movies-are-netflix-trying-to-make-next-leaked-studio-mandate-provides-some-hints",
+      "event_at": "2026-07-07T09:50:38+00:00",
+      "movie_id": "",
+      "normalized_title": "What Movies Are Netflix Trying to Make Next? Studio Mandate Report Provides Some Hints",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "studio"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "movies",
+        "year",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:872ba87266ab",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:adc3d57cbcef:20260707",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘All American’ Season 8: Final Season Premiere Date & When It’ll Release on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/all-american-season-8-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/all-american-season-8-netflix-release-date",
+      "event_at": "2026-07-07T05:53:33+00:00",
+      "movie_id": "",
+      "normalized_title": "‘All American’ Season 8: Final Season Premiere Date & When It’ll Release on Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "premiere"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d1c683f8ce3f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:37fc3a2964f9:20260707",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3563,481 +3866,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Brad Bird’s ‘Ray Gunn’: Everything We Learned About Netflix’s Retro-Futuristic Noir at Annecy",
-      "url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-release-date-brad-bird",
-      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-release-date-brad-bird",
-      "event_at": "2026-06-24T06:40:12+00:00",
-      "movie_id": "",
-      "normalized_title": "Brad Bird’s ‘Ray Gunn’: Everything We Learned About Netflix’s Retro-Futuristic Noir at Annecy",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ffc306bab343",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:5a9f30bc7384:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets November Release Date for Animated Cinderella Spin-Off ‘Steps’ With New First Looks",
-      "url": "https://www.whats-on-netflix.com/news/steps-netflix-release-date-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/steps-netflix-release-date-first-look",
-      "event_at": "2026-06-24T06:08:59+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets November Release Date for Animated Cinderella Spin-Off ‘Steps’ With New First Looks",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "blockbuster",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "blockbuster"
-      ],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-november-release-date-for-animated-cinderella-spin-off-steps-with-new-first-looks:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:348ef0765b1b:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ghostbusters: Night Shift’: Everything We Learned at the Netflix Annecy Showcase",
-      "url": "https://www.whats-on-netflix.com/news/ghostbusters-night-shift-everything-we-learned-at-the-netflix-showcase",
-      "source_url": "https://www.whats-on-netflix.com/news/ghostbusters-night-shift-everything-we-learned-at-the-netflix-showcase",
-      "event_at": "2026-06-24T05:40:57+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ghostbusters: Night Shift’: Everything We Learned at the Netflix Annecy Showcase",
-      "release_year": "1994",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new",
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:ghostbusters-night-shift-everything-we-learned-at-the-netflix-annecy-showcase:1994:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:90d56de1331c:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ray Gunn’ and ‘Steps’ Get Netflix Release Dates Plus First Looks At ‘Ghostbusters: Night Shift’ and ‘The One Piece’",
-      "url": "https://www.whats-on-netflix.com/news/next-on-netflix-animation-annecy-2026-ray-gunn-steps-ghostbusters-the-one-piece",
-      "source_url": "https://www.whats-on-netflix.com/news/next-on-netflix-animation-annecy-2026-ray-gunn-steps-ghostbusters-the-one-piece",
-      "event_at": "2026-06-24T04:40:11+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ray Gunn’ and ‘Steps’ Get Netflix Release Dates Plus First Looks At ‘Ghostbusters: Night Shift’ and ‘The One Piece’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "one",
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:ray-gunn-and-steps-get-netflix-release-dates-plus-first-looks-at-ghostbusters-night-shift-and-the-one-piece:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:c528ecde0c21:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Good Girls’ Leaving Netflix Globally (Except for the United States For Now)",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/good-girls-leaving-netflix",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/good-girls-leaving-netflix",
-      "event_at": "2026-06-24T02:02:33+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Good Girls’ Leaving Netflix Globally (Except for the United States For Now)",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "now"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:good-girls-leaving-netflix-globally-except-for-the-united-states-for-now:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:874eb8d17697:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘Kennedy’ Series Nears Production Wrap With Emotional Beach Scenes in the UK",
-      "url": "https://www.whats-on-netflix.com/news/netflix-kennedy-series-production-wrap-photos",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-kennedy-series-production-wrap-photos",
-      "event_at": "2026-06-24T01:00:05+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘Kennedy’ Series Nears Production Wrap With Emotional Beach Scenes in the UK",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:fa79c77d4e47",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3c2d3c213c92:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Drops First ‘Sakamoto Days’ Season 2 Teaser At Annecy Ahead of January 2027 Release",
-      "url": "https://www.whats-on-netflix.com/news/anime/sakamoto-days-season-2-netflix-release-date-teaser",
-      "source_url": "https://www.whats-on-netflix.com/news/anime/sakamoto-days-season-2-netflix-release-date-teaser",
-      "event_at": "2026-06-23T23:39:23+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Drops First ‘Sakamoto Days’ Season 2 Teaser At Annecy Ahead of January 2027 Release",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-drops-first-sakamoto-days-season-2-teaser-at-annecy-ahead-of-january-2027-release:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:94f857ce1f35:20260623",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Top 10s: ‘I Will Find You’ Puts In Monster First Week While ‘Voicemails for Isabelle’ Has Average Start",
-      "url": "https://www.whats-on-netflix.com/news/top-10-reports/harlan-coben-i-will-find-you-netflix-ratings-opening-week",
-      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/harlan-coben-i-will-find-you-netflix-ratings-opening-week",
-      "event_at": "2026-06-23T23:24:43+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Top 10s: ‘I Will Find You’ Puts In Monster First Week While ‘Voicemails for Isabelle’ Has Average Start",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "stories",
-        "news",
-        "top",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-top-10s-i-will-find-you-puts-in-monster-first-week-while-voicemails-for-isabelle-has-average-start:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:bac7947f6519:20260623",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4052,6 +3880,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How ‘America’s Sweethearts: Dallas Cowboys Cheerleaders’ Gets Its Cinematic Look: Interview with Cinematographer Jonathan Nicholas",
+      "canonical_key": "movie_source:what-s-on-netflix:c23fdd813fca",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How ‘America’s Sweethearts: Dallas Cowboys Cheerleaders’ Gets Its Cinematic Look: Interview with Cinematographer Jonathan Nicholas",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10: Avatar: The Last Airbender S2 Continues Struggle as Worst Neighbor Ever Sets Franchise High",
+      "canonical_key": "movie_source:what-s-on-netflix:28386e5793fc",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10: Avatar: The Last Airbender S2 Continues Struggle as Worst Neighbor Ever Sets Franchise High",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Could Enola Holmes 4 Be In Doubt? Third Movie Viewership Down Nearly 60% on Prior Entry",
+      "canonical_key": "movie_source:what-s-on-netflix:4a10f972d868",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Could Enola Holmes 4 Be In Doubt? Third Movie Viewership Down Nearly 60% on Prior Entry",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "What Movies Are Netflix Trying to Make Next? Studio Mandate Report Provides Some Hints",
+      "canonical_key": "movie_source:what-s-on-netflix:872ba87266ab",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "What Movies Are Netflix Trying to Make Next? Studio Mandate Report Provides Some Hints",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘All American’ Season 8: Final Season Premiere Date & When It’ll Release on Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:d1c683f8ce3f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘All American’ Season 8: Final Season Premiere Date & When It’ll Release on Netflix",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4382,91 +4295,6 @@
       "source": "What's on Netflix",
       "title": "‘Steps’ Directors on How Their Unique Fairy Tale Movie Evolved Throughout Production and Stopped Being a Musical",
       "canonical_key": "movie_source:what-s-on-netflix:9d813fc21646",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Steps’ Directors on How Their Unique Fairy Tale Movie Evolved Throughout Production and Stopped Being a Musical",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Matt Spicer on His Long-Awaited Comedy Return in Netflix’s ‘Little Brother’",
-      "canonical_key": "movie_source:what-s-on-netflix:384970cec564",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Matt Spicer on His Long-Awaited Comedy Return in Netflix’s ‘Little Brother’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Ribbon Hero’ Movie Review: Osamu Tezuka’s Classic Manga Gets Animated Update With a Wild Final Act",
-      "canonical_key": "movie_source:what-s-on-netflix:bb9db23f8a58",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Ribbon Hero’ Movie Review: Osamu Tezuka’s Classic Manga Gets Animated Update With a Wild Final Act",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Renews ‘The Monster of Florence’ For A New Chapter; To Tackle Infamous ‘Snack Buddies’ Case",
-      "canonical_key": "movie_source:what-s-on-netflix:d59f6fac55de",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Renews ‘The Monster of Florence’ For A New Chapter; To Tackle Infamous ‘Snack Buddies’ Case",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Little Brother’ Review: John Cena and Eric Andre’s R-Rated Buddy Comedy Is a Heartfelt Throwback",
-      "canonical_key": "movie_source:what-s-on-netflix:e1489517eb91",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Little Brother’ Review: John Cena and Eric Andre’s R-Rated Buddy Comedy Is a Heartfelt Throwback",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Removes ‘Diamond Daily Highlights’ MLB Hub After Short Test",
-      "canonical_key": "movie_source:what-s-on-netflix:3c8acecebdaa",
       "required_field_gaps": [
         "release_year"
       ]
