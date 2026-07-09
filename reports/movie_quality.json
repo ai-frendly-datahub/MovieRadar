@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-08T08:28:46.774169+00:00",
+  "generated_at": "2026-07-09T09:40:35.890813+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 58,
-    "movie_signal_event_count": 59,
+    "release_calendar_events": 63,
+    "movie_signal_event_count": 64,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 24,
-    "proxy_canonical_key_count": 35,
+    "complete_canonical_key_count": 28,
+    "proxy_canonical_key_count": 36,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 59,
-    "release_year_present_count": 24,
+    "normalized_title_present_count": 64,
+    "release_year_present_count": 28,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 55,
-    "event_required_field_gap_count": 38,
+    "platform_present_count": 61,
+    "event_required_field_gap_count": 39,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 58,
-      "event_count": 58,
-      "latest_event_at": "2026-07-07T12:12:36+00:00",
-      "age_days": 0.84,
-      "latest_title": "How ‘America’s Sweethearts: Dallas Cowboys Cheerleaders’ Gets Its Cinematic Look: Interview with Cinematographer Jonathan Nicholas",
-      "latest_url": "https://www.whats-on-netflix.com/interviews/americas-sweethearts-dallas-cowboys-cheerleaders-cinematographer-interview",
+      "article_count": 63,
+      "event_count": 63,
+      "latest_event_at": "2026-07-09T00:18:09+00:00",
+      "age_days": 0.39,
+      "latest_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
+      "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 0,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-08T08:28:43.217036+00:00",
+      "latest_event_at": "2026-07-09T09:40:32.193014+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-08T08:28:43.217036+00:00",
+      "event_at": "2026-07-09T09:40:32.193014+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +396,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260708",
+      "event_key": "box_office:907d712300a5:20260709",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +408,663 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
+      "event_at": "2026-07-09T00:18:09+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "shows"
+      ],
+      "film_general": [
+        "movies",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-uk-in-august-2026-kung-fu-panda-4-the-fall-more:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:9514b0642e81:20260709",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Orders ‘Physical: 100’ French Adaptation: Meet the First Star-Studded Competitors",
+      "url": "https://www.whats-on-netflix.com/news/netflix-orders-physical-100-french-adaptation-meet-the-first-star-studded-competitors",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-orders-physical-100-french-adaptation-meet-the-first-star-studded-competitors",
+      "event_at": "2026-07-08T09:40:05+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Orders ‘Physical: 100’ French Adaptation: Meet the First Star-Studded Competitors",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8eed5a769d5a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b0a42dd632ae:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Is Testing the Return of Free Trials After Six Years In Select Countries",
+      "url": "https://www.whats-on-netflix.com/news/netflix-free-trials-comeback-test",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-free-trials-comeback-test",
+      "event_at": "2026-07-08T09:05:01+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Is Testing the Return of Free Trials After Six Years In Select Countries",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "years",
+        "time",
+        "new",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f2f42305f869",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:70596c2a0c52:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Emmy Nominations 2026: The Full List for the 78th Annual Primetime Emmy Awards",
+      "url": "https://www.whats-on-netflix.com/news/netflix-emmy-nominations-2026-list",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-emmy-nominations-2026-list",
+      "event_at": "2026-07-08T07:30:08+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Emmy Nominations 2026: The Full List for the 78th Annual Primetime Emmy Awards",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movies",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-emmy-nominations-2026-the-full-list-for-the-78th-annual-primetime-emmy-awards:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:54f1858cf120:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Locks August 2026 Release for Sunny Sandler Coming-of-Age Drama ‘Don’t Say Good Luck’",
+      "url": "https://www.whats-on-netflix.com/news/dont-say-good-luck-netflix-august-2026-release",
+      "source_url": "https://www.whats-on-netflix.com/news/dont-say-good-luck-netflix-august-2026-release",
+      "event_at": "2026-07-08T07:02:28+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Locks August 2026 Release for Sunny Sandler Coming-of-Age Drama ‘Don’t Say Good Luck’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-locks-august-2026-release-for-sunny-sandler-coming-of-age-drama-don-t-say-good-luck:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7685610721f5:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Léa Seydoux Movie ‘Gentle Monster’ Is Coming Soon to Netflix: Everything We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/gentle-monster-cannes-movie-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/gentle-monster-cannes-movie-netflix",
+      "event_at": "2026-07-08T06:19:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Léa Seydoux Movie ‘Gentle Monster’ Is Coming Soon to Netflix: Everything We Know So Far",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "cannes"
+      ],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "rating",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bf27b8fd826a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3ef0b9885788:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Announces ‘Heartstopper’ Summer Schedule and Surprise Farewell Documentary",
+      "url": "https://www.whats-on-netflix.com/news/heartstopper-summer-documentary-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/heartstopper-summer-documentary-netflix-release-date",
+      "event_at": "2026-07-08T05:28:40+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Announces ‘Heartstopper’ Summer Schedule and Surprise Farewell Documentary",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6cd6d7e67b98",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:cba96df15b18:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Adds Another Weekly Japanese Drama with ‘GATE24: The Border’ This August",
+      "url": "https://www.whats-on-netflix.com/news/netflix-adds-another-weekly-japanese-drama-with-gate24-the-border-this-august",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-adds-another-weekly-japanese-drama-with-gate24-the-border-this-august",
+      "event_at": "2026-07-08T03:21:00+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Adds Another Weekly Japanese Drama with ‘GATE24: The Border’ This August",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:968db89fc203",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f4128e23c77a:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Steamy Mexican Thriller ‘Desire’ Sets July 2026 Netflix Release Date",
+      "url": "https://www.whats-on-netflix.com/news/desire-netflix-movie-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/desire-netflix-movie-everything-we-know",
+      "event_at": "2026-07-08T01:57:45+00:00",
+      "movie_id": "",
+      "normalized_title": "Steamy Mexican Thriller ‘Desire’ Sets July 2026 Netflix Release Date",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:steamy-mexican-thriller-desire-sets-july-2026-netflix-release-date:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ae94f9ac95b0:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Netflix Original Movie and TV Show Leaving Netflix in July & August 2026",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/netflix-originals-leaving-july-august-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/netflix-originals-leaving-july-august-2026",
+      "event_at": "2026-07-08T00:22:44+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Netflix Original Movie and TV Show Leaving Netflix in July & August 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "show"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:every-netflix-original-movie-and-tv-show-leaving-netflix-in-july-august-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e55b7cbeec9b:20260708",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New K-Dramas on Netflix in July 2026",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/new-k-dramas-netflix-july-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/new-k-dramas-netflix-july-2026",
+      "event_at": "2026-07-07T23:33:46+00:00",
+      "movie_id": "",
+      "normalized_title": "New K-Dramas on Netflix in July 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-k-dramas-on-netflix-in-july-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e2a44ec85e7e:20260707",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3512,360 +4170,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Thai Crime Thriller ‘The Debt Collector’ Coming to Netflix in July 2026",
-      "url": "https://www.whats-on-netflix.com/news/the-debt-collector-nadech-kugimiya-netflix-movie",
-      "source_url": "https://www.whats-on-netflix.com/news/the-debt-collector-nadech-kugimiya-netflix-movie",
-      "event_at": "2026-06-25T06:32:05+00:00",
-      "movie_id": "",
-      "normalized_title": "Thai Crime Thriller ‘The Debt Collector’ Coming to Netflix in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "need"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:thai-crime-thriller-the-debt-collector-coming-to-netflix-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:5e0397eb09b3:20260625",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Footage of ‘Charlie vs. The Chocolate Factory’ for Netflix Debuts at Annecy",
-      "url": "https://www.whats-on-netflix.com/news/first-footage-of-charlie-vs-the-chocolate-factory-for-netflix-debuts-at-annecy",
-      "source_url": "https://www.whats-on-netflix.com/news/first-footage-of-charlie-vs-the-chocolate-factory-for-netflix-debuts-at-annecy",
-      "event_at": "2026-06-25T03:56:29+00:00",
-      "movie_id": "",
-      "normalized_title": "First Footage of ‘Charlie vs. The Chocolate Factory’ for Netflix Debuts at Annecy",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "first",
-        "here",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1376678dbaa0",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:7173591569a4:20260625",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
-      "url": "https://www.whats-on-netflix.com/news/dept-q-season-2-casts-the-last-kingdom-star-ross-anderson-as-filming-begins",
-      "source_url": "https://www.whats-on-netflix.com/news/dept-q-season-2-casts-the-last-kingdom-star-ross-anderson-as-filming-begins",
-      "event_at": "2026-06-24T22:45:17+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Dept. Q’ Season 2 Casts ‘The Last Kingdom’ Star Ross Anderson as Filming Gets Underway",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:4563976b5642",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f0b4df35f42e:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/new-on-netflix-uk-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-on-netflix-uk-july-2026",
-      "event_at": "2026-06-24T12:27:18+00:00",
-      "movie_id": "",
-      "normalized_title": "Every New Movie and TV Show Coming to Netflix UK in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "show",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:every-new-movie-and-tv-show-coming-to-netflix-uk-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:cd3db99ae108:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘THE ONE PIECE’ Trailer and First Looks Is Already Dividing The Internet",
-      "url": "https://www.whats-on-netflix.com/news/anime/the-one-piece-netflix-anime-teaser-fans-divided",
-      "source_url": "https://www.whats-on-netflix.com/news/anime/the-one-piece-netflix-anime-teaser-fans-divided",
-      "event_at": "2026-06-24T11:08:15+00:00",
-      "movie_id": "",
-      "normalized_title": "‘THE ONE PIECE’ Trailer and First Looks Is Already Dividing The Internet",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "one",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:db1833f213e1",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4da86a7f59d6:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Voicemails for Isabelle’ Cinematographer Julia Swain on Fighting to Keep Key Scenes and Creating a Warm 90s Rom-Com Feel",
-      "url": "https://www.whats-on-netflix.com/interviews/voicemails-for-isabelle-cinematographer-julia-swain-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/voicemails-for-isabelle-cinematographer-julia-swain-interview",
-      "event_at": "2026-06-24T09:15:22+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Voicemails for Isabelle’ Cinematographer Julia Swain on Fighting to Keep Key Scenes and Creating a Warm 90s Rom-Com Feel",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e2d7b032cc5a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:04be7ae3225e:20260624",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3880,6 +4184,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Orders ‘Physical: 100’ French Adaptation: Meet the First Star-Studded Competitors",
+      "canonical_key": "movie_source:what-s-on-netflix:8eed5a769d5a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Orders ‘Physical: 100’ French Adaptation: Meet the First Star-Studded Competitors",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Is Testing the Return of Free Trials After Six Years In Select Countries",
+      "canonical_key": "movie_source:what-s-on-netflix:f2f42305f869",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Is Testing the Return of Free Trials After Six Years In Select Countries",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Léa Seydoux Movie ‘Gentle Monster’ Is Coming Soon to Netflix: Everything We Know So Far",
+      "canonical_key": "movie_source:what-s-on-netflix:bf27b8fd826a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Léa Seydoux Movie ‘Gentle Monster’ Is Coming Soon to Netflix: Everything We Know So Far",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Announces ‘Heartstopper’ Summer Schedule and Surprise Farewell Documentary",
+      "canonical_key": "movie_source:what-s-on-netflix:6cd6d7e67b98",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Announces ‘Heartstopper’ Summer Schedule and Surprise Farewell Documentary",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Adds Another Weekly Japanese Drama with ‘GATE24: The Border’ This August",
+      "canonical_key": "movie_source:what-s-on-netflix:968db89fc203",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Adds Another Weekly Japanese Drama with ‘GATE24: The Border’ This August",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4210,91 +4599,6 @@
       "source": "What's on Netflix",
       "title": "Hit Netflix Comedy ‘Envidiosa’ Is Getting an Italian Spin-Off: Everything We Know About ‘Troppo Invidiosa’",
       "canonical_key": "movie_source:what-s-on-netflix:0ccd70c2ab47",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Hit Netflix Comedy ‘Envidiosa’ Is Getting an Italian Spin-Off: Everything We Know About ‘Troppo Invidiosa’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "New French Ratings Data Gives Rare Look at Actual Netflix Viewership Numbers",
-      "canonical_key": "movie_source:what-s-on-netflix:f32747dc8b02",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "New French Ratings Data Gives Rare Look at Actual Netflix Viewership Numbers",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Colin Farrell, Steve Coogan, Charlie Heaton & More Join Netflix’s ‘Bad Bridgets’",
-      "canonical_key": "movie_source:what-s-on-netflix:cf696485eac9",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Colin Farrell, Steve Coogan, Charlie Heaton & More Join Netflix’s ‘Bad Bridgets’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix to Add Massive MLB Vault Collection of Classic Games and World Series Films",
-      "canonical_key": "movie_source:what-s-on-netflix:c748ab8990c4",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix to Add Massive MLB Vault Collection of Classic Games and World Series Films",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ghostbusters: Night Shift’ Creators on Reviving the Franchise with Grounded 1990s Terror on Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:211836d19440",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ghostbusters: Night Shift’ Creators on Reviving the Franchise with Grounded 1990s Terror on Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Steps’ Directors on How Their Unique Fairy Tale Movie Evolved Throughout Production and Stopped Being a Musical",
-      "canonical_key": "movie_source:what-s-on-netflix:9d813fc21646",
       "required_field_gaps": [
         "release_year"
       ]
