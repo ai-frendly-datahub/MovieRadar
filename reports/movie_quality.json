@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-09T09:40:35.890813+00:00",
+  "generated_at": "2026-07-10T09:36:18.651427+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 63,
-    "movie_signal_event_count": 64,
+    "release_calendar_events": 57,
+    "movie_signal_event_count": 58,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 28,
-    "proxy_canonical_key_count": 36,
+    "complete_canonical_key_count": 27,
+    "proxy_canonical_key_count": 31,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 64,
-    "release_year_present_count": 28,
+    "normalized_title_present_count": 58,
+    "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 61,
-    "event_required_field_gap_count": 39,
+    "platform_present_count": 57,
+    "event_required_field_gap_count": 34,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 63,
-      "event_count": 63,
+      "article_count": 57,
+      "event_count": 57,
       "latest_event_at": "2026-07-09T00:18:09+00:00",
-      "age_days": 0.39,
+      "age_days": 1.39,
       "latest_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
       "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
       "latest_source_signal": [
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-09T09:40:32.193014+00:00",
+      "latest_event_at": "2026-07-10T09:36:12.809534+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-09T09:40:32.193014+00:00",
+      "event_at": "2026-07-10T09:36:12.809534+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -396,7 +396,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260709",
+      "event_key": "box_office:907d712300a5:20260710",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3812,355 +3812,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:384970cec564",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:4522651e062f:20260626",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix @ Annecy 2026 Debrief: The Best New Movies and Series We Got To See",
-      "url": "https://www.whats-on-netflix.com/news/netflix-annecy-2026-debrief-the-best-new-movies-and-series-we-got-to-see",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-annecy-2026-debrief-the-best-new-movies-and-series-we-got-to-see",
-      "event_at": "2026-06-26T07:04:18+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix @ Annecy 2026 Debrief: The Best New Movies and Series We Got To See",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movies",
-        "see",
-        "best",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-annecy-2026-debrief-the-best-new-movies-and-series-we-got-to-see:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:a5ce799de8ff:20260626",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Ribbon Hero’ Movie Review: Osamu Tezuka’s Classic Manga Gets Animated Update With a Wild Final Act",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/the-ribbon-hero-movie-review-osamu-tezukas-classic-manga-gets-animated-update-with-a-wild-final-act",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-ribbon-hero-movie-review-osamu-tezukas-classic-manga-gets-animated-update-with-a-wild-final-act",
-      "event_at": "2026-06-26T06:05:19+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Ribbon Hero’ Movie Review: Osamu Tezuka’s Classic Manga Gets Animated Update With a Wild Final Act",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "film",
-        "movie",
-        "review",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:bb9db23f8a58",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d6e4d69a07f5:20260626",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Renews ‘The Monster of Florence’ For A New Chapter; To Tackle Infamous ‘Snack Buddies’ Case",
-      "url": "https://www.whats-on-netflix.com/news/the-monster-of-florence-netflix-renewal",
-      "source_url": "https://www.whats-on-netflix.com/news/the-monster-of-florence-netflix-renewal",
-      "event_at": "2026-06-26T01:00:45+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Renews ‘The Monster of Florence’ For A New Chapter; To Tackle Infamous ‘Snack Buddies’ Case",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d59f6fac55de",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3dd5c522960a:20260626",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Little Brother’ Review: John Cena and Eric Andre’s R-Rated Buddy Comedy Is a Heartfelt Throwback",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/little-brother-movie-review-john-cena-eric-andre",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/little-brother-movie-review-john-cena-eric-andre",
-      "event_at": "2026-06-25T22:27:04+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Little Brother’ Review: John Cena and Eric Andre’s R-Rated Buddy Comedy Is a Heartfelt Throwback",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [],
-      "film_general": [
-        "review"
-      ],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e1489517eb91",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d8ce1402fecd:20260625",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Removes ‘Diamond Daily Highlights’ MLB Hub After Short Test",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/netflix-removes-diamond-daily-highlights-mlb-hub-after-short-test",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/netflix-removes-diamond-daily-highlights-mlb-hub-after-short-test",
-      "event_at": "2026-06-25T21:40:22+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Removes ‘Diamond Daily Highlights’ MLB Hub After Short Test",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "reviews",
-        "just"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3c8acecebdaa",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2abf3a28f891:20260625",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "10 Biggest Revelations from Netflix’s Sports Doc ‘Chris & Martina: The Final Set’",
-      "url": "https://www.whats-on-netflix.com/news/chris-and-martina-the-final-set-netflix-revelations",
-      "source_url": "https://www.whats-on-netflix.com/news/chris-and-martina-the-final-set-netflix-revelations",
-      "event_at": "2026-06-25T20:55:58+00:00",
-      "movie_id": "",
-      "normalized_title": "10 Biggest Revelations from Netflix’s Sports Doc ‘Chris & Martina: The Final Set’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "years",
-        "most",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7cd9e1a6797b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c46468f9162c:20260625",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
