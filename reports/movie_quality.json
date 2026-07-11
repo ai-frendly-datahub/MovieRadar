@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-10T09:36:18.651427+00:00",
+  "generated_at": "2026-07-11T07:56:43.646969+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 57,
-    "movie_signal_event_count": 58,
+    "release_calendar_events": 56,
+    "movie_signal_event_count": 57,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 31,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 58,
+    "normalized_title_present_count": 57,
     "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 57,
-    "event_required_field_gap_count": 34,
+    "platform_present_count": 56,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 57,
-      "event_count": 57,
+      "article_count": 56,
+      "event_count": 56,
       "latest_event_at": "2026-07-09T00:18:09+00:00",
-      "age_days": 1.39,
+      "age_days": 2.32,
       "latest_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
       "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
       "latest_source_signal": [
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-10T09:36:12.809534+00:00",
+      "latest_event_at": "2026-07-11T07:56:37.900940+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-10T09:36:12.809534+00:00",
+      "event_at": "2026-07-11T07:56:37.900940+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -365,13 +365,10 @@
         "box office"
       ],
       "director": [],
-      "actor": [
-        "celebrity"
-      ],
+      "actor": [],
       "award": [],
       "studio": [
         "new",
-        "disney",
         "release",
         "studio"
       ],
@@ -396,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260710",
+      "event_key": "box_office:907d712300a5:20260711",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3762,65 +3759,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Director Matt Spicer on His Long-Awaited Comedy Return in Netflix’s ‘Little Brother’",
-      "url": "https://www.whats-on-netflix.com/interviews/little-brother-director-matt-spicer-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/little-brother-director-matt-spicer-interview",
-      "event_at": "2026-06-26T10:49:17+00:00",
-      "movie_id": "",
-      "normalized_title": "Director Matt Spicer on His Long-Awaited Comedy Return in Netflix’s ‘Little Brother’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:384970cec564",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4522651e062f:20260626",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
