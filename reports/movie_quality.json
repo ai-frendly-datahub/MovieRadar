@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-11T07:56:43.646969+00:00",
+  "generated_at": "2026-07-12T08:18:03.417050+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 56,
-    "movie_signal_event_count": 57,
+    "release_calendar_events": 54,
+    "movie_signal_event_count": 55,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
+    "complete_canonical_key_count": 25,
     "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 57,
-    "release_year_present_count": 27,
+    "normalized_title_present_count": 55,
+    "release_year_present_count": 25,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 56,
+    "platform_present_count": 54,
     "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 56,
-      "event_count": 56,
+      "article_count": 54,
+      "event_count": 54,
       "latest_event_at": "2026-07-09T00:18:09+00:00",
-      "age_days": 2.32,
+      "age_days": 3.33,
       "latest_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
       "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
       "latest_source_signal": [
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-11T07:56:37.900940+00:00",
+      "latest_event_at": "2026-07-12T08:17:58.103471+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-11T07:56:37.900940+00:00",
+      "event_at": "2026-07-12T08:17:58.103471+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -369,8 +369,7 @@
       "award": [],
       "studio": [
         "new",
-        "release",
-        "studio"
+        "release"
       ],
       "platform": [
         "release"
@@ -378,6 +377,7 @@
       "film_general": [
         "movie",
         "movies",
+        "cinema",
         "story",
         "time",
         "top",
@@ -393,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260711",
+      "event_key": "box_office:907d712300a5:20260712",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3629,129 +3629,6 @@
       "canonical_key": "movie:granny-netflix-k-drama-comedy-webtoon-adaptation-filming-begins-july-2026:2026:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:e4fc003f85b9:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Doll’ Trailer And Fall Release Date Revealed: Everything We Know On The Netflix Polish Period Epic",
-      "url": "https://www.whats-on-netflix.com/news/the-doll-polish-period-drama-2026-netflix-release-and-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/the-doll-polish-period-drama-2026-netflix-release-and-everything-we-know",
-      "event_at": "2026-06-28T02:03:54+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Doll’ Trailer And Fall Release Date Revealed: Everything We Know On The Netflix Polish Period Epic",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-doll-trailer-and-fall-release-date-revealed-everything-we-know-on-the-netflix-polish-period-epic:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:21df87627025:20260628",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: June 27, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-june-27-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-june-27-2026",
-      "event_at": "2026-06-27T11:50:42+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: June 27, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-june-27-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:8c856c3221f2:20260627",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
