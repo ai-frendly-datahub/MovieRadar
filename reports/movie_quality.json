@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-12T08:18:03.417050+00:00",
+  "generated_at": "2026-07-13T09:27:48.913577+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 54,
-    "movie_signal_event_count": 55,
+    "release_calendar_events": 47,
+    "movie_signal_event_count": 48,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
-    "proxy_canonical_key_count": 30,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 28,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 55,
-    "release_year_present_count": 25,
+    "normalized_title_present_count": 48,
+    "release_year_present_count": 20,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 54,
-    "event_required_field_gap_count": 33,
+    "platform_present_count": 48,
+    "event_required_field_gap_count": 31,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 54,
-      "event_count": 54,
+      "article_count": 47,
+      "event_count": 47,
       "latest_event_at": "2026-07-09T00:18:09+00:00",
-      "age_days": 3.33,
+      "age_days": 4.38,
       "latest_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
       "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
       "latest_source_signal": [
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-12T08:17:58.103471+00:00",
+      "latest_event_at": "2026-07-13T09:27:44.951338+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-12T08:17:58.103471+00:00",
+      "event_at": "2026-07-13T09:27:44.951338+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -393,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260712",
+      "event_key": "box_office:907d712300a5:20260713",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3216,426 +3216,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ghostbusters: Night Shift’ Creators on Reviving the Franchise with Grounded 1990s Terror on Netflix",
-      "url": "https://www.whats-on-netflix.com/interviews/ghostbusters-night-shift-netflix-creators-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/ghostbusters-night-shift-netflix-creators-interview",
-      "event_at": "2026-06-29T08:27:43+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ghostbusters: Night Shift’ Creators on Reviving the Franchise with Grounded 1990s Terror on Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:211836d19440",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3c49c87ae090:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘Cyberpunk: Edgerunners’ Season 2: New First Looks, Cast & Fall 2026 Release",
-      "url": "https://www.whats-on-netflix.com/news/netflixs-cyberpunk-edgerunners-season-2-everything-we-know-about-the-new-cast-fall-2026-release",
-      "source_url": "https://www.whats-on-netflix.com/news/netflixs-cyberpunk-edgerunners-season-2-everything-we-know-about-the-new-cast-fall-2026-release",
-      "event_at": "2026-06-29T06:47:42+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘Cyberpunk: Edgerunners’ Season 2: New First Looks, Cast & Fall 2026 Release",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere",
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release",
-        "studio"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-cyberpunk-edgerunners-season-2-new-first-looks-cast-fall-2026-release:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:4f85b94cbada:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Steps’ Directors on How Their Unique Fairy Tale Movie Evolved Throughout Production and Stopped Being a Musical",
-      "url": "https://www.whats-on-netflix.com/interviews/steps-directors-on-how-their-unique-fairy-tale-movie-evolved-throughout-production-and-stopped-being-a-musical",
-      "source_url": "https://www.whats-on-netflix.com/interviews/steps-directors-on-how-their-unique-fairy-tale-movie-evolved-throughout-production-and-stopped-being-a-musical",
-      "event_at": "2026-06-29T06:25:54+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Steps’ Directors on How Their Unique Fairy Tale Movie Evolved Throughout Production and Stopped Being a Musical",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "production"
-      ],
-      "platform": [],
-      "film_general": [
-        "movie",
-        "stories"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:9d813fc21646",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:78a7e79b9b3d:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "The Best New Netflix Movies of 2026 (So Far)",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-movies-2026-ranked",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-movies-2026-ranked",
-      "event_at": "2026-06-29T05:34:59+00:00",
-      "movie_id": "",
-      "normalized_title": "The Best New Netflix Movies of 2026 (So Far)",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "films",
-        "movies",
-        "year",
-        "best",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-best-new-netflix-movies-of-2026-so-far:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:8d1daeb8db18:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Historical Fantasy K-Drama ‘Men of the Harem’ Starring Bae Suzy: Coming to Netflix in 2027",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/men-of-the-harem-bae-suzy-netflix-k-drama",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/men-of-the-harem-bae-suzy-netflix-k-drama",
-      "event_at": "2026-06-29T05:20:04+00:00",
-      "movie_id": "",
-      "normalized_title": "Historical Fantasy K-Drama ‘Men of the Harem’ Starring Bae Suzy: Coming to Netflix in 2027",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring",
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:historical-fantasy-k-drama-men-of-the-harem-starring-bae-suzy-coming-to-netflix-in-2027:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1317dc312ebd:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Bombing of Pan Am 103’ Finally Sets July 2026 Global Netflix Release Date",
-      "url": "https://www.whats-on-netflix.com/news/the-bombing-of-pan-am-103-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-bombing-of-pan-am-103-netflix-release-date",
-      "event_at": "2026-06-29T03:55:29+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Bombing of Pan Am 103’ Finally Sets July 2026 Global Netflix Release Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-bombing-of-pan-am-103-finally-sets-july-2026-global-netflix-release-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:14a8c3cc5fd1:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Granny’ Netflix K-Drama Comedy Webtoon Adaptation: Filming Begins July 2026",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/granny-netflix-k-drama-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/granny-netflix-k-drama-everything-we-know",
-      "event_at": "2026-06-29T00:13:21+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Granny’ Netflix K-Drama Comedy Webtoon Adaptation: Filming Begins July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:granny-netflix-k-drama-comedy-webtoon-adaptation-filming-begins-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e4fc003f85b9:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
