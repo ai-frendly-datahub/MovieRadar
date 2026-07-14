@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-13T09:27:48.913577+00:00",
+  "generated_at": "2026-07-14T08:05:51.996788+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 47,
-    "movie_signal_event_count": 48,
+    "release_calendar_events": 39,
+    "movie_signal_event_count": 40,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 28,
+    "complete_canonical_key_count": 17,
+    "proxy_canonical_key_count": 23,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 48,
-    "release_year_present_count": 20,
+    "normalized_title_present_count": 40,
+    "release_year_present_count": 17,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 48,
-    "event_required_field_gap_count": 31,
+    "platform_present_count": 40,
+    "event_required_field_gap_count": 26,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 47,
-      "event_count": 47,
+      "article_count": 39,
+      "event_count": 39,
       "latest_event_at": "2026-07-09T00:18:09+00:00",
-      "age_days": 4.38,
+      "age_days": 5.32,
       "latest_title": "What’s Leaving Netflix UK in August 2026: ‘Kung Fu Panda 4’, ‘The Fall’ & More",
       "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-uk-august-2026",
       "latest_source_signal": [
@@ -279,7 +279,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-07-13T09:27:44.951338+00:00",
-      "age_days": 0.0,
+      "age_days": 0.94,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
       "latest_source_signal": [
@@ -2740,482 +2740,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Super Mario Galaxy Movie’ Netflix Release Date Confirmed",
-      "url": "https://www.whats-on-netflix.com/news/the-super-mario-galaxy-movie-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-super-mario-galaxy-movie-netflix-release-date",
-      "event_at": "2026-06-30T06:29:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Super Mario Galaxy Movie’ Netflix Release Date Confirmed",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "latest",
-        "here",
-        "want"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3397e65ea842",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6a16ebd32c19:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Hit Netflix Comedy ‘Envidiosa’ Is Getting an Italian Spin-Off: Everything We Know About ‘Troppo Invidiosa’",
-      "url": "https://www.whats-on-netflix.com/news/troppo-invidiosa-netflix-envious-italian-remake",
-      "source_url": "https://www.whats-on-netflix.com/news/troppo-invidiosa-netflix-envious-italian-remake",
-      "event_at": "2026-06-30T04:35:48+00:00",
-      "movie_id": "",
-      "normalized_title": "Hit Netflix Comedy ‘Envidiosa’ Is Getting an Italian Spin-Off: Everything We Know About ‘Troppo Invidiosa’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:0ccd70c2ab47",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:949481df2796:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in July 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-july-2026",
-      "event_at": "2026-06-30T03:53:25+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watching",
-        "binge"
-      ],
-      "film_general": [
-        "watching",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e7b72c986231:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New French Ratings Data Gives Rare Look at Actual Netflix Viewership Numbers",
-      "url": "https://www.whats-on-netflix.com/news/new-french-ratings-data-gives-rare-look-at-actual-netflix-viewership-numbers",
-      "source_url": "https://www.whats-on-netflix.com/news/new-french-ratings-data-gives-rare-look-at-actual-netflix-viewership-numbers",
-      "event_at": "2026-06-30T03:32:09+00:00",
-      "movie_id": "",
-      "normalized_title": "New French Ratings Data Gives Rare Look at Actual Netflix Viewership Numbers",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "ratings",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:f32747dc8b02",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:56c11472a761:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "One Piece Season 3: Filming Wrapped & Netflix Release Date Estimate",
-      "url": "https://www.whats-on-netflix.com/news/one-piece-season-3-netflix-release-date-everything-we-know-06-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/one-piece-season-3-netflix-release-date-everything-we-know-06-2026",
-      "event_at": "2026-06-30T03:19:36+00:00",
-      "movie_id": "",
-      "normalized_title": "One Piece Season 3: Filming Wrapped & Netflix Release Date Estimate",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "one"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:one-piece-season-3-filming-wrapped-netflix-release-date-estimate:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:963221d6a4c7:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix UK in July 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/leaving-netflix-uk-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/leaving-netflix-uk-july-2026",
-      "event_at": "2026-06-30T01:04:06+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix UK in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-uk-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:fe3094d2f692:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Colin Farrell, Steve Coogan, Charlie Heaton & More Join Netflix’s ‘Bad Bridgets’",
-      "url": "https://www.whats-on-netflix.com/news/colin-farrell-steve-coogan-charlie-heaton-more-join-netflixs-bad-bridgets",
-      "source_url": "https://www.whats-on-netflix.com/news/colin-farrell-steve-coogan-charlie-heaton-more-join-netflixs-bad-bridgets",
-      "event_at": "2026-06-30T00:00:42+00:00",
-      "movie_id": "",
-      "normalized_title": "Colin Farrell, Steve Coogan, Charlie Heaton & More Join Netflix’s ‘Bad Bridgets’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:cf696485eac9",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f429353ad480:20260630",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix to Add Massive MLB Vault Collection of Classic Games and World Series Films",
-      "url": "https://www.whats-on-netflix.com/news/netflix-mlb-vault-release-date-details",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-mlb-vault-release-date-details",
-      "event_at": "2026-06-29T10:03:29+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix to Add Massive MLB Vault Collection of Classic Games and World Series Films",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "films"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c748ab8990c4",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:7a76db5a4004:20260629",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3623,31 +3147,18 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Super Mario Galaxy Movie’ Netflix Release Date Confirmed",
-      "canonical_key": "movie_source:what-s-on-netflix:3397e65ea842",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_missing",
+      "source": "KOFIC 박스오피스",
+      "event_model": "box_office",
+      "age_days": null
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Super Mario Galaxy Movie’ Netflix Release Date Confirmed",
-      "canonical_key_status": "source_proxy"
+      "reason": "missing_event_model",
+      "event_model": "reservation_ranking"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Hit Netflix Comedy ‘Envidiosa’ Is Getting an Italian Spin-Off: Everything We Know About ‘Troppo Invidiosa’",
-      "canonical_key": "movie_source:what-s-on-netflix:0ccd70c2ab47",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "ott_ranking"
     }
   ],
   "source_backlog": {
