@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-16T08:14:16.567388+00:00",
+  "generated_at": "2026-07-17T08:10:28.323338+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 59,
-    "movie_signal_event_count": 60,
+    "release_calendar_events": 54,
+    "movie_signal_event_count": 55,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 31,
-    "proxy_canonical_key_count": 29,
+    "complete_canonical_key_count": 30,
+    "proxy_canonical_key_count": 25,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 60,
-    "release_year_present_count": 31,
+    "normalized_title_present_count": 55,
+    "release_year_present_count": 30,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 60,
-    "event_required_field_gap_count": 32,
+    "platform_present_count": 55,
+    "event_required_field_gap_count": 28,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 59,
-      "event_count": 59,
+      "article_count": 54,
+      "event_count": 54,
       "latest_event_at": "2026-07-15T08:47:19+00:00",
-      "age_days": 0.98,
+      "age_days": 1.97,
       "latest_title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
       "latest_url": "https://www.whats-on-netflix.com/news/stranger-things-10th-anniversary-news-documentary",
       "latest_source_signal": [
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 2,
+      "article_count": 5,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-16T08:14:12.699513+00:00",
+      "latest_event_at": "2026-07-17T08:10:24.317717+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-16T08:14:12.699513+00:00",
+      "event_at": "2026-07-17T08:10:24.317717+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -392,7 +392,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260716",
+      "event_key": "box_office:907d712300a5:20260717",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3644,323 +3644,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:c9933d2f8870",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:45b8bde76b8e:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘A Matter of Time’: Netflix Movie Adds Amy Wren, Emma Sidi and Cecily Cleeve",
-      "url": "https://www.whats-on-netflix.com/news/a-matter-of-time-netflix-movie-cast-additions",
-      "source_url": "https://www.whats-on-netflix.com/news/a-matter-of-time-netflix-movie-cast-additions",
-      "event_at": "2026-07-03T08:00:25+00:00",
-      "movie_id": "",
-      "normalized_title": "‘A Matter of Time’: Netflix Movie Adds Amy Wren, Emma Sidi and Cecily Cleeve",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "time",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:78647f9ae1aa",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0a858f6da797:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Millie Bobby Brown’s Next Netflix Movie ‘Just Picture It’: Everything We Know So Far",
-      "url": "https://www.whats-on-netflix.com/coming-soon/just-picture-it-millie-bobby-brown-netflix-movie-guide",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/just-picture-it-millie-bobby-brown-netflix-movie-guide",
-      "event_at": "2026-07-03T07:49:39+00:00",
-      "movie_id": "",
-      "normalized_title": "Millie Bobby Brown’s Next Netflix Movie ‘Just Picture It’: Everything We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "first",
-        "here",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:761fe37e8a22",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c77477cbe0e7:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Release Schedule 2027: What New Movies and Series Are Coming Next Year?",
-      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-movie-series-release-calendar-2027",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-movie-series-release-calendar-2027",
-      "event_at": "2026-07-03T04:36:56+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Release Schedule 2027: What New Movies and Series Are Coming Next Year?",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "year",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-release-schedule-2027-what-new-movies-and-series-are-coming-next-year:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:fadb86a8cfed:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix UK Adds 60 New Movies and TV Shows This Week, Including ‘Enola Holmes 3’",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/whats-new-netflix-uk-enola-holmes-3",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/whats-new-netflix-uk-enola-holmes-3",
-      "event_at": "2026-07-03T01:29:05+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix UK Adds 60 New Movies and TV Shows This Week, Including ‘Enola Holmes 3’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:89ddc58e7ff5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:06f1f8b51bf7:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Jodie Foster Mystery Thriller ‘A Private Life’ Sets Netflix Streaming Debut",
-      "url": "https://www.whats-on-netflix.com/news/a-private-life-jodie-foster-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/a-private-life-jodie-foster-netflix-release-date",
-      "event_at": "2026-07-02T10:54:49+00:00",
-      "movie_id": "",
-      "normalized_title": "Jodie Foster Mystery Thriller ‘A Private Life’ Sets Netflix Streaming Debut",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar",
-        "winner"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [
-        "time",
-        "two",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:83851c4131ad",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:42b3c9f4160c:20260702",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
