@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-17T08:10:28.323338+00:00",
+  "generated_at": "2026-07-18T07:50:24.172740+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 54,
-    "movie_signal_event_count": 55,
+    "release_calendar_events": 49,
+    "movie_signal_event_count": 50,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 30,
-    "proxy_canonical_key_count": 25,
+    "complete_canonical_key_count": 28,
+    "proxy_canonical_key_count": 22,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 55,
-    "release_year_present_count": 30,
+    "normalized_title_present_count": 50,
+    "release_year_present_count": 28,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 55,
-    "event_required_field_gap_count": 28,
+    "platform_present_count": 50,
+    "event_required_field_gap_count": 25,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 54,
-      "event_count": 54,
+      "article_count": 49,
+      "event_count": 49,
       "latest_event_at": "2026-07-15T08:47:19+00:00",
-      "age_days": 1.97,
+      "age_days": 2.96,
       "latest_title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
       "latest_url": "https://www.whats-on-netflix.com/news/stranger-things-10th-anniversary-news-documentary",
       "latest_source_signal": [
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 5,
+      "article_count": 8,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-17T08:10:24.317717+00:00",
+      "latest_event_at": "2026-07-18T07:50:20.676554+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-17T08:10:24.317717+00:00",
+      "event_at": "2026-07-18T07:50:20.676554+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -376,13 +376,12 @@
       "film_general": [
         "movie",
         "movies",
+        "cinema",
         "story",
-        "year",
         "time",
         "top",
         "new",
-        "latest",
-        "my"
+        "latest"
       ],
       "source_signal": [
         "box_office",
@@ -392,7 +391,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260717",
+      "event_key": "box_office:907d712300a5:20260718",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3342,317 +3341,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: July 4, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-movies-shows-netflix-july-4-weekend",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-movies-shows-netflix-july-4-weekend",
-      "event_at": "2026-07-04T06:00:43+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: July 4, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "here",
-        "this",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-july-4-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e9fef827c8a6:20260704",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "10 Best New Movies on Netflix in July 2026",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/10-best-new-movies-on-netflix-in-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/10-best-new-movies-on-netflix-in-july-2026",
-      "event_at": "2026-07-03T11:13:49+00:00",
-      "movie_id": "",
-      "normalized_title": "10 Best New Movies on Netflix in July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movies",
-        "best",
-        "new",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:10-best-new-movies-on-netflix-in-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7362a51035ad:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Every Enola Holmes Movie, Ranked",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/enola-holmes-movies-ranked",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/enola-holmes-movies-ranked",
-      "event_at": "2026-07-03T09:31:26+00:00",
-      "movie_id": "",
-      "normalized_title": "Every Enola Holmes Movie, Ranked",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "best"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:29c450d42a7e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:50c8dbf6a1e0:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Adds Two New Weekly Japanese Dramas This July: ‘25 Years of You’ & ‘The Vacation Principle’",
-      "url": "https://www.whats-on-netflix.com/news/25-years-of-you-the-vacation-principle-netflix-release-dates",
-      "source_url": "https://www.whats-on-netflix.com/news/25-years-of-you-the-vacation-principle-netflix-release-dates",
-      "event_at": "2026-07-03T08:26:02+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Adds Two New Weekly Japanese Dramas This July: ‘25 Years of You’ & ‘The Vacation Principle’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "years",
-        "two",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:b26fdf5d57cd",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d7884640f00f:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at Ben Stiller, Bella Maclean and Nicholas Galitzine Filming Netflix Movie ‘A Matter of Time’ in London",
-      "url": "https://www.whats-on-netflix.com/news/first-look-at-ben-stiller-bella-maclean-and-nicholas-galitzine-filming-netflix-movie-a-matter-of-time-in-london",
-      "source_url": "https://www.whats-on-netflix.com/news/first-look-at-ben-stiller-bella-maclean-and-nicholas-galitzine-filming-netflix-movie-a-matter-of-time-in-london",
-      "event_at": "2026-07-03T08:15:31+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at Ben Stiller, Bella Maclean and Nicholas Galitzine Filming Netflix Movie ‘A Matter of Time’ in London",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "time",
-        "latest",
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c9933d2f8870",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:45b8bde76b8e:20260703",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4043,48 +3731,30 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Enola Holmes Movie, Ranked",
-      "canonical_key": "movie_source:what-s-on-netflix:29c450d42a7e",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_missing",
+      "source": "KOFIC 박스오피스",
+      "event_model": "box_office",
+      "age_days": null
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Enola Holmes Movie, Ranked",
-      "canonical_key_status": "source_proxy"
+      "reason": "missing_event_model",
+      "event_model": "reservation_ranking"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Adds Two New Weekly Japanese Dramas This July: ‘25 Years of You’ & ‘The Vacation Principle’",
-      "canonical_key": "movie_source:what-s-on-netflix:b26fdf5d57cd",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "ott_ranking"
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Adds Two New Weekly Japanese Dramas This July: ‘25 Years of You’ & ‘The Vacation Principle’",
-      "canonical_key_status": "source_proxy"
+      "reason": "source_backlog_pending",
+      "source": "KOFIC daily box office API",
+      "signal_type": "box_office",
+      "activation_gate": "API key, movie code mapping, and gross date retention"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at Ben Stiller, Bella Maclean and Nicholas Galitzine Filming Netflix Movie ‘A Matter of Time’ in London",
-      "canonical_key": "movie_source:what-s-on-netflix:c9933d2f8870",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_backlog_pending",
+      "source": "Korean ticket reservation ranking pages",
+      "signal_type": "reservation_ranking",
+      "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
     }
   ],
   "source_backlog": {
