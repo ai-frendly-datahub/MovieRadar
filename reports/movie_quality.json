@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-19T08:18:55.668559+00:00",
+  "generated_at": "2026-07-20T08:59:18.449009+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,24 +17,24 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 49,
-    "movie_signal_event_count": 50,
+    "release_calendar_events": 43,
+    "movie_signal_event_count": 44,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 28,
-    "proxy_canonical_key_count": 22,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 19,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 50,
-    "release_year_present_count": 28,
+    "normalized_title_present_count": 44,
+    "release_year_present_count": 25,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 50,
-    "event_required_field_gap_count": 25,
+    "platform_present_count": 44,
+    "event_required_field_gap_count": 22,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 50
+    "daily_review_item_count": 46
   },
   "sources": [
     {
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 53,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 47,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 49,
-      "event_count": 49,
+      "article_count": 43,
+      "event_count": 43,
       "latest_event_at": "2026-07-15T08:47:19+00:00",
-      "age_days": 3.98,
+      "age_days": 5.01,
       "latest_title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
       "latest_url": "https://www.whats-on-netflix.com/news/stranger-things-10th-anniversary-news-documentary",
       "latest_source_signal": [
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-19T08:18:50.150516+00:00",
+      "latest_event_at": "2026-07-20T08:59:14.674520+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-19T08:18:50.150516+00:00",
+      "event_at": "2026-07-20T08:59:14.674520+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -374,6 +374,7 @@
         "release"
       ],
       "film_general": [
+        "films",
         "movie",
         "movies",
         "cinema",
@@ -391,7 +392,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260719",
+      "event_key": "box_office:907d712300a5:20260720",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -2994,353 +2995,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s 13 Going on 30 Reboot: Filming Underway & Everything We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/netflixs-13-going-on-30-reboot-filming-begins-everything-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/netflixs-13-going-on-30-reboot-filming-begins-everything-we-know-so-far",
-      "event_at": "2026-07-06T07:38:32+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s 13 Going on 30 Reboot: Filming Underway & Everything We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "time",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:0393f45f3e17",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:9a1d76e30863:20260706",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Oliver Cunliffe Cast In Recurring Role in ‘Wednesday’ Season 3",
-      "url": "https://www.whats-on-netflix.com/news/wednesday-season-3-casts-oliver-cunliffe",
-      "source_url": "https://www.whats-on-netflix.com/news/wednesday-season-3-casts-oliver-cunliffe",
-      "event_at": "2026-07-06T05:04:58+00:00",
-      "movie_id": "",
-      "normalized_title": "Oliver Cunliffe Cast In Recurring Role in ‘Wednesday’ Season 3",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast",
-        "actor"
-      ],
-      "award": [
-        "bafta"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:fe9e1a258a82",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e83dc7c2730e:20260706",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Mousetrap’ Netflix K-Drama is Eyeing August 2026 Release",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/mousetrap-netflix-k-drama-preview",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/mousetrap-netflix-k-drama-preview",
-      "event_at": "2026-07-06T04:51:05+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Mousetrap’ Netflix K-Drama is Eyeing August 2026 Release",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:mousetrap-netflix-k-drama-is-eyeing-august-2026-release:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:14235954698d:20260706",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Kin and Sin’ Netflix Noir K-Drama Coming to Netflix in March 2027",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/kin-and-sin-netflix-release-date-news",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/kin-and-sin-netflix-release-date-news",
-      "event_at": "2026-07-06T04:24:11+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Kin and Sin’ Netflix Noir K-Drama Coming to Netflix in March 2027",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released",
-        "coming"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:kin-and-sin-netflix-noir-k-drama-coming-to-netflix-in-march-2027:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:eb3e49f16e1a:20260706",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Five Nights at Freddy’s 2’ Sets Netflix US Streaming Debut for August 2026",
-      "url": "https://www.whats-on-netflix.com/news/five-nights-at-freddys-2-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/five-nights-at-freddys-2-netflix-release-date",
-      "event_at": "2026-07-06T00:24:04+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Five Nights at Freddy’s 2’ Sets Netflix US Streaming Debut for August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "universal",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:five-nights-at-freddy-s-2-sets-netflix-us-streaming-debut-for-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b4a809d031ac:20260706",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Little Brother’ Production Designer Alexandra Schaller on Crafting John Cena’s Netflix Comedy and That Reality TV Cameo",
-      "url": "https://www.whats-on-netflix.com/interviews/little-brother-netflix-alexandra-schaller-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/little-brother-netflix-alexandra-schaller-interview",
-      "event_at": "2026-07-06T00:01:46+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Little Brother’ Production Designer Alexandra Schaller on Crafting John Cena’s Netflix Comedy and That Reality TV Cameo",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3effd8b1128e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:42b20d2302ee:20260706",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3680,57 +3334,6 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s 13 Going on 30 Reboot: Filming Underway & Everything We Know So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:0393f45f3e17",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s 13 Going on 30 Reboot: Filming Underway & Everything We Know So Far",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Oliver Cunliffe Cast In Recurring Role in ‘Wednesday’ Season 3",
-      "canonical_key": "movie_source:what-s-on-netflix:fe9e1a258a82",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Oliver Cunliffe Cast In Recurring Role in ‘Wednesday’ Season 3",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Little Brother’ Production Designer Alexandra Schaller on Crafting John Cena’s Netflix Comedy and That Reality TV Cameo",
-      "canonical_key": "movie_source:what-s-on-netflix:3effd8b1128e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Little Brother’ Production Designer Alexandra Schaller on Crafting John Cena’s Netflix Comedy and That Reality TV Cameo",
-      "canonical_key_status": "source_proxy"
-    },
-    {
       "reason": "source_missing",
       "source": "KOFIC 박스오피스",
       "event_model": "box_office",
@@ -3755,6 +3358,18 @@
       "source": "Korean ticket reservation ranking pages",
       "signal_type": "reservation_ranking",
       "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Netflix Top 10 dataset",
+      "signal_type": "ott_ranking",
+      "activation_gate": "title/year canonicalization, region mapping, and weekly window handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Distributor release calendars",
+      "signal_type": "release_calendar",
+      "activation_gate": "distributor taxonomy, duplicate title handling, and source evidence retention"
     }
   ],
   "source_backlog": {
