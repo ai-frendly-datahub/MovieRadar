@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-23T08:30:46.511860+00:00",
+  "generated_at": "2026-07-24T08:28:00.850598+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 55,
-    "movie_signal_event_count": 56,
+    "release_calendar_events": 56,
+    "movie_signal_event_count": 57,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 29,
-    "proxy_canonical_key_count": 27,
+    "complete_canonical_key_count": 27,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 56,
-    "release_year_present_count": 29,
+    "normalized_title_present_count": 57,
+    "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 56,
-    "event_required_field_gap_count": 30,
+    "platform_present_count": 57,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 55,
-      "event_count": 55,
-      "latest_event_at": "2026-07-22T05:41:56+00:00",
-      "age_days": 1.12,
-      "latest_title": "Full List of What’s Coming to Netflix in August 2026",
-      "latest_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-august-2026",
+      "article_count": 56,
+      "event_count": 56,
+      "latest_event_at": "2026-07-23T21:57:56+00:00",
+      "age_days": 0.44,
+      "latest_title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
+      "latest_url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-everything-we-know",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 8,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-23T08:30:41.949482+00:00",
+      "latest_event_at": "2026-07-24T08:27:55.385087+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-23T08:30:41.949482+00:00",
+      "event_at": "2026-07-24T08:27:55.385087+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -392,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260723",
+      "event_key": "box_office:907d712300a5:20260724",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +405,361 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
+      "url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-everything-we-know",
+      "event_at": "2026-07-23T21:57:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:406c52bbbec7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8c9d89579d5e:20260723",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Countess of Monte Cristo’: Everything We Know About Netflix’s Epic French Revenge Drama",
+      "url": "https://www.whats-on-netflix.com/news/the-countess-of-monte-cristo-netflix-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/the-countess-of-monte-cristo-netflix-everything-we-know",
+      "event_at": "2026-07-23T08:02:37+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Countess of Monte Cristo’: Everything We Know About Netflix’s Epic French Revenge Drama",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4fb5917929f3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:eb3b78f30b94:20260723",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Movies and Series Heading to the 2026 Venice and Toronto Film Festivals",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-fall-2026-festival-lineup-venice-tiff",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-fall-2026-festival-lineup-venice-tiff",
+      "event_at": "2026-07-23T05:45:52+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Movies and Series Heading to the 2026 Venice and Toronto Film Festivals",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "film",
+        "movie",
+        "movies"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-movies-and-series-heading-to-the-2026-venice-and-toronto-film-festivals:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:cde14d023f33:20260723",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "A Live-Action CoComelon Spin-off Is Coming to Netflix",
+      "url": "https://www.whats-on-netflix.com/news/cocomelon-the-melon-patch-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/cocomelon-the-melon-patch-netflix-release-date",
+      "event_at": "2026-07-23T05:22:25+00:00",
+      "movie_id": "",
+      "normalized_title": "A Live-Action CoComelon Spin-off Is Coming to Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming",
+        "premiere"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4056cd935d33",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b24bcae6d958:20260723",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Minerva Academy’: Netflix Sets September Release Date for Italian High School Military Drama",
+      "url": "https://www.whats-on-netflix.com/news/minerva-netflix-release-date-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/minerva-netflix-release-date-everything-we-know",
+      "event_at": "2026-07-23T04:23:07+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Minerva Academy’: Netflix Sets September Release Date for Italian High School Military Drama",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:cb3022b9f0aa",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:345bd0b089a9:20260723",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Four Seasons’ Season 3 Gets Filming & Netflix Release Date Update",
+      "url": "https://www.whats-on-netflix.com/news/the-four-seasons-season-3-netflix-filming-dates-cast",
+      "source_url": "https://www.whats-on-netflix.com/news/the-four-seasons-season-3-netflix-filming-dates-cast",
+      "event_at": "2026-07-23T03:00:45+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Four Seasons’ Season 3 Gets Filming & Netflix Release Date Update",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-four-seasons-season-3-gets-filming-netflix-release-date-update:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:d6e2f66f9442:20260723",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3433,307 +3789,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Horror Movie ‘Obsession’ Sets Fall 2026 Netflix US Release Date",
-      "url": "https://www.whats-on-netflix.com/news/obsession-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/obsession-netflix-release-date",
-      "event_at": "2026-07-10T08:04:25+00:00",
-      "movie_id": "",
-      "normalized_title": "Horror Movie ‘Obsession’ Sets Fall 2026 Netflix US Release Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:horror-movie-obsession-sets-fall-2026-netflix-us-release-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:c556ba707757:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Halle Bailey and Regé-Jean Page Rom-Com ‘You, Me & Tuscany’ Sets Netflix Release Date",
-      "url": "https://www.whats-on-netflix.com/news/you-me-tuscany-streaming-release-schedule-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/you-me-tuscany-streaming-release-schedule-netflix",
-      "event_at": "2026-07-10T06:47:44+00:00",
-      "movie_id": "",
-      "normalized_title": "Halle Bailey and Regé-Jean Page Rom-Com ‘You, Me & Tuscany’ Sets Netflix Release Date",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "seeing",
-        "here",
-        "looking"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:297c30e6425e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:29380256affb:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "8 Biggest Movies Leaving Netflix At The End of July 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/8-biggest-movies-leaving-netflix-at-the-end-of-july-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/8-biggest-movies-leaving-netflix-at-the-end-of-july-2026",
-      "event_at": "2026-07-10T06:22:27+00:00",
-      "movie_id": "",
-      "normalized_title": "8 Biggest Movies Leaving Netflix At The End of July 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "movies",
-        "watch",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:8-biggest-movies-leaving-netflix-at-the-end-of-july-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1c57710274e0:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s Quasimodo Movie Gets Official Title Ahead of Autumn 2026 Premiere",
-      "url": "https://www.whats-on-netflix.com/news/quasimodo-the-soul-of-paris-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/quasimodo-the-soul-of-paris-everything-we-know",
-      "event_at": "2026-07-10T05:38:58+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s Quasimodo Movie Gets Official Title Ahead of Autumn 2026 Premiere",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "movie",
-        "year",
-        "now",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-quasimodo-movie-gets-official-title-ahead-of-autumn-2026-premiere:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6dad6d88c0ff:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New K-Dramas on Netflix in August 2026",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/new-k-dramas-netflix-august-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/new-k-dramas-netflix-august-2026",
-      "event_at": "2026-07-10T04:40:48+00:00",
-      "movie_id": "",
-      "normalized_title": "New K-Dramas on Netflix in August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-k-dramas-on-netflix-in-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f024d0dc01c3:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3748,6 +3803,74 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
+      "canonical_key": "movie_source:what-s-on-netflix:406c52bbbec7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Countess of Monte Cristo’: Everything We Know About Netflix’s Epic French Revenge Drama",
+      "canonical_key": "movie_source:what-s-on-netflix:4fb5917929f3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Countess of Monte Cristo’: Everything We Know About Netflix’s Epic French Revenge Drama",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "A Live-Action CoComelon Spin-off Is Coming to Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:4056cd935d33",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "A Live-Action CoComelon Spin-off Is Coming to Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Minerva Academy’: Netflix Sets September Release Date for Italian High School Military Drama",
+      "canonical_key": "movie_source:what-s-on-netflix:cb3022b9f0aa",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Minerva Academy’: Netflix Sets September Release Date for Italian High School Military Drama",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4095,74 +4218,6 @@
       "source": "What's on Netflix",
       "title": "‘Fight for ’84’ on Netflix: Cast, Plot, & Everything We Know About Jamie Foxx’s Next Major Film",
       "canonical_key": "movie_source:what-s-on-netflix:1e4ed743b19d",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Fight for ’84’ on Netflix: Cast, Plot, & Everything We Know About Jamie Foxx’s Next Major Film",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Queenpin’: Netflix Casts ‘Valeria’ and ‘Welcome to Eden’ Stars in New Spanish Drug Cartel Thriller",
-      "canonical_key": "movie_source:what-s-on-netflix:4061090d2e76",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Queenpin’: Netflix Casts ‘Valeria’ and ‘Welcome to Eden’ Stars in New Spanish Drug Cartel Thriller",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Is ‘Little House on the Prairie’ a Hit? Breaking Down the Disappointing Netflix Debut Numbers",
-      "canonical_key": "movie_source:what-s-on-netflix:d3070c889f9b",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Is ‘Little House on the Prairie’ a Hit? Breaking Down the Disappointing Netflix Debut Numbers",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Is Now In Its Podcast Golden Age Era But Will It Stick?",
-      "canonical_key": "movie_source:what-s-on-netflix:5a5e17797397",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Is Now In Its Podcast Golden Age Era But Will It Stick?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Lesley Manville and Ciarán Hinds Drama ‘Midwinter Break’ Sets Netflix US Streaming Premiere",
-      "canonical_key": "movie_source:what-s-on-netflix:fc628ad356b5",
       "required_field_gaps": [
         "release_year"
       ]
