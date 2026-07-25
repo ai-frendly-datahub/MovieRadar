@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-24T08:28:00.850598+00:00",
+  "generated_at": "2026-07-25T08:06:56.546429+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 56,
-    "movie_signal_event_count": 57,
+    "release_calendar_events": 57,
+    "movie_signal_event_count": 58,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 30,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 33,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 57,
-    "release_year_present_count": 27,
+    "normalized_title_present_count": 58,
+    "release_year_present_count": 25,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 57,
-    "event_required_field_gap_count": 33,
+    "platform_present_count": 58,
+    "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,13 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 56,
-      "event_count": 56,
-      "latest_event_at": "2026-07-23T21:57:56+00:00",
-      "age_days": 0.44,
-      "latest_title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
-      "latest_url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-everything-we-know",
+      "article_count": 57,
+      "event_count": 57,
+      "latest_event_at": "2026-07-24T09:26:48+00:00",
+      "age_days": 0.94,
+      "latest_title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
+      "latest_url": "https://www.whats-on-netflix.com/news/the-debt-collector-netflix-review",
       "latest_source_signal": [
-        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-24T08:27:55.385087+00:00",
+      "latest_event_at": "2026-07-25T08:06:51.682577+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-24T08:27:55.385087+00:00",
+      "event_at": "2026-07-25T08:06:51.682577+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -382,8 +381,10 @@
         "story",
         "time",
         "top",
+        "one",
         "new",
-        "latest"
+        "latest",
+        "want"
       ],
       "source_signal": [
         "box_office",
@@ -393,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260724",
+      "event_key": "box_office:907d712300a5:20260725",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +405,180 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
+      "url": "https://www.whats-on-netflix.com/news/the-debt-collector-netflix-review",
+      "source_url": "https://www.whats-on-netflix.com/news/the-debt-collector-netflix-review",
+      "event_at": "2026-07-24T09:26:48+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "review"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:047838a980c3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:9d4ffefce233:20260724",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Kevin Hart’s ’72 Hours’ Soundtrack Guide: Full List of Songs & Score",
+      "url": "https://www.whats-on-netflix.com/news/kevin-hart-72-hours-soundtrack-guide",
+      "source_url": "https://www.whats-on-netflix.com/news/kevin-hart-72-hours-soundtrack-guide",
+      "event_at": "2026-07-24T07:51:04+00:00",
+      "movie_id": "",
+      "normalized_title": "Kevin Hart’s ’72 Hours’ Soundtrack Guide: Full List of Songs & Score",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "score",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:0722c61706a1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:094131e70c74:20260724",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
+      "url": "https://www.whats-on-netflix.com/news/whats-on-netflix-library-search-tools-update",
+      "source_url": "https://www.whats-on-netflix.com/news/whats-on-netflix-library-search-tools-update",
+      "event_at": "2026-07-24T03:25:03+00:00",
+      "movie_id": "",
+      "normalized_title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "just"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1fdca3072d8f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:345891996415:20260724",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3671,124 +3846,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Lincoln Lawyer’ Crew Share Goodbyes as Filming Wraps on Fifth and Final Season",
-      "url": "https://www.whats-on-netflix.com/news/the-lincoln-lawyer-crew-share-goodbyes-as-filming-wraps-on-fifth-and-final-season",
-      "source_url": "https://www.whats-on-netflix.com/news/the-lincoln-lawyer-crew-share-goodbyes-as-filming-wraps-on-fifth-and-final-season",
-      "event_at": "2026-07-10T12:59:11+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Lincoln Lawyer’ Crew Share Goodbyes as Filming Wraps on Fifth and Final Season",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "series",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [
-        "series"
-      ],
-      "film_general": [
-        "screens",
-        "time",
-        "one",
-        "share"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-lincoln-lawyer-crew-share-goodbyes-as-filming-wraps-on-fifth-and-final-season:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:90c05896853a:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Movies and Series Filming for Netflix in Summer and Early Fall 2026",
-      "url": "https://www.whats-on-netflix.com/news/netflix-movies-filming-summer-fall-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-movies-filming-summer-fall-2026",
-      "event_at": "2026-07-10T10:22:16+00:00",
-      "movie_id": "",
-      "normalized_title": "New Movies and Series Filming for Netflix in Summer and Early Fall 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "see",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-movies-and-series-filming-for-netflix-in-summer-and-early-fall-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:72ff4e0fdb3b:20260710",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3803,6 +3860,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
+      "canonical_key": "movie_source:what-s-on-netflix:047838a980c3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Kevin Hart’s ’72 Hours’ Soundtrack Guide: Full List of Songs & Score",
+      "canonical_key": "movie_source:what-s-on-netflix:0722c61706a1",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Kevin Hart’s ’72 Hours’ Soundtrack Guide: Full List of Songs & Score",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
+      "canonical_key": "movie_source:what-s-on-netflix:1fdca3072d8f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4167,57 +4275,6 @@
       "source": "What's on Netflix",
       "title": "Oscar Chark, Yuvraj Kalsi & Evan Mok Head to Summer Camp in Netflix’s New YA Comedy ‘Camped Out’",
       "canonical_key": "movie_source:what-s-on-netflix:8c49cdfd4916",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Oscar Chark, Yuvraj Kalsi & Evan Mok Head to Summer Camp in Netflix’s New YA Comedy ‘Camped Out’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
-      "canonical_key": "movie_source:what-s-on-netflix:769130290a90",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
-      "canonical_key": "movie_source:what-s-on-netflix:20123b1c4590",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Fight for ’84’ on Netflix: Cast, Plot, & Everything We Know About Jamie Foxx’s Next Major Film",
-      "canonical_key": "movie_source:what-s-on-netflix:1e4ed743b19d",
       "required_field_gaps": [
         "release_year"
       ]
