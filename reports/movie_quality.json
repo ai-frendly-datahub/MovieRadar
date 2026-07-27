@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-26T08:27:29.249128+00:00",
+  "generated_at": "2026-07-27T09:53:04.132500+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 57,
-    "movie_signal_event_count": 58,
+    "release_calendar_events": 54,
+    "movie_signal_event_count": 55,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
-    "proxy_canonical_key_count": 33,
+    "complete_canonical_key_count": 23,
+    "proxy_canonical_key_count": 32,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 58,
-    "release_year_present_count": 25,
+    "normalized_title_present_count": 55,
+    "release_year_present_count": 23,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 58,
-    "event_required_field_gap_count": 36,
+    "platform_present_count": 55,
+    "event_required_field_gap_count": 35,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 100,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 57,
-      "event_count": 57,
-      "latest_event_at": "2026-07-25T05:34:59+00:00",
+      "article_count": 54,
+      "event_count": 54,
+      "latest_event_at": "2026-07-26T06:58:14+00:00",
       "age_days": 1.12,
-      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: July 25, 2026",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-july-25-2026",
+      "latest_title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/lord-of-the-flies-cinematographer-mark-wolf-interview",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-26T08:27:23.265687+00:00",
+      "latest_event_at": "2026-07-27T09:53:00.555269+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-26T08:27:23.265687+00:00",
+      "event_at": "2026-07-27T09:53:00.555269+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260726",
+      "event_key": "box_office:907d712300a5:20260727",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,62 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
+      "url": "https://www.whats-on-netflix.com/interviews/lord-of-the-flies-cinematographer-mark-wolf-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/lord-of-the-flies-cinematographer-mark-wolf-interview",
+      "event_at": "2026-07-26T06:58:14+00:00",
+      "movie_id": "",
+      "normalized_title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bc27b7b0b127",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:0f54a425a9fe:20260726",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3599,252 +3654,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘All the Truth Behind My Lies’: Everything We Know About the New Spanish Summer Road-Trip Drama",
-      "url": "https://www.whats-on-netflix.com/news/all-the-truth-behind-my-lies-valeria-adaptation-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/all-the-truth-behind-my-lies-valeria-adaptation-netflix-release-date",
-      "event_at": "2026-07-13T04:44:00+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘All the Truth Behind My Lies’: Everything We Know About the New Spanish Summer Road-Trip Drama",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "new",
-        "first",
-        "my"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-all-the-truth-behind-my-lies-everything-we-know-about-the-new-spanish-summer-road-trip-drama:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:9470f5bf5903:20260713",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix This Week: July 13th to 19th, 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-july-13-to-19-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-july-13-to-19-2026",
-      "event_at": "2026-07-13T02:38:19+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix This Week: July 13th to 19th, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-this-week-july-13th-to-19th-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1f878b131fab:20260713",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Lesley Manville and Ciarán Hinds Drama ‘Midwinter Break’ Sets Netflix US Streaming Premiere",
-      "url": "https://www.whats-on-netflix.com/news/midwinter-break-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/midwinter-break-netflix-release-date",
-      "event_at": "2026-07-13T01:46:24+00:00",
-      "movie_id": "",
-      "normalized_title": "Lesley Manville and Ciarán Hinds Drama ‘Midwinter Break’ Sets Netflix US Streaming Premiere",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "premiere"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:fc628ad356b5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:495c65bb685a:20260713",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Little House on the Prairie’ Netflix Review: A Beautifully Updated Adaptation That Captures the Magic of the Original",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/little-house-on-the-prairie-netflix-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/little-house-on-the-prairie-netflix-review",
-      "event_at": "2026-07-12T13:47:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Little House on the Prairie’ Netflix Review: A Beautifully Updated Adaptation That Captures the Magic of the Original",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "watch",
-        "review",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:82e68c4c84a1",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:8efd74ea354a:20260712",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3859,6 +3668,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
+      "canonical_key": "movie_source:what-s-on-netflix:bc27b7b0b127",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4257,23 +4083,6 @@
       "source": "What's on Netflix",
       "title": "Stranger Things, Squid Game, and Bridgerton Crossover in New Netflix Minigolf Game",
       "canonical_key": "movie_source:what-s-on-netflix:3098dc6d907e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Stranger Things, Squid Game, and Bridgerton Crossover in New Netflix Minigolf Game",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Oscar Chark, Yuvraj Kalsi & Evan Mok Head to Summer Camp in Netflix’s New YA Comedy ‘Camped Out’",
-      "canonical_key": "movie_source:what-s-on-netflix:8c49cdfd4916",
       "required_field_gaps": [
         "release_year"
       ]
