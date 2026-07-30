@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-07-29T08:41:41.813877+00:00",
+  "generated_at": "2026-07-30T08:27:32.530230+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 51,
-    "movie_signal_event_count": 52,
+    "release_calendar_events": 52,
+    "movie_signal_event_count": 53,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 32,
+    "proxy_canonical_key_count": 33,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 52,
+    "normalized_title_present_count": 53,
     "release_year_present_count": 20,
     "rank_present_count": 0,
     "gross_present_count": 0,
     "platform_present_count": 52,
-    "event_required_field_gap_count": 35,
+    "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 51,
-      "event_count": 51,
-      "latest_event_at": "2026-07-28T10:08:09+00:00",
-      "age_days": 0.94,
-      "latest_title": "Most Watched Netflix Shows and Movies of All Time As Of 2026",
-      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
+      "article_count": 52,
+      "event_count": 52,
+      "latest_event_at": "2026-07-29T11:02:29+00:00",
+      "age_days": 0.89,
+      "latest_title": "Netflix Testing Out New TV Player Overhaul: Here What’s Changing",
+      "latest_url": "https://www.whats-on-netflix.com/news/first-look-netflix-new-tv-video-player-redesign",
       "latest_source_signal": [
-        "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-07-29T08:41:35.694750+00:00",
+      "latest_event_at": "2026-07-30T08:27:26.623310+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-07-29T08:41:35.694750+00:00",
+      "event_at": "2026-07-30T08:27:26.623310+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260729",
+      "event_key": "box_office:907d712300a5:20260730",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,363 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Testing Out New TV Player Overhaul: Here What’s Changing",
+      "url": "https://www.whats-on-netflix.com/news/first-look-netflix-new-tv-video-player-redesign",
+      "source_url": "https://www.whats-on-netflix.com/news/first-look-netflix-new-tv-video-player-redesign",
+      "event_at": "2026-07-29T11:02:29+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Testing Out New TV Player Overhaul: Here What’s Changing",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6096170e00ec",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:a89fded56a91:20260729",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Director Michael Keillor Breaks Down Depicting the Lockerbie Disaster in ‘The Bombing of Pan Am 103’",
+      "url": "https://www.whats-on-netflix.com/interviews/director-michael-keillor-breaks-down-depicting-the-lockerbie-disaster-in-the-bombing-of-pan-am-103",
+      "source_url": "https://www.whats-on-netflix.com/interviews/director-michael-keillor-breaks-down-depicting-the-lockerbie-disaster-in-the-bombing-of-pan-am-103",
+      "event_at": "2026-07-29T07:46:35+00:00",
+      "movie_id": "",
+      "normalized_title": "Director Michael Keillor Breaks Down Depicting the Lockerbie Disaster in ‘The Bombing of Pan Am 103’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "most",
+        "one"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1acff86fe4b4",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:54b5bade8d61:20260729",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
+      "url": "https://www.whats-on-netflix.com/news/outer-banks-season-5-final-trailer-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/outer-banks-season-5-final-trailer-netflix",
+      "event_at": "2026-07-29T05:00:01+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:182da2c2b45b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:78b9bf80ec8c:20260729",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Unveils First Looks and Release Date for Russell Crowe and Jacob Tremblay ‘Unabomber’ Movie",
+      "url": "https://www.whats-on-netflix.com/news/unabomber-netflix-movie-first-look-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/unabomber-netflix-movie-first-look-release-date",
+      "event_at": "2026-07-29T04:12:21+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Unveils First Looks and Release Date for Russell Crowe and Jacob Tremblay ‘Unabomber’ Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7cb0d5537c77",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:171d42a914e8:20260729",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/breakout-k-drama-teach-you-a-lesson-enters-netflixs-all-time-top-10-most-popular-shows-list",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/breakout-k-drama-teach-you-a-lesson-enters-netflixs-all-time-top-10-most-popular-shows-list",
+      "event_at": "2026-07-29T02:42:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "shows"
+      ],
+      "film_general": [
+        "time",
+        "most",
+        "top"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:33d10db2ff7a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ac0643461e94:20260729",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New K-Dramas Coming to Netflix in 2026 & Beyond",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/k-dramas-coming-to-netflix-in-2026-beyond",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/k-dramas-coming-to-netflix-in-2026-beyond",
+      "event_at": "2026-07-29T01:03:40+00:00",
+      "movie_id": "",
+      "normalized_title": "New K-Dramas Coming to Netflix in 2026 & Beyond",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "watching",
+        "coming"
+      ],
+      "film_general": [
+        "watching",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-k-dramas-coming-to-netflix-in-2026-beyond:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f1351a30d891:20260729",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -655,6 +1012,65 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
+      "title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
+      "event_at": "2026-07-27T23:31:43+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released",
+        "coming"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:possible-love-romantic-k-drama-film-coming-to-netflix-in-november-2026-what-we-know-so-far:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7f613ad6b1dd:20260727",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
       "title": "Korean Drama Film ‘Possible Love’ Sets November 2026 Netflix Release Date After Fall Festivals",
       "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date",
@@ -697,65 +1113,6 @@
       "canonical_key": "movie:korean-drama-film-possible-love-sets-november-2026-netflix-release-date-after-fall-festivals:2026:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:5c50362f5d3f:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
-      "event_at": "2026-07-27T23:31:43+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released",
-        "coming"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:possible-love-romantic-k-drama-film-coming-to-netflix-in-november-2026-what-we-know-so-far:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7f613ad6b1dd:20260727",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
@@ -3156,311 +3513,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Netflix Comedy Series ‘I Suck at Girls’ Begins Filming: What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/i-suck-at-girls-netflix-comedy-series",
-      "source_url": "https://www.whats-on-netflix.com/news/i-suck-at-girls-netflix-comedy-series",
-      "event_at": "2026-07-16T06:26:19+00:00",
-      "movie_id": "",
-      "normalized_title": "New Netflix Comedy Series ‘I Suck at Girls’ Begins Filming: What We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [
-        "now",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:81ac9c490150",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:aee759ca5728:20260716",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Stranger Things, Squid Game, and Bridgerton Crossover in New Netflix Minigolf Game",
-      "url": "https://www.whats-on-netflix.com/news/netflix-minigolf-party-game-squid-game-stranger-things-bridgerton",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-minigolf-party-game-squid-game-stranger-things-bridgerton",
-      "event_at": "2026-07-16T06:00:39+00:00",
-      "movie_id": "",
-      "normalized_title": "Stranger Things, Squid Game, and Bridgerton Crossover in New Netflix Minigolf Game",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3098dc6d907e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4e478ca62ee8:20260716",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Kevin Hart and Henry Cavill’s Netflix Movie ‘Spy Duo’ Eyed for August 2026 Filming Start",
-      "url": "https://www.whats-on-netflix.com/news/spy-duo-netflix-movie-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/spy-duo-netflix-movie-everything-we-know",
-      "event_at": "2026-07-16T05:09:14+00:00",
-      "movie_id": "",
-      "normalized_title": "Kevin Hart and Henry Cavill’s Netflix Movie ‘Spy Duo’ Eyed for August 2026 Filming Start",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "two",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:kevin-hart-and-henry-cavill-s-netflix-movie-spy-duo-eyed-for-august-2026-filming-start:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6cff51c7261b:20260716",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Oscar Chark, Yuvraj Kalsi & Evan Mok Head to Summer Camp in Netflix’s New YA Comedy ‘Camped Out’",
-      "url": "https://www.whats-on-netflix.com/news/camped-out-netflix-series-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/camped-out-netflix-series-everything-we-know",
-      "event_at": "2026-07-16T04:16:04+00:00",
-      "movie_id": "",
-      "normalized_title": "Oscar Chark, Yuvraj Kalsi & Evan Mok Head to Summer Camp in Netflix’s New YA Comedy ‘Camped Out’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar"
-      ],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8c49cdfd4916",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ab6299889607:20260716",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
-      "url": "https://www.whats-on-netflix.com/news/stranger-things-10th-anniversary-news-documentary",
-      "source_url": "https://www.whats-on-netflix.com/news/stranger-things-10th-anniversary-news-documentary",
-      "event_at": "2026-07-15T08:47:19+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Stranger Things’ 10th Anniversary: Every Announcement Including New Documentary, Reveals and Heartfelt Messages",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new",
-        "share"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:769130290a90",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2fae49ff5d83:20260715",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3475,6 +3527,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Testing Out New TV Player Overhaul: Here What’s Changing",
+      "canonical_key": "movie_source:what-s-on-netflix:6096170e00ec",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Testing Out New TV Player Overhaul: Here What’s Changing",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Director Michael Keillor Breaks Down Depicting the Lockerbie Disaster in ‘The Bombing of Pan Am 103’",
+      "canonical_key": "movie_source:what-s-on-netflix:1acff86fe4b4",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Director Michael Keillor Breaks Down Depicting the Lockerbie Disaster in ‘The Bombing of Pan Am 103’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
+      "canonical_key": "movie_source:what-s-on-netflix:182da2c2b45b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Unveils First Looks and Release Date for Russell Crowe and Jacob Tremblay ‘Unabomber’ Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:7cb0d5537c77",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Unveils First Looks and Release Date for Russell Crowe and Jacob Tremblay ‘Unabomber’ Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
+      "canonical_key": "movie_source:what-s-on-netflix:33d10db2ff7a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3805,91 +3942,6 @@
       "source": "What's on Netflix",
       "title": "Alan Ritchson’s Netflix Sequel Gets an Official Title: Enter ‘War Machines’",
       "canonical_key": "movie_source:what-s-on-netflix:caaaa32a4413",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Alan Ritchson’s Netflix Sequel Gets an Official Title: Enter ‘War Machines’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s ‘LEGO One Piece’ Special Reveals First Trailer, New First Looks, and More Major Cast Additions",
-      "canonical_key": "movie_source:what-s-on-netflix:ab7d3085f0d8",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s ‘LEGO One Piece’ Special Reveals First Trailer, New First Looks, and More Major Cast Additions",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘LEGO One Piece’ Netflix Specials Voice Cast Confirmed With Live Action Actors Reprising Roles",
-      "canonical_key": "movie_source:what-s-on-netflix:89adf2eacd2f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘LEGO One Piece’ Netflix Specials Voice Cast Confirmed With Live Action Actors Reprising Roles",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s German Movie ’23 000 Lives’ Review: A Stunningly Shot Drama Sunk by Its Own Message",
-      "canonical_key": "movie_source:what-s-on-netflix:608049cbcb0b",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s German Movie ’23 000 Lives’ Review: A Stunningly Shot Drama Sunk by Its Own Message",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Latest ‘Sniper’ Movie ‘Sniper: No Nation’ Sets Netflix US Streaming Premiere",
-      "canonical_key": "movie_source:what-s-on-netflix:af6e825e93d1",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Latest ‘Sniper’ Movie ‘Sniper: No Nation’ Sets Netflix US Streaming Premiere",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "WWE on Netflix 18 Months In: Netflix Engagement Report Viewership Update",
-      "canonical_key": "movie_source:what-s-on-netflix:6a61d1b22f46",
       "required_field_gaps": [
         "release_year"
       ]
