@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-03T09:45:11.684585+00:00",
+  "generated_at": "2026-08-04T08:36:33.826604+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 49,
-    "movie_signal_event_count": 50,
+    "release_calendar_events": 45,
+    "movie_signal_event_count": 46,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 28,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 26,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 50,
-    "release_year_present_count": 22,
+    "normalized_title_present_count": 46,
+    "release_year_present_count": 20,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 49,
-    "event_required_field_gap_count": 31,
+    "platform_present_count": 45,
+    "event_required_field_gap_count": 29,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 49,
-      "event_count": 49,
+      "article_count": 45,
+      "event_count": 45,
       "latest_event_at": "2026-07-30T07:30:47+00:00",
-      "age_days": 4.09,
+      "age_days": 5.05,
       "latest_title": "True-Crime Documentary ‘Conversations with a Killer: The Charles Manson Tapes’ Sets August 2026 Release",
       "latest_url": "https://www.whats-on-netflix.com/news/true-crime-documentary-conversations-with-a-killer-the-charles-manson-tapes-sets-august-2026-release",
       "latest_source_signal": [
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-03T09:45:07.744474+00:00",
+      "latest_event_at": "2026-08-04T08:36:29.632861+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-03T09:45:07.744474+00:00",
+      "event_at": "2026-08-04T08:36:29.632861+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -363,7 +363,9 @@
       "box_office": [
         "box office"
       ],
-      "director": [],
+      "director": [
+        "nolan"
+      ],
       "actor": [],
       "award": [],
       "studio": [
@@ -393,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260803",
+      "event_key": "box_office:907d712300a5:20260804",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -1593,65 +1595,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
-      "event_at": "2026-07-27T23:31:43+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released",
-        "coming"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:possible-love-romantic-k-drama-film-coming-to-netflix-in-november-2026-what-we-know-so-far:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7f613ad6b1dd:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "Korean Drama Film ‘Possible Love’ Sets November 2026 Netflix Release Date After Fall Festivals",
       "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date",
@@ -1694,6 +1637,65 @@
       "canonical_key": "movie:korean-drama-film-possible-love-sets-november-2026-netflix-release-date-after-fall-festivals:2026:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:5c50362f5d3f:20260727",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
+      "event_at": "2026-07-27T23:31:43+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released",
+        "coming"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:possible-love-romantic-k-drama-film-coming-to-netflix-in-november-2026-what-we-know-so-far:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7f613ad6b1dd:20260727",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
@@ -3046,251 +3048,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:e412aa7a4896",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:4bb0bc3ec338:20260721",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s Live-Action ‘Gundam’ Movie Wraps Filming: Everything We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/netflixs-live-action-gundam-movie-wraps-filming-everything-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/netflixs-live-action-gundam-movie-wraps-filming-everything-we-know-so-far",
-      "event_at": "2026-07-21T04:22:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s Live-Action ‘Gundam’ Movie Wraps Filming: Everything We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:65ae40171abd",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:50b13c9f0bac:20260721",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Most Watched Animated Movies on Netflix in 2026 So Far",
-      "url": "https://www.whats-on-netflix.com/news/most-watched-netflix-animated-movies-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/most-watched-netflix-animated-movies-2026",
-      "event_at": "2026-07-21T03:36:40+00:00",
-      "movie_id": "",
-      "normalized_title": "Most Watched Animated Movies on Netflix in 2026 So Far",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "most",
-        "latest",
-        "looking"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:most-watched-animated-movies-on-netflix-in-2026-so-far:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:ac2fa9cac8f9:20260721",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Unveils First Looks and Premiere Date for New Period Drama Series ‘My Brilliant Career’",
-      "url": "https://www.whats-on-netflix.com/news/my-brilliant-career-netflix-august-2026-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/my-brilliant-career-netflix-august-2026-release-date",
-      "event_at": "2026-07-21T01:27:26+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Unveils First Looks and Premiere Date for New Period Drama Series ‘My Brilliant Career’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming",
-        "premiere"
-      ],
-      "film_general": [
-        "story",
-        "new",
-        "first",
-        "my"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-unveils-first-looks-and-premiere-date-for-new-period-drama-series-my-brilliant-career:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:8bef29141507:20260721",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Alan Ritchson’s Netflix Sequel Gets an Official Title: Enter ‘War Machines’",
-      "url": "https://www.whats-on-netflix.com/news/war-machine-2-sequel-title-war-machines-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/war-machine-2-sequel-title-war-machines-netflix",
-      "event_at": "2026-07-20T11:06:16+00:00",
-      "movie_id": "",
-      "normalized_title": "Alan Ritchson’s Netflix Sequel Gets an Official Title: Enter ‘War Machines’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:caaaa32a4413",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:16fcde1b234e:20260720",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
