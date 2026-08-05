@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-04T08:36:33.826604+00:00",
+  "generated_at": "2026-08-05T08:36:20.314144+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 45,
-    "movie_signal_event_count": 46,
+    "release_calendar_events": 41,
+    "movie_signal_event_count": 42,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 26,
+    "proxy_canonical_key_count": 22,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 46,
+    "normalized_title_present_count": 42,
     "release_year_present_count": 20,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 45,
-    "event_required_field_gap_count": 29,
+    "platform_present_count": 41,
+    "event_required_field_gap_count": 25,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 45,
-      "event_count": 45,
+      "article_count": 41,
+      "event_count": 41,
       "latest_event_at": "2026-07-30T07:30:47+00:00",
-      "age_days": 5.05,
+      "age_days": 6.05,
       "latest_title": "True-Crime Documentary ‘Conversations with a Killer: The Charles Manson Tapes’ Sets August 2026 Release",
       "latest_url": "https://www.whats-on-netflix.com/news/true-crime-documentary-conversations-with-a-killer-the-charles-manson-tapes-sets-august-2026-release",
       "latest_source_signal": [
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-04T08:36:29.632861+00:00",
+      "latest_event_at": "2026-08-05T08:36:15.533902+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-04T08:36:29.632861+00:00",
+      "event_at": "2026-08-05T08:36:15.533902+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260804",
+      "event_key": "box_office:907d712300a5:20260805",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -2817,246 +2817,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Kids’ Hit ‘Toca Boca Jr Kitchen’ Now Available on Netflix Games",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/toca-boca-jr-kitchen-netflix-release",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/toca-boca-jr-kitchen-netflix-release",
-      "event_at": "2026-07-22T04:33:25+00:00",
-      "movie_id": "",
-      "normalized_title": "Kids’ Hit ‘Toca Boca Jr Kitchen’ Now Available on Netflix Games",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "available"
-      ],
-      "film_general": [
-        "now"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:187ae1549d61",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:18c22f592e7b:20260722",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Top 10s: Little House on the Prairie Rises, Heartstopper: Forever Misses Out, and Harlan Coben Eyes the All-Time List",
-      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10-little-house-on-the-prairie-heartstopper",
-      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10-little-house-on-the-prairie-heartstopper",
-      "event_at": "2026-07-22T03:38:16+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Top 10s: Little House on the Prairie Rises, Heartstopper: Forever Misses Out, and Harlan Coben Eyes the All-Time List",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "time",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:19b9ee795c75",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:569a4d8487cb:20260722",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "’13 Going on 30′ Netflix Movie Set Photos Reveal Jennifer Garner and Surprise Cast Additions",
-      "url": "https://www.whats-on-netflix.com/news/13-going-on-30-netflix-movie-set-photos-reveal-jennifer-garner-and-surprise-cast-additions",
-      "source_url": "https://www.whats-on-netflix.com/news/13-going-on-30-netflix-movie-set-photos-reveal-jennifer-garner-and-surprise-cast-additions",
-      "event_at": "2026-07-21T23:37:23+00:00",
-      "movie_id": "",
-      "normalized_title": "’13 Going on 30′ Netflix Movie Set Photos Reveal Jennifer Garner and Surprise Cast Additions",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:4848ed4cfb47",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4c4a3d508ce5:20260721",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Swapped’ Officially Breaks Into Netflix’s All-Time Top 10 List; Director Calls Milestone an “Incredible Honor”",
-      "url": "https://www.whats-on-netflix.com/news/swapped-officially-breaks-into-netflixs-all-time-top-10-director-calls-milestone-an-incredible-honor",
-      "source_url": "https://www.whats-on-netflix.com/news/swapped-officially-breaks-into-netflixs-all-time-top-10-director-calls-milestone-an-incredible-honor",
-      "event_at": "2026-07-21T10:00:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Swapped’ Officially Breaks Into Netflix’s All-Time Top 10 List; Director Calls Milestone an “Incredible Honor”",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "time",
-        "top"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e412aa7a4896",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4bb0bc3ec338:20260721",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3447,48 +3207,30 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Kids’ Hit ‘Toca Boca Jr Kitchen’ Now Available on Netflix Games",
-      "canonical_key": "movie_source:what-s-on-netflix:187ae1549d61",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_missing",
+      "source": "KOFIC 박스오피스",
+      "event_model": "box_office",
+      "age_days": null
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Kids’ Hit ‘Toca Boca Jr Kitchen’ Now Available on Netflix Games",
-      "canonical_key_status": "source_proxy"
+      "reason": "missing_event_model",
+      "event_model": "reservation_ranking"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Top 10s: Little House on the Prairie Rises, Heartstopper: Forever Misses Out, and Harlan Coben Eyes the All-Time List",
-      "canonical_key": "movie_source:what-s-on-netflix:19b9ee795c75",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "ott_ranking"
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Top 10s: Little House on the Prairie Rises, Heartstopper: Forever Misses Out, and Harlan Coben Eyes the All-Time List",
-      "canonical_key_status": "source_proxy"
+      "reason": "source_backlog_pending",
+      "source": "KOFIC daily box office API",
+      "signal_type": "box_office",
+      "activation_gate": "API key, movie code mapping, and gross date retention"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "’13 Going on 30′ Netflix Movie Set Photos Reveal Jennifer Garner and Surprise Cast Additions",
-      "canonical_key": "movie_source:what-s-on-netflix:4848ed4cfb47",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_backlog_pending",
+      "source": "Korean ticket reservation ranking pages",
+      "signal_type": "reservation_ranking",
+      "activation_gate": "ToS review, ranking parser stability, and market/date tagging"
     }
   ],
   "source_backlog": {
