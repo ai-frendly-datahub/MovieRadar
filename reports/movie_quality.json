@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-06T08:36:27.139210+00:00",
+  "generated_at": "2026-08-07T07:15:51.811459+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 49,
-    "movie_signal_event_count": 50,
+    "release_calendar_events": 56,
+    "movie_signal_event_count": 57,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 24,
+    "complete_canonical_key_count": 27,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 50,
-    "release_year_present_count": 26,
+    "normalized_title_present_count": 57,
+    "release_year_present_count": 27,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 49,
-    "event_required_field_gap_count": 27,
+    "platform_present_count": 56,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 74,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 49,
-      "event_count": 49,
-      "latest_event_at": "2026-08-05T02:42:21+00:00",
-      "age_days": 1.25,
-      "latest_title": "Kids YouTube Channel ‘ChuChuTV’ With Over 60 Billion Views Making Jump Over to Netflix",
-      "latest_url": "https://www.whats-on-netflix.com/news/kids-youtube-channel-chuchutv-with-over-60-billion-views-making-jump-over-to-netflix",
+      "article_count": 56,
+      "event_count": 56,
+      "latest_event_at": "2026-08-06T22:00:20+00:00",
+      "age_days": 0.39,
+      "latest_title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
+      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/the-last-house-review-netflixs-new-suburban-sci-fi-creature-feature-packs-heart-and-mystery",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-06T08:36:22.873074+00:00",
+      "latest_event_at": "2026-08-07T07:15:45.331380+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-06T08:36:22.873074+00:00",
+      "event_at": "2026-08-07T07:15:45.331380+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260806",
+      "event_key": "box_office:907d712300a5:20260807",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,555 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/the-last-house-review-netflixs-new-suburban-sci-fi-creature-feature-packs-heart-and-mystery",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-last-house-review-netflixs-new-suburban-sci-fi-creature-feature-packs-heart-and-mystery",
+      "event_at": "2026-08-06T22:00:20+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "review",
+        "new",
+        "here",
+        "post"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d6101fd25685",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e0d39a2b4118:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Reportedly Scraps US ‘Squid Game’ Spin-Off Series from David Fincher",
+      "url": "https://www.whats-on-netflix.com/news/david-finchers-us-squid-game-spin-off-no-longer-moving-forward-at-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/david-finchers-us-squid-game-spin-off-no-longer-moving-forward-at-netflix",
+      "event_at": "2026-08-06T12:12:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Reportedly Scraps US ‘Squid Game’ Spin-Off Series from David Fincher",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:afe76c92c321",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:aaad3b91b50a:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
+      "url": "https://www.whats-on-netflix.com/news/grown-ups-3-netflix-filming-cast-announcement",
+      "source_url": "https://www.whats-on-netflix.com/news/grown-ups-3-netflix-filming-cast-announcement",
+      "event_at": "2026-08-06T10:19:19+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:b05c3ca0c4ff",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:00cae2b7446b:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
+      "url": "https://www.whats-on-netflix.com/news/why-netflix-is-hosting-gta-6-preview",
+      "source_url": "https://www.whats-on-netflix.com/news/why-netflix-is-hosting-gta-6-preview",
+      "event_at": "2026-08-06T09:53:15+00:00",
+      "movie_id": "",
+      "normalized_title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:62329a92d361",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:caf6cfba7c57:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "One Piece Season 3: All The New Characters & Locations We’ll See Next",
+      "url": "https://www.whats-on-netflix.com/news/one-piece-season-3-netflix-characters-locations-guide",
+      "source_url": "https://www.whats-on-netflix.com/news/one-piece-season-3-netflix-characters-locations-guide",
+      "event_at": "2026-08-06T06:59:06+00:00",
+      "movie_id": "",
+      "normalized_title": "One Piece Season 3: All The New Characters & Locations We’ll See Next",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "see",
+        "one",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:3cf87d374941",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8648d6e098a1:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "One of the Most Controversial Sci-Fi Trilogies of All Time Just Landed on Netflix",
+      "url": "https://www.whats-on-netflix.com/whats-new/atlas-shrugged-trilogy-netflix-release",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/atlas-shrugged-trilogy-netflix-release",
+      "event_at": "2026-08-06T06:47:24+00:00",
+      "movie_id": "",
+      "normalized_title": "One of the Most Controversial Sci-Fi Trilogies of All Time Just Landed on Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies",
+        "time",
+        "most",
+        "one",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f0b10186bf53",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ec0436f44302:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look at What’s Coming to Netflix in September 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-september-2026",
+      "event_at": "2026-08-06T05:16:56+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look at What’s Coming to Netflix in September 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "shows",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "first",
+        "here",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-in-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:1761dc18cbf2:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
+      "url": "https://www.whats-on-netflix.com/news/gta-vi-extended-look-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/gta-vi-extended-look-netflix-release-date",
+      "event_at": "2026-08-06T03:12:26+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "first",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d9abce28e309",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1bb8a02156b2:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Cha Tae-Hyun and Uhm Ji-Won to Star in Netflix K-Comedy Film ‘Two Cops and Five Kids’",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/two-cops-and-five-kids-netflix-movie-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/two-cops-and-five-kids-netflix-movie-everything-we-know",
+      "event_at": "2026-08-06T01:33:14+00:00",
+      "movie_id": "",
+      "normalized_title": "Cha Tae-Hyun and Uhm Ji-Won to Star in Netflix K-Comedy Film ‘Two Cops and Five Kids’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "movie",
+        "two",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:ffaaf22abb29",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2d8088ded6f7:20260806",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3175,125 +3724,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
-      "url": "https://www.whats-on-netflix.com/news/whats-on-netflix-library-search-tools-update",
-      "source_url": "https://www.whats-on-netflix.com/news/whats-on-netflix-library-search-tools-update",
-      "event_at": "2026-07-24T03:25:03+00:00",
-      "movie_id": "",
-      "normalized_title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "just"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1fdca3072d8f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:345891996415:20260724",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
-      "url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-everything-we-know",
-      "event_at": "2026-07-23T21:57:56+00:00",
-      "movie_id": "",
-      "normalized_title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:406c52bbbec7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:8c9d89579d5e:20260723",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3308,6 +3738,142 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
+      "canonical_key": "movie_source:what-s-on-netflix:d6101fd25685",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Reportedly Scraps US ‘Squid Game’ Spin-Off Series from David Fincher",
+      "canonical_key": "movie_source:what-s-on-netflix:afe76c92c321",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Reportedly Scraps US ‘Squid Game’ Spin-Off Series from David Fincher",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:b05c3ca0c4ff",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
+      "canonical_key": "movie_source:what-s-on-netflix:62329a92d361",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "One Piece Season 3: All The New Characters & Locations We’ll See Next",
+      "canonical_key": "movie_source:what-s-on-netflix:3cf87d374941",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "One Piece Season 3: All The New Characters & Locations We’ll See Next",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "One of the Most Controversial Sci-Fi Trilogies of All Time Just Landed on Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:f0b10186bf53",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "One of the Most Controversial Sci-Fi Trilogies of All Time Just Landed on Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
+      "canonical_key": "movie_source:what-s-on-netflix:d9abce28e309",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Cha Tae-Hyun and Uhm Ji-Won to Star in Netflix K-Comedy Film ‘Two Cops and Five Kids’",
+      "canonical_key": "movie_source:what-s-on-netflix:ffaaf22abb29",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Cha Tae-Hyun and Uhm Ji-Won to Star in Netflix K-Comedy Film ‘Two Cops and Five Kids’",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3590,138 +4156,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Women Like Us’: Whoopi Goldberg & All-Star Cast to Star in New Netflix Comedy Movie",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Cackling of the Dodos’: Jason Bateman Netflix Movie Wraps Filming with Sam Rockwell & Woody Harrelson",
-      "canonical_key": "movie_source:what-s-on-netflix:11e322fc5e4b",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Cackling of the Dodos’: Jason Bateman Netflix Movie Wraps Filming with Sam Rockwell & Woody Harrelson",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ben Affleck’s Upcoming Netflix Crime Thriller ‘Animals’: Runtime Revealed & Everything We Know So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:ce05af6ca88a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ben Affleck’s Upcoming Netflix Crime Thriller ‘Animals’: Runtime Revealed & Everything We Know So Far",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
-      "canonical_key": "movie_source:what-s-on-netflix:bc27b7b0b127",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
-      "canonical_key": "movie_source:what-s-on-netflix:047838a980c3",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Debt Collector’ Netflix Review: Gritty Thai Thriller Packs a Brutal Punch",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Kevin Hart’s ’72 Hours’ Soundtrack Guide: Full List of Songs & Score",
-      "canonical_key": "movie_source:what-s-on-netflix:0722c61706a1",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Kevin Hart’s ’72 Hours’ Soundtrack Guide: Full List of Songs & Score",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
-      "canonical_key": "movie_source:what-s-on-netflix:1fdca3072d8f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How to Browse Netflix’s US Library Easily With Our Refreshed Library Pages",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
-      "canonical_key": "movie_source:what-s-on-netflix:406c52bbbec7",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Chris Hemsworth Returns as ‘Extraction 3’ Officially Starts Filming: Cast & What to Expect",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "source_missing",
-      "source": "KOFIC 박스오피스",
-      "event_model": "box_office",
-      "age_days": null
     }
   ],
   "source_backlog": {
