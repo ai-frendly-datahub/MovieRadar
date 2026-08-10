@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-09T06:57:00.883404+00:00",
+  "generated_at": "2026-08-10T07:41:51.661223+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 61,
-    "movie_signal_event_count": 62,
+    "release_calendar_events": 58,
+    "movie_signal_event_count": 59,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 31,
-    "proxy_canonical_key_count": 31,
+    "complete_canonical_key_count": 29,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 62,
-    "release_year_present_count": 31,
+    "normalized_title_present_count": 59,
+    "release_year_present_count": 29,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 60,
-    "event_required_field_gap_count": 34,
+    "platform_present_count": 57,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 61,
-      "event_count": 61,
-      "latest_event_at": "2026-08-08T12:06:07+00:00",
-      "age_days": 0.79,
-      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 8, 2026",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-8-2026",
+      "article_count": 58,
+      "event_count": 58,
+      "latest_event_at": "2026-08-09T11:24:39+00:00",
+      "age_days": 0.85,
+      "latest_title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
+      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/netflix-movies-letterboxd-one-million-watched-club",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-09T06:56:54.686174+00:00",
+      "latest_event_at": "2026-08-10T07:41:47.802062+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-09T06:56:54.686174+00:00",
+      "event_at": "2026-08-10T07:41:47.802062+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -371,8 +370,7 @@
       "award": [],
       "studio": [
         "new",
-        "release",
-        "studio"
+        "release"
       ],
       "platform": [
         "release"
@@ -396,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260809",
+      "event_key": "box_office:907d712300a5:20260810",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -408,6 +406,129 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/netflix-movies-letterboxd-one-million-watched-club",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/netflix-movies-letterboxd-one-million-watched-club",
+      "event_at": "2026-08-09T11:24:39+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "films",
+        "movie",
+        "one"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:57725328eb72",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:9b54accea945:20260809",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "BAFTA-Winning Biopic ‘I Swear’ Sets US Netflix Release Date",
+      "url": "https://www.whats-on-netflix.com/news/i-swear-movie-netflix-us-release-date-august-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/i-swear-movie-netflix-us-release-date-august-2026",
+      "event_at": "2026-08-09T06:14:08+00:00",
+      "movie_id": "",
+      "normalized_title": "BAFTA-Winning Biopic ‘I Swear’ Sets US Netflix Release Date",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "bafta"
+      ],
+      "studio": [
+        "sony pictures",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "story",
+        "top",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:bafta-winning-biopic-i-swear-sets-us-netflix-release-date:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0ae2c5126124:20260809",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3378,6 +3499,65 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
+      "title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
+      "event_at": "2026-07-27T23:31:43+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released",
+        "coming"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:possible-love-romantic-k-drama-film-coming-to-netflix-in-november-2026-what-we-know-so-far:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7f613ad6b1dd:20260727",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
       "title": "Korean Drama Film ‘Possible Love’ Sets November 2026 Netflix Release Date After Fall Festivals",
       "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-lee-chang-dong-netflix-release-date",
@@ -3420,65 +3600,6 @@
       "canonical_key": "movie:korean-drama-film-possible-love-sets-november-2026-netflix-release-date-after-fall-festivals:2026:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:5c50362f5d3f:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/possible-love-wt-romantic-k-drama-film-lead-coming-to-netflix-in-2026",
-      "event_at": "2026-07-27T23:31:43+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Possible Love’ Romantic K-Drama Film: Coming to Netflix in November 2026 & What We Know So Far",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released",
-        "coming"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:possible-love-romantic-k-drama-film-coming-to-netflix-in-november-2026-what-we-know-so-far:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7f613ad6b1dd:20260727",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
@@ -3731,283 +3852,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "7 Great Movies Leaving Netflix Throughout August 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/best-movies-leaving-netflix-august-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/best-movies-leaving-netflix-august-2026",
-      "event_at": "2026-07-27T06:46:32+00:00",
-      "movie_id": "",
-      "normalized_title": "7 Great Movies Leaving Netflix Throughout August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "latest"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:7-great-movies-leaving-netflix-throughout-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:dc2156bb5170:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Ben Affleck’s Upcoming Netflix Crime Thriller ‘Animals’: Runtime Revealed & Everything We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/ben-affleck-animals-netflix-movie",
-      "source_url": "https://www.whats-on-netflix.com/news/ben-affleck-animals-netflix-movie",
-      "event_at": "2026-07-27T03:57:08+00:00",
-      "movie_id": "",
-      "normalized_title": "Ben Affleck’s Upcoming Netflix Crime Thriller ‘Animals’: Runtime Revealed & Everything We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ce05af6ca88a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:5d2dca36be74:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Beat Luke Littler’: Netflix Announces High-Stakes Live Darts Event With £501k Cash Prize",
-      "url": "https://www.whats-on-netflix.com/news/beat-luke-littler-netflix-live-special-announcement",
-      "source_url": "https://www.whats-on-netflix.com/news/beat-luke-littler-netflix-live-special-announcement",
-      "event_at": "2026-07-27T02:22:57+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Beat Luke Littler’: Netflix Announces High-Stakes Live Darts Event With £501k Cash Prize",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:beat-luke-littler-netflix-announces-high-stakes-live-darts-event-with-501k-cash-prize:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:02a063f43542:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in August 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/leaving-netflix-august-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/leaving-netflix-august-2026",
-      "event_at": "2026-07-27T01:08:53+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:3fd07f48e223:20260727",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
-      "url": "https://www.whats-on-netflix.com/interviews/lord-of-the-flies-cinematographer-mark-wolf-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/lord-of-the-flies-cinematographer-mark-wolf-interview",
-      "event_at": "2026-07-26T06:58:14+00:00",
-      "movie_id": "",
-      "normalized_title": "How Netflix’s ‘Lord of the Flies’ Created Its Nightmarish Visual World: Interview with Cinematographer Mark Wolf",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:bc27b7b0b127",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0f54a425a9fe:20260726",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4022,6 +3866,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
+      "canonical_key": "movie_source:what-s-on-netflix:57725328eb72",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4420,23 +4281,6 @@
       "source": "What's on Netflix",
       "title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
       "canonical_key": "movie_source:what-s-on-netflix:33d10db2ff7a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Will ‘Teach You a Lesson’ Return for Season 2 on Netflix?",
-      "canonical_key": "movie_source:what-s-on-netflix:3cb6961a0e19",
       "required_field_gaps": [
         "release_year"
       ]
