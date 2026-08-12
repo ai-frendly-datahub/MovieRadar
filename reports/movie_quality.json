@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-11T07:07:32.606965+00:00",
+  "generated_at": "2026-08-12T07:24:52.741093+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 60,
-    "movie_signal_event_count": 61,
+    "release_calendar_events": 61,
+    "movie_signal_event_count": 62,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 31,
-    "proxy_canonical_key_count": 30,
+    "proxy_canonical_key_count": 31,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 61,
+    "normalized_title_present_count": 62,
     "release_year_present_count": 31,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 59,
-    "event_required_field_gap_count": 33,
+    "platform_present_count": 60,
+    "event_required_field_gap_count": 34,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 60,
-      "event_count": 60,
-      "latest_event_at": "2026-08-10T10:39:54+00:00",
-      "age_days": 0.85,
-      "latest_title": "New French Shows & Movies Coming to Netflix in 2026 and Beyond",
-      "latest_url": "https://www.whats-on-netflix.com/coming-soon/french-shows-movies-netflix-2026-2027-beyond",
+      "article_count": 61,
+      "event_count": 61,
+      "latest_event_at": "2026-08-11T08:32:01+00:00",
+      "age_days": 0.95,
+      "latest_title": "‘Virgin River’ Season 8 Officially Wraps Filming",
+      "latest_url": "https://www.whats-on-netflix.com/news/virgin-river-season-8-wraps-production-everything-we-know",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-11T07:07:26.234096+00:00",
+      "latest_event_at": "2026-08-12T07:24:48.111823+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-11T07:07:26.234096+00:00",
+      "event_at": "2026-08-12T07:24:48.111823+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260811",
+      "event_key": "box_office:907d712300a5:20260812",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +406,322 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Virgin River’ Season 8 Officially Wraps Filming",
+      "url": "https://www.whats-on-netflix.com/news/virgin-river-season-8-wraps-production-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/virgin-river-season-8-wraps-production-everything-we-know",
+      "event_at": "2026-08-11T08:32:01+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Virgin River’ Season 8 Officially Wraps Filming",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:5d9711bbd635",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:7f4a8cacbaf8:20260811",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Two Hidden Movie Gems Just Hit Netflix, Including A Drama With Mark Wahlberg",
+      "url": "https://www.whats-on-netflix.com/whats-new/two-hidden-movie-gems-just-hit-netflix-including-a-sports-drama-with-mark-wahlberg",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/two-hidden-movie-gems-just-hit-netflix-including-a-sports-drama-with-mark-wahlberg",
+      "event_at": "2026-08-11T07:20:49+00:00",
+      "movie_id": "",
+      "normalized_title": "Two Hidden Movie Gems Just Hit Netflix, Including A Drama With Mark Wahlberg",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "story",
+        "now",
+        "two",
+        "new",
+        "here",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:aafd3cd5d2cc",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:417c5f7b8afa:20260811",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Anime Movie ‘Gintama: Yoshiwara in Flames’ Coming to Netflix in August 2026",
+      "url": "https://www.whats-on-netflix.com/news/anime/gintama-movie-2026-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/gintama-movie-2026-netflix-release-date",
+      "event_at": "2026-08-11T06:22:07+00:00",
+      "movie_id": "",
+      "normalized_title": "Anime Movie ‘Gintama: Yoshiwara in Flames’ Coming to Netflix in August 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "here",
+        "need"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:anime-movie-gintama-yoshiwara-in-flames-coming-to-netflix-in-august-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0f7dea027f63:20260811",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Life Is A Long Quiet River’ French Series Adaptation Set At Netflix",
+      "url": "https://www.whats-on-netflix.com/news/lupin-ludivine-sagnier-netflix-life-is-a-long-quiet-river-series",
+      "source_url": "https://www.whats-on-netflix.com/news/lupin-ludivine-sagnier-netflix-life-is-a-long-quiet-river-series",
+      "event_at": "2026-08-11T05:11:27+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Life Is A Long Quiet River’ French Series Adaptation Set At Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8a1ba5de39fb",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:887a27e53a35:20260811",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘A Matter of Time’ Netflix Movie: Toby Jones, Anne Reid, Tanya Franks, & Nish Kumar Join Cast As Filming Continues",
+      "url": "https://www.whats-on-netflix.com/news/a-matter-of-time-netflix-movie-ben-stiller-cast-updates",
+      "source_url": "https://www.whats-on-netflix.com/news/a-matter-of-time-netflix-movie-ben-stiller-cast-updates",
+      "event_at": "2026-08-11T01:55:37+00:00",
+      "movie_id": "",
+      "normalized_title": "‘A Matter of Time’ Netflix Movie: Toby Jones, Anne Reid, Tanya Franks, & Nish Kumar Join Cast As Filming Continues",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "time",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:5bdba6f08472",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2ad7607e961a:20260811",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3741,248 +4058,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
-      "url": "https://www.whats-on-netflix.com/news/outer-banks-season-5-final-trailer-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/outer-banks-season-5-final-trailer-netflix",
-      "event_at": "2026-07-29T05:00:01+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Outer Banks’ Season 5 Final Trailer Drop Teases Shocking Twist: Could JJ Return?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:182da2c2b45b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:78b9bf80ec8c:20260729",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Unveils First Looks and Release Date for Russell Crowe and Jacob Tremblay ‘Unabomber’ Movie",
-      "url": "https://www.whats-on-netflix.com/news/unabomber-netflix-movie-first-look-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/unabomber-netflix-movie-first-look-release-date",
-      "event_at": "2026-07-29T04:12:21+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Unveils First Looks and Release Date for Russell Crowe and Jacob Tremblay ‘Unabomber’ Movie",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7cb0d5537c77",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:171d42a914e8:20260729",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/breakout-k-drama-teach-you-a-lesson-enters-netflixs-all-time-top-10-most-popular-shows-list",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/breakout-k-drama-teach-you-a-lesson-enters-netflixs-all-time-top-10-most-popular-shows-list",
-      "event_at": "2026-07-29T02:42:56+00:00",
-      "movie_id": "",
-      "normalized_title": "Breakout K-Drama ‘Teach You a Lesson’ Enters Netflix’s All-Time Top 10 Most Popular Shows List",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows"
-      ],
-      "film_general": [
-        "time",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:33d10db2ff7a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ac0643461e94:20260729",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New K-Dramas Coming to Netflix in 2026 & Beyond",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/k-dramas-coming-to-netflix-in-2026-beyond",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/k-dramas-coming-to-netflix-in-2026-beyond",
-      "event_at": "2026-07-29T01:03:40+00:00",
-      "movie_id": "",
-      "normalized_title": "New K-Dramas Coming to Netflix in 2026 & Beyond",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watching",
-        "coming"
-      ],
-      "film_general": [
-        "watching",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-k-dramas-coming-to-netflix-in-2026-beyond:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f1351a30d891:20260729",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3997,6 +4072,74 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Virgin River’ Season 8 Officially Wraps Filming",
+      "canonical_key": "movie_source:what-s-on-netflix:5d9711bbd635",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Virgin River’ Season 8 Officially Wraps Filming",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Two Hidden Movie Gems Just Hit Netflix, Including A Drama With Mark Wahlberg",
+      "canonical_key": "movie_source:what-s-on-netflix:aafd3cd5d2cc",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Two Hidden Movie Gems Just Hit Netflix, Including A Drama With Mark Wahlberg",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Life Is A Long Quiet River’ French Series Adaptation Set At Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:8a1ba5de39fb",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Life Is A Long Quiet River’ French Series Adaptation Set At Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘A Matter of Time’ Netflix Movie: Toby Jones, Anne Reid, Tanya Franks, & Nish Kumar Join Cast As Filming Continues",
+      "canonical_key": "movie_source:what-s-on-netflix:5bdba6f08472",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘A Matter of Time’ Netflix Movie: Toby Jones, Anne Reid, Tanya Franks, & Nish Kumar Join Cast As Filming Continues",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4344,74 +4487,6 @@
       "source": "What's on Netflix",
       "title": "Every Kevin Hart Netflix Original Movie Ranked From Worst to Best",
       "canonical_key": "movie_source:what-s-on-netflix:e00d70905919",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Kevin Hart Netflix Original Movie Ranked From Worst to Best",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Beast in Me’ EP Daniel Pearle on Emmy Nods, Killers, and a Potential Season 2",
-      "canonical_key": "movie_source:what-s-on-netflix:ae09e18beb8e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Beast in Me’ EP Daniel Pearle on Emmy Nods, Killers, and a Potential Season 2",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Virgin River’ Season 8: Expected Netflix Release Date & Everything We Know So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:bb782dccd391",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Virgin River’ Season 8: Expected Netflix Release Date & Everything We Know So Far",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Julia Hart Directing Netflix’s ‘Better Than the Movies’: Filming Begins This Fall",
-      "canonical_key": "movie_source:what-s-on-netflix:1c8647bee4ce",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Julia Hart Directing Netflix’s ‘Better Than the Movies’: Filming Begins This Fall",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Office Romance’ Casting Director Nancy Nayor Is A Master Caster of Horror",
-      "canonical_key": "movie_source:what-s-on-netflix:5bee914f17e3",
       "required_field_gaps": [
         "release_year"
       ]
