@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-14T07:24:39.185284+00:00",
+  "generated_at": "2026-08-15T06:38:11.805940+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 64,
-    "movie_signal_event_count": 65,
+    "release_calendar_events": 67,
+    "movie_signal_event_count": 68,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 34,
-    "proxy_canonical_key_count": 31,
+    "complete_canonical_key_count": 35,
+    "proxy_canonical_key_count": 33,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 65,
-    "release_year_present_count": 34,
+    "normalized_title_present_count": 68,
+    "release_year_present_count": 35,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 64,
-    "event_required_field_gap_count": 34,
+    "platform_present_count": 67,
+    "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 64,
-      "event_count": 64,
-      "latest_event_at": "2026-08-13T11:23:41+00:00",
-      "age_days": 0.83,
-      "latest_title": "Netflix Shuts Down ‘Oxenfree’ and ‘Unhinged’ Developer Night School Studio",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-shuts-down-night-school-studio-oxenfree",
+      "article_count": 67,
+      "event_count": 67,
+      "latest_event_at": "2026-08-14T07:39:40+00:00",
+      "age_days": 0.96,
+      "latest_title": "‘KPop: Demon Hunters’ Joins The Criterion Collection in November 2026",
+      "latest_url": "https://www.whats-on-netflix.com/news/netflixs-oscar-winning-animated-hit-k-pop-demon-hunters-joins-the-criterion-collection-in-november-2026",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-14T07:24:35.100018+00:00",
+      "latest_event_at": "2026-08-15T06:38:06.838133+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-14T07:24:35.100018+00:00",
+      "event_at": "2026-08-15T06:38:06.838133+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260814",
+      "event_key": "box_office:907d712300a5:20260815",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +405,300 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘KPop: Demon Hunters’ Joins The Criterion Collection in November 2026",
+      "url": "https://www.whats-on-netflix.com/news/netflixs-oscar-winning-animated-hit-k-pop-demon-hunters-joins-the-criterion-collection-in-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/netflixs-oscar-winning-animated-hit-k-pop-demon-hunters-joins-the-criterion-collection-in-november-2026",
+      "event_at": "2026-08-14T07:39:40+00:00",
+      "movie_id": "",
+      "normalized_title": "‘KPop: Demon Hunters’ Joins The Criterion Collection in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:kpop-demon-hunters-joins-the-criterion-collection-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c37177914c96:20260814",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘BET’ Season 2: Filming Wraps, Cast Additions & Everything We Know So Far About Its Netflix Return",
+      "url": "https://www.whats-on-netflix.com/news/bet-season-2-netflix-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/bet-season-2-netflix-everything-we-know",
+      "event_at": "2026-08-14T06:45:04+00:00",
+      "movie_id": "",
+      "normalized_title": "‘BET’ Season 2: Filming Wraps, Cast Additions & Everything We Know So Far About Its Netflix Return",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a991a4b68bd4",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d30a5691679d:20260814",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Satoshi Kon’s Masterpiece Anime Movie ‘Perfect Blue’ Sets Netflix Release Date",
+      "url": "https://www.whats-on-netflix.com/news/anime/perfect-blue-anime-movie-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/perfect-blue-anime-movie-netflix-release-date",
+      "event_at": "2026-08-14T04:39:54+00:00",
+      "movie_id": "",
+      "normalized_title": "Satoshi Kon’s Masterpiece Anime Movie ‘Perfect Blue’ Sets Netflix Release Date",
+      "release_year": "1997",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:satoshi-kon-s-masterpiece-anime-movie-perfect-blue-sets-netflix-release-date:1997:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:b3f9f6b0db69:20260814",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Venom: The Last Dance’ and ‘Gladiator 2’ Lead 50 New Movies and TV Shows on Netflix UK This Week",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/new-movies-tv-shows-netflix-uk-this-week",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/new-movies-tv-shows-netflix-uk-this-week",
+      "event_at": "2026-08-14T02:14:51+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Venom: The Last Dance’ and ‘Gladiator 2’ Lead 50 New Movies and TV Shows on Netflix UK This Week",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "shows"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:89fa7ae30410",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:520f084b9a17:20260814",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Song on the ‘Don’t Say Good Luck’ Soundtrack on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/soundtracks/dont-say-good-luck-soundtrack-netflix-songs",
+      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/dont-say-good-luck-soundtrack-netflix-songs",
+      "event_at": "2026-08-14T01:39:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Song on the ‘Don’t Say Good Luck’ Soundtrack on Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d79ea68ead37",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d2be6e1888f0:20260814",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4142,121 +4436,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "WWE SummerSlam 2026 Live on Netflix: Full Night 1 & Night 2 Card, Start Times & Country List",
-      "url": "https://www.whats-on-netflix.com/news/what-time-wwe-summerslam-2026-netflix-release-schedule",
-      "source_url": "https://www.whats-on-netflix.com/news/what-time-wwe-summerslam-2026-netflix-release-schedule",
-      "event_at": "2026-08-01T03:13:10+00:00",
-      "movie_id": "",
-      "normalized_title": "WWE SummerSlam 2026 Live on Netflix: Full Night 1 & Night 2 Card, Start Times & Country List",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watching"
-      ],
-      "film_general": [
-        "watching",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:wwe-summerslam-2026-live-on-netflix-full-night-1-night-2-card-start-times-country-list:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7697673fca93:20260801",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Beast in Me’ EP Daniel Pearle on Emmy Nods, Killers, and a Potential Season 2",
-      "url": "https://www.whats-on-netflix.com/interviews/the-beast-in-me-writer-daniel-pearle-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/the-beast-in-me-writer-daniel-pearle-interview",
-      "event_at": "2026-07-31T11:12:35+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Beast in Me’ EP Daniel Pearle on Emmy Nods, Killers, and a Potential Season 2",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ae09e18beb8e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:29fa6e5fb048:20260731",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4271,6 +4450,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘BET’ Season 2: Filming Wraps, Cast Additions & Everything We Know So Far About Its Netflix Return",
+      "canonical_key": "movie_source:what-s-on-netflix:a991a4b68bd4",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘BET’ Season 2: Filming Wraps, Cast Additions & Everything We Know So Far About Its Netflix Return",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Venom: The Last Dance’ and ‘Gladiator 2’ Lead 50 New Movies and TV Shows on Netflix UK This Week",
+      "canonical_key": "movie_source:what-s-on-netflix:89fa7ae30410",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Venom: The Last Dance’ and ‘Gladiator 2’ Lead 50 New Movies and TV Shows on Netflix UK This Week",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Song on the ‘Don’t Say Good Luck’ Soundtrack on Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:d79ea68ead37",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Song on the ‘Don’t Say Good Luck’ Soundtrack on Netflix",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4635,57 +4865,6 @@
       "source": "What's on Netflix",
       "title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
       "canonical_key": "movie_source:what-s-on-netflix:62329a92d361",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "One Piece Season 3: All The New Characters & Locations We’ll See Next",
-      "canonical_key": "movie_source:what-s-on-netflix:3cf87d374941",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "One Piece Season 3: All The New Characters & Locations We’ll See Next",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "One of the Most Controversial Sci-Fi Trilogies of All Time Just Landed on Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:f0b10186bf53",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "One of the Most Controversial Sci-Fi Trilogies of All Time Just Landed on Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
-      "canonical_key": "movie_source:what-s-on-netflix:d9abce28e309",
       "required_field_gaps": [
         "release_year"
       ]
