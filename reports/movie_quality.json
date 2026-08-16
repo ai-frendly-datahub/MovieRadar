@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-15T06:38:11.805940+00:00",
+  "generated_at": "2026-08-16T06:40:05.031858+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 67,
-    "movie_signal_event_count": 68,
+    "release_calendar_events": 68,
+    "movie_signal_event_count": 69,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 35,
-    "proxy_canonical_key_count": 33,
+    "proxy_canonical_key_count": 34,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 68,
+    "normalized_title_present_count": 69,
     "release_year_present_count": 35,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 67,
-    "event_required_field_gap_count": 36,
+    "platform_present_count": 68,
+    "event_required_field_gap_count": 37,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 67,
-      "event_count": 67,
-      "latest_event_at": "2026-08-14T07:39:40+00:00",
-      "age_days": 0.96,
-      "latest_title": "‘KPop: Demon Hunters’ Joins The Criterion Collection in November 2026",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflixs-oscar-winning-animated-hit-k-pop-demon-hunters-joins-the-criterion-collection-in-november-2026",
+      "article_count": 68,
+      "event_count": 68,
+      "latest_event_at": "2026-08-15T11:53:54+00:00",
+      "age_days": 0.78,
+      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 15, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-15-2026",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-15T06:38:06.838133+00:00",
+      "latest_event_at": "2026-08-16T06:39:59.913693+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-15T06:38:06.838133+00:00",
+      "event_at": "2026-08-16T06:39:59.913693+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -370,7 +371,8 @@
       "award": [],
       "studio": [
         "new",
-        "release"
+        "release",
+        "studio"
       ],
       "platform": [
         "release"
@@ -378,13 +380,14 @@
       "film_general": [
         "movie",
         "movies",
-        "viewing",
         "story",
+        "years",
         "time",
         "top",
         "one",
         "new",
-        "latest"
+        "latest",
+        "just"
       ],
       "source_signal": [
         "box_office",
@@ -394,7 +397,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260815",
+      "event_key": "box_office:907d712300a5:20260816",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +408,130 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 15, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-15-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-15-2026",
+      "event_at": "2026-08-15T11:53:54+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 15, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "shows",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "top",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-august-15-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:3de0865062f2:20260815",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘To the Max’ (‘La Fiera’) Netflix Review: High-Altitude Drama Never Quite Takes Off",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/to-the-max-la-fiera-netflix-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/to-the-max-la-fiera-netflix-review",
+      "event_at": "2026-08-15T11:38:15+00:00",
+      "movie_id": "",
+      "normalized_title": "‘To the Max’ (‘La Fiera’) Netflix Review: High-Altitude Drama Never Quite Takes Off",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "max"
+      ],
+      "film_general": [
+        "movie",
+        "review",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4863a0be739f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:02f8dc556e89:20260815",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4372,70 +4499,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 1, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-1-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-1-2026",
-      "event_at": "2026-08-01T08:15:08+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 1, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "shows",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "best",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-august-1-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:9beaa587c9ce:20260801",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4450,6 +4513,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘To the Max’ (‘La Fiera’) Netflix Review: High-Altitude Drama Never Quite Takes Off",
+      "canonical_key": "movie_source:what-s-on-netflix:4863a0be739f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘To the Max’ (‘La Fiera’) Netflix Review: High-Altitude Drama Never Quite Takes Off",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4848,23 +4928,6 @@
       "source": "What's on Netflix",
       "title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
       "canonical_key": "movie_source:what-s-on-netflix:b05c3ca0c4ff",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Why Netflix Hosting a ‘GTA VI’ Preview Follows a Rockstar Precedent & The Fan Reaction So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:62329a92d361",
       "required_field_gaps": [
         "release_year"
       ]
