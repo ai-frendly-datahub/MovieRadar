@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-17T06:55:17.672388+00:00",
+  "generated_at": "2026-08-18T06:42:25.054265+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 67,
-    "movie_signal_event_count": 68,
+    "release_calendar_events": 71,
+    "movie_signal_event_count": 72,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 34,
-    "proxy_canonical_key_count": 34,
+    "proxy_canonical_key_count": 38,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 68,
+    "normalized_title_present_count": 72,
     "release_year_present_count": 34,
-    "rank_present_count": 1,
+    "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 67,
-    "event_required_field_gap_count": 37,
+    "platform_present_count": 71,
+    "event_required_field_gap_count": 41,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 47,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 67,
-      "event_count": 67,
-      "latest_event_at": "2026-08-16T05:44:07+00:00",
-      "age_days": 1.05,
-      "latest_title": "‘Spartacus’ and ‘Nashville’ Leaving Netflix After Short One-Year Stints",
-      "latest_url": "https://www.whats-on-netflix.com/news/spartacus-and-nashville-leaving-netflix-us-in-september-2026-after-short-one-year-stints",
+      "article_count": 71,
+      "event_count": 71,
+      "latest_event_at": "2026-08-17T14:40:42+00:00",
+      "age_days": 0.67,
+      "latest_title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
+      "latest_url": "https://www.whats-on-netflix.com/news/netflix-at-anime-nyc-preview-massive-slate-updates-for-cyberpunk-edgerunners-sequel-and-blue-eye-samurai-season-2",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-17T06:55:12.029378+00:00",
+      "latest_event_at": "2026-08-18T06:42:18.884419+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-17T06:55:12.029378+00:00",
+      "event_at": "2026-08-18T06:42:18.884419+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260817",
+      "event_key": "box_office:907d712300a5:20260818",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +405,503 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
+      "url": "https://www.whats-on-netflix.com/news/netflix-at-anime-nyc-preview-massive-slate-updates-for-cyberpunk-edgerunners-sequel-and-blue-eye-samurai-season-2",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-at-anime-nyc-preview-massive-slate-updates-for-cyberpunk-edgerunners-sequel-and-blue-eye-samurai-season-2",
+      "event_at": "2026-08-17T14:40:42+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "one",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:11844e1b9c49",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8b204390abcf:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Hit French Movie ‘School Life’ Is Getting an 8-Episode Sequel Series at Netflix",
+      "url": "https://www.whats-on-netflix.com/news/netflix-announces-school-life-sequel-series-cast-details",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-announces-school-life-sequel-series-cast-details",
+      "event_at": "2026-08-17T12:53:43+00:00",
+      "movie_id": "",
+      "normalized_title": "Hit French Movie ‘School Life’ Is Getting an 8-Episode Sequel Series at Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "series"
+      ],
+      "film_general": [
+        "movie",
+        "years",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e89edeffe041",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:0ba7e473c839:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Robert De Niro-Produced Documentary ‘Tribeca 25’ Sets Netflix Premiere Date",
+      "url": "https://www.whats-on-netflix.com/news/tribeca-25-documentary-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/tribeca-25-documentary-netflix-release-date",
+      "event_at": "2026-08-17T12:43:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Robert De Niro-Produced Documentary ‘Tribeca 25’ Sets Netflix Premiere Date",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "premiere"
+      ],
+      "film_general": [
+        "film",
+        "years",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:9cf13ec2e447",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:59e69011f48f:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘A Different World’ Sequel September 2026 Release Date: Trailer and First Look",
+      "url": "https://www.whats-on-netflix.com/news/a-different-world-netflix-sequel-series-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/a-different-world-netflix-sequel-series-everything-we-know",
+      "event_at": "2026-08-17T06:18:22+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘A Different World’ Sequel September 2026 Release Date: Trailer and First Look",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "release"
+      ],
+      "film_general": [
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-s-a-different-world-sequel-september-2026-release-date-trailer-and-first-look:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:9d520e148d9a:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix UK September 2026 Releases: New Movies, TV Series, and Live NFL Game",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/whats-coming-to-netflix-uk-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/whats-coming-to-netflix-uk-september-2026",
+      "event_at": "2026-08-17T05:11:33+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix UK September 2026 Releases: New Movies, TV Series, and Live NFL Game",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-uk-september-2026-releases-new-movies-tv-series-and-live-nfl-game:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ab92e89af972:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Diplomat’ Season 4: Netflix Confirms October 2026 Release Date, Drops Explosive First Teaser",
+      "url": "https://www.whats-on-netflix.com/news/the-diplomat-season-4-netflix-release-date-trailer-photos",
+      "source_url": "https://www.whats-on-netflix.com/news/the-diplomat-season-4-netflix-release-date-trailer-photos",
+      "event_at": "2026-08-17T04:30:36+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Diplomat’ Season 4: Netflix Confirms October 2026 Release Date, Drops Explosive First Teaser",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "watch",
+        "release"
+      ],
+      "film_general": [
+        "watch",
+        "new",
+        "first",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-diplomat-season-4-netflix-confirms-october-2026-release-date-drops-explosive-first-teaser:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:b03c807add5b:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix French Thriller ‘Projet K’ Goes Into Production With Tim Roth, Diane Kruger and Dany Boon",
+      "url": "https://www.whats-on-netflix.com/news/netflix-french-thriller-projet-k-goes-into-production-with-tim-roth-diane-kruger-and-dany-boon",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-french-thriller-projet-k-goes-into-production-with-tim-roth-diane-kruger-and-dany-boon",
+      "event_at": "2026-08-17T03:01:41+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix French Thriller ‘Projet K’ Goes Into Production With Tim Roth, Diane Kruger and Dany Boon",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:ffd0e391ec94",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e6064a76c1f5:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/every-netflix-original-movie-released-in-the-criterion-collection",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/every-netflix-original-movie-released-in-the-criterion-collection",
+      "event_at": "2026-08-17T00:32:14+00:00",
+      "movie_id": "",
+      "normalized_title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases"
+      ],
+      "film_general": [
+        "movies"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:20123b1c4590",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e9b91860ba6a:20260817",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4194,249 +4691,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe’ Sets August 2026 Netflix Release Date",
-      "url": "https://www.whats-on-netflix.com/news/anime/mobile-suit-gundam-hathaway-sorcery-of-nymph-circe-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/anime/mobile-suit-gundam-hathaway-sorcery-of-nymph-circe-netflix-release-date",
-      "event_at": "2026-08-04T06:28:50+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe’ Sets August 2026 Netflix Release Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:mobile-suit-gundam-hathaway-the-sorcery-of-nymph-circe-sets-august-2026-netflix-release-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b42e522bd1a4:20260804",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Stranger Things Claims #1 Spot as Nielsen Reveals Most Streamed Movies & Series of 2026 So Far",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/stranger-things-nielsen-viewership-ratings-h1-2026",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/stranger-things-nielsen-viewership-ratings-h1-2026",
-      "event_at": "2026-08-04T06:00:20+00:00",
-      "movie_id": "",
-      "normalized_title": "Stranger Things Claims #1 Spot as Nielsen Reveals Most Streamed Movies & Series of 2026 So Far",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": 1,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "series",
-        "released"
-      ],
-      "film_general": [
-        "movies",
-        "see",
-        "audiences",
-        "most",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:stranger-things-claims-1-spot-as-nielsen-reveals-most-streamed-movies-series-of-2026-so-far:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:3a0831db5302:20260804",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Anime September 2026 Preview: ‘Steel Ball Run’ Leads Weekly Release Lineup",
-      "url": "https://www.whats-on-netflix.com/news/anime/netflix-anime-september-2026-preview-steel-ball-run-leads-weekly-release-lineup",
-      "source_url": "https://www.whats-on-netflix.com/news/anime/netflix-anime-september-2026-preview-steel-ball-run-leads-weekly-release-lineup",
-      "event_at": "2026-08-04T01:39:51+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Anime September 2026 Preview: ‘Steel Ball Run’ Leads Weekly Release Lineup",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "one",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-anime-september-2026-preview-steel-ball-run-leads-weekly-release-lineup:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:30a822f8fc29:20260804",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Every Kevin Hart Netflix Original Movie Ranked From Worst to Best",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/kevin-hart-netflix-movies-ranked",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/kevin-hart-netflix-movies-ranked",
-      "event_at": "2026-08-03T10:43:36+00:00",
-      "movie_id": "",
-      "normalized_title": "Every Kevin Hart Netflix Original Movie Ranked From Worst to Best",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "best",
-        "most",
-        "top",
-        "one",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e00d70905919",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:5c30de8f7763:20260803",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4451,6 +4705,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
+      "canonical_key": "movie_source:what-s-on-netflix:11844e1b9c49",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Hit French Movie ‘School Life’ Is Getting an 8-Episode Sequel Series at Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:e89edeffe041",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Hit French Movie ‘School Life’ Is Getting an 8-Episode Sequel Series at Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Robert De Niro-Produced Documentary ‘Tribeca 25’ Sets Netflix Premiere Date",
+      "canonical_key": "movie_source:what-s-on-netflix:9cf13ec2e447",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Robert De Niro-Produced Documentary ‘Tribeca 25’ Sets Netflix Premiere Date",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix French Thriller ‘Projet K’ Goes Into Production With Tim Roth, Diane Kruger and Dany Boon",
+      "canonical_key": "movie_source:what-s-on-netflix:ffd0e391ec94",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix French Thriller ‘Projet K’ Goes Into Production With Tim Roth, Diane Kruger and Dany Boon",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "canonical_key": "movie_source:what-s-on-netflix:20123b1c4590",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "All 13 Netflix Movies and Documentaries in the Criterion Collection",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4781,91 +5120,6 @@
       "source": "What's on Netflix",
       "title": "What’s New on Netflix UK This Week: Ricky Gervais’ ‘Alley Cats’ and ‘My Life with the Walter Boys’ S3",
       "canonical_key": "movie_source:what-s-on-netflix:1a4a28f5fc87",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "What’s New on Netflix UK This Week: Ricky Gervais’ ‘Alley Cats’ and ‘My Life with the Walter Boys’ S3",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Heartstopper Forever’: Editor Todd Downing on Maturing Nick & Charlie’s Love Story",
-      "canonical_key": "movie_source:what-s-on-netflix:1a410fa9e9ae",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Heartstopper Forever’: Editor Todd Downing on Maturing Nick & Charlie’s Love Story",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Co-CEO Ted Sarandos Talks AI: From Saving on Reshoots to the Current “Lack of Humanity” in AI Storytelling",
-      "canonical_key": "movie_source:what-s-on-netflix:e0844d998813",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Co-CEO Ted Sarandos Talks AI: From Saving on Reshoots to the Current “Lack of Humanity” in AI Storytelling",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
-      "canonical_key": "movie_source:what-s-on-netflix:d6101fd25685",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Last House’ Review: Netflix’s New Suburban Sci-Fi Creature Feature Packs Heart and Mystery",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Reportedly Scraps US ‘Squid Game’ Spin-Off Series from David Fincher",
-      "canonical_key": "movie_source:what-s-on-netflix:afe76c92c321",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Reportedly Scraps US ‘Squid Game’ Spin-Off Series from David Fincher",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Grown Ups 3’: Julie Bowen, Deon Cole & Bailee Madison Join Cast as Production Underway at Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:b05c3ca0c4ff",
       "required_field_gaps": [
         "release_year"
       ]
