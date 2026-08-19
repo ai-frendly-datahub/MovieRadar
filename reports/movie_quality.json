@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-18T06:42:25.054265+00:00",
+  "generated_at": "2026-08-19T06:45:01.334749+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 71,
-    "movie_signal_event_count": 72,
+    "release_calendar_events": 70,
+    "movie_signal_event_count": 71,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 34,
-    "proxy_canonical_key_count": 38,
+    "complete_canonical_key_count": 35,
+    "proxy_canonical_key_count": 36,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 72,
-    "release_year_present_count": 34,
+    "normalized_title_present_count": 71,
+    "release_year_present_count": 35,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 71,
-    "event_required_field_gap_count": 41,
+    "platform_present_count": 70,
+    "event_required_field_gap_count": 39,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 99,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 71,
-      "event_count": 71,
-      "latest_event_at": "2026-08-17T14:40:42+00:00",
-      "age_days": 0.67,
-      "latest_title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-at-anime-nyc-preview-massive-slate-updates-for-cyberpunk-edgerunners-sequel-and-blue-eye-samurai-season-2",
+      "article_count": 70,
+      "event_count": 70,
+      "latest_event_at": "2026-08-18T10:00:09+00:00",
+      "age_days": 0.86,
+      "latest_title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
+      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-18T06:42:18.884419+00:00",
+      "latest_event_at": "2026-08-19T06:44:55.391695+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-18T06:42:18.884419+00:00",
+      "event_at": "2026-08-19T06:44:55.391695+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260818",
+      "event_key": "box_office:907d712300a5:20260819",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +405,194 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
+      "event_at": "2026-08-18T10:00:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "shows"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "time",
+        "most",
+        "top"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:most-watched-netflix-shows-and-movies-of-all-time-as-of-august-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:bd72dd527951:20260818",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘East of Eden’ Starring Florence Pugh Gets Official Netflix October Premiere Date and First Images",
+      "url": "https://www.whats-on-netflix.com/news/east-of-eden-netflix-release-date-florence-pugh-first-look",
+      "source_url": "https://www.whats-on-netflix.com/news/east-of-eden-netflix-release-date-florence-pugh-first-look",
+      "event_at": "2026-08-18T06:43:23+00:00",
+      "movie_id": "",
+      "normalized_title": "‘East of Eden’ Starring Florence Pugh Gets Official Netflix October Premiere Date and First Images",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "premiere"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:east-of-eden-starring-florence-pugh-gets-official-netflix-october-premiere-date-and-first-images:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:07d47b90ea32:20260818",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Sundance Documentary ‘The AI Doc: Or How I Became an Apocaloptimist’ Sets September Netflix Release",
+      "url": "https://www.whats-on-netflix.com/news/the-ai-doc-how-i-became-an-apocaloptimist-netflix-release",
+      "source_url": "https://www.whats-on-netflix.com/news/the-ai-doc-how-i-became-an-apocaloptimist-netflix-release",
+      "event_at": "2026-08-18T04:03:55+00:00",
+      "movie_id": "",
+      "normalized_title": "Sundance Documentary ‘The AI Doc: Or How I Became an Apocaloptimist’ Sets September Netflix Release",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "oscar",
+        "winner"
+      ],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "release"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:2cfc3c13abbb",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8c851b79a872:20260818",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4452,245 +4640,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Kids YouTube Channel ‘ChuChuTV’ With Over 60 Billion Views Making Jump Over to Netflix",
-      "url": "https://www.whats-on-netflix.com/news/kids-youtube-channel-chuchutv-with-over-60-billion-views-making-jump-over-to-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/kids-youtube-channel-chuchutv-with-over-60-billion-views-making-jump-over-to-netflix",
-      "event_at": "2026-08-05T02:42:21+00:00",
-      "movie_id": "",
-      "normalized_title": "Kids YouTube Channel ‘ChuChuTV’ With Over 60 Billion Views Making Jump Over to Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:fce1e4db251c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f92b0fcd1add:20260805",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "event_at": "2026-08-04T10:09:09+00:00",
-      "movie_id": "",
-      "normalized_title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "shows"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "time",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:most-watched-netflix-shows-and-movies-of-all-time-as-of-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:bd72dd527951:20260804",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Swapped’ Ends 91-Day Run as Netflix’s 8th Most-Watched Movie of All Time",
-      "url": "https://www.whats-on-netflix.com/news/swapped-netflix-top-10-all-time-most-popular",
-      "source_url": "https://www.whats-on-netflix.com/news/swapped-netflix-top-10-all-time-most-popular",
-      "event_at": "2026-08-04T10:01:01+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Swapped’ Ends 91-Day Run as Netflix’s 8th Most-Watched Movie of All Time",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "time",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7eff933b10e7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:73c7e5a56096:20260804",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Could New ‘Virgin River’ Book Release Hint at Season 8 Release Date?",
-      "url": "https://www.whats-on-netflix.com/news/could-new-virgin-river-book-release-hint-at-season-8-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/could-new-virgin-river-book-release-hint-at-season-8-release-date",
-      "event_at": "2026-08-04T06:47:16+00:00",
-      "movie_id": "",
-      "normalized_title": "Could New ‘Virgin River’ Book Release Hint at Season 8 Release Date?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "release",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "release"
-      ],
-      "platform": [
-        "release"
-      ],
-      "film_general": [
-        "screens",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:f2b7676e6e9a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ce95771c0c0e:20260804",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4705,6 +4654,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Sundance Documentary ‘The AI Doc: Or How I Became an Apocaloptimist’ Sets September Netflix Release",
+      "canonical_key": "movie_source:what-s-on-netflix:2cfc3c13abbb",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Sundance Documentary ‘The AI Doc: Or How I Became an Apocaloptimist’ Sets September Netflix Release",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5103,23 +5069,6 @@
       "source": "What's on Netflix",
       "title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
       "canonical_key": "movie_source:what-s-on-netflix:57725328eb72",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "What’s New on Netflix UK This Week: Ricky Gervais’ ‘Alley Cats’ and ‘My Life with the Walter Boys’ S3",
-      "canonical_key": "movie_source:what-s-on-netflix:1a4a28f5fc87",
       "required_field_gaps": [
         "release_year"
       ]
