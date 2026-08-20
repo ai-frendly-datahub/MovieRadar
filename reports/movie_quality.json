@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-19T06:45:01.334749+00:00",
+  "generated_at": "2026-08-20T06:45:19.708168+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 70,
-    "movie_signal_event_count": 71,
+    "release_calendar_events": 73,
+    "movie_signal_event_count": 74,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 35,
-    "proxy_canonical_key_count": 36,
+    "complete_canonical_key_count": 40,
+    "proxy_canonical_key_count": 34,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 71,
-    "release_year_present_count": 35,
+    "normalized_title_present_count": 74,
+    "release_year_present_count": 40,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 70,
-    "event_required_field_gap_count": 39,
+    "platform_present_count": 73,
+    "event_required_field_gap_count": 37,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 99,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 70,
-      "event_count": 70,
-      "latest_event_at": "2026-08-18T10:00:09+00:00",
-      "age_days": 0.86,
-      "latest_title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
-      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
+      "article_count": 73,
+      "event_count": 73,
+      "latest_event_at": "2026-08-19T09:03:57+00:00",
+      "age_days": 0.9,
+      "latest_title": "Rotten Tomatoes Hit ‘LifeHack’ Starring ‘Wednesday’ and ‘Heartstopper’ Stars Sets Netflix SVOD Debut",
+      "latest_url": "https://www.whats-on-netflix.com/news/lifehack-movie-netflix-release-date-september-2026",
       "latest_source_signal": [
-        "movie_text_context",
+        "movie_url_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-19T06:44:55.391695+00:00",
+      "latest_event_at": "2026-08-20T06:45:15.463080+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-19T06:44:55.391695+00:00",
+      "event_at": "2026-08-20T06:45:15.463080+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -383,8 +384,10 @@
         "years",
         "time",
         "top",
+        "one",
         "new",
-        "latest"
+        "latest",
+        "just"
       ],
       "source_signal": [
         "box_office",
@@ -394,7 +397,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260819",
+      "event_key": "box_office:907d712300a5:20260820",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +409,426 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Rotten Tomatoes Hit ‘LifeHack’ Starring ‘Wednesday’ and ‘Heartstopper’ Stars Sets Netflix SVOD Debut",
+      "url": "https://www.whats-on-netflix.com/news/lifehack-movie-netflix-release-date-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/lifehack-movie-netflix-release-date-september-2026",
+      "event_at": "2026-08-19T09:03:57+00:00",
+      "movie_id": "",
+      "normalized_title": "Rotten Tomatoes Hit ‘LifeHack’ Starring ‘Wednesday’ and ‘Heartstopper’ Stars Sets Netflix SVOD Debut",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:rotten-tomatoes-hit-lifehack-starring-wednesday-and-heartstopper-stars-sets-netflix-svod-debut:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:25274ef5b07a:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix in September 2026 (Full List)",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-september-2026",
+      "event_at": "2026-08-19T07:03:19+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix in September 2026 (Full List)",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-in-september-2026-full-list:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f32f13e426d2:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Resident Evil’ Movie Collection Heading to Netflix Ahead of Zach Cregger’s New Theatrical Release",
+      "url": "https://www.whats-on-netflix.com/whats-new/resident-evil-movies-coming-to-netflix-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/resident-evil-movies-coming-to-netflix-september-2026",
+      "event_at": "2026-08-19T05:56:59+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Resident Evil’ Movie Collection Heading to Netflix Ahead of Zach Cregger’s New Theatrical Release",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "theatrical",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:resident-evil-movie-collection-heading-to-netflix-ahead-of-zach-cregger-s-new-theatrical-release:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:317c0a50056d:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "RuPaul Comedy ‘Stop! That! Train!’ Sets Netflix Streaming Premiere for September 2026",
+      "url": "https://www.whats-on-netflix.com/news/rupaul-comedy-stop-that-train-sets-netflix-streaming-premiere-for-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/rupaul-comedy-stop-that-train-sets-netflix-streaming-premiere-for-september-2026",
+      "event_at": "2026-08-19T05:25:43+00:00",
+      "movie_id": "",
+      "normalized_title": "RuPaul Comedy ‘Stop! That! Train!’ Sets Netflix Streaming Premiere for September 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "premiere"
+      ],
+      "film_general": [
+        "theatrical"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:rupaul-comedy-stop-that-train-sets-netflix-streaming-premiere-for-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:89b9613da432:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Netflix Comedy & Rom-Com Movie Coming in 2026, 2027 & Beyond",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-comedy-rom-com-movies-slate-2026-2027",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-comedy-rom-com-movies-slate-2026-2027",
+      "event_at": "2026-08-19T03:47:52+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Netflix Comedy & Rom-Com Movie Coming in 2026, 2027 & Beyond",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "post"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:every-netflix-comedy-rom-com-movie-coming-in-2026-2027-beyond:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0bee6830aee3:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Anime on Netflix in September 2026: ‘JoJo’s Bizarre Adventure: Steel Ball Run’ Leads the Lineup",
+      "url": "https://www.whats-on-netflix.com/news/anime/new-anime-netflix-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/new-anime-netflix-september-2026",
+      "event_at": "2026-08-19T02:03:51+00:00",
+      "movie_id": "",
+      "normalized_title": "New Anime on Netflix in September 2026: ‘JoJo’s Bizarre Adventure: Steel Ball Run’ Leads the Lineup",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-anime-on-netflix-in-september-2026-jojo-s-bizarre-adventure-steel-ball-run-leads-the-lineup:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0d15ad354fca:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Anime Trilogy Finale ‘Mononoke The Movie: Chapter Ⅲ’ Sets Global Netflix Release Date",
+      "url": "https://www.whats-on-netflix.com/news/anime/mononoke-the-movie-chapter-3-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/anime/mononoke-the-movie-chapter-3-netflix-release-date",
+      "event_at": "2026-08-19T01:04:01+00:00",
+      "movie_id": "",
+      "normalized_title": "Anime Trilogy Finale ‘Mononoke The Movie: Chapter Ⅲ’ Sets Global Netflix Release Date",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:anime-trilogy-finale-mononoke-the-movie-chapter-sets-global-netflix-release-date:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:a9341dcacc57:20260819",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -1676,66 +2099,6 @@
       "canonical_key": "movie:just-picture-it-millie-bobby-brown-netflix-rom-com-gets-first-look-2027-release-window:2027:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:00f9560a7593:20260813",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix in September 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-september-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-september-2026",
-      "event_at": "2026-08-13T08:08:19+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix in September 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-in-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6c444bf50d04:20260813",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
@@ -4446,191 +4809,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:f0b10186bf53",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:ec0436f44302:20260806",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at What’s Coming to Netflix in September 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-september-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-september-2026",
-      "event_at": "2026-08-06T05:16:56+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at What’s Coming to Netflix in September 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "first",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-in-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1761dc18cbf2:20260806",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
-      "url": "https://www.whats-on-netflix.com/news/gta-vi-extended-look-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/gta-vi-extended-look-netflix-release-date",
-      "event_at": "2026-08-06T03:12:26+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Grand Theft Auto VI: An Extended Look’ To Debut on Netflix First Exclusively in Collaboration with Rockstar Games",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [
-        "first",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d9abce28e309",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1bb8a02156b2:20260806",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Cha Tae-Hyun and Uhm Ji-Won to Star in Netflix K-Comedy Film ‘Two Cops and Five Kids’",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/two-cops-and-five-kids-netflix-movie-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/two-cops-and-five-kids-netflix-movie-everything-we-know",
-      "event_at": "2026-08-06T01:33:14+00:00",
-      "movie_id": "",
-      "normalized_title": "Cha Tae-Hyun and Uhm Ji-Won to Star in Netflix K-Comedy Film ‘Two Cops and Five Kids’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "movie",
-        "two",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ffaaf22abb29",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2d8088ded6f7:20260806",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
