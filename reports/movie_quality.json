@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-23T06:40:35.488529+00:00",
+  "generated_at": "2026-08-24T06:58:17.720125+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 77,
-    "movie_signal_event_count": 78,
+    "release_calendar_events": 69,
+    "movie_signal_event_count": 70,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 44,
-    "proxy_canonical_key_count": 34,
+    "complete_canonical_key_count": 41,
+    "proxy_canonical_key_count": 29,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 78,
-    "release_year_present_count": 44,
+    "normalized_title_present_count": 70,
+    "release_year_present_count": 41,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 77,
-    "event_required_field_gap_count": 37,
+    "platform_present_count": 69,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 99,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 77,
-      "event_count": 77,
+      "article_count": 69,
+      "event_count": 69,
       "latest_event_at": "2026-08-22T10:08:07+00:00",
-      "age_days": 0.86,
+      "age_days": 1.87,
       "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 22, 2026",
       "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-22-2026",
       "latest_source_signal": [
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-23T06:40:31.086551+00:00",
+      "latest_event_at": "2026-08-24T06:58:11.965997+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-23T06:40:31.086551+00:00",
+      "event_at": "2026-08-24T06:58:11.965997+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -371,8 +371,7 @@
       "award": [],
       "studio": [
         "new",
-        "release",
-        "studio"
+        "release"
       ],
       "platform": [
         "release"
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260823",
+      "event_key": "box_office:907d712300a5:20260824",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -4590,494 +4589,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Danny Boyle’s Rupert Murdoch Drama ‘Ink’ Starring Claire Foy & Guy Pearce Sets Netflix and Theatrical Release",
-      "url": "https://www.whats-on-netflix.com/news/danny-boyles-rupert-murdoch-drama-ink-starring-claire-foy-guy-pearce-sets-netflix-and-theatrical-release",
-      "source_url": "https://www.whats-on-netflix.com/news/danny-boyles-rupert-murdoch-drama-ink-starring-claire-foy-guy-pearce-sets-netflix-and-theatrical-release",
-      "event_at": "2026-08-10T06:44:48+00:00",
-      "movie_id": "",
-      "normalized_title": "Danny Boyle’s Rupert Murdoch Drama ‘Ink’ Starring Claire Foy & Guy Pearce Sets Netflix and Theatrical Release",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "theatrical",
-        "need"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:danny-boyle-s-rupert-murdoch-drama-ink-starring-claire-foy-guy-pearce-sets-netflix-and-theatrical-release:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:40c37934d724:20260810",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Quietly Launches New Wordle-Style ‘Netflix Star Daily Trivia’ Game",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-star-daily-trivia-game-released",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-star-daily-trivia-game-released",
-      "event_at": "2026-08-10T05:44:38+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Quietly Launches New Wordle-Style ‘Netflix Star Daily Trivia’ Game",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:9ff8f723080b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3d9f367e0707:20260810",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets Joseon Action Movie ‘Dochabi’ Starring Kim Do Hoon & Jeon Jong Seo: What We Know",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/dochabi-netflix-korean-movie-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/dochabi-netflix-korean-movie-everything-we-know",
-      "event_at": "2026-08-10T04:50:29+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets Joseon Action Movie ‘Dochabi’ Starring Kim Do Hoon & Jeon Jong Seo: What We Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:66ae2eb69149",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:b32589188137:20260810",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Fauda’ Season 5 Sets September 2026 Worldwide Netflix Premiere Date",
-      "url": "https://www.whats-on-netflix.com/news/fauda-season-5-netflix-release-date-september-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/fauda-season-5-netflix-release-date-september-2026",
-      "event_at": "2026-08-10T04:15:33+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Fauda’ Season 5 Sets September 2026 Worldwide Netflix Premiere Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:fauda-season-5-sets-september-2026-worldwide-netflix-premiere-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b8729bfa2326:20260810",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Facing El Chapo’ Netflix Movie: Release Date, Cast, Trailer & Everything We Know",
-      "url": "https://www.whats-on-netflix.com/news/facing-el-chapo-netflix-movie-release-date-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/facing-el-chapo-netflix-movie-release-date-everything-we-know",
-      "event_at": "2026-08-10T01:08:29+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Facing El Chapo’ Netflix Movie: Release Date, Cast, Trailer & Everything We Know",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:facing-el-chapo-netflix-movie-release-date-cast-trailer-everything-we-know:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:255a9f986c30:20260810",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Alley Cats’ Season 2: Has Netflix Renewed Ricky Gervais’ Animated Comedy?",
-      "url": "https://www.whats-on-netflix.com/news/alley-cats-season-2-ricky-gervais-netflix-renewal",
-      "source_url": "https://www.whats-on-netflix.com/news/alley-cats-season-2-ricky-gervais-netflix-renewal",
-      "event_at": "2026-08-10T00:23:15+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Alley Cats’ Season 2: Has Netflix Renewed Ricky Gervais’ Animated Comedy?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [
-        "top",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:673ebcc7de01",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:dd9d02785642:20260810",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ad Vitam Eternam’: French Hit Action Movie Getting Netflix Sequel with James Bond Stars Joining Cast",
-      "url": "https://www.whats-on-netflix.com/news/ad-vitam-eternam-netflix-movie-sequel-filming",
-      "source_url": "https://www.whats-on-netflix.com/news/ad-vitam-eternam-netflix-movie-sequel-filming",
-      "event_at": "2026-08-09T23:00:48+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ad Vitam Eternam’: French Hit Action Movie Getting Netflix Sequel with James Bond Stars Joining Cast",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e507ef56ac50",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:dc4caa1c98e6:20260809",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/netflix-movies-letterboxd-one-million-watched-club",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/netflix-movies-letterboxd-one-million-watched-club",
-      "event_at": "2026-08-09T11:24:39+00:00",
-      "movie_id": "",
-      "normalized_title": "Every Netflix Movie on Letterboxd’s ‘One Million Watched Club’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "films",
-        "movie",
-        "one"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:57725328eb72",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:9b54accea945:20260809",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
