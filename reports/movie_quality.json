@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-25T06:47:15.237051+00:00",
+  "generated_at": "2026-08-26T06:50:21.114166+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 68,
-    "movie_signal_event_count": 69,
+    "release_calendar_events": 69,
+    "movie_signal_event_count": 70,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 41,
-    "proxy_canonical_key_count": 28,
+    "complete_canonical_key_count": 40,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 69,
-    "release_year_present_count": 41,
+    "normalized_title_present_count": 70,
+    "release_year_present_count": 40,
     "rank_present_count": 0,
     "gross_present_count": 0,
     "platform_present_count": 67,
-    "event_required_field_gap_count": 31,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 68,
-      "event_count": 68,
-      "latest_event_at": "2026-08-24T10:40:41+00:00",
-      "age_days": 0.84,
-      "latest_title": "Netflix Fall 2026 Movie Lineup: Complete List of Release Dates So Far",
-      "latest_url": "https://www.whats-on-netflix.com/coming-soon/netflix-fall-2026-movies-preview",
+      "article_count": 69,
+      "event_count": 69,
+      "latest_event_at": "2026-08-25T08:48:40+00:00",
+      "age_days": 0.92,
+      "latest_title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
+      "latest_url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-filming-wrap-target-cast-storyline",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-25T06:47:09.952590+00:00",
+      "latest_event_at": "2026-08-26T06:50:16.935603+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-25T06:47:09.952590+00:00",
+      "event_at": "2026-08-26T06:50:16.935603+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +396,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260825",
+      "event_key": "box_office:907d712300a5:20260826",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +407,365 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
+      "url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-filming-wrap-target-cast-storyline",
+      "source_url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-filming-wrap-target-cast-storyline",
+      "event_at": "2026-08-25T08:48:40+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4accbc66a98f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f38ae43af32b:20260825",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Walking Dead Universe on Netflix: A Complete Guide to Every Series Coming Soon and What’s Next",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/the-walking-dead-universe-on-netflix-a-complete-guide-to-every-series-and-whats-next",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-walking-dead-universe-on-netflix-a-complete-guide-to-every-series-and-whats-next",
+      "event_at": "2026-08-25T08:00:49+00:00",
+      "movie_id": "",
+      "normalized_title": "The Walking Dead Universe on Netflix: A Complete Guide to Every Series Coming Soon and What’s Next",
+      "release_year": "2032",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-walking-dead-universe-on-netflix-a-complete-guide-to-every-series-coming-soon-and-what-s-next:2032:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:25bcc2ef43ce:20260825",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Stranger Things: Tales from ’85’ Season 2: Netflix Release Date, Trailer, Reduced Episode Count and Everything You Need To Know",
+      "url": "https://www.whats-on-netflix.com/news/stranger-things-tales-from-85-season-2-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/stranger-things-tales-from-85-season-2-netflix-release-date",
+      "event_at": "2026-08-25T06:13:34+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Stranger Things: Tales from ’85’ Season 2: Netflix Release Date, Trailer, Reduced Episode Count and Everything You Need To Know",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first",
+        "need"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:5cc5ad3ce6a3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b2dcb58cc16a:20260825",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "When Will ‘Insidious: Out of the Further’ Stream on Netflix?",
+      "url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-release-date",
+      "event_at": "2026-08-25T05:54:37+00:00",
+      "movie_id": "",
+      "normalized_title": "When Will ‘Insidious: Out of the Further’ Stream on Netflix?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "screen",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e1e527c89725",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:649c9fa6ddbe:20260825",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Legal K-Drama ‘Dash’ Starring Shin Hye Sun Coming to Netflix in South Korea: Cast, Plot & Release Schedule",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/shin-hye-sun-dash-netflix-k-drama-what-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/shin-hye-sun-dash-netflix-k-drama-what-we-know",
+      "event_at": "2026-08-25T05:36:13+00:00",
+      "movie_id": "",
+      "normalized_title": "Legal K-Drama ‘Dash’ Starring Shin Hye Sun Coming to Netflix in South Korea: Cast, Plot & Release Schedule",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring",
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e08e67947c60",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f090457625ea:20260825",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/love-bait-netflix-k-drama-release-date-cast-plot",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/love-bait-netflix-k-drama-release-date-cast-plot",
+      "event_at": "2026-08-25T01:23:22+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:b2fccfd8b8cc",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:454d9180b093:20260825",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4211,312 +4571,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Why Netflix Is Facing Backlash Over Its Upcoming Hockey Drama ‘The Sticks’",
-      "url": "https://www.whats-on-netflix.com/news/netflix-the-sticks-humboldt-crash-controversy",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-the-sticks-humboldt-crash-controversy",
-      "event_at": "2026-08-12T05:53:20+00:00",
-      "movie_id": "",
-      "normalized_title": "Why Netflix Is Facing Backlash Over Its Upcoming Hockey Drama ‘The Sticks’",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:why-netflix-is-facing-backlash-over-its-upcoming-hockey-drama-the-sticks:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0c2e4172122e:20260812",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Crew Girl’: Netflix Unveils Trailer, First-Look Images and Poster for YA Series Ahead of September Release",
-      "url": "https://www.whats-on-netflix.com/news/crew-girl-netflix-trailer-release-date-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/crew-girl-netflix-trailer-release-date-first-look",
-      "event_at": "2026-08-12T05:00:18+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Crew Girl’: Netflix Unveils Trailer, First-Look Images and Poster for YA Series Ahead of September Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:018a114d3b2b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c92d57ac6a91:20260812",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Ben Affleck’s R-Rated Netflix Thriller ‘Animals’: Trailer, First Look & October 2026 Release Date",
-      "url": "https://www.whats-on-netflix.com/news/ben-affleck-animals-netflix-release-date-trailer",
-      "source_url": "https://www.whats-on-netflix.com/news/ben-affleck-animals-netflix-release-date-trailer",
-      "event_at": "2026-08-12T04:40:12+00:00",
-      "movie_id": "",
-      "normalized_title": "Ben Affleck’s R-Rated Netflix Thriller ‘Animals’: Trailer, First Look & October 2026 Release Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:ben-affleck-s-r-rated-netflix-thriller-animals-trailer-first-look-october-2026-release-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:d0210c9f8fb0:20260812",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Virgin River’ Season 8 Officially Wraps Filming",
-      "url": "https://www.whats-on-netflix.com/news/virgin-river-season-8-wraps-production-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/virgin-river-season-8-wraps-production-everything-we-know",
-      "event_at": "2026-08-11T08:32:01+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Virgin River’ Season 8 Officially Wraps Filming",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:5d9711bbd635",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:7f4a8cacbaf8:20260811",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Two Hidden Movie Gems Just Hit Netflix, Including A Drama With Mark Wahlberg",
-      "url": "https://www.whats-on-netflix.com/whats-new/two-hidden-movie-gems-just-hit-netflix-including-a-sports-drama-with-mark-wahlberg",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/two-hidden-movie-gems-just-hit-netflix-including-a-sports-drama-with-mark-wahlberg",
-      "event_at": "2026-08-11T07:20:49+00:00",
-      "movie_id": "",
-      "normalized_title": "Two Hidden Movie Gems Just Hit Netflix, Including A Drama With Mark Wahlberg",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "story",
-        "now",
-        "two",
-        "new",
-        "here",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:aafd3cd5d2cc",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:417c5f7b8afa:20260811",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4531,6 +4585,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
+      "canonical_key": "movie_source:what-s-on-netflix:4accbc66a98f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Stranger Things: Tales from ’85’ Season 2: Netflix Release Date, Trailer, Reduced Episode Count and Everything You Need To Know",
+      "canonical_key": "movie_source:what-s-on-netflix:5cc5ad3ce6a3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Stranger Things: Tales from ’85’ Season 2: Netflix Release Date, Trailer, Reduced Episode Count and Everything You Need To Know",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When Will ‘Insidious: Out of the Further’ Stream on Netflix?",
+      "canonical_key": "movie_source:what-s-on-netflix:e1e527c89725",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When Will ‘Insidious: Out of the Further’ Stream on Netflix?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Legal K-Drama ‘Dash’ Starring Shin Hye Sun Coming to Netflix in South Korea: Cast, Plot & Release Schedule",
+      "canonical_key": "movie_source:what-s-on-netflix:e08e67947c60",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Legal K-Drama ‘Dash’ Starring Shin Hye Sun Coming to Netflix in South Korea: Cast, Plot & Release Schedule",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
+      "canonical_key": "movie_source:what-s-on-netflix:b2fccfd8b8cc",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4861,91 +5000,6 @@
       "source": "What's on Netflix",
       "title": "‘Venom: The Last Dance’ and ‘Gladiator 2’ Lead 50 New Movies and TV Shows on Netflix UK This Week",
       "canonical_key": "movie_source:what-s-on-netflix:89fa7ae30410",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Venom: The Last Dance’ and ‘Gladiator 2’ Lead 50 New Movies and TV Shows on Netflix UK This Week",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Song on the ‘Don’t Say Good Luck’ Soundtrack on Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:d79ea68ead37",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Song on the ‘Don’t Say Good Luck’ Soundtrack on Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Shuts Down ‘Oxenfree’ and ‘Unhinged’ Developer Night School Studio",
-      "canonical_key": "movie_source:what-s-on-netflix:edfc4918d7f0",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Shuts Down ‘Oxenfree’ and ‘Unhinged’ Developer Night School Studio",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Julia Garner and Anthony Boyle Return to Netflix in FTX Scandal Series ‘The Altruists’: First Look & Release Date",
-      "canonical_key": "movie_source:what-s-on-netflix:bb2887804866",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Julia Garner and Anthony Boyle Return to Netflix in FTX Scandal Series ‘The Altruists’: First Look & Release Date",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Australian Comedy Series ‘Caper Crew’ Heading to Netflix Globally",
-      "canonical_key": "movie_source:what-s-on-netflix:3c403db3cf46",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Australian Comedy Series ‘Caper Crew’ Heading to Netflix Globally",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Julia Hart Talks Bringing High School Theater Magic to Netflix’s ‘Don’t Say Good Luck’",
-      "canonical_key": "movie_source:what-s-on-netflix:fa7cbf30da10",
       "required_field_gaps": [
         "release_year"
       ]
