@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-08-31T12:52:35.829583+00:00",
+  "generated_at": "2026-09-01T11:12:36.502737+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 68,
-    "movie_signal_event_count": 69,
+    "release_calendar_events": 63,
+    "movie_signal_event_count": 64,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 38,
-    "proxy_canonical_key_count": 31,
+    "complete_canonical_key_count": 36,
+    "proxy_canonical_key_count": 28,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 69,
-    "release_year_present_count": 38,
+    "normalized_title_present_count": 64,
+    "release_year_present_count": 36,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 64,
-    "event_required_field_gap_count": 34,
+    "platform_present_count": 59,
+    "event_required_field_gap_count": 31,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 82,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 68,
-      "event_count": 68,
+      "article_count": 63,
+      "event_count": 63,
       "latest_event_at": "2026-08-31T03:45:06+00:00",
-      "age_days": 0.38,
+      "age_days": 1.31,
       "latest_title": "Geiger and Radio Spaceman Among Comics Netflix Optioned for TV and Movie Adaptations",
       "latest_url": "https://www.whats-on-netflix.com/news/netflix-indie-comic-graphic-novel-adaptations-geiger",
       "latest_source_signal": [
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-08-31T12:52:31.650907+00:00",
+      "latest_event_at": "2026-09-01T11:12:31.942709+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-08-31T12:52:31.650907+00:00",
+      "event_at": "2026-09-01T11:12:31.942709+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -396,7 +396,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260831",
+      "event_key": "box_office:907d712300a5:20260901",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -4197,319 +4197,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "event_at": "2026-08-18T10:00:09+00:00",
-      "movie_id": "",
-      "normalized_title": "Most Watched Netflix Shows and Movies of All Time as of August 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "shows"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "time",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:most-watched-netflix-shows-and-movies-of-all-time-as-of-august-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:bd72dd527951:20260818",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘East of Eden’ Starring Florence Pugh Gets Official Netflix October Premiere Date and First Images",
-      "url": "https://www.whats-on-netflix.com/news/east-of-eden-netflix-release-date-florence-pugh-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/east-of-eden-netflix-release-date-florence-pugh-first-look",
-      "event_at": "2026-08-18T06:43:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘East of Eden’ Starring Florence Pugh Gets Official Netflix October Premiere Date and First Images",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:east-of-eden-starring-florence-pugh-gets-official-netflix-october-premiere-date-and-first-images:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:07d47b90ea32:20260818",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Sundance Documentary ‘The AI Doc: Or How I Became an Apocaloptimist’ Sets September Netflix Release",
-      "url": "https://www.whats-on-netflix.com/news/the-ai-doc-how-i-became-an-apocaloptimist-netflix-release",
-      "source_url": "https://www.whats-on-netflix.com/news/the-ai-doc-how-i-became-an-apocaloptimist-netflix-release",
-      "event_at": "2026-08-18T04:03:55+00:00",
-      "movie_id": "",
-      "normalized_title": "Sundance Documentary ‘The AI Doc: Or How I Became an Apocaloptimist’ Sets September Netflix Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar",
-        "winner"
-      ],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:2cfc3c13abbb",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:8c851b79a872:20260818",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
-      "url": "https://www.whats-on-netflix.com/news/netflix-at-anime-nyc-preview-massive-slate-updates-for-cyberpunk-edgerunners-sequel-and-blue-eye-samurai-season-2",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-at-anime-nyc-preview-massive-slate-updates-for-cyberpunk-edgerunners-sequel-and-blue-eye-samurai-season-2",
-      "event_at": "2026-08-17T14:40:42+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix at Anime NYC Preview: Massive Slate Updates For ‘Cyberpunk: Edgerunners’ Sequel and ‘Blue Eye Samurai’ Season 2",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "one",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:11844e1b9c49",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:8b204390abcf:20260817",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Hit French Movie ‘School Life’ Is Getting an 8-Episode Sequel Series at Netflix",
-      "url": "https://www.whats-on-netflix.com/news/netflix-announces-school-life-sequel-series-cast-details",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-announces-school-life-sequel-series-cast-details",
-      "event_at": "2026-08-17T12:53:43+00:00",
-      "movie_id": "",
-      "normalized_title": "Hit French Movie ‘School Life’ Is Getting an 8-Episode Sequel Series at Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "series"
-      ],
-      "film_general": [
-        "movie",
-        "years",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e89edeffe041",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0ba7e473c839:20260817",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
