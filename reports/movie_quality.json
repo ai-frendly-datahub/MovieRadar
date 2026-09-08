@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-07T11:44:24.219725+00:00",
+  "generated_at": "2026-09-08T10:42:56.008137+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 56,
-    "movie_signal_event_count": 57,
+    "release_calendar_events": 51,
+    "movie_signal_event_count": 52,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 30,
+    "proxy_canonical_key_count": 25,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 57,
+    "normalized_title_present_count": 52,
     "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 53,
-    "event_required_field_gap_count": 33,
+    "platform_present_count": 49,
+    "event_required_field_gap_count": 28,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 103,
+      "article_count": 104,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 103,
+      "article_count": 99,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 56,
-      "event_count": 56,
-      "latest_event_at": "2026-09-07T00:10:12+00:00",
-      "age_days": 0.48,
-      "latest_title": "‘Blue Road’ New Netflix K-Drama Coming to Netflix in November 2026",
-      "latest_url": "https://www.whats-on-netflix.com/news/k-dramas/blue-road-netflix-korean-japanese-murder-mystery",
+      "article_count": 51,
+      "event_count": 51,
+      "latest_event_at": "2026-09-07T07:04:02+00:00",
+      "age_days": 1.15,
+      "latest_title": "New K-Dramas Coming to Netflix in 2027 & Beyond",
+      "latest_url": "https://www.whats-on-netflix.com/news/k-dramas/first-details-netflix-2027-k-drama-lineup",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-07T11:44:18.435761+00:00",
+      "latest_event_at": "2026-09-08T10:42:52.266982+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-07T11:44:18.435761+00:00",
+      "event_at": "2026-09-08T10:42:52.266982+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260907",
+      "event_key": "box_office:907d712300a5:20260908",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +407,63 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New K-Dramas Coming to Netflix in 2027 & Beyond",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/first-details-netflix-2027-k-drama-lineup",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/first-details-netflix-2027-k-drama-lineup",
+      "event_at": "2026-09-07T07:04:02+00:00",
+      "movie_id": "",
+      "normalized_title": "New K-Dramas Coming to Netflix in 2027 & Beyond",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-k-dramas-coming-to-netflix-in-2027-beyond:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7ab2bb9ee76f:20260907",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3410,365 +3467,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:83e9b214e0ee",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:29b1704148ee:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
-      "url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-filming-wrap-target-cast-storyline",
-      "source_url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-filming-wrap-target-cast-storyline",
-      "event_at": "2026-08-25T08:48:40+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Bridgerton’ Author Provides New Details on Season 5 As Smaller Roles and Potential Wrap Date Uncovered",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:4accbc66a98f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f38ae43af32b:20260825",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "The Walking Dead Universe on Netflix: A Complete Guide to Every Series Coming Soon and What’s Next",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/the-walking-dead-universe-on-netflix-a-complete-guide-to-every-series-and-whats-next",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-walking-dead-universe-on-netflix-a-complete-guide-to-every-series-and-whats-next",
-      "event_at": "2026-08-25T08:00:49+00:00",
-      "movie_id": "",
-      "normalized_title": "The Walking Dead Universe on Netflix: A Complete Guide to Every Series Coming Soon and What’s Next",
-      "release_year": "2032",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-walking-dead-universe-on-netflix-a-complete-guide-to-every-series-coming-soon-and-what-s-next:2032:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:25bcc2ef43ce:20260825",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Stranger Things: Tales from ’85’ Season 2: Netflix Release Date, Trailer, Reduced Episode Count and Everything You Need To Know",
-      "url": "https://www.whats-on-netflix.com/news/stranger-things-tales-from-85-season-2-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/stranger-things-tales-from-85-season-2-netflix-release-date",
-      "event_at": "2026-08-25T06:13:34+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Stranger Things: Tales from ’85’ Season 2: Netflix Release Date, Trailer, Reduced Episode Count and Everything You Need To Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first",
-        "need"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:5cc5ad3ce6a3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:b2dcb58cc16a:20260825",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "When Will ‘Insidious: Out of the Further’ Stream on Netflix?",
-      "url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-release-date",
-      "event_at": "2026-08-25T05:54:37+00:00",
-      "movie_id": "",
-      "normalized_title": "When Will ‘Insidious: Out of the Further’ Stream on Netflix?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "screen",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e1e527c89725",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:649c9fa6ddbe:20260825",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Legal K-Drama ‘Dash’ Starring Shin Hye Sun Coming to Netflix in South Korea: Cast, Plot & Release Schedule",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/shin-hye-sun-dash-netflix-k-drama-what-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/shin-hye-sun-dash-netflix-k-drama-what-we-know",
-      "event_at": "2026-08-25T05:36:13+00:00",
-      "movie_id": "",
-      "normalized_title": "Legal K-Drama ‘Dash’ Starring Shin Hye Sun Coming to Netflix in South Korea: Cast, Plot & Release Schedule",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring",
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e08e67947c60",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f090457625ea:20260825",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/love-bait-netflix-k-drama-release-date-cast-plot",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/love-bait-netflix-k-drama-release-date-cast-plot",
-      "event_at": "2026-08-25T01:23:22+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Love Bait’ Netflix K-Drama: Everything We Know About the Upcoming Romance Thriller",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:b2fccfd8b8cc",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:454d9180b093:20260825",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
