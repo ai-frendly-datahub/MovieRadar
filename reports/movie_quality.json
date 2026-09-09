@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-08T10:42:56.008137+00:00",
+  "generated_at": "2026-09-09T10:51:33.055890+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 51,
-    "movie_signal_event_count": 52,
+    "release_calendar_events": 49,
+    "movie_signal_event_count": 50,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
+    "complete_canonical_key_count": 25,
     "proxy_canonical_key_count": 25,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 52,
-    "release_year_present_count": 27,
+    "normalized_title_present_count": 50,
+    "release_year_present_count": 25,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 49,
+    "platform_present_count": 48,
     "event_required_field_gap_count": 28,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 104,
+      "article_count": 103,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 51,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 99,
+      "article_count": 109,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 51,
-      "event_count": 51,
-      "latest_event_at": "2026-09-07T07:04:02+00:00",
-      "age_days": 1.15,
-      "latest_title": "New K-Dramas Coming to Netflix in 2027 & Beyond",
-      "latest_url": "https://www.whats-on-netflix.com/news/k-dramas/first-details-netflix-2027-k-drama-lineup",
+      "article_count": 49,
+      "event_count": 49,
+      "latest_event_at": "2026-09-09T01:30:34+00:00",
+      "age_days": 0.39,
+      "latest_title": "Netflix South Africa Celebrates 10 Years With Slate Update: ‘Blood Legacy’ Season 2 and ‘How to Ruin Diwali’ Dates Set",
+      "latest_url": "https://www.whats-on-netflix.com/news/netflix-south-africa-new-movies-series-2026-release-dates",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-08T10:42:52.266982+00:00",
+      "latest_event_at": "2026-09-09T10:51:26.579151+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-08T10:42:52.266982+00:00",
+      "event_at": "2026-09-09T10:51:26.579151+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -370,14 +371,12 @@
       "award": [],
       "studio": [
         "new",
-        "universal",
         "release"
       ],
       "platform": [
         "release"
       ],
       "film_general": [
-        "film",
         "movie",
         "movies",
         "story",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260908",
+      "event_key": "box_office:907d712300a5:20260909",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,370 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix South Africa Celebrates 10 Years With Slate Update: ‘Blood Legacy’ Season 2 and ‘How to Ruin Diwali’ Dates Set",
+      "url": "https://www.whats-on-netflix.com/news/netflix-south-africa-new-movies-series-2026-release-dates",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-south-africa-new-movies-series-2026-release-dates",
+      "event_at": "2026-09-09T01:30:34+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix South Africa Celebrates 10 Years With Slate Update: ‘Blood Legacy’ Season 2 and ‘How to Ruin Diwali’ Dates Set",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movies",
+        "years",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-south-africa-celebrates-10-years-with-slate-update-blood-legacy-season-2-and-how-to-ruin-diwali-dates-set:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ec011dd6b03e:20260909",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
+      "url": "https://www.whats-on-netflix.com/news/call-my-agent-reunion-movie-september-10-recap",
+      "source_url": "https://www.whats-on-netflix.com/news/call-my-agent-reunion-movie-september-10-recap",
+      "event_at": "2026-09-08T10:52:02+00:00",
+      "movie_id": "",
+      "normalized_title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "this",
+        "my"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a838c2ab175f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4eab0b67635c:20260908",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Italian Series and Movies Coming to Netflix in 2026 and Beyond",
+      "url": "https://www.whats-on-netflix.com/coming-soon/new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond",
+      "event_at": "2026-09-08T08:32:56+00:00",
+      "movie_id": "",
+      "normalized_title": "New Italian Series and Movies Coming to Netflix in 2026 and Beyond",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "latest",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:17572707bca1:20260908",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/why-the-good-place-is-leaving-netflix-internationally-yes-even-though-its-a-netflix-original",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/why-the-good-place-is-leaving-netflix-internationally-yes-even-though-its-a-netflix-original",
+      "event_at": "2026-09-08T07:09:47+00:00",
+      "movie_id": "",
+      "normalized_title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "time"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:294047315f1a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5ca48f966471:20260908",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
+      "url": "https://www.whats-on-netflix.com/interviews/otto-tang-dang-netflix-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/otto-tang-dang-netflix-interview",
+      "event_at": "2026-09-08T05:01:41+00:00",
+      "movie_id": "",
+      "normalized_title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4531c8f12798",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8b690ba11e20:20260908",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
+      "url": "https://www.whats-on-netflix.com/interviews/dont-say-good-luck-laura-hankin-interview-true-story",
+      "source_url": "https://www.whats-on-netflix.com/interviews/dont-say-good-luck-laura-hankin-interview-true-story",
+      "event_at": "2026-09-08T04:42:19+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "story",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:3d9b85d42e5b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5cfdff645944:20260908",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -2991,491 +3354,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Call My Agent!’ Netflix Movie: New Trailer And New Details Emerge Before September Global Release",
-      "url": "https://www.whats-on-netflix.com/news/call-my-agent-movie-confirmed-for-a-netflix-release-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/call-my-agent-movie-confirmed-for-a-netflix-release-everything-we-know",
-      "event_at": "2026-08-26T08:37:16+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Call My Agent!’ Netflix Movie: New Trailer And New Details Emerge Before September Global Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "my",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8ee0e239c146",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a166b20e743a:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Brad Pitt’s ‘Once Upon a Time’ Sequel Titled ‘The Further Mis-Adventures of Cliff Booth’ Amid Major Fincher Reshoots",
-      "url": "https://www.whats-on-netflix.com/news/cliff-booth-netflix-movie-brad-pitt-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/cliff-booth-netflix-movie-brad-pitt-everything-we-know",
-      "event_at": "2026-08-26T07:39:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Brad Pitt’s ‘Once Upon a Time’ Sequel Titled ‘The Further Mis-Adventures of Cliff Booth’ Amid Major Fincher Reshoots",
-      "release_year": "1977",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [],
-      "film_general": [
-        "time"
-      ],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:brad-pitt-s-once-upon-a-time-sequel-titled-the-further-mis-adventures-of-cliff-booth-amid-major-fincher-reshoots:1977:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:a7a1aa9cbf66:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at Tyler Perry’s Next Netflix Movie ‘Doing Life’; Coming in October 2026",
-      "url": "https://www.whats-on-netflix.com/news/doing-life-tyler-perry-netflix-movie-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/doing-life-tyler-perry-netflix-movie-release-date",
-      "event_at": "2026-08-26T07:27:34+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at Tyler Perry’s Next Netflix Movie ‘Doing Life’; Coming in October 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "first",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:first-look-at-tyler-perry-s-next-netflix-movie-doing-life-coming-in-october-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:3136a7f6c61e:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Clive Owen, Orlando Norman and David Shields Joins Anya Taylor-Joy in Netflix’s ‘How to Kill Your Family’",
-      "url": "https://www.whats-on-netflix.com/news/how-to-kill-your-family-netflix-clive-owen-anya-taylor-joy-updates",
-      "source_url": "https://www.whats-on-netflix.com/news/how-to-kill-your-family-netflix-clive-owen-anya-taylor-joy-updates",
-      "event_at": "2026-08-26T06:22:00+00:00",
-      "movie_id": "",
-      "normalized_title": "Clive Owen, Orlando Norman and David Shields Joins Anya Taylor-Joy in Netflix’s ‘How to Kill Your Family’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e2fbd0860a42",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1db0faab5e4d:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Netflix Mexican Romance Series ‘Lovesick’: Premiere Date, Full Cast & Story Details",
-      "url": "https://www.whats-on-netflix.com/news/lovesick-mexican-drama-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/lovesick-mexican-drama-netflix-release-date",
-      "event_at": "2026-08-26T06:15:16+00:00",
-      "movie_id": "",
-      "normalized_title": "New Netflix Mexican Romance Series ‘Lovesick’: Premiere Date, Full Cast & Story Details",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "premiere"
-      ],
-      "film_general": [
-        "story",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-netflix-mexican-romance-series-lovesick-premiere-date-full-cast-story-details:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:9935c6934286:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at ‘The Law of Beasts’: Netflix’s Chilling New Polish Drama Based on a True Story",
-      "url": "https://www.whats-on-netflix.com/news/the-law-of-beasts-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-law-of-beasts-netflix-release-date",
-      "event_at": "2026-08-26T01:53:55+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at ‘The Law of Beasts’: Netflix’s Chilling New Polish Drama Based on a True Story",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "story",
-        "new",
-        "first",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:25a2d0bd7b39",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1368d594ba1e:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets October 2026 Release Date for Swedish Comedy Film ‘The Storm’ From Josephine Bornebusch",
-      "url": "https://www.whats-on-netflix.com/news/the-storm-netflix-swedish-film-cast-announced-2026-release",
-      "source_url": "https://www.whats-on-netflix.com/news/the-storm-netflix-swedish-film-cast-announced-2026-release",
-      "event_at": "2026-08-26T01:43:24+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets October 2026 Release Date for Swedish Comedy Film ‘The Storm’ From Josephine Bornebusch",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-october-2026-release-date-for-swedish-comedy-film-the-storm-from-josephine-bornebusch:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:3934e668fc41:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Shooter’ (Granny) Netflix K-Drama: Cast, Plot, Filming & What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/the-shooter-netflix-korean-series-cast-plot-release",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/the-shooter-netflix-korean-series-cast-plot-release",
-      "event_at": "2026-08-26T00:00:21+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Shooter’ (Granny) Netflix K-Drama: Cast, Plot, Filming & What We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:83e9b214e0ee",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:29b1704148ee:20260826",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3490,6 +3368,74 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:a838c2ab175f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
+      "canonical_key": "movie_source:what-s-on-netflix:294047315f1a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
+      "canonical_key": "movie_source:what-s-on-netflix:4531c8f12798",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
+      "canonical_key": "movie_source:what-s-on-netflix:3d9b85d42e5b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3837,74 +3783,6 @@
       "source": "What's on Netflix",
       "title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
       "canonical_key": "movie_source:what-s-on-netflix:cd39e31c9577",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Call My Agent!’ Netflix Movie: New Trailer And New Details Emerge Before September Global Release",
-      "canonical_key": "movie_source:what-s-on-netflix:8ee0e239c146",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Call My Agent!’ Netflix Movie: New Trailer And New Details Emerge Before September Global Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Clive Owen, Orlando Norman and David Shields Joins Anya Taylor-Joy in Netflix’s ‘How to Kill Your Family’",
-      "canonical_key": "movie_source:what-s-on-netflix:e2fbd0860a42",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Clive Owen, Orlando Norman and David Shields Joins Anya Taylor-Joy in Netflix’s ‘How to Kill Your Family’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at ‘The Law of Beasts’: Netflix’s Chilling New Polish Drama Based on a True Story",
-      "canonical_key": "movie_source:what-s-on-netflix:25a2d0bd7b39",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at ‘The Law of Beasts’: Netflix’s Chilling New Polish Drama Based on a True Story",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Shooter’ (Granny) Netflix K-Drama: Cast, Plot, Filming & What We Know So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:83e9b214e0ee",
       "required_field_gaps": [
         "release_year"
       ]
