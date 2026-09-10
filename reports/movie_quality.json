@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-09T10:51:33.055890+00:00",
+  "generated_at": "2026-09-10T10:45:56.807986+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 49,
-    "movie_signal_event_count": 50,
+    "release_calendar_events": 46,
+    "movie_signal_event_count": 47,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
-    "proxy_canonical_key_count": 25,
+    "complete_canonical_key_count": 23,
+    "proxy_canonical_key_count": 24,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 50,
-    "release_year_present_count": 25,
+    "normalized_title_present_count": 47,
+    "release_year_present_count": 23,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 48,
-    "event_required_field_gap_count": 28,
+    "platform_present_count": 45,
+    "event_required_field_gap_count": 27,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 103,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 107,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 109,
+      "article_count": 111,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 49,
-      "event_count": 49,
-      "latest_event_at": "2026-09-09T01:30:34+00:00",
-      "age_days": 0.39,
-      "latest_title": "Netflix South Africa Celebrates 10 Years With Slate Update: ‘Blood Legacy’ Season 2 and ‘How to Ruin Diwali’ Dates Set",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-south-africa-new-movies-series-2026-release-dates",
+      "article_count": 46,
+      "event_count": 46,
+      "latest_event_at": "2026-09-09T08:07:35+00:00",
+      "age_days": 1.11,
+      "latest_title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
+      "latest_url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-09T10:51:26.579151+00:00",
+      "latest_event_at": "2026-09-10T10:45:50.567910+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-09T10:51:26.579151+00:00",
+      "event_at": "2026-09-10T10:45:50.567910+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260909",
+      "event_key": "box_office:907d712300a5:20260910",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +404,189 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
+      "url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
+      "event_at": "2026-09-09T08:07:35+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "films",
+        "movie",
+        "movies",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-s-2026-2027-spanish-movie-slate-all-upcoming-films-first-looks:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:65fc396a1f6a:20260909",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
+      "url": "https://www.whats-on-netflix.com/news/new-first-looks-at-nicola-coughlan-carmen-ejogo-and-naomi-scott-filming-new-netflix-roald-dahl-series",
+      "source_url": "https://www.whats-on-netflix.com/news/new-first-looks-at-nicola-coughlan-carmen-ejogo-and-naomi-scott-filming-new-netflix-roald-dahl-series",
+      "event_at": "2026-09-09T07:45:54+00:00",
+      "movie_id": "",
+      "normalized_title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:13fda2d33414",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:50aadff84337:20260909",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
+      "url": "https://www.whats-on-netflix.com/news/lorne-michaels-documentary-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/lorne-michaels-documentary-netflix-release-date",
+      "event_at": "2026-09-09T02:26:03+00:00",
+      "movie_id": "",
+      "normalized_title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "peacock",
+        "release"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c9a202e1c828",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:bab2e7a8d65a:20260909",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -2994,366 +3176,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Whisper Man’ Cast and Team Teases Fincher-Esque Netflix Thriller Ahead of Release",
-      "url": "https://www.whats-on-netflix.com/news/the-whisper-man-netflix-movie-cast-teases",
-      "source_url": "https://www.whats-on-netflix.com/news/the-whisper-man-netflix-movie-cast-teases",
-      "event_at": "2026-08-27T08:03:25+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Whisper Man’ Cast and Team Teases Fincher-Esque Netflix Thriller Ahead of Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:f629696e7fb5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:dc132fc404f8:20260827",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Unveils Its Christmas 2026 Movie Lineup",
-      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-2026-christmas-movie-lineup",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-2026-christmas-movie-lineup",
-      "event_at": "2026-08-27T05:44:54+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Unveils Its Christmas 2026 Movie Lineup",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-unveils-its-christmas-2026-movie-lineup:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:37d16e14416b:20260827",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Peter Berg WWII Movie ‘The Mosquito Bowl’ Sets Late 2026 Release on Netflix: First Look & Details",
-      "url": "https://www.whats-on-netflix.com/news/the-mosquito-bowl-netflix-cast-plot-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/the-mosquito-bowl-netflix-cast-plot-first-look",
-      "event_at": "2026-08-27T04:29:27+00:00",
-      "movie_id": "",
-      "normalized_title": "Peter Berg WWII Movie ‘The Mosquito Bowl’ Sets Late 2026 Release on Netflix: First Look & Details",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "story",
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:peter-berg-wwii-movie-the-mosquito-bowl-sets-late-2026-release-on-netflix-first-look-details:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:befdc527a2fe:20260827",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Marina Hands and Marie Colomb to Star in Mélanie Laurent’s New Netflix Series ‘La Grande’",
-      "url": "https://www.whats-on-netflix.com/news/la-grande-netflix-series-melanie-laurent",
-      "source_url": "https://www.whats-on-netflix.com/news/la-grande-netflix-series-melanie-laurent",
-      "event_at": "2026-08-27T04:19:06+00:00",
-      "movie_id": "",
-      "normalized_title": "Marina Hands and Marie Colomb to Star in Mélanie Laurent’s New Netflix Series ‘La Grande’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:6b3141a85d41",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:7be620842f4e:20260827",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
-      "url": "https://www.whats-on-netflix.com/news/what-time-does-gta-6-extended-look-drop-on-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/what-time-does-gta-6-extended-look-drop-on-netflix",
-      "event_at": "2026-08-27T03:25:03+00:00",
-      "movie_id": "",
-      "normalized_title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "today",
-        "time",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:cd39e31c9577",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:161239d9c7e0:20260827",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Dan Brown’s ‘The Secret of Secrets’ Adaptation at Netflix: Filming August 2026 & What Else We Know",
-      "url": "https://www.whats-on-netflix.com/news/dan-brown-the-secret-of-secrets-netflix-series-morgan-spector",
-      "source_url": "https://www.whats-on-netflix.com/news/dan-brown-the-secret-of-secrets-netflix-series-morgan-spector",
-      "event_at": "2026-08-27T02:34:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Dan Brown’s ‘The Secret of Secrets’ Adaptation at Netflix: Filming August 2026 & What Else We Know",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:dan-brown-s-the-secret-of-secrets-adaptation-at-netflix-filming-august-2026-what-else-we-know:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:88bf7ba988aa:20260827",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3368,6 +3190,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
+      "canonical_key": "movie_source:what-s-on-netflix:13fda2d33414",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
+      "canonical_key": "movie_source:what-s-on-netflix:c9a202e1c828",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3744,48 +3600,10 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Whisper Man’ Cast and Team Teases Fincher-Esque Netflix Thriller Ahead of Release",
-      "canonical_key": "movie_source:what-s-on-netflix:f629696e7fb5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Whisper Man’ Cast and Team Teases Fincher-Esque Netflix Thriller Ahead of Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Marina Hands and Marie Colomb to Star in Mélanie Laurent’s New Netflix Series ‘La Grande’",
-      "canonical_key": "movie_source:what-s-on-netflix:6b3141a85d41",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Marina Hands and Marie Colomb to Star in Mélanie Laurent’s New Netflix Series ‘La Grande’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "What Time Does ‘Grand Theft Auto VI: An Extended Look’ Drop on Netflix Today?",
-      "canonical_key": "movie_source:what-s-on-netflix:cd39e31c9577",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_missing",
+      "source": "KOFIC 박스오피스",
+      "event_model": "box_office",
+      "age_days": null
     }
   ],
   "source_backlog": {
