@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-11T10:43:31.659517+00:00",
+  "generated_at": "2026-09-12T10:12:40.629471+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 44,
-    "movie_signal_event_count": 45,
+    "release_calendar_events": 47,
+    "movie_signal_event_count": 48,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 25,
+    "complete_canonical_key_count": 19,
+    "proxy_canonical_key_count": 29,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 45,
-    "release_year_present_count": 20,
+    "normalized_title_present_count": 48,
+    "release_year_present_count": 19,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 44,
-    "event_required_field_gap_count": 28,
+    "platform_present_count": 47,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 104,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 103,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 118,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 44,
-      "event_count": 44,
-      "latest_event_at": "2026-09-11T01:17:40+00:00",
-      "age_days": 0.39,
-      "latest_title": "9/11 Documentaries and Movies on Netflix: Watch Guide for 25th Anniversary",
-      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/9-11-documentaries-movies-netflix-25th-anniversary",
+      "article_count": 47,
+      "event_count": 47,
+      "latest_event_at": "2026-09-11T06:19:41+00:00",
+      "age_days": 1.16,
+      "latest_title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
+      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-musicals-ranked",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-11T10:43:27.281051+00:00",
+      "latest_event_at": "2026-09-12T10:12:35.899007+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-11T10:43:27.281051+00:00",
+      "event_at": "2026-09-12T10:12:35.899007+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -383,7 +383,8 @@
         "top",
         "new",
         "latest",
-        "here"
+        "here",
+        "my"
       ],
       "source_signal": [
         "box_office",
@@ -393,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260911",
+      "event_key": "box_office:907d712300a5:20260912",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +405,255 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-musicals-ranked",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-musicals-ranked",
+      "event_at": "2026-09-11T06:19:41+00:00",
+      "movie_id": "",
+      "normalized_title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "films",
+        "best",
+        "one",
+        "here",
+        "looking"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:933e4c297c8f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:feef4182dea8:20260911",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-adds-53-new-movies-shows-dune-part-two",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-adds-53-new-movies-shows-dune-part-two",
+      "event_at": "2026-09-11T05:34:08+00:00",
+      "movie_id": "",
+      "normalized_title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "villeneuve"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "series"
+      ],
+      "film_general": [
+        "movies",
+        "now",
+        "two",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:96b59e708a1b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4f778af34d43:20260911",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/a-magnificent-life-animated-film-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/a-magnificent-life-animated-film-netflix-release-date",
+      "event_at": "2026-09-11T04:09:18+00:00",
+      "movie_id": "",
+      "normalized_title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "cannes"
+      ],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "cinematic",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1c068cd9abd6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:08eb7ecf3d5b:20260911",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
+      "url": "https://www.whats-on-netflix.com/news/netflix-games/ghost-detective-and-two-original-launch-games-leaving-netflix-this-month",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/ghost-detective-and-two-original-launch-games-leaving-netflix-this-month",
+      "event_at": "2026-09-11T03:38:36+00:00",
+      "movie_id": "",
+      "normalized_title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "two",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:83c71b04f5b8",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2ad6609be0dd:20260911",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -2998,70 +3248,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 29, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-29th-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-august-29th-2026",
-      "event_at": "2026-08-29T08:03:02+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: August 29, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "blockbuster",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "blockbuster"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-august-29-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:ba95aa29cb12:20260829",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3076,6 +3262,74 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
+      "canonical_key": "movie_source:what-s-on-netflix:933e4c297c8f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
+      "canonical_key": "movie_source:what-s-on-netflix:96b59e708a1b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:1c068cd9abd6",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
+      "canonical_key": "movie_source:what-s-on-netflix:83c71b04f5b8",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3423,74 +3677,6 @@
       "source": "What's on Netflix",
       "title": "Netflix Pulls the Plug on Publishing ‘Spirit Crossing’ Game Ahead of Official Release",
       "canonical_key": "movie_source:what-s-on-netflix:c9fb347b9c13",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Pulls the Plug on Publishing ‘Spirit Crossing’ Game Ahead of Official Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Grand Theft Auto VI: An Extended Look’ Scores Huge Debut in Netflix Top 10s With 31.1M Views",
-      "canonical_key": "movie_source:what-s-on-netflix:9420158ad376",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Grand Theft Auto VI: An Extended Look’ Scores Huge Debut in Netflix Top 10s With 31.1M Views",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Adds 68 New Movies and Series for September 1st",
-      "canonical_key": "movie_source:what-s-on-netflix:0fd0fbe0470e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Adds 68 New Movies and Series for September 1st",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘SCTV’ Hits Netflix Ahead of the Upcoming Original Documentary, Plus an Alumni Movie Marathon",
-      "canonical_key": "movie_source:what-s-on-netflix:5c1a84e5f677",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘SCTV’ Hits Netflix Ahead of the Upcoming Original Documentary, Plus an Alumni Movie Marathon",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Geiger and Radio Spaceman Among Comics Netflix Optioned for TV and Movie Adaptations",
-      "canonical_key": "movie_source:what-s-on-netflix:105875f53b87",
       "required_field_gaps": [
         "release_year"
       ]
