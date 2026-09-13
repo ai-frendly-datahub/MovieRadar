@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-12T10:12:40.629471+00:00",
+  "generated_at": "2026-09-13T11:12:29.381234+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 47,
-    "movie_signal_event_count": 48,
+    "release_calendar_events": 48,
+    "movie_signal_event_count": 49,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 19,
-    "proxy_canonical_key_count": 29,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 48,
+    "normalized_title_present_count": 49,
     "release_year_present_count": 19,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 47,
-    "event_required_field_gap_count": 32,
+    "platform_present_count": 48,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 103,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 118,
+      "article_count": 127,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 47,
-      "event_count": 47,
-      "latest_event_at": "2026-09-11T06:19:41+00:00",
-      "age_days": 1.16,
-      "latest_title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
-      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-musicals-ranked",
+      "article_count": 48,
+      "event_count": 48,
+      "latest_event_at": "2026-09-12T09:12:38+00:00",
+      "age_days": 1.08,
+      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 12, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-12T10:12:35.899007+00:00",
+      "latest_event_at": "2026-09-13T11:12:23.488167+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-12T10:12:35.899007+00:00",
+      "event_at": "2026-09-13T11:12:23.488167+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -383,7 +384,6 @@
         "top",
         "new",
         "latest",
-        "here",
         "my"
       ],
       "source_signal": [
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260912",
+      "event_key": "box_office:907d712300a5:20260913",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +405,130 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 12, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026",
+      "event_at": "2026-09-12T09:12:38+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 12, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "top",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c34d453e1cff:20260912",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
+      "url": "https://www.whats-on-netflix.com/news/the-breadwinner-nate-bargatze-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-breadwinner-nate-bargatze-netflix-release-date",
+      "event_at": "2026-09-12T03:41:04+00:00",
+      "movie_id": "",
+      "normalized_title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "sony pictures",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "release"
+      ],
+      "film_general": [
+        "theatrical"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:0fe71e5954c7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:fc2bd8b3eb27:20260912",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3186,68 +3310,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "10 Best New Movies on Netflix In September 2026",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/10-best-new-movies-on-netflix-in-september-2026",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/10-best-new-movies-on-netflix-in-september-2026",
-      "event_at": "2026-08-30T08:15:45+00:00",
-      "movie_id": "",
-      "normalized_title": "10 Best New Movies on Netflix In September 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "best",
-        "top",
-        "new",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:10-best-new-movies-on-netflix-in-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0f26ab4a9ccd:20260830",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3262,6 +3324,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
+      "canonical_key": "movie_source:what-s-on-netflix:0fe71e5954c7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3660,23 +3739,6 @@
       "source": "What's on Netflix",
       "title": "‘Finding Her Edge’ Season 2 Starts Filming: New & Returning Cast Members Revealed",
       "canonical_key": "movie_source:what-s-on-netflix:8311baa4ad45",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Finding Her Edge’ Season 2 Starts Filming: New & Returning Cast Members Revealed",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Pulls the Plug on Publishing ‘Spirit Crossing’ Game Ahead of Official Release",
-      "canonical_key": "movie_source:what-s-on-netflix:c9fb347b9c13",
       "required_field_gaps": [
         "release_year"
       ]
