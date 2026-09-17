@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-16T10:56:53.197920+00:00",
+  "generated_at": "2026-09-17T11:05:43.838895+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 52,
-    "movie_signal_event_count": 53,
+    "release_calendar_events": 51,
+    "movie_signal_event_count": 52,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 21,
-    "proxy_canonical_key_count": 32,
+    "complete_canonical_key_count": 22,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 53,
-    "release_year_present_count": 21,
+    "normalized_title_present_count": 52,
+    "release_year_present_count": 22,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 51,
-    "event_required_field_gap_count": 35,
+    "platform_present_count": 50,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 129,
+      "article_count": 128,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 52,
-      "event_count": 52,
-      "latest_event_at": "2026-09-16T00:56:25+00:00",
-      "age_days": 0.42,
-      "latest_title": "Full List of Movies and Shows Leaving Netflix UK in October 2026",
-      "latest_url": "https://www.whats-on-netflix.com/leaving-soon/movies-shows-leaving-netflix-uk-october-2026",
+      "article_count": 51,
+      "event_count": 51,
+      "latest_event_at": "2026-09-17T00:10:27+00:00",
+      "age_days": 0.46,
+      "latest_title": "Japanese Comedy ‘Did Someone Happen to Mention Me?’ Coming to Netflix in October 2026",
+      "latest_url": "https://www.whats-on-netflix.com/news/did-someone-happen-to-mention-me-netflix-release-date",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-16T10:56:48.327183+00:00",
+      "latest_event_at": "2026-09-17T11:05:40.358722+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-16T10:56:48.327183+00:00",
+      "event_at": "2026-09-17T11:05:40.358722+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260916",
+      "event_key": "box_office:907d712300a5:20260917",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +405,254 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Japanese Comedy ‘Did Someone Happen to Mention Me?’ Coming to Netflix in October 2026",
+      "url": "https://www.whats-on-netflix.com/news/did-someone-happen-to-mention-me-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/did-someone-happen-to-mention-me-netflix-release-date",
+      "event_at": "2026-09-17T00:10:27+00:00",
+      "movie_id": "",
+      "normalized_title": "Japanese Comedy ‘Did Someone Happen to Mention Me?’ Coming to Netflix in October 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast",
+        "actor"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:japanese-comedy-did-someone-happen-to-mention-me-coming-to-netflix-in-october-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:465e23581c69:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
+      "url": "https://www.whats-on-netflix.com/news/first-looks-and-trailer-release-for-netflixs-haunted-hotel-season-2",
+      "source_url": "https://www.whats-on-netflix.com/news/first-looks-and-trailer-release-for-netflixs-haunted-hotel-season-2",
+      "event_at": "2026-09-16T07:35:39+00:00",
+      "movie_id": "",
+      "normalized_title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "today",
+        "one",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e0eb36087062",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:797b879ea297:20260916",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘One Year to Live, Buy a Man’ Romantic Japanese Film Sets November 2026 Release",
+      "url": "https://www.whats-on-netflix.com/news/one-year-to-live-buy-a-man-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/one-year-to-live-buy-a-man-netflix-release-date",
+      "event_at": "2026-09-16T06:57:47+00:00",
+      "movie_id": "",
+      "normalized_title": "‘One Year to Live, Buy a Man’ Romantic Japanese Film Sets November 2026 Release",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "film",
+        "year",
+        "one"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:one-year-to-live-buy-a-man-romantic-japanese-film-sets-november-2026-release:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:db1b9dd06f38:20260916",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
+      "url": "https://www.whats-on-netflix.com/news/netflix-drops-logo-and-first-official-behind-the-scenes-look-at-greta-gerwigs-the-chronicles-of-narnia",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-drops-logo-and-first-official-behind-the-scenes-look-at-greta-gerwigs-the-chronicles-of-narnia",
+      "event_at": "2026-09-16T03:24:02+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "today",
+        "years",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:19e3e56be798",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:45c795b12bcd:20260916",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3218,310 +3466,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Everything You Need to Know About ‘Gandhari’: Netflix India’s New Thriller",
-      "url": "https://www.whats-on-netflix.com/news/everything-you-need-to-know-about-gandhari-netflix-indias-new-thriller",
-      "source_url": "https://www.whats-on-netflix.com/news/everything-you-need-to-know-about-gandhari-netflix-indias-new-thriller",
-      "event_at": "2026-09-03T10:29:51+00:00",
-      "movie_id": "",
-      "normalized_title": "Everything You Need to Know About ‘Gandhari’: Netflix India’s New Thriller",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "one",
-        "new",
-        "need"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8ef0b0ce3d06",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:af07dc9530c1:20260903",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets Full Cast for ‘Better Than the Movies’ as Filming Begins in Chicago",
-      "url": "https://www.whats-on-netflix.com/news/better-than-the-movies-netflix-cast-filming",
-      "source_url": "https://www.whats-on-netflix.com/news/better-than-the-movies-netflix-cast-filming",
-      "event_at": "2026-09-03T07:33:23+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets Full Cast for ‘Better Than the Movies’ as Filming Begins in Chicago",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movies"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:37a5a6baf133",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:82a439a161f2:20260903",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Chinese Box Office Hit ‘The Wandering Earth’ Sets October 2026 Netflix Departure Date",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/wandering-earth-leaving-netflix-october-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/wandering-earth-leaving-netflix-october-2026",
-      "event_at": "2026-09-03T07:16:55+00:00",
-      "movie_id": "",
-      "normalized_title": "Chinese Box Office Hit ‘The Wandering Earth’ Sets October 2026 Netflix Departure Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "box office",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "box office"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "year"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:chinese-box-office-hit-the-wandering-earth-sets-october-2026-netflix-departure-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:8caef14ed6d4:20260903",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Lim Soo Jung Will Star in Netflix’s Bloody Korean Revenge Thriller ‘Daughter’",
-      "url": "https://www.whats-on-netflix.com/news/lim-soo-jung-netflix-korean-revenge-thriller-daughter",
-      "source_url": "https://www.whats-on-netflix.com/news/lim-soo-jung-netflix-korean-revenge-thriller-daughter",
-      "event_at": "2026-09-03T05:23:37+00:00",
-      "movie_id": "",
-      "normalized_title": "Lim Soo Jung Will Star in Netflix’s Bloody Korean Revenge Thriller ‘Daughter’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "new",
-        "my"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:88e053f08301",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:831c133d7a5e:20260903",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Operator’ Netflix Film Starring Mark Wahlberg: What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/mark-wahlberg-the-operator-netflix-thriller",
-      "source_url": "https://www.whats-on-netflix.com/news/mark-wahlberg-the-operator-netflix-thriller",
-      "event_at": "2026-09-03T02:38:14+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Operator’ Netflix Film Starring Mark Wahlberg: What We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:a85d7175bf88",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6f0686093228:20260903",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3536,6 +3480,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
+      "canonical_key": "movie_source:what-s-on-netflix:e0eb36087062",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
+      "canonical_key": "movie_source:what-s-on-netflix:19e3e56be798",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3917,40 +3895,6 @@
       "source": "What's on Netflix",
       "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
       "canonical_key": "movie_source:what-s-on-netflix:294047315f1a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
-      "canonical_key": "movie_source:what-s-on-netflix:4531c8f12798",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
-      "canonical_key": "movie_source:what-s-on-netflix:3d9b85d42e5b",
       "required_field_gaps": [
         "release_year"
       ]
