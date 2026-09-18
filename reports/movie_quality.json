@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-17T11:05:43.838895+00:00",
+  "generated_at": "2026-09-18T10:41:22.531479+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 51,
-    "movie_signal_event_count": 52,
+    "release_calendar_events": 63,
+    "movie_signal_event_count": 64,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 30,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 39,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 52,
-    "release_year_present_count": 22,
+    "normalized_title_present_count": 64,
+    "release_year_present_count": 25,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 50,
-    "event_required_field_gap_count": 33,
+    "platform_present_count": 62,
+    "event_required_field_gap_count": 42,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 100,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 60,
+      "article_count": 61,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 128,
+      "article_count": 131,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,13 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 51,
-      "event_count": 51,
-      "latest_event_at": "2026-09-17T00:10:27+00:00",
-      "age_days": 0.46,
-      "latest_title": "Japanese Comedy ‘Did Someone Happen to Mention Me?’ Coming to Netflix in October 2026",
-      "latest_url": "https://www.whats-on-netflix.com/news/did-someone-happen-to-mention-me-netflix-release-date",
+      "article_count": 63,
+      "event_count": 63,
+      "latest_event_at": "2026-09-18T01:24:16+00:00",
+      "age_days": 0.39,
+      "latest_title": "Ryan Murphy’s ‘Monster: Lizzie Borden’ Leads 31 New Releases on Netflix UK This Week",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/uk/ryan-murphys-monster-lizzie-borden-leads-31-new-releases-on-netflix-uk",
       "latest_source_signal": [
-        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-17T11:05:40.358722+00:00",
+      "latest_event_at": "2026-09-18T10:41:18.384119+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-17T11:05:40.358722+00:00",
+      "event_at": "2026-09-18T10:41:18.384119+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260917",
+      "event_key": "box_office:907d712300a5:20260918",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,793 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Ryan Murphy’s ‘Monster: Lizzie Borden’ Leads 31 New Releases on Netflix UK This Week",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/ryan-murphys-monster-lizzie-borden-leads-31-new-releases-on-netflix-uk",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/ryan-murphys-monster-lizzie-borden-leads-31-new-releases-on-netflix-uk",
+      "event_at": "2026-09-18T01:24:16+00:00",
+      "movie_id": "",
+      "normalized_title": "Ryan Murphy’s ‘Monster: Lizzie Borden’ Leads 31 New Releases on Netflix UK This Week",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases"
+      ],
+      "film_general": [
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:03179b56d903",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:740c3f419989:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "When will Zach Cregger’s Resident Evil be on Netflix?",
+      "url": "https://www.whats-on-netflix.com/news/when-will-zach-creggers-resident-evil-be-on-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/when-will-zach-creggers-resident-evil-be-on-netflix",
+      "event_at": "2026-09-18T01:02:19+00:00",
+      "movie_id": "",
+      "normalized_title": "When will Zach Cregger’s Resident Evil be on Netflix?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:fb5143d94bf1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:03bd06a89259:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Maitreyi Ramakrishnan Proves She’s a True Leading Lady in Netflix’s ‘Best of the Best’",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/best-of-the-best-netflix-movie-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-of-the-best-netflix-movie-review",
+      "event_at": "2026-09-17T23:29:59+00:00",
+      "movie_id": "",
+      "normalized_title": "Maitreyi Ramakrishnan Proves She’s a True Leading Lady in Netflix’s ‘Best of the Best’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "best"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:dc8f1194a700",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:70b0f12b36bc:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Arrivals: A New Manifest Mystery’ Confirms Filming Location As Creators Launch New Behind-the-Scenes Series",
+      "url": "https://www.whats-on-netflix.com/news/arrivals-new-manifest-mystery-creators-confirm-production-location",
+      "source_url": "https://www.whats-on-netflix.com/news/arrivals-new-manifest-mystery-creators-confirm-production-location",
+      "event_at": "2026-09-17T13:12:19+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Arrivals: A New Manifest Mystery’ Confirms Filming Location As Creators Launch New Behind-the-Scenes Series",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:b68c2a945baa",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:6bb9964a9d80:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Responds to ‘Call My Agent! The Movie’ Viewership Concerns After Slow Global Start",
+      "url": "https://www.whats-on-netflix.com/news/call-my-agent-the-movie-netflix-viewership-ratings-response",
+      "source_url": "https://www.whats-on-netflix.com/news/call-my-agent-the-movie-netflix-viewership-ratings-response",
+      "event_at": "2026-09-17T09:06:35+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Responds to ‘Call My Agent! The Movie’ Viewership Concerns After Slow Global Start",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "audience",
+        "first",
+        "my"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:febbe1bb6504",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:10d259fadd6c:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/ink-tiff-review-danny-boyles-ruthless-thriller-is-perfect-except-for-one-bizarre-ai-scene",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/ink-tiff-review-danny-boyles-ruthless-thriller-is-perfect-except-for-one-bizarre-ai-scene",
+      "event_at": "2026-09-17T08:15:33+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "review",
+        "one",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:2eb7580f704e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:fa8f799113d4:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Is ‘Steps’ a Musical? Why Netflix’s Animated Cinderella Spin-Off Changed Its Tune",
+      "url": "https://www.whats-on-netflix.com/news/is-steps-a-musical-why-netflixs-animated-cinderella-spin-off-changed-its-tune",
+      "source_url": "https://www.whats-on-netflix.com/news/is-steps-a-musical-why-netflixs-animated-cinderella-spin-off-changed-its-tune",
+      "event_at": "2026-09-17T07:45:18+00:00",
+      "movie_id": "",
+      "normalized_title": "Is ‘Steps’ a Musical? Why Netflix’s Animated Cinderella Spin-Off Changed Its Tune",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "story",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4783df9086f3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:89d4fdf21bc2:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "“We Actually Sunk a House”: Creators Dive Inside Netflix’s Wild Josh Hartnett Horror Series ‘Below’",
+      "url": "https://www.whats-on-netflix.com/interviews/below-horror-series-creators-tiff-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/below-horror-series-creators-tiff-interview",
+      "event_at": "2026-09-17T07:41:30+00:00",
+      "movie_id": "",
+      "normalized_title": "“We Actually Sunk a House”: Creators Dive Inside Netflix’s Wild Josh Hartnett Horror Series ‘Below’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a8ec42ae3f22",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:65789e2c413d:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Jessica Chastain’s Thriller ‘Heartland’ Hits Netflix in November 2026",
+      "url": "https://www.whats-on-netflix.com/news/jessica-chastain-heartland-netflix-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/jessica-chastain-heartland-netflix-november-2026",
+      "event_at": "2026-09-17T07:10:32+00:00",
+      "movie_id": "",
+      "normalized_title": "Jessica Chastain’s Thriller ‘Heartland’ Hits Netflix in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:jessica-chastain-s-thriller-heartland-hits-netflix-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ccf19f416d66:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Meryl Streep Confirmed to Voice Aslan In ‘Narnia: The Magician’s Nephew’ for Netflix",
+      "url": "https://www.whats-on-netflix.com/news/narnia-magicians-nephew-meryl-streep-aslan-confirmed",
+      "source_url": "https://www.whats-on-netflix.com/news/narnia-magicians-nephew-meryl-streep-aslan-confirmed",
+      "event_at": "2026-09-17T07:04:04+00:00",
+      "movie_id": "",
+      "normalized_title": "Meryl Streep Confirmed to Voice Aslan In ‘Narnia: The Magician’s Nephew’ for Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6e9c917ac0e9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5030e68a2a47:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "French Courtroom Thriller ‘The Good Lawyer’ Starring Laurent Lafitte Sets November 2026 Premiere on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/the-good-lawyer-netflix-release-date-news",
+      "source_url": "https://www.whats-on-netflix.com/news/the-good-lawyer-netflix-release-date-news",
+      "event_at": "2026-09-17T06:30:46+00:00",
+      "movie_id": "",
+      "normalized_title": "French Courtroom Thriller ‘The Good Lawyer’ Starring Laurent Lafitte Sets November 2026 Premiere on Netflix",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [
+        "director"
+      ],
+      "actor": [
+        "starring",
+        "actor"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "premiere"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:french-courtroom-thriller-the-good-lawyer-starring-laurent-lafitte-sets-november-2026-premiere-on-netflix:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:207efe65347d:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Trailer for ‘Steps’: Ali Wong and Bette Midler Lead Netflix’s New Animated Fantasy Comedy",
+      "url": "https://www.whats-on-netflix.com/news/first-trailer-for-steps-ali-wong-and-bette-midler-lead-netflixs-new-animated-fantasy-comedy",
+      "source_url": "https://www.whats-on-netflix.com/news/first-trailer-for-steps-ali-wong-and-bette-midler-lead-netflixs-new-animated-fantasy-comedy",
+      "event_at": "2026-09-17T04:00:25+00:00",
+      "movie_id": "",
+      "normalized_title": "First Trailer for ‘Steps’: Ali Wong and Bette Midler Lead Netflix’s New Animated Fantasy Comedy",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:first-trailer-for-steps-ali-wong-and-bette-midler-lead-netflix-s-new-animated-fantasy-comedy:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f4581b5ff77d:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix in September 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-september-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-september-2026",
+      "event_at": "2026-09-17T02:17:19+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix in September 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-in-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:6c444bf50d04:20260917",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3403,69 +4189,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New K-Dramas on Netflix in October 2026",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/netflix-october-2026-k-drama-release-dates",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/netflix-october-2026-k-drama-release-dates",
-      "event_at": "2026-09-04T05:15:50+00:00",
-      "movie_id": "",
-      "normalized_title": "New K-Dramas on Netflix in October 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "new",
-        "my"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-k-dramas-on-netflix-in-october-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0f61bb93adcb:20260904",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -3480,6 +4203,159 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ryan Murphy’s ‘Monster: Lizzie Borden’ Leads 31 New Releases on Netflix UK This Week",
+      "canonical_key": "movie_source:what-s-on-netflix:03179b56d903",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ryan Murphy’s ‘Monster: Lizzie Borden’ Leads 31 New Releases on Netflix UK This Week",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When will Zach Cregger’s Resident Evil be on Netflix?",
+      "canonical_key": "movie_source:what-s-on-netflix:fb5143d94bf1",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When will Zach Cregger’s Resident Evil be on Netflix?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Maitreyi Ramakrishnan Proves She’s a True Leading Lady in Netflix’s ‘Best of the Best’",
+      "canonical_key": "movie_source:what-s-on-netflix:dc8f1194a700",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Maitreyi Ramakrishnan Proves She’s a True Leading Lady in Netflix’s ‘Best of the Best’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Arrivals: A New Manifest Mystery’ Confirms Filming Location As Creators Launch New Behind-the-Scenes Series",
+      "canonical_key": "movie_source:what-s-on-netflix:b68c2a945baa",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Arrivals: A New Manifest Mystery’ Confirms Filming Location As Creators Launch New Behind-the-Scenes Series",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Responds to ‘Call My Agent! The Movie’ Viewership Concerns After Slow Global Start",
+      "canonical_key": "movie_source:what-s-on-netflix:febbe1bb6504",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Responds to ‘Call My Agent! The Movie’ Viewership Concerns After Slow Global Start",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
+      "canonical_key": "movie_source:what-s-on-netflix:2eb7580f704e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Is ‘Steps’ a Musical? Why Netflix’s Animated Cinderella Spin-Off Changed Its Tune",
+      "canonical_key": "movie_source:what-s-on-netflix:4783df9086f3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Is ‘Steps’ a Musical? Why Netflix’s Animated Cinderella Spin-Off Changed Its Tune",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "“We Actually Sunk a House”: Creators Dive Inside Netflix’s Wild Josh Hartnett Horror Series ‘Below’",
+      "canonical_key": "movie_source:what-s-on-netflix:a8ec42ae3f22",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "“We Actually Sunk a House”: Creators Dive Inside Netflix’s Wild Josh Hartnett Horror Series ‘Below’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Meryl Streep Confirmed to Voice Aslan In ‘Narnia: The Magician’s Nephew’ for Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:6e9c917ac0e9",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Meryl Streep Confirmed to Voice Aslan In ‘Narnia: The Magician’s Nephew’ for Netflix",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3742,159 +4618,6 @@
       "source": "What's on Netflix",
       "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
       "canonical_key": "movie_source:what-s-on-netflix:83c71b04f5b8",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "9/11 Documentaries and Movies on Netflix: Watch Guide for 25th Anniversary",
-      "canonical_key": "movie_source:what-s-on-netflix:6ffd62cccb7d",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "9/11 Documentaries and Movies on Netflix: Watch Guide for 25th Anniversary",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Unveils ‘Nobody Wants This’ Season 3 Premiere Date With First Looks",
-      "canonical_key": "movie_source:what-s-on-netflix:8d7e4c93fc11",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Unveils ‘Nobody Wants This’ Season 3 Premiere Date With First Looks",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at Kevin Hart and Henry Cavill on the Set of Netflix Movie ‘Spy Duo’ in New Jersey",
-      "canonical_key": "movie_source:what-s-on-netflix:4872b38bd874",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at Kevin Hart and Henry Cavill on the Set of Netflix Movie ‘Spy Duo’ in New Jersey",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Has Redesigned its Mobile App for iPhone Duo — What’s Different?",
-      "canonical_key": "movie_source:what-s-on-netflix:a094c4f53e2a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Has Redesigned its Mobile App for iPhone Duo — What’s Different?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Call My Agent!’ The Movie Netflix Review: A High-Stakes Reunion for the ASK Agency",
-      "canonical_key": "movie_source:what-s-on-netflix:f227b1e846dd",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Call My Agent!’ The Movie Netflix Review: A High-Stakes Reunion for the ASK Agency",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
-      "canonical_key": "movie_source:what-s-on-netflix:13fda2d33414",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
-      "canonical_key": "movie_source:what-s-on-netflix:c9a202e1c828",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
-      "canonical_key": "movie_source:what-s-on-netflix:a838c2ab175f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
-      "canonical_key": "movie_source:what-s-on-netflix:294047315f1a",
       "required_field_gaps": [
         "release_year"
       ]
