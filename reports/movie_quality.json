@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-18T10:41:22.531479+00:00",
+  "generated_at": "2026-09-19T10:25:34.334770+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 63,
-    "movie_signal_event_count": 64,
+    "release_calendar_events": 72,
+    "movie_signal_event_count": 73,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
-    "proxy_canonical_key_count": 39,
+    "complete_canonical_key_count": 27,
+    "proxy_canonical_key_count": 46,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 64,
-    "release_year_present_count": 25,
+    "normalized_title_present_count": 73,
+    "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 62,
-    "event_required_field_gap_count": 42,
+    "platform_present_count": 71,
+    "event_required_field_gap_count": 49,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 107,
+      "article_count": 106,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 131,
+      "article_count": 124,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 63,
-      "event_count": 63,
-      "latest_event_at": "2026-09-18T01:24:16+00:00",
-      "age_days": 0.39,
-      "latest_title": "Ryan Murphy’s ‘Monster: Lizzie Borden’ Leads 31 New Releases on Netflix UK This Week",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/uk/ryan-murphys-monster-lizzie-borden-leads-31-new-releases-on-netflix-uk",
+      "article_count": 72,
+      "event_count": 72,
+      "latest_event_at": "2026-09-18T07:52:13+00:00",
+      "age_days": 1.11,
+      "latest_title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
+      "latest_url": "https://www.whats-on-netflix.com/news/first-looks-for-narnia-the-magicians-nephew-drop-how-does-greta-gerwigs-vision-compare-to-the-original",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-18T10:41:18.384119+00:00",
+      "latest_event_at": "2026-09-19T10:25:30.205999+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-18T10:41:18.384119+00:00",
+      "event_at": "2026-09-19T10:25:30.205999+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -382,8 +382,7 @@
         "time",
         "top",
         "new",
-        "latest",
-        "my"
+        "latest"
       ],
       "source_signal": [
         "box_office",
@@ -393,7 +392,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260918",
+      "event_key": "box_office:907d712300a5:20260919",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +403,677 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
+      "url": "https://www.whats-on-netflix.com/news/first-looks-for-narnia-the-magicians-nephew-drop-how-does-greta-gerwigs-vision-compare-to-the-original",
+      "source_url": "https://www.whats-on-netflix.com/news/first-looks-for-narnia-the-magicians-nephew-drop-how-does-greta-gerwigs-vision-compare-to-the-original",
+      "event_at": "2026-09-18T07:52:13+00:00",
+      "movie_id": "",
+      "normalized_title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "first",
+        "need"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c51369fc9800",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5985765b481c:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Hasan Minhaj, Leena Khan, and Prashanth Venkataramanujam Explain the Meaning Behind That ‘Best of the Best’ Ending",
+      "url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-ending-explained-hasan-minhaj",
+      "source_url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-ending-explained-hasan-minhaj",
+      "event_at": "2026-09-18T07:40:33+00:00",
+      "movie_id": "",
+      "normalized_title": "Hasan Minhaj, Leena Khan, and Prashanth Venkataramanujam Explain the Meaning Behind That ‘Best of the Best’ Ending",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "best"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:194cb1b810d0",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:149b6d1a9dba:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Song in Netflix’s ‘Best of the Best’ Including BLACKPINK, ENHYPEN, and Hanumankind",
+      "url": "https://www.whats-on-netflix.com/news/soundtracks/every-song-score-track-in-netflixs-best-of-the-best-soundtrack",
+      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/every-song-score-track-in-netflixs-best-of-the-best-soundtrack",
+      "event_at": "2026-09-18T07:00:50+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Song in Netflix’s ‘Best of the Best’ Including BLACKPINK, ENHYPEN, and Hanumankind",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "today",
+        "best",
+        "one",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bc9724f37c1f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b5589cfad121:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Maitreyi Ramakrishnan’s ‘Best of the Best’: Composer Daniel Rojas on Scoring the Bollywood Dance Comedy",
+      "url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-netflix-maitreyi-ramakrishnan-composer",
+      "source_url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-netflix-maitreyi-ramakrishnan-composer",
+      "event_at": "2026-09-18T06:31:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Maitreyi Ramakrishnan’s ‘Best of the Best’: Composer Daniel Rojas on Scoring the Bollywood Dance Comedy",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "score",
+        "best",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:5bcaaaf76337",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c375ebb9db3c:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Halloween 2026 Lineup: First Look at New Horror Movies & Series Coming Soon",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-halloween-2026-horror-movie-series-lineup",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-halloween-2026-horror-movie-series-lineup",
+      "event_at": "2026-09-18T06:03:52+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Halloween 2026 Lineup: First Look at New Horror Movies & Series Coming Soon",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "latest",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-halloween-2026-lineup-first-look-at-new-horror-movies-series-coming-soon:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f3ec5b88efe2:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’: Everything We Know",
+      "url": "https://www.whats-on-netflix.com/news/guarding-stars-netflix-release-date-cast",
+      "source_url": "https://www.whats-on-netflix.com/news/guarding-stars-netflix-release-date-cast",
+      "event_at": "2026-09-18T05:22:12+00:00",
+      "movie_id": "",
+      "normalized_title": "Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’: Everything We Know",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:30bb5137fa37",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d1e4f5b6a142:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Movie Playing in Theaters with Resident Evil Ahead of Global Drop",
+      "url": "https://www.whats-on-netflix.com/news/trailer-for-the-further-mis-adventures-of-cliff-booth-movie-playing-in-theaters-with-resident-evil-ahead-of-global-drop",
+      "source_url": "https://www.whats-on-netflix.com/news/trailer-for-the-further-mis-adventures-of-cliff-booth-movie-playing-in-theaters-with-resident-evil-ahead-of-global-drop",
+      "event_at": "2026-09-18T04:30:21+00:00",
+      "movie_id": "",
+      "normalized_title": "Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Movie Playing in Theaters with Resident Evil Ahead of Global Drop",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "movie",
+        "theatrical",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:trailer-for-the-further-mis-adventures-of-cliff-booth-movie-playing-in-theaters-with-resident-evil-ahead-of-global-drop:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:5e0a4bbeac7d:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "From Patriot Act to Best of the Best: Prashanth Venkataramanujam on Crafting Netflix’s New Competitive Dance Movie",
+      "url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-netflix-maitreyi-ramakrishnan-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-netflix-maitreyi-ramakrishnan-interview",
+      "event_at": "2026-09-18T04:05:10+00:00",
+      "movie_id": "",
+      "normalized_title": "From Patriot Act to Best of the Best: Prashanth Venkataramanujam on Crafting Netflix’s New Competitive Dance Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "best",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:788968db65aa",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:61070c366058:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Everything You Need to Know About ‘Lust Stories 3’: Netflix India’s New Anthology Film",
+      "url": "https://www.whats-on-netflix.com/news/everything-you-need-to-know-about-lust-stories-3-netflix-indias-new-anthology-film",
+      "source_url": "https://www.whats-on-netflix.com/news/everything-you-need-to-know-about-lust-stories-3-netflix-indias-new-anthology-film",
+      "event_at": "2026-09-18T03:51:25+00:00",
+      "movie_id": "",
+      "normalized_title": "Everything You Need to Know About ‘Lust Stories 3’: Netflix India’s New Anthology Film",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "film",
+        "stories",
+        "time",
+        "new",
+        "need"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:3824d2f9060c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ef91404e1020:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Possible Love’ TIFF Review: Netflix Undoubtedly Scored the Year’s Best Foreign Language Film",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/possible-love-tiff-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/possible-love-tiff-review",
+      "event_at": "2026-09-18T02:45:57+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Possible Love’ TIFF Review: Netflix Undoubtedly Scored the Year’s Best Foreign Language Film",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "review",
+        "year",
+        "best"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e0fabc773e74",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d6b6eef66c44:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Inbetweeners 3 Adds New Faces To Cast; Emily Head & Other Favorites Set to Return",
+      "url": "https://www.whats-on-netflix.com/news/the-inbetweeners-3-adds-new-faces-to-cast-emily-head-other-favorites-set-to-return",
+      "source_url": "https://www.whats-on-netflix.com/news/the-inbetweeners-3-adds-new-faces-to-cast-emily-head-other-favorites-set-to-return",
+      "event_at": "2026-09-18T02:30:56+00:00",
+      "movie_id": "",
+      "normalized_title": "The Inbetweeners 3 Adds New Faces To Cast; Emily Head & Other Favorites Set to Return",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:738136036bbe",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ea95c4e42627:20260918",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4082,113 +4752,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Behind the Scenes of ‘The Gentlemen’ Season 2: Anamorphic Lenses and Expanding Guy Ritchie’s Posh World",
-      "url": "https://www.whats-on-netflix.com/news/the-gentlemen-season-2-cinematographer-darker-evolution",
-      "source_url": "https://www.whats-on-netflix.com/news/the-gentlemen-season-2-cinematographer-darker-evolution",
-      "event_at": "2026-09-04T12:00:47+00:00",
-      "movie_id": "",
-      "normalized_title": "Behind the Scenes of ‘The Gentlemen’ Season 2: Anamorphic Lenses and Expanding Guy Ritchie’s Posh World",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "show",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [
-        "show"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7c191fac4494",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d37def9f6635:20260904",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Finding Her Edge’ Showrunner Jeff Norton Teases What’s in Store For Season 2 As Filming Begins",
-      "url": "https://www.whats-on-netflix.com/interviews/finding-her-edge-showrunner-jeff-norton-teases-whats-in-store-for-season-2-as-filming-begins",
-      "source_url": "https://www.whats-on-netflix.com/interviews/finding-her-edge-showrunner-jeff-norton-teases-whats-in-store-for-season-2-as-filming-begins",
-      "event_at": "2026-09-04T11:13:16+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Finding Her Edge’ Showrunner Jeff Norton Teases What’s in Store For Season 2 As Filming Begins",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d742a06b6575",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ddf3dcd57a58:20260904",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4203,6 +4766,159 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
+      "canonical_key": "movie_source:what-s-on-netflix:c51369fc9800",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Hasan Minhaj, Leena Khan, and Prashanth Venkataramanujam Explain the Meaning Behind That ‘Best of the Best’ Ending",
+      "canonical_key": "movie_source:what-s-on-netflix:194cb1b810d0",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Hasan Minhaj, Leena Khan, and Prashanth Venkataramanujam Explain the Meaning Behind That ‘Best of the Best’ Ending",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Song in Netflix’s ‘Best of the Best’ Including BLACKPINK, ENHYPEN, and Hanumankind",
+      "canonical_key": "movie_source:what-s-on-netflix:bc9724f37c1f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Song in Netflix’s ‘Best of the Best’ Including BLACKPINK, ENHYPEN, and Hanumankind",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Maitreyi Ramakrishnan’s ‘Best of the Best’: Composer Daniel Rojas on Scoring the Bollywood Dance Comedy",
+      "canonical_key": "movie_source:what-s-on-netflix:5bcaaaf76337",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Maitreyi Ramakrishnan’s ‘Best of the Best’: Composer Daniel Rojas on Scoring the Bollywood Dance Comedy",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’: Everything We Know",
+      "canonical_key": "movie_source:what-s-on-netflix:30bb5137fa37",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’: Everything We Know",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "From Patriot Act to Best of the Best: Prashanth Venkataramanujam on Crafting Netflix’s New Competitive Dance Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:788968db65aa",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "From Patriot Act to Best of the Best: Prashanth Venkataramanujam on Crafting Netflix’s New Competitive Dance Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Everything You Need to Know About ‘Lust Stories 3’: Netflix India’s New Anthology Film",
+      "canonical_key": "movie_source:what-s-on-netflix:3824d2f9060c",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Everything You Need to Know About ‘Lust Stories 3’: Netflix India’s New Anthology Film",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Possible Love’ TIFF Review: Netflix Undoubtedly Scored the Year’s Best Foreign Language Film",
+      "canonical_key": "movie_source:what-s-on-netflix:e0fabc773e74",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Possible Love’ TIFF Review: Netflix Undoubtedly Scored the Year’s Best Foreign Language Film",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Inbetweeners 3 Adds New Faces To Cast; Emily Head & Other Favorites Set to Return",
+      "canonical_key": "movie_source:what-s-on-netflix:738136036bbe",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Inbetweeners 3 Adds New Faces To Cast; Emily Head & Other Favorites Set to Return",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4465,159 +5181,6 @@
       "source": "What's on Netflix",
       "title": "Director Jon Glassberg on Filming Emily Harrington’s Epic El Capitan Ascent in ‘Girl Climber’ Doc Coming to Netflix",
       "canonical_key": "movie_source:what-s-on-netflix:ef151691d647",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Jon Glassberg on Filming Emily Harrington’s Epic El Capitan Ascent in ‘Girl Climber’ Doc Coming to Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix to Stream ‘Cunk on Cinema’: Sets Star-Studded Line-Up Featuring Michael Bay, Benedict Cumberbatch, & More",
-      "canonical_key": "movie_source:what-s-on-netflix:c2234626b002",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix to Stream ‘Cunk on Cinema’: Sets Star-Studded Line-Up Featuring Michael Bay, Benedict Cumberbatch, & More",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix and Skydance Animation to Part Ways Following Ray Gunn and Jack in the Beanstalk Movie",
-      "canonical_key": "movie_source:what-s-on-netflix:9157ef6e1991",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix and Skydance Animation to Part Ways Following Ray Gunn and Jack in the Beanstalk Movie",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Live-Action ‘Crazy Taxi’ and ‘STRANGER THAN HEAVEN’ Movies In The Works At Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:48696a1c3965",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Live-Action ‘Crazy Taxi’ and ‘STRANGER THAN HEAVEN’ Movies In The Works At Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Below’ TIFF Preview: An Early Review & First Impressions of Netflix’s Next Great Horror Series",
-      "canonical_key": "movie_source:what-s-on-netflix:12d0b6e086bd",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Below’ TIFF Preview: An Early Review & First Impressions of Netflix’s Next Great Horror Series",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
-      "canonical_key": "movie_source:what-s-on-netflix:0fe71e5954c7",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
-      "canonical_key": "movie_source:what-s-on-netflix:933e4c297c8f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
-      "canonical_key": "movie_source:what-s-on-netflix:96b59e708a1b",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:1c068cd9abd6",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
-      "canonical_key": "movie_source:what-s-on-netflix:83c71b04f5b8",
       "required_field_gaps": [
         "release_year"
       ]
