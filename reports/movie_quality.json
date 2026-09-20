@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-19T10:25:34.334770+00:00",
+  "generated_at": "2026-09-20T10:45:57.576345+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 72,
-    "movie_signal_event_count": 73,
+    "release_calendar_events": 73,
+    "movie_signal_event_count": 74,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 46,
+    "proxy_canonical_key_count": 47,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 73,
+    "normalized_title_present_count": 74,
     "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 71,
-    "event_required_field_gap_count": 49,
+    "platform_present_count": 72,
+    "event_required_field_gap_count": 50,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 124,
+      "article_count": 116,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 72,
-      "event_count": 72,
-      "latest_event_at": "2026-09-18T07:52:13+00:00",
-      "age_days": 1.11,
-      "latest_title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
-      "latest_url": "https://www.whats-on-netflix.com/news/first-looks-for-narnia-the-magicians-nephew-drop-how-does-greta-gerwigs-vision-compare-to-the-original",
+      "article_count": 73,
+      "event_count": 73,
+      "latest_event_at": "2026-09-19T09:50:50+00:00",
+      "age_days": 1.04,
+      "latest_title": "New on Netflix This Week and Top 10 Movies & Series: September 19, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-19-2026",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-19T10:25:30.205999+00:00",
+      "latest_event_at": "2026-09-20T10:45:51.536874+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-19T10:25:30.205999+00:00",
+      "event_at": "2026-09-20T10:45:51.536874+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -392,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260919",
+      "event_key": "box_office:907d712300a5:20260920",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -403,6 +404,125 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New on Netflix This Week and Top 10 Movies & Series: September 19, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-19-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-19-2026",
+      "event_at": "2026-09-19T09:50:50+00:00",
+      "movie_id": "",
+      "normalized_title": "New on Netflix This Week and Top 10 Movies & Series: September 19, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movies",
+        "top",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-on-netflix-this-week-and-top-10-movies-series-september-19-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:d19f540c7e02:20260919",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
+      "url": "https://www.whats-on-netflix.com/news/first-look-the-inbetweeners-3-production-begins-for-netflix-with-a-massive-church-wedding",
+      "source_url": "https://www.whats-on-netflix.com/news/first-look-the-inbetweeners-3-production-begins-for-netflix-with-a-massive-church-wedding",
+      "event_at": "2026-09-19T06:05:31+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a71b123d9145",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:76b5fc6617b7:20260919",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4690,68 +4810,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 5, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-5-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-5-2026",
-      "event_at": "2026-09-05T11:14:27+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 5, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-september-5-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f7723813e74b:20260905",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4766,6 +4824,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
+      "canonical_key": "movie_source:what-s-on-netflix:a71b123d9145",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5164,23 +5239,6 @@
       "source": "What's on Netflix",
       "title": "Léa Seydoux Shines in Marie Kreutzer’s Uneven Netflix Movie ‘Gentle Monster’ [TIFF]",
       "canonical_key": "movie_source:what-s-on-netflix:54e9e4181f4b",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Léa Seydoux Shines in Marie Kreutzer’s Uneven Netflix Movie ‘Gentle Monster’ [TIFF]",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Jon Glassberg on Filming Emily Harrington’s Epic El Capitan Ascent in ‘Girl Climber’ Doc Coming to Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:ef151691d647",
       "required_field_gaps": [
         "release_year"
       ]
