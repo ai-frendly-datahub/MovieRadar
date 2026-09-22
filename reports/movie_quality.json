@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-21T12:09:07.526311+00:00",
+  "generated_at": "2026-09-22T11:04:32.217071+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 75,
-    "movie_signal_event_count": 76,
+    "release_calendar_events": 77,
+    "movie_signal_event_count": 78,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 49,
+    "proxy_canonical_key_count": 51,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 76,
+    "normalized_title_present_count": 78,
     "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 73,
-    "event_required_field_gap_count": 52,
+    "platform_present_count": 75,
+    "event_required_field_gap_count": 54,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 114,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 75,
-      "event_count": 75,
-      "latest_event_at": "2026-09-21T03:01:19+00:00",
-      "age_days": 0.38,
-      "latest_title": "First Trailer Released for Brad Pitt’s ‘The Further Mis-Adventures of Cliff Booth’",
-      "latest_url": "https://www.whats-on-netflix.com/news/the-further-mis-adventures-of-cliff-booth-trailer-release",
+      "article_count": 77,
+      "event_count": 77,
+      "latest_event_at": "2026-09-22T00:31:14+00:00",
+      "age_days": 0.44,
+      "latest_title": "‘Quiztopia’ Netflix Live-Action Adaptation Reveals Full Cast and December 2026 Premiere",
+      "latest_url": "https://www.whats-on-netflix.com/news/netflix-sets-december-2026-release-date-quiztopia",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-21T12:09:03.892435+00:00",
+      "latest_event_at": "2026-09-22T11:04:28.779984+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-21T12:09:03.892435+00:00",
+      "event_at": "2026-09-22T11:04:28.779984+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -393,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260921",
+      "event_key": "box_office:907d712300a5:20260922",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +404,435 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Quiztopia’ Netflix Live-Action Adaptation Reveals Full Cast and December 2026 Premiere",
+      "url": "https://www.whats-on-netflix.com/news/netflix-sets-december-2026-release-date-quiztopia",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-sets-december-2026-release-date-quiztopia",
+      "event_at": "2026-09-22T00:31:14+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Quiztopia’ Netflix Live-Action Adaptation Reveals Full Cast and December 2026 Premiere",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "show",
+        "premiere"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:quiztopia-netflix-live-action-adaptation-reveals-full-cast-and-december-2026-premiere:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:a711d276fa43:20260922",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
+      "url": "https://www.whats-on-netflix.com/news/dept-q-season-2-gets-production-update-new-teases-at-bloody-scotland",
+      "source_url": "https://www.whats-on-netflix.com/news/dept-q-season-2-gets-production-update-new-teases-at-bloody-scotland",
+      "event_at": "2026-09-21T10:00:17+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "show",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "production",
+        "release"
+      ],
+      "platform": [
+        "show",
+        "release"
+      ],
+      "film_general": [
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:21c3b5bcc7f9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:06221a0b9e3d:20260921",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Will Sharpe and Stephanie Hsu Make a Splash at TIFF with Netflix’s Animated Oscar Hopeful ‘In Waves’",
+      "url": "https://www.whats-on-netflix.com/interviews/will-sharpe-stephanie-hsu-tiff-interview-in-waves",
+      "source_url": "https://www.whats-on-netflix.com/interviews/will-sharpe-stephanie-hsu-tiff-interview-in-waves",
+      "event_at": "2026-09-21T07:37:44+00:00",
+      "movie_id": "",
+      "normalized_title": "Will Sharpe and Stephanie Hsu Make a Splash at TIFF with Netflix’s Animated Oscar Hopeful ‘In Waves’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "oscar"
+      ],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "see",
+        "year",
+        "most",
+        "one",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:fd9879ce84aa",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:0015c403c715:20260921",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Adapting Korean Crime Thriller ‘Chronicles of Evil’ Into New French Movie ‘À Cran’ With Audrey Fleurot",
+      "url": "https://www.whats-on-netflix.com/news/netflix-adapting-korean-crime-thriller-chronicles-of-evil-into-new-french-movie-a-cran-with-audrey-fleurot",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-adapting-korean-crime-thriller-chronicles-of-evil-into-new-french-movie-a-cran-with-audrey-fleurot",
+      "event_at": "2026-09-21T06:54:06+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Adapting Korean Crime Thriller ‘Chronicles of Evil’ Into New French Movie ‘À Cran’ With Audrey Fleurot",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a60baa839275",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:220c7b90cc42:20260921",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s Tales of the Unexpected Series Films in Bolton; Nicola Coughlan, Toby Jones, and Josh Finan Spotted",
+      "url": "https://www.whats-on-netflix.com/news/tales-of-the-unexpected-netflix-filming-update",
+      "source_url": "https://www.whats-on-netflix.com/news/tales-of-the-unexpected-netflix-filming-update",
+      "event_at": "2026-09-21T06:36:33+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s Tales of the Unexpected Series Films in Bolton; Nicola Coughlan, Toby Jones, and Josh Finan Spotted",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "films"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d5fec986d232",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:6a3c8be94c24:20260921",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Matt Berry to Voice Lead Villain in Brad Bird’s Animated Noir ‘Ray Gunn’ at Netflix; New Stills Released",
+      "url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-matt-berry-brad-bird-cast",
+      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-matt-berry-brad-bird-cast",
+      "event_at": "2026-09-21T05:05:14+00:00",
+      "movie_id": "",
+      "normalized_title": "Matt Berry to Voice Lead Villain in Brad Bird’s Animated Noir ‘Ray Gunn’ at Netflix; New Stills Released",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:817e8b6fc03d",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:7adda35f2778:20260921",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look Photos: IMAX Stills from ‘The Further Mis-Adventures of Cliff Booth’",
+      "url": "https://www.whats-on-netflix.com/news/first-look-photos-imax-stills-from-the-further-mis-adventures-of-cliff-booth",
+      "source_url": "https://www.whats-on-netflix.com/news/first-look-photos-imax-stills-from-the-further-mis-adventures-of-cliff-booth",
+      "event_at": "2026-09-21T03:32:07+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look Photos: IMAX Stills from ‘The Further Mis-Adventures of Cliff Booth’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "imax",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "imax"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "latest",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:9e51b265d4a7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:9fba05405f6e:20260921",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4631,310 +5060,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
-      "url": "https://www.whats-on-netflix.com/news/call-my-agent-reunion-movie-september-10-recap",
-      "source_url": "https://www.whats-on-netflix.com/news/call-my-agent-reunion-movie-september-10-recap",
-      "event_at": "2026-09-08T10:52:02+00:00",
-      "movie_id": "",
-      "normalized_title": "Where We Left the ‘Call My Agent!’ Cast Ahead of the Netflix Reunion Movie",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "this",
-        "my"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:a838c2ab175f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4eab0b67635c:20260908",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Italian Series and Movies Coming to Netflix in 2026 and Beyond",
-      "url": "https://www.whats-on-netflix.com/coming-soon/new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond",
-      "event_at": "2026-09-08T08:32:56+00:00",
-      "movie_id": "",
-      "normalized_title": "New Italian Series and Movies Coming to Netflix in 2026 and Beyond",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:17572707bca1:20260908",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/why-the-good-place-is-leaving-netflix-internationally-yes-even-though-its-a-netflix-original",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/why-the-good-place-is-leaving-netflix-internationally-yes-even-though-its-a-netflix-original",
-      "event_at": "2026-09-08T07:09:47+00:00",
-      "movie_id": "",
-      "normalized_title": "Why ‘The Good Place’ is Leaving Netflix Internationally (Yes, Even Though It’s a Netflix Original)",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "time"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:294047315f1a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:5ca48f966471:20260908",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
-      "url": "https://www.whats-on-netflix.com/interviews/otto-tang-dang-netflix-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/otto-tang-dang-netflix-interview",
-      "event_at": "2026-09-08T05:01:41+00:00",
-      "movie_id": "",
-      "normalized_title": "Titmouse Art Director Otto Tang on Bringing New York to Life in Netflix’s ‘DANG!’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:4531c8f12798",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:8b690ba11e20:20260908",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
-      "url": "https://www.whats-on-netflix.com/interviews/dont-say-good-luck-laura-hankin-interview-true-story",
-      "source_url": "https://www.whats-on-netflix.com/interviews/dont-say-good-luck-laura-hankin-interview-true-story",
-      "event_at": "2026-09-08T04:42:19+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Don’t Say Good Luck’ Writer Laura Hankin on the Personal True Story Behind the Netflix Hit",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "story",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3d9b85d42e5b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:5cfdff645944:20260908",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4949,6 +5074,108 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
+      "canonical_key": "movie_source:what-s-on-netflix:21c3b5bcc7f9",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Will Sharpe and Stephanie Hsu Make a Splash at TIFF with Netflix’s Animated Oscar Hopeful ‘In Waves’",
+      "canonical_key": "movie_source:what-s-on-netflix:fd9879ce84aa",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Will Sharpe and Stephanie Hsu Make a Splash at TIFF with Netflix’s Animated Oscar Hopeful ‘In Waves’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Adapting Korean Crime Thriller ‘Chronicles of Evil’ Into New French Movie ‘À Cran’ With Audrey Fleurot",
+      "canonical_key": "movie_source:what-s-on-netflix:a60baa839275",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Adapting Korean Crime Thriller ‘Chronicles of Evil’ Into New French Movie ‘À Cran’ With Audrey Fleurot",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s Tales of the Unexpected Series Films in Bolton; Nicola Coughlan, Toby Jones, and Josh Finan Spotted",
+      "canonical_key": "movie_source:what-s-on-netflix:d5fec986d232",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s Tales of the Unexpected Series Films in Bolton; Nicola Coughlan, Toby Jones, and Josh Finan Spotted",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Matt Berry to Voice Lead Villain in Brad Bird’s Animated Noir ‘Ray Gunn’ at Netflix; New Stills Released",
+      "canonical_key": "movie_source:what-s-on-netflix:817e8b6fc03d",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Matt Berry to Voice Lead Villain in Brad Bird’s Animated Noir ‘Ray Gunn’ at Netflix; New Stills Released",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look Photos: IMAX Stills from ‘The Further Mis-Adventures of Cliff Booth’",
+      "canonical_key": "movie_source:what-s-on-netflix:9e51b265d4a7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look Photos: IMAX Stills from ‘The Further Mis-Adventures of Cliff Booth’",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5262,108 +5489,6 @@
       "source": "What's on Netflix",
       "title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
       "canonical_key": "movie_source:what-s-on-netflix:2eb7580f704e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Is ‘Steps’ a Musical? Why Netflix’s Animated Cinderella Spin-Off Changed Its Tune",
-      "canonical_key": "movie_source:what-s-on-netflix:4783df9086f3",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Is ‘Steps’ a Musical? Why Netflix’s Animated Cinderella Spin-Off Changed Its Tune",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "“We Actually Sunk a House”: Creators Dive Inside Netflix’s Wild Josh Hartnett Horror Series ‘Below’",
-      "canonical_key": "movie_source:what-s-on-netflix:a8ec42ae3f22",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "“We Actually Sunk a House”: Creators Dive Inside Netflix’s Wild Josh Hartnett Horror Series ‘Below’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Meryl Streep Confirmed to Voice Aslan In ‘Narnia: The Magician’s Nephew’ for Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:6e9c917ac0e9",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Meryl Streep Confirmed to Voice Aslan In ‘Narnia: The Magician’s Nephew’ for Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
-      "canonical_key": "movie_source:what-s-on-netflix:e0eb36087062",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
-      "canonical_key": "movie_source:what-s-on-netflix:19e3e56be798",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Jarrett Craig Breaks Down the Visual Evolution of ‘My Life with the Walter Boys’ Season 3",
-      "canonical_key": "movie_source:what-s-on-netflix:9f9cf03e8021",
       "required_field_gaps": [
         "release_year"
       ]
