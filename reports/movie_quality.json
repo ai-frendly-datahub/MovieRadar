@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-22T11:04:32.217071+00:00",
+  "generated_at": "2026-09-23T10:54:06.997788+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 77,
-    "movie_signal_event_count": 78,
+    "release_calendar_events": 76,
+    "movie_signal_event_count": 77,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
+    "complete_canonical_key_count": 26,
     "proxy_canonical_key_count": 51,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 78,
-    "release_year_present_count": 27,
+    "normalized_title_present_count": 77,
+    "release_year_present_count": 26,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 75,
+    "platform_present_count": 74,
     "event_required_field_gap_count": 54,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 106,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 77,
-      "event_count": 77,
-      "latest_event_at": "2026-09-22T00:31:14+00:00",
-      "age_days": 0.44,
-      "latest_title": "‘Quiztopia’ Netflix Live-Action Adaptation Reveals Full Cast and December 2026 Premiere",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-sets-december-2026-release-date-quiztopia",
+      "article_count": 76,
+      "event_count": 76,
+      "latest_event_at": "2026-09-23T01:27:56+00:00",
+      "age_days": 0.39,
+      "latest_title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/composer-daniel-pemberton-teases-off-the-rails-score-for-danny-boyles-netflix-movie-ink",
       "latest_source_signal": [
         "movie_text_context",
+        "movie_url_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-22T11:04:28.779984+00:00",
+      "latest_event_at": "2026-09-23T10:54:01.038568+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-22T11:04:28.779984+00:00",
+      "event_at": "2026-09-23T10:54:01.038568+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -393,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260922",
+      "event_key": "box_office:907d712300a5:20260923",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +404,188 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
+      "url": "https://www.whats-on-netflix.com/interviews/composer-daniel-pemberton-teases-off-the-rails-score-for-danny-boyles-netflix-movie-ink",
+      "source_url": "https://www.whats-on-netflix.com/interviews/composer-daniel-pemberton-teases-off-the-rails-score-for-danny-boyles-netflix-movie-ink",
+      "event_at": "2026-09-23T01:27:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "score"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8ef431e250ae",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d5cd709c62b7:20260923",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Most Watched Netflix Shows and Movies of All Time (Updated: September 2026)",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
+      "event_at": "2026-09-22T10:40:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Most Watched Netflix Shows and Movies of All Time (Updated: September 2026)",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "shows"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "time",
+        "most",
+        "top"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:most-watched-netflix-shows-and-movies-of-all-time-updated-september-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f08e31cc9917:20260922",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
+      "url": "https://www.whats-on-netflix.com/interviews/danny-boyle-ink-netflix-tiff-career-retrospective",
+      "source_url": "https://www.whats-on-netflix.com/interviews/danny-boyle-ink-netflix-tiff-career-retrospective",
+      "event_at": "2026-09-22T03:02:53+00:00",
+      "movie_id": "",
+      "normalized_title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7d07d3789039",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b1fd22af96cb:20260922",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4817,249 +4999,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
-      "url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
-      "event_at": "2026-09-09T08:07:35+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "films",
-        "movie",
-        "movies",
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-2026-2027-spanish-movie-slate-all-upcoming-films-first-looks:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:65fc396a1f6a:20260909",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
-      "url": "https://www.whats-on-netflix.com/news/new-first-looks-at-nicola-coughlan-carmen-ejogo-and-naomi-scott-filming-new-netflix-roald-dahl-series",
-      "source_url": "https://www.whats-on-netflix.com/news/new-first-looks-at-nicola-coughlan-carmen-ejogo-and-naomi-scott-filming-new-netflix-roald-dahl-series",
-      "event_at": "2026-09-09T07:45:54+00:00",
-      "movie_id": "",
-      "normalized_title": "New First Looks at Nicola Coughlan, Carmen Ejogo and Naomi Scott Filming Netflix Roald Dahl Series",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:13fda2d33414",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:50aadff84337:20260909",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
-      "url": "https://www.whats-on-netflix.com/news/lorne-michaels-documentary-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/lorne-michaels-documentary-netflix-release-date",
-      "event_at": "2026-09-09T02:26:03+00:00",
-      "movie_id": "",
-      "normalized_title": "SNL Documentary ‘Lorne’ Sets Netflix US Release Following Peacock Stint",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "peacock",
-        "release"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c9a202e1c828",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:bab2e7a8d65a:20260909",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix South Africa Celebrates 10 Years With Slate Update: ‘Blood Legacy’ Season 2 and ‘How to Ruin Diwali’ Dates Set",
-      "url": "https://www.whats-on-netflix.com/news/netflix-south-africa-new-movies-series-2026-release-dates",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-south-africa-new-movies-series-2026-release-dates",
-      "event_at": "2026-09-09T01:30:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix South Africa Celebrates 10 Years With Slate Update: ‘Blood Legacy’ Season 2 and ‘How to Ruin Diwali’ Dates Set",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movies",
-        "years",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-south-africa-celebrates-10-years-with-slate-update-blood-legacy-season-2-and-how-to-ruin-diwali-dates-set:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:ec011dd6b03e:20260909",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5074,6 +5013,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
+      "canonical_key": "movie_source:what-s-on-netflix:8ef431e250ae",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
+      "canonical_key": "movie_source:what-s-on-netflix:7d07d3789039",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5455,40 +5428,6 @@
       "source": "What's on Netflix",
       "title": "‘Arrivals: A New Manifest Mystery’ Confirms Filming Location As Creators Launch New Behind-the-Scenes Series",
       "canonical_key": "movie_source:what-s-on-netflix:b68c2a945baa",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Arrivals: A New Manifest Mystery’ Confirms Filming Location As Creators Launch New Behind-the-Scenes Series",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Responds to ‘Call My Agent! The Movie’ Viewership Concerns After Slow Global Start",
-      "canonical_key": "movie_source:what-s-on-netflix:febbe1bb6504",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Responds to ‘Call My Agent! The Movie’ Viewership Concerns After Slow Global Start",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ink’ TIFF Review: Danny Boyle’s Ruthless Thriller is Perfect—Except for One Bizarre AI Scene",
-      "canonical_key": "movie_source:what-s-on-netflix:2eb7580f704e",
       "required_field_gaps": [
         "release_year"
       ]
