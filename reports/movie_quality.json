@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-24T11:13:27.213168+00:00",
+  "generated_at": "2026-09-25T11:18:37.825156+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 82,
-    "movie_signal_event_count": 83,
+    "release_calendar_events": 84,
+    "movie_signal_event_count": 85,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
+    "complete_canonical_key_count": 29,
     "proxy_canonical_key_count": 56,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 83,
-    "release_year_present_count": 27,
+    "normalized_title_present_count": 85,
+    "release_year_present_count": 29,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 79,
+    "platform_present_count": 81,
     "event_required_field_gap_count": 59,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 108,
+      "article_count": 110,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 57,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 82,
-      "event_count": 82,
-      "latest_event_at": "2026-09-24T02:07:47+00:00",
-      "age_days": 0.38,
-      "latest_title": "Where Does the ‘Stranger Things’ Franchise Go From Here?",
-      "latest_url": "https://www.whats-on-netflix.com/news/future-of-stranger-things-post-tales-from-85",
+      "article_count": 84,
+      "event_count": 84,
+      "latest_event_at": "2026-09-25T01:52:41+00:00",
+      "age_days": 0.39,
+      "latest_title": "Netflix’s ‘Unabomber’ Review: Russell Crowe Shines in a Flawed True Crime Origin Story",
+      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/unabomber-netflix-movie-russell-crowe-review",
       "latest_source_signal": [
-        "movie_text_context",
+        "movie_url_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 10,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-24T11:13:21.500938+00:00",
+      "latest_event_at": "2026-09-25T11:18:33.007916+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-24T11:13:21.500938+00:00",
+      "event_at": "2026-09-25T11:18:33.007916+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260924",
+      "event_key": "box_office:907d712300a5:20260925",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,432 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘Unabomber’ Review: Russell Crowe Shines in a Flawed True Crime Origin Story",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/unabomber-netflix-movie-russell-crowe-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/unabomber-netflix-movie-russell-crowe-review",
+      "event_at": "2026-09-25T01:52:41+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘Unabomber’ Review: Russell Crowe Shines in a Flawed True Crime Origin Story",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "review",
+        "story",
+        "two"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d21888d9dbfb",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:22a0db1ad794:20260925",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s New on Netflix UK: Sonic 3, Minerva Academy, and 230+ More Additions",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/sonic-the-hedgehog-3-headlines-massive-netflix-uk-update",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/sonic-the-hedgehog-3-headlines-massive-netflix-uk-update",
+      "event_at": "2026-09-25T00:48:31+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s New on Netflix UK: Sonic 3, Minerva Academy, and 230+ More Additions",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "box office",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "box office"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "paramount",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "top",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7b7f58a6c65b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1bfb6928ec15:20260925",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Hunchback, Soul of Paris’: Netflix’s New Quasimodo Movie Gets First Looks and Release Date",
+      "url": "https://www.whats-on-netflix.com/news/the-hunchback-soul-of-paris-everything-we-know-about-netflixs-new-quasimodo-movie",
+      "source_url": "https://www.whats-on-netflix.com/news/the-hunchback-soul-of-paris-everything-we-know-about-netflixs-new-quasimodo-movie",
+      "event_at": "2026-09-24T13:12:01+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Hunchback, Soul of Paris’: Netflix’s New Quasimodo Movie Gets First Looks and Release Date",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:09dc3873e4f2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:202c8ac3c29b:20260924",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/the-netflix-movies-generating-massive-oscar-buzz-out-of-tiff",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-netflix-movies-generating-massive-oscar-buzz-out-of-tiff",
+      "event_at": "2026-09-24T11:52:45+00:00",
+      "movie_id": "",
+      "normalized_title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "oscar",
+        "academy award",
+        "award"
+      ],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies",
+        "best"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e847e9dea06a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:cfa1a4162bde:20260924",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Charlie Brooker’s ‘Blackmere’ Casts Rory Kinnear and Others Ahead of Early 2027 Release on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/blackmere-casting-updates-first-look-releae-window",
+      "source_url": "https://www.whats-on-netflix.com/news/blackmere-casting-updates-first-look-releae-window",
+      "event_at": "2026-09-24T07:23:31+00:00",
+      "movie_id": "",
+      "normalized_title": "Charlie Brooker’s ‘Blackmere’ Casts Rory Kinnear and Others Ahead of Early 2027 Release on Netflix",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "show",
+        "release"
+      ],
+      "film_general": [
+        "new",
+        "first",
+        "just"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:charlie-brooker-s-blackmere-casts-rory-kinnear-and-others-ahead-of-early-2027-release-on-netflix:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:b88ca0c835b9:20260924",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
+      "url": "https://www.whats-on-netflix.com/news/give-me-some-sugah-netflix-first-look",
+      "source_url": "https://www.whats-on-netflix.com/news/give-me-some-sugah-netflix-first-look",
+      "event_at": "2026-09-24T06:47:34+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "movie",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:cc87185fb9e6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c0d05e7ba63c:20260924",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Fury vs. Joshua: Historic Heavyweight Clash Streaming Live on Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/news/tyson-fury-anthony-joshua-netflix-boxing-match-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/tyson-fury-anthony-joshua-netflix-boxing-match-2026",
+      "event_at": "2026-09-24T03:27:55+00:00",
+      "movie_id": "",
+      "normalized_title": "Fury vs. Joshua: Historic Heavyweight Clash Streaming Live on Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:fury-vs-joshua-historic-heavyweight-clash-streaming-live-on-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:87b236672e52:20260924",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -5053,317 +5478,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-musicals-ranked",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-netflix-original-musicals-ranked",
-      "event_at": "2026-09-11T06:19:41+00:00",
-      "movie_id": "",
-      "normalized_title": "The 10 Best Netflix Original Musicals (And Why ‘Emilia Pérez’ Didn’t Make the Cut)",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "films",
-        "best",
-        "one",
-        "here",
-        "looking"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:933e4c297c8f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:feef4182dea8:20260911",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-adds-53-new-movies-shows-dune-part-two",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-adds-53-new-movies-shows-dune-part-two",
-      "event_at": "2026-09-11T05:34:08+00:00",
-      "movie_id": "",
-      "normalized_title": "All Five ‘Twilight’ Movies and ‘Dune: Part Two’ Are Now Streaming on Netflix UK",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "villeneuve"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "series"
-      ],
-      "film_general": [
-        "movies",
-        "now",
-        "two",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:96b59e708a1b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4f778af34d43:20260911",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
-      "url": "https://www.whats-on-netflix.com/news/a-magnificent-life-animated-film-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/a-magnificent-life-animated-film-netflix-release-date",
-      "event_at": "2026-09-11T04:09:18+00:00",
-      "movie_id": "",
-      "normalized_title": "Sylvain Chomet’s Cannes Animation Hit ‘A Magnificent Life’ To Makes Its Streaming Debut on Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "cannes"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [
-        "cinematic",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1c068cd9abd6",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:08eb7ecf3d5b:20260911",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/ghost-detective-and-two-original-launch-games-leaving-netflix-this-month",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/ghost-detective-and-two-original-launch-games-leaving-netflix-this-month",
-      "event_at": "2026-09-11T03:38:36+00:00",
-      "movie_id": "",
-      "normalized_title": "Ghost Detective and Two Original Launch Games Leaving Netflix This Month",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "two",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:83c71b04f5b8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2ad6609be0dd:20260911",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "9/11 Documentaries and Movies on Netflix: Watch Guide for 25th Anniversary",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/9-11-documentaries-movies-netflix-25th-anniversary",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/9-11-documentaries-movies-netflix-25th-anniversary",
-      "event_at": "2026-09-11T01:17:40+00:00",
-      "movie_id": "",
-      "normalized_title": "9/11 Documentaries and Movies on Netflix: Watch Guide for 25th Anniversary",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "movies",
-        "watch",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:6ffd62cccb7d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:683c5667e17b:20260911",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5378,6 +5492,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Unabomber’ Review: Russell Crowe Shines in a Flawed True Crime Origin Story",
+      "canonical_key": "movie_source:what-s-on-netflix:d21888d9dbfb",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Unabomber’ Review: Russell Crowe Shines in a Flawed True Crime Origin Story",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "What’s New on Netflix UK: Sonic 3, Minerva Academy, and 230+ More Additions",
+      "canonical_key": "movie_source:what-s-on-netflix:7b7f58a6c65b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "What’s New on Netflix UK: Sonic 3, Minerva Academy, and 230+ More Additions",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Hunchback, Soul of Paris’: Netflix’s New Quasimodo Movie Gets First Looks and Release Date",
+      "canonical_key": "movie_source:what-s-on-netflix:09dc3873e4f2",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Hunchback, Soul of Paris’: Netflix’s New Quasimodo Movie Gets First Looks and Release Date",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
+      "canonical_key": "movie_source:what-s-on-netflix:e847e9dea06a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
+      "canonical_key": "movie_source:what-s-on-netflix:cc87185fb9e6",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5708,91 +5907,6 @@
       "source": "What's on Netflix",
       "title": "Ishaan Khatter’s ‘The Royals’ Season 2 Begins Shooting; Sini Shetty and Gurfateh Pirzada Join the Cast",
       "canonical_key": "movie_source:what-s-on-netflix:a070d9ca8f32",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ishaan Khatter’s ‘The Royals’ Season 2 Begins Shooting; Sini Shetty and Gurfateh Pirzada Join the Cast",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
-      "canonical_key": "movie_source:what-s-on-netflix:a71b123d9145",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
-      "canonical_key": "movie_source:what-s-on-netflix:c51369fc9800",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Looks for ‘Narnia: The Magician’s Nephew’ Drop: How Does Greta Gerwig’s Vision Compare to The Original?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Hasan Minhaj, Leena Khan, and Prashanth Venkataramanujam Explain the Meaning Behind That ‘Best of the Best’ Ending",
-      "canonical_key": "movie_source:what-s-on-netflix:194cb1b810d0",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Hasan Minhaj, Leena Khan, and Prashanth Venkataramanujam Explain the Meaning Behind That ‘Best of the Best’ Ending",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Song in Netflix’s ‘Best of the Best’ Including BLACKPINK, ENHYPEN, and Hanumankind",
-      "canonical_key": "movie_source:what-s-on-netflix:bc9724f37c1f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Every Song in Netflix’s ‘Best of the Best’ Including BLACKPINK, ENHYPEN, and Hanumankind",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Maitreyi Ramakrishnan’s ‘Best of the Best’: Composer Daniel Rojas on Scoring the Bollywood Dance Comedy",
-      "canonical_key": "movie_source:what-s-on-netflix:5bcaaaf76337",
       "required_field_gaps": [
         "release_year"
       ]
