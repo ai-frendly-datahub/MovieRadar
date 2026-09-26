@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-25T11:18:37.825156+00:00",
+  "generated_at": "2026-09-26T10:55:14.487565+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 85,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 29,
-    "proxy_canonical_key_count": 56,
+    "complete_canonical_key_count": 28,
+    "proxy_canonical_key_count": 57,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 85,
-    "release_year_present_count": 29,
+    "release_year_present_count": 28,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 81,
-    "event_required_field_gap_count": 59,
+    "platform_present_count": 80,
+    "event_required_field_gap_count": 60,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 33,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 57,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 104,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,12 +200,12 @@
       "status": "fresh",
       "article_count": 84,
       "event_count": 84,
-      "latest_event_at": "2026-09-25T01:52:41+00:00",
-      "age_days": 0.39,
-      "latest_title": "Netflix’s ‘Unabomber’ Review: Russell Crowe Shines in a Flawed True Crime Origin Story",
-      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/unabomber-netflix-movie-russell-crowe-review",
+      "latest_event_at": "2026-09-25T14:39:06+00:00",
+      "age_days": 0.84,
+      "latest_title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/unabomber-screenwriters-interview-harvard-experiments",
       "latest_source_signal": [
-        "movie_url_context",
+        "movie_text_context",
         "ott_release",
         "release_calendar"
       ],
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-25T11:18:33.007916+00:00",
+      "latest_event_at": "2026-09-26T10:55:09.093140+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-25T11:18:33.007916+00:00",
+      "event_at": "2026-09-26T10:55:09.093140+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -380,6 +380,7 @@
         "movie",
         "movies",
         "story",
+        "year",
         "time",
         "top",
         "new",
@@ -393,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260925",
+      "event_key": "box_office:907d712300a5:20260926",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +405,182 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
+      "url": "https://www.whats-on-netflix.com/interviews/unabomber-screenwriters-interview-harvard-experiments",
+      "source_url": "https://www.whats-on-netflix.com/interviews/unabomber-screenwriters-interview-harvard-experiments",
+      "event_at": "2026-09-25T14:39:06+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "movie",
+        "screen",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:9f40bf080602",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:51c7c14ac05b:20260925",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix in October 2026",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-october-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-october-2026",
+      "event_at": "2026-09-25T06:07:49+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix in October 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "watching",
+        "binge",
+        "shows"
+      ],
+      "film_general": [
+        "movies",
+        "watching",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-in-october-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:837efd310fed:20260925",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Glam-Rock and M.C. Escher: More Details Revealed for Greta Gerwig’s ‘Narnia’ Netflix Vision",
+      "url": "https://www.whats-on-netflix.com/news/glam-rock-and-m-c-escher-more-details-revealed-for-greta-gerwigs-narnia-netflix-vision",
+      "source_url": "https://www.whats-on-netflix.com/news/glam-rock-and-m-c-escher-more-details-revealed-for-greta-gerwigs-narnia-netflix-vision",
+      "event_at": "2026-09-25T02:29:28+00:00",
+      "movie_id": "",
+      "normalized_title": "Glam-Rock and M.C. Escher: More Details Revealed for Greta Gerwig’s ‘Narnia’ Netflix Vision",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:b21986ba8132",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f7466dca49c3:20260925",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -844,12 +1021,12 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "Where Does the ‘Stranger Things’ Franchise Go From Here?",
+      "title": "Where Does the Stranger Things Go From Here?",
       "url": "https://www.whats-on-netflix.com/news/future-of-stranger-things-post-tales-from-85",
       "source_url": "https://www.whats-on-netflix.com/news/future-of-stranger-things-post-tales-from-85",
       "event_at": "2026-09-24T02:07:47+00:00",
       "movie_id": "",
-      "normalized_title": "Where Does the ‘Stranger Things’ Franchise Go From Here?",
+      "normalized_title": "Where Does the Stranger Things Go From Here?",
       "release_year": "",
       "country": "US",
       "region": "US",
@@ -878,9 +1055,9 @@
         "ott_release_context",
         "release_calendar"
       ],
-      "canonical_key": "movie_source:what-s-on-netflix:7f8d21117bd6",
+      "canonical_key": "movie_source:what-s-on-netflix:eaf469798dc4",
       "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6bd52c40519a:20260924",
+      "event_key": "release_calendar:43db9865f398:20260924",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -4773,67 +4950,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in October 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-october-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-october-2026",
-      "event_at": "2026-09-14T09:42:49+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in October 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watching",
-        "binge",
-        "shows"
-      ],
-      "film_general": [
-        "movies",
-        "watching",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-october-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:837efd310fed:20260914",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "Director Jon Glassberg on Filming Emily Harrington’s Epic El Capitan Ascent in ‘Girl Climber’ Doc Coming to Netflix",
       "url": "https://www.whats-on-netflix.com/interviews/girl-climber-jon-glassberg-interview",
       "source_url": "https://www.whats-on-netflix.com/interviews/girl-climber-jon-glassberg-interview",
@@ -5354,130 +5470,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 12, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026",
-      "event_at": "2026-09-12T09:12:38+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: September 12, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-september-12-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:c34d453e1cff:20260912",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
-      "url": "https://www.whats-on-netflix.com/news/the-breadwinner-nate-bargatze-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-breadwinner-nate-bargatze-netflix-release-date",
-      "event_at": "2026-09-12T03:41:04+00:00",
-      "movie_id": "",
-      "normalized_title": "Nate Bargatze’s ‘The Breadwinner’ Sets Netflix Streaming Release Date",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "sony pictures",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release"
-      ],
-      "film_general": [
-        "theatrical"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:0fe71e5954c7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:fc2bd8b3eb27:20260912",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5492,6 +5484,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:9f40bf080602",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Glam-Rock and M.C. Escher: More Details Revealed for Greta Gerwig’s ‘Narnia’ Netflix Vision",
+      "canonical_key": "movie_source:what-s-on-netflix:b21986ba8132",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Glam-Rock and M.C. Escher: More Details Revealed for Greta Gerwig’s ‘Narnia’ Netflix Vision",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5582,8 +5608,8 @@
       "reason": "missing_required_fields",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "Where Does the ‘Stranger Things’ Franchise Go From Here?",
-      "canonical_key": "movie_source:what-s-on-netflix:7f8d21117bd6",
+      "title": "Where Does the Stranger Things Go From Here?",
+      "canonical_key": "movie_source:what-s-on-netflix:eaf469798dc4",
       "required_field_gaps": [
         "release_year"
       ]
@@ -5592,7 +5618,7 @@
       "reason": "proxy_canonical_key",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "Where Does the ‘Stranger Things’ Franchise Go From Here?",
+      "title": "Where Does the Stranger Things Go From Here?",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -5873,40 +5899,6 @@
       "source": "What's on Netflix",
       "title": "8 Must Watch Movies Leaving Netflix At The End of September",
       "canonical_key": "movie_source:what-s-on-netflix:16a3f37658e8",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "8 Must Watch Movies Leaving Netflix At The End of September",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "YouTube Channel ‘The Besties’ Making the Jump to Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:12fbc349bdd5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "YouTube Channel ‘The Besties’ Making the Jump to Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ishaan Khatter’s ‘The Royals’ Season 2 Begins Shooting; Sini Shetty and Gurfateh Pirzada Join the Cast",
-      "canonical_key": "movie_source:what-s-on-netflix:a070d9ca8f32",
       "required_field_gaps": [
         "release_year"
       ]
