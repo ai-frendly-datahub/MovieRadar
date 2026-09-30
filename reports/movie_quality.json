@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-09-29T12:15:37.822191+00:00",
+  "generated_at": "2026-09-30T12:01:14.958728+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 79,
-    "movie_signal_event_count": 80,
+    "release_calendar_events": 81,
+    "movie_signal_event_count": 82,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
-    "proxy_canonical_key_count": 55,
+    "complete_canonical_key_count": 24,
+    "proxy_canonical_key_count": 58,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 80,
-    "release_year_present_count": 25,
+    "normalized_title_present_count": 82,
+    "release_year_present_count": 24,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 74,
-    "event_required_field_gap_count": 58,
+    "platform_present_count": 77,
+    "event_required_field_gap_count": 61,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 108,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 35,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 79,
-      "event_count": 79,
-      "latest_event_at": "2026-09-29T00:37:40+00:00",
-      "age_days": 0.48,
-      "latest_title": "Jamtara Director Returns to Netflix with a Treasure-Hunt Series Starring Vijay Varma, Rahul Bhat and Richa Chadha",
-      "latest_url": "https://www.whats-on-netflix.com/news/vijay-varma-richa-chadha-netflix-treasure-hunt-series",
+      "article_count": 81,
+      "event_count": 81,
+      "latest_event_at": "2026-09-29T15:18:46+00:00",
+      "age_days": 0.86,
+      "latest_title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
+      "latest_url": "https://www.whats-on-netflix.com/news/netflix-games/codenames-board-game-netflix-cloud-gaming-release",
       "latest_source_signal": [
         "ott_release",
         "ott_release_context",
@@ -226,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-09-29T12:15:31.523379+00:00",
+      "latest_event_at": "2026-09-30T12:01:10.161523+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-09-29T12:15:31.523379+00:00",
+      "event_at": "2026-09-30T12:01:10.161523+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20260929",
+      "event_key": "box_office:907d712300a5:20260930",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +405,439 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
+      "url": "https://www.whats-on-netflix.com/news/netflix-games/codenames-board-game-netflix-cloud-gaming-release",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/codenames-board-game-netflix-cloud-gaming-release",
+      "event_at": "2026-09-29T15:18:46+00:00",
+      "movie_id": "",
+      "normalized_title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [
+        "award"
+      ],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1689321e44c6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e90e0547042a:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Best of the Best’ Cinematographer Explains Why Dance Scenes Were Filmed Like Action Sequences",
+      "url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-cinematographer-interview-dance-scenes",
+      "source_url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-cinematographer-interview-dance-scenes",
+      "event_at": "2026-09-29T12:15:56+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Best of the Best’ Cinematographer Explains Why Dance Scenes Were Filmed Like Action Sequences",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "best",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:9133d0db43c3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4889dc9d8398:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Top 10s: ‘Monster: Lizzie Borden’ Holds Top Spot But Trails Prior Seasons as ‘Unabomber’ Movie Posts Middling Debut",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-monster-lizzie-borden-holds-top-spot-with-a-caveat-as-unabomber-movie-posts-middling-debut",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-monster-lizzie-borden-holds-top-spot-with-a-caveat-as-unabomber-movie-posts-middling-debut",
+      "event_at": "2026-09-29T11:39:51+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Top 10s: ‘Monster: Lizzie Borden’ Holds Top Spot But Trails Prior Seasons as ‘Unabomber’ Movie Posts Middling Debut",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "top",
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:5f6e1c81544c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:33e56039eb87:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Tyler Perry Sets New Thriller Netflix Movie ‘Confabulation’: Filming Schedule and Full Cast Revealed",
+      "url": "https://www.whats-on-netflix.com/news/tyler-perry-confabulation-netflix-movie-cast",
+      "source_url": "https://www.whats-on-netflix.com/news/tyler-perry-confabulation-netflix-movie-cast",
+      "event_at": "2026-09-29T09:25:45+00:00",
+      "movie_id": "",
+      "normalized_title": "Tyler Perry Sets New Thriller Netflix Movie ‘Confabulation’: Filming Schedule and Full Cast Revealed",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring",
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:26ee0e8787fb",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:43e9430ca42a:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "When will DreamWorks Animation’s ‘Forgotten Island’ be on Netflix?",
+      "url": "https://www.whats-on-netflix.com/news/forgotten-island-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/forgotten-island-netflix-release-date",
+      "event_at": "2026-09-29T08:58:54+00:00",
+      "movie_id": "",
+      "normalized_title": "When will DreamWorks Animation’s ‘Forgotten Island’ be on Netflix?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "universal",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8bb4ad1654ca",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:7c01bae5ea7d:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets November 2026 Release Date for Taiwanese Medical Drama ‘Miracles of the ER’",
+      "url": "https://www.whats-on-netflix.com/news/miracles-in-the-er-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/miracles-in-the-er-netflix-release-date",
+      "event_at": "2026-09-29T04:58:14+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets November 2026 Release Date for Taiwanese Medical Drama ‘Miracles of the ER’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-november-2026-release-date-for-taiwanese-medical-drama-miracles-of-the-er:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:a039b06ab41b:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Trailer, New Details & Guest List for Netflix’s Matthew Perry Docu-Series Revealed",
+      "url": "https://www.whats-on-netflix.com/news/the-one-about-matthew-perry-trailer-interviews",
+      "source_url": "https://www.whats-on-netflix.com/news/the-one-about-matthew-perry-trailer-interviews",
+      "event_at": "2026-09-29T04:04:19+00:00",
+      "movie_id": "",
+      "normalized_title": "Trailer, New Details & Guest List for Netflix’s Matthew Perry Docu-Series Revealed",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "watch",
+        "series"
+      ],
+      "film_general": [
+        "watch",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7dd45b3b3846",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:11090fa0a2c7:20260929",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4872,308 +5305,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
-      "url": "https://www.whats-on-netflix.com/news/first-looks-and-trailer-release-for-netflixs-haunted-hotel-season-2",
-      "source_url": "https://www.whats-on-netflix.com/news/first-looks-and-trailer-release-for-netflixs-haunted-hotel-season-2",
-      "event_at": "2026-09-16T07:35:39+00:00",
-      "movie_id": "",
-      "normalized_title": "First Looks and Trailer Release for Netflix’s ‘Haunted Hotel’ Season 2",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "today",
-        "one",
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e0eb36087062",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:797b879ea297:20260916",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘One Year to Live, Buy a Man’ Romantic Japanese Film Sets November 2026 Release",
-      "url": "https://www.whats-on-netflix.com/news/one-year-to-live-buy-a-man-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/one-year-to-live-buy-a-man-netflix-release-date",
-      "event_at": "2026-09-16T06:57:47+00:00",
-      "movie_id": "",
-      "normalized_title": "‘One Year to Live, Buy a Man’ Romantic Japanese Film Sets November 2026 Release",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "film",
-        "year",
-        "one"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:one-year-to-live-buy-a-man-romantic-japanese-film-sets-november-2026-release:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:db1b9dd06f38:20260916",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
-      "url": "https://www.whats-on-netflix.com/news/netflix-drops-logo-and-first-official-behind-the-scenes-look-at-greta-gerwigs-the-chronicles-of-narnia",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-drops-logo-and-first-official-behind-the-scenes-look-at-greta-gerwigs-the-chronicles-of-narnia",
-      "event_at": "2026-09-16T03:24:02+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Drops Logo and First Official Behind the Scenes Look at Greta Gerwig’s ‘The Chronicles of Narnia’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "today",
-        "years",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:19e3e56be798",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:45c795b12bcd:20260916",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘Pride & Prejudice’ Adaptation Unveils New First Look & December 2026 Release Date",
-      "url": "https://www.whats-on-netflix.com/news/pride-and-prejudice-netflix-release-date-images",
-      "source_url": "https://www.whats-on-netflix.com/news/pride-and-prejudice-netflix-release-date-images",
-      "event_at": "2026-09-16T00:24:36+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘Pride & Prejudice’ Adaptation Unveils New First Look & December 2026 Release Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-pride-prejudice-adaptation-unveils-new-first-look-december-2026-release-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e9e870d5d06e:20260916",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Jarrett Craig Breaks Down the Visual Evolution of ‘My Life with the Walter Boys’ Season 3",
-      "url": "https://www.whats-on-netflix.com/interviews/my-life-with-the-walter-boys-season-3-cinematographer-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/my-life-with-the-walter-boys-season-3-cinematographer-interview",
-      "event_at": "2026-09-15T14:43:16+00:00",
-      "movie_id": "",
-      "normalized_title": "Jarrett Craig Breaks Down the Visual Evolution of ‘My Life with the Walter Boys’ Season 3",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [],
-      "film_general": [
-        "see",
-        "my"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:9f9cf03e8021",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:42ac33466aab:20260915",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5188,6 +5319,108 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
+      "canonical_key": "movie_source:what-s-on-netflix:1689321e44c6",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Best of the Best’ Cinematographer Explains Why Dance Scenes Were Filmed Like Action Sequences",
+      "canonical_key": "movie_source:what-s-on-netflix:9133d0db43c3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Best of the Best’ Cinematographer Explains Why Dance Scenes Were Filmed Like Action Sequences",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10s: ‘Monster: Lizzie Borden’ Holds Top Spot But Trails Prior Seasons as ‘Unabomber’ Movie Posts Middling Debut",
+      "canonical_key": "movie_source:what-s-on-netflix:5f6e1c81544c",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10s: ‘Monster: Lizzie Borden’ Holds Top Spot But Trails Prior Seasons as ‘Unabomber’ Movie Posts Middling Debut",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Tyler Perry Sets New Thriller Netflix Movie ‘Confabulation’: Filming Schedule and Full Cast Revealed",
+      "canonical_key": "movie_source:what-s-on-netflix:26ee0e8787fb",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Tyler Perry Sets New Thriller Netflix Movie ‘Confabulation’: Filming Schedule and Full Cast Revealed",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When will DreamWorks Animation’s ‘Forgotten Island’ be on Netflix?",
+      "canonical_key": "movie_source:what-s-on-netflix:8bb4ad1654ca",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "When will DreamWorks Animation’s ‘Forgotten Island’ be on Netflix?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Trailer, New Details & Guest List for Netflix’s Matthew Perry Docu-Series Revealed",
+      "canonical_key": "movie_source:what-s-on-netflix:7dd45b3b3846",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Trailer, New Details & Guest List for Netflix’s Matthew Perry Docu-Series Revealed",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5501,108 +5734,6 @@
       "source": "What's on Netflix",
       "title": "‘Gentle Monster’: Marie Kreutzer on the Uncompromising, Spontaneous Filmmaking Behind Her Léa Seydoux Drama",
       "canonical_key": "movie_source:what-s-on-netflix:77dd2a2c425e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Gentle Monster’: Marie Kreutzer on the Uncompromising, Spontaneous Filmmaking Behind Her Léa Seydoux Drama",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ray Gunn’ Full Voice Cast Revealed; Alan Tudyk, Bobby Cannavale, Michael Chernus Among New Additions",
-      "canonical_key": "movie_source:what-s-on-netflix:269af333aca5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ray Gunn’ Full Voice Cast Revealed; Alan Tudyk, Bobby Cannavale, Michael Chernus Among New Additions",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Brad Bird’s ‘Ray Gunn’ Gets First Trailer and a Limited 70mm Theatrical Release",
-      "canonical_key": "movie_source:what-s-on-netflix:e6e4fef7a83e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Brad Bird’s ‘Ray Gunn’ Gets First Trailer and a Limited 70mm Theatrical Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
-      "canonical_key": "movie_source:what-s-on-netflix:2ab894f36fa6",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
-      "canonical_key": "movie_source:what-s-on-netflix:8ef431e250ae",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
-      "canonical_key": "movie_source:what-s-on-netflix:7d07d3789039",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
-      "canonical_key": "movie_source:what-s-on-netflix:21c3b5bcc7f9",
       "required_field_gaps": [
         "release_year"
       ]
