@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-02T11:59:27.573322+00:00",
+  "generated_at": "2026-10-03T11:13:13.318710+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 69,
-    "movie_signal_event_count": 70,
+    "release_calendar_events": 68,
+    "movie_signal_event_count": 69,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
     "complete_canonical_key_count": 24,
-    "proxy_canonical_key_count": 46,
+    "proxy_canonical_key_count": 45,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 70,
+    "normalized_title_present_count": 69,
     "release_year_present_count": 24,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 65,
-    "event_required_field_gap_count": 49,
+    "platform_present_count": 64,
+    "event_required_field_gap_count": 48,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 69,
-      "event_count": 69,
-      "latest_event_at": "2026-10-02T02:25:21+00:00",
-      "age_days": 0.4,
-      "latest_title": "Florence Pugh’s ‘East of Eden’ Adaptation Leads 38 New Additions to Netflix UK This Week",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/uk/florence-pugh-east-of-eden-netflix-uk",
+      "article_count": 68,
+      "event_count": 68,
+      "latest_event_at": "2026-10-02T06:51:01+00:00",
+      "age_days": 1.18,
+      "latest_title": "What’s Leaving Netflix in November 2026",
+      "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-02T11:59:21.060004+00:00",
+      "latest_event_at": "2026-10-03T11:13:06.837182+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-02T11:59:21.060004+00:00",
+      "event_at": "2026-10-03T11:13:06.837182+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -393,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261002",
+      "event_key": "box_office:907d712300a5:20261003",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +406,63 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix in November 2026",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
+      "event_at": "2026-10-02T06:51:01+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e00fa86ee8bf:20261002",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -4433,125 +4491,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:a070d9ca8f32",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:795cb57cfecd:20260920",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New on Netflix This Week and Top 10 Movies & Series: September 19, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-19-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-september-19-2026",
-      "event_at": "2026-09-19T09:50:50+00:00",
-      "movie_id": "",
-      "normalized_title": "New on Netflix This Week and Top 10 Movies & Series: September 19, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-on-netflix-this-week-and-top-10-movies-series-september-19-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:d19f540c7e02:20260919",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
-      "url": "https://www.whats-on-netflix.com/news/first-look-the-inbetweeners-3-production-begins-for-netflix-with-a-massive-church-wedding",
-      "source_url": "https://www.whats-on-netflix.com/news/first-look-the-inbetweeners-3-production-begins-for-netflix-with-a-massive-church-wedding",
-      "event_at": "2026-09-19T06:05:31+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look: ‘The Inbetweeners 3’ Caught Filming Massive Church Wedding For Jay",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:a71b123d9145",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:76b5fc6617b7:20260919",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
