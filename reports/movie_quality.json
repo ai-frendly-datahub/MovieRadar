@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-04T11:51:57.712380+00:00",
+  "generated_at": "2026-10-05T13:47:03.073903+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 67,
-    "movie_signal_event_count": 68,
+    "release_calendar_events": 60,
+    "movie_signal_event_count": 61,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
-    "proxy_canonical_key_count": 43,
+    "complete_canonical_key_count": 24,
+    "proxy_canonical_key_count": 37,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 68,
-    "release_year_present_count": 25,
+    "normalized_title_present_count": 61,
+    "release_year_present_count": 24,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 64,
-    "event_required_field_gap_count": 46,
+    "platform_present_count": 57,
+    "event_required_field_gap_count": 40,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 109,
+      "article_count": 106,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 67,
-      "event_count": 67,
-      "latest_event_at": "2026-10-03T08:50:13+00:00",
-      "age_days": 1.13,
-      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 3, 2026",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-3-2026",
+      "article_count": 60,
+      "event_count": 60,
+      "latest_event_at": "2026-10-05T01:18:59+00:00",
+      "age_days": 0.52,
+      "latest_title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
+      "latest_url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
       "latest_source_signal": [
-        "movie_text_context",
+        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-04T11:51:52.996363+00:00",
+      "latest_event_at": "2026-10-05T13:46:59.536325+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-04T11:51:52.996363+00:00",
+      "event_at": "2026-10-05T13:46:59.536325+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -379,6 +379,7 @@
       "film_general": [
         "movie",
         "movies",
+        "cinematic",
         "story",
         "year",
         "time",
@@ -394,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261004",
+      "event_key": "box_office:907d712300a5:20261005",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -405,6 +406,117 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
+      "url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
+      "event_at": "2026-10-05T01:18:59+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-november-2026-release-date-for-thai-action-comedy-overacting:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ba8083817c30:20261005",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Blue Box’ Season 2 Premiere Finally Delivers on That Massive Cliffhanger",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/blue-box-season-2-premiere-review-netflix",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/blue-box-season-2-premiere-review-netflix",
+      "event_at": "2026-10-04T04:33:45+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Blue Box’ Season 2 Premiere Finally Delivers on That Massive Cliffhanger",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "premiere",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [
+        "premiere"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8542cb48c887",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:eaf913b910f8:20261004",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3893,562 +4005,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
-      "url": "https://www.whats-on-netflix.com/news/dept-q-season-2-gets-production-update-new-teases-at-bloody-scotland",
-      "source_url": "https://www.whats-on-netflix.com/news/dept-q-season-2-gets-production-update-new-teases-at-bloody-scotland",
-      "event_at": "2026-09-21T10:00:17+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Dept. Q’ Season 2 Gets Production Update With Cast And Crew Revealing Why The Show Connects at Bloody Scotland",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "show",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "production",
-        "release"
-      ],
-      "platform": [
-        "show",
-        "release"
-      ],
-      "film_general": [
-        "latest"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:21c3b5bcc7f9",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:06221a0b9e3d:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Will Sharpe and Stephanie Hsu Make a Splash at TIFF with Netflix’s Animated Oscar Hopeful ‘In Waves’",
-      "url": "https://www.whats-on-netflix.com/interviews/will-sharpe-stephanie-hsu-tiff-interview-in-waves",
-      "source_url": "https://www.whats-on-netflix.com/interviews/will-sharpe-stephanie-hsu-tiff-interview-in-waves",
-      "event_at": "2026-09-21T07:37:44+00:00",
-      "movie_id": "",
-      "normalized_title": "Will Sharpe and Stephanie Hsu Make a Splash at TIFF with Netflix’s Animated Oscar Hopeful ‘In Waves’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "see",
-        "year",
-        "most",
-        "one",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:fd9879ce84aa",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0015c403c715:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Adapting Korean Crime Thriller ‘Chronicles of Evil’ Into New French Movie ‘À Cran’ With Audrey Fleurot",
-      "url": "https://www.whats-on-netflix.com/news/netflix-adapting-korean-crime-thriller-chronicles-of-evil-into-new-french-movie-a-cran-with-audrey-fleurot",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-adapting-korean-crime-thriller-chronicles-of-evil-into-new-french-movie-a-cran-with-audrey-fleurot",
-      "event_at": "2026-09-21T06:54:06+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Adapting Korean Crime Thriller ‘Chronicles of Evil’ Into New French Movie ‘À Cran’ With Audrey Fleurot",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:a60baa839275",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:220c7b90cc42:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s Tales of the Unexpected Series Films in Bolton; Nicola Coughlan, Toby Jones, and Josh Finan Spotted",
-      "url": "https://www.whats-on-netflix.com/news/tales-of-the-unexpected-netflix-filming-update",
-      "source_url": "https://www.whats-on-netflix.com/news/tales-of-the-unexpected-netflix-filming-update",
-      "event_at": "2026-09-21T06:36:33+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s Tales of the Unexpected Series Films in Bolton; Nicola Coughlan, Toby Jones, and Josh Finan Spotted",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "films"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d5fec986d232",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6a3c8be94c24:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Matt Berry to Voice Lead Villain in Brad Bird’s Animated Noir ‘Ray Gunn’ at Netflix; New Stills Released",
-      "url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-matt-berry-brad-bird-cast",
-      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-netflix-matt-berry-brad-bird-cast",
-      "event_at": "2026-09-21T05:05:14+00:00",
-      "movie_id": "",
-      "normalized_title": "Matt Berry to Voice Lead Villain in Brad Bird’s Animated Noir ‘Ray Gunn’ at Netflix; New Stills Released",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:817e8b6fc03d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:7adda35f2778:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look Photos: IMAX Stills from ‘The Further Mis-Adventures of Cliff Booth’",
-      "url": "https://www.whats-on-netflix.com/news/first-look-photos-imax-stills-from-the-further-mis-adventures-of-cliff-booth",
-      "source_url": "https://www.whats-on-netflix.com/news/first-look-photos-imax-stills-from-the-further-mis-adventures-of-cliff-booth",
-      "event_at": "2026-09-21T03:32:07+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look Photos: IMAX Stills from ‘The Further Mis-Adventures of Cliff Booth’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "imax",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "imax"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "latest",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:9e51b265d4a7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:9fba05405f6e:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Trailer Released for Brad Pitt’s ‘The Further Mis-Adventures of Cliff Booth’",
-      "url": "https://www.whats-on-netflix.com/news/the-further-mis-adventures-of-cliff-booth-trailer-release",
-      "source_url": "https://www.whats-on-netflix.com/news/the-further-mis-adventures-of-cliff-booth-trailer-release",
-      "event_at": "2026-09-21T03:01:19+00:00",
-      "movie_id": "",
-      "normalized_title": "First Trailer Released for Brad Pitt’s ‘The Further Mis-Adventures of Cliff Booth’",
-      "release_year": "1977",
-      "country": "US",
-      "region": "US",
-      "market": "imax",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "imax",
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released",
-        "coming"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:first-trailer-released-for-brad-pitt-s-the-further-mis-adventures-of-cliff-booth:1977:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:37db93daa1b6:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets October 2026 Release Date for German Psychological Thriller ‘The Trap’",
-      "url": "https://www.whats-on-netflix.com/news/the-trap-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-trap-netflix-release-date",
-      "event_at": "2026-09-21T00:03:30+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets October 2026 Release Date for German Psychological Thriller ‘The Trap’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "watch",
-        "binge",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "watch"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-october-2026-release-date-for-german-psychological-thriller-the-trap:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:df5f60bdf9ce:20260921",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "8 Must Watch Movies Leaving Netflix At The End of September",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/8-must-watch-movies-leaving-netflix-at-the-end-of-september",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/8-must-watch-movies-leaving-netflix-at-the-end-of-september",
-      "event_at": "2026-09-20T13:29:30+00:00",
-      "movie_id": "",
-      "normalized_title": "8 Must Watch Movies Leaving Netflix At The End of September",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "movies",
-        "watch",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:16a3f37658e8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:59fde0e90e4b:20260920",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4463,6 +4019,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Blue Box’ Season 2 Premiere Finally Delivers on That Massive Cliffhanger",
+      "canonical_key": "movie_source:what-s-on-netflix:8542cb48c887",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Blue Box’ Season 2 Premiere Finally Delivers on That Massive Cliffhanger",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4861,23 +4434,6 @@
       "source": "What's on Netflix",
       "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
       "canonical_key": "movie_source:what-s-on-netflix:e847e9dea06a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
-      "canonical_key": "movie_source:what-s-on-netflix:cc87185fb9e6",
       "required_field_gaps": [
         "release_year"
       ]
