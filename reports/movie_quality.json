@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-05T13:47:03.073903+00:00",
+  "generated_at": "2026-10-06T12:52:32.994884+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 60,
-    "movie_signal_event_count": 61,
+    "release_calendar_events": 57,
+    "movie_signal_event_count": 58,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 24,
-    "proxy_canonical_key_count": 37,
+    "complete_canonical_key_count": 22,
+    "proxy_canonical_key_count": 36,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 61,
-    "release_year_present_count": 24,
+    "normalized_title_present_count": 58,
+    "release_year_present_count": 22,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 57,
-    "event_required_field_gap_count": 40,
+    "platform_present_count": 54,
+    "event_required_field_gap_count": 39,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 60,
-      "event_count": 60,
+      "article_count": 57,
+      "event_count": 57,
       "latest_event_at": "2026-10-05T01:18:59+00:00",
-      "age_days": 0.52,
+      "age_days": 1.48,
       "latest_title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
       "latest_url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
       "latest_source_signal": [
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-05T13:46:59.536325+00:00",
+      "latest_event_at": "2026-10-06T12:52:28.398510+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-05T13:46:59.536325+00:00",
+      "event_at": "2026-10-06T12:52:28.398510+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261005",
+      "event_key": "box_office:907d712300a5:20261006",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3822,189 +3822,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Most Watched Netflix Shows and Movies of All Time (Updated: September 2026)",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-series-movies-of-all-time-hours-watched",
-      "event_at": "2026-09-22T10:40:09+00:00",
-      "movie_id": "",
-      "normalized_title": "Most Watched Netflix Shows and Movies of All Time (Updated: September 2026)",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "shows"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "time",
-        "most",
-        "top"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:most-watched-netflix-shows-and-movies-of-all-time-updated-september-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f08e31cc9917:20260922",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
-      "url": "https://www.whats-on-netflix.com/interviews/danny-boyle-ink-netflix-tiff-career-retrospective",
-      "source_url": "https://www.whats-on-netflix.com/interviews/danny-boyle-ink-netflix-tiff-career-retrospective",
-      "event_at": "2026-09-22T03:02:53+00:00",
-      "movie_id": "",
-      "normalized_title": "Director Danny Boyle Details ‘Punk’ Approach to Filmmaking and New Netflix Movie ‘Ink’ at TIFF",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "latest"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7d07d3789039",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:b1fd22af96cb:20260922",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Quiztopia’ Netflix Live-Action Adaptation Reveals Full Cast and December 2026 Premiere",
-      "url": "https://www.whats-on-netflix.com/news/netflix-sets-december-2026-release-date-quiztopia",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-sets-december-2026-release-date-quiztopia",
-      "event_at": "2026-09-22T00:31:14+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Quiztopia’ Netflix Live-Action Adaptation Reveals Full Cast and December 2026 Premiere",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "show",
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:quiztopia-netflix-live-action-adaptation-reveals-full-cast-and-december-2026-premiere:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:a711d276fa43:20260922",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
