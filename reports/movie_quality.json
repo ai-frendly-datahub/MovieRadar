@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-06T12:52:32.994884+00:00",
+  "generated_at": "2026-10-07T12:46:17.649977+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 57,
-    "movie_signal_event_count": 58,
+    "release_calendar_events": 49,
+    "movie_signal_event_count": 50,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 36,
+    "complete_canonical_key_count": 21,
+    "proxy_canonical_key_count": 29,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 58,
-    "release_year_present_count": 22,
+    "normalized_title_present_count": 50,
+    "release_year_present_count": 21,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 54,
-    "event_required_field_gap_count": 39,
+    "platform_present_count": 47,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 109,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 57,
-      "event_count": 57,
+      "article_count": 49,
+      "event_count": 49,
       "latest_event_at": "2026-10-05T01:18:59+00:00",
-      "age_days": 1.48,
+      "age_days": 2.48,
       "latest_title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
       "latest_url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
       "latest_source_signal": [
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-06T12:52:28.398510+00:00",
+      "latest_event_at": "2026-10-07T12:46:14.162998+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-06T12:52:28.398510+00:00",
+      "event_at": "2026-10-07T12:46:14.162998+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261006",
+      "event_key": "box_office:907d712300a5:20261007",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -3332,487 +3332,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:cef929b017aa",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:dd4ead9964b9:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Conjuring’ Cinematic Universe Expands with New Netflix Game Arriving for Halloween",
-      "url": "https://www.whats-on-netflix.com/news/netflix-the-conjuring-horror-game-cloud-launch",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-the-conjuring-horror-game-cloud-launch",
-      "event_at": "2026-09-23T07:09:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Conjuring’ Cinematic Universe Expands with New Netflix Game Arriving for Halloween",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "cinematic",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:0f77e1b386f5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e82c3c691bae:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Unicorn Academy’ Returning for New Episodes in October 2026 and Even More Slated for Spring 2027",
-      "url": "https://www.whats-on-netflix.com/news/unicorn-academy-returning-for-new-episodes-in-october-2026-and-even-more-slated-for-spring-2027",
-      "source_url": "https://www.whats-on-netflix.com/news/unicorn-academy-returning-for-new-episodes-in-october-2026-and-even-more-slated-for-spring-2027",
-      "event_at": "2026-09-23T06:44:15+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Unicorn Academy’ Returning for New Episodes in October 2026 and Even More Slated for Spring 2027",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "premiere",
-      "release_date": "",
-      "box_office": [
-        "premiere",
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [
-        "premiere"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:unicorn-academy-returning-for-new-episodes-in-october-2026-and-even-more-slated-for-spring-2027:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:4597921a0485:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Shortlived Starz Period Drama ‘Dangerous Liaisons’ Coming to Netflix For First Time",
-      "url": "https://www.whats-on-netflix.com/news/dangerous-liaisons-starz-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/dangerous-liaisons-starz-netflix-release-date",
-      "event_at": "2026-09-23T05:18:03+00:00",
-      "movie_id": "",
-      "normalized_title": "Shortlived Starz Period Drama ‘Dangerous Liaisons’ Coming to Netflix For First Time",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "lionsgate",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "time",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3cdc7b413e11",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1f02e2ac9017:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Gentle Monster’: Marie Kreutzer on the Uncompromising, Spontaneous Filmmaking Behind Her Léa Seydoux Drama",
-      "url": "https://www.whats-on-netflix.com/interviews/gentle-monster-marie-kreutzer-on-the-uncompromising-spontaneous-filmmaking-behind-her-lea-seydoux-drama",
-      "source_url": "https://www.whats-on-netflix.com/interviews/gentle-monster-marie-kreutzer-on-the-uncompromising-spontaneous-filmmaking-behind-her-lea-seydoux-drama",
-      "event_at": "2026-09-23T05:03:11+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Gentle Monster’: Marie Kreutzer on the Uncompromising, Spontaneous Filmmaking Behind Her Léa Seydoux Drama",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "premiere",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [
-        "premiere"
-      ],
-      "film_general": [
-        "film",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:77dd2a2c425e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:444e5c587c7c:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ray Gunn’ Full Voice Cast Revealed; Alan Tudyk, Bobby Cannavale, Michael Chernus Among New Additions",
-      "url": "https://www.whats-on-netflix.com/news/ray-gunn-full-voice-cast-guide",
-      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-full-voice-cast-guide",
-      "event_at": "2026-09-23T04:05:35+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ray Gunn’ Full Voice Cast Revealed; Alan Tudyk, Bobby Cannavale, Michael Chernus Among New Additions",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "new",
-        "latest"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:269af333aca5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3bc6b0d8034b:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Brad Bird’s ‘Ray Gunn’ Gets First Trailer and a Limited 70mm Theatrical Release",
-      "url": "https://www.whats-on-netflix.com/news/ray-gunn-trailer-limited-70mm-theatrical-release",
-      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-trailer-limited-70mm-theatrical-release",
-      "event_at": "2026-09-23T04:00:02+00:00",
-      "movie_id": "",
-      "normalized_title": "Brad Bird’s ‘Ray Gunn’ Gets First Trailer and a Limited 70mm Theatrical Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "theatrical",
-        "first",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e6e4fef7a83e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c4bd5b70079b:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/solo-leveling-netflix-live-action-adaptation",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/solo-leveling-netflix-live-action-adaptation",
-      "event_at": "2026-09-23T02:00:02+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Live Action ‘Solo Leveling’ Series: Filming Underway & What We Know So Far",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:2ab894f36fa6",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:bfe0f2e745b0:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
-      "url": "https://www.whats-on-netflix.com/interviews/composer-daniel-pemberton-teases-off-the-rails-score-for-danny-boyles-netflix-movie-ink",
-      "source_url": "https://www.whats-on-netflix.com/interviews/composer-daniel-pemberton-teases-off-the-rails-score-for-danny-boyles-netflix-movie-ink",
-      "event_at": "2026-09-23T01:27:56+00:00",
-      "movie_id": "",
-      "normalized_title": "Composer Daniel Pemberton Teases “Off-the-Rails” Score for Danny Boyle’s Netflix Movie ‘Ink’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "score"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8ef431e250ae",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d5cd709c62b7:20260923",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
