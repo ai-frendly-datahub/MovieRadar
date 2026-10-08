@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-07T12:46:17.649977+00:00",
+  "generated_at": "2026-10-08T12:55:43.010578+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 49,
-    "movie_signal_event_count": 50,
+    "release_calendar_events": 41,
+    "movie_signal_event_count": 42,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 21,
-    "proxy_canonical_key_count": 29,
+    "complete_canonical_key_count": 18,
+    "proxy_canonical_key_count": 24,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 50,
-    "release_year_present_count": 21,
+    "normalized_title_present_count": 42,
+    "release_year_present_count": 18,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 47,
-    "event_required_field_gap_count": 32,
+    "platform_present_count": 39,
+    "event_required_field_gap_count": 27,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 109,
+      "article_count": 108,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 49,
-      "event_count": 49,
+      "article_count": 41,
+      "event_count": 41,
       "latest_event_at": "2026-10-05T01:18:59+00:00",
-      "age_days": 2.48,
+      "age_days": 3.48,
       "latest_title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
       "latest_url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
       "latest_source_signal": [
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-07T12:46:14.162998+00:00",
+      "latest_event_at": "2026-10-08T12:55:39.711846+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-07T12:46:14.162998+00:00",
+      "event_at": "2026-10-08T12:55:39.711846+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -379,7 +379,6 @@
       "film_general": [
         "movie",
         "movies",
-        "cinematic",
         "story",
         "year",
         "time",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261007",
+      "event_key": "box_office:907d712300a5:20261008",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -2862,485 +2861,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/the-netflix-movies-generating-massive-oscar-buzz-out-of-tiff",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-netflix-movies-generating-massive-oscar-buzz-out-of-tiff",
-      "event_at": "2026-09-24T11:52:45+00:00",
-      "movie_id": "",
-      "normalized_title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar",
-        "academy award",
-        "award"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movies",
-        "best"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e847e9dea06a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:cfa1a4162bde:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Charlie Brooker’s ‘Blackmere’ Casts Rory Kinnear and Others Ahead of Early 2027 Release on Netflix",
-      "url": "https://www.whats-on-netflix.com/news/blackmere-casting-updates-first-look-releae-window",
-      "source_url": "https://www.whats-on-netflix.com/news/blackmere-casting-updates-first-look-releae-window",
-      "event_at": "2026-09-24T07:23:31+00:00",
-      "movie_id": "",
-      "normalized_title": "Charlie Brooker’s ‘Blackmere’ Casts Rory Kinnear and Others Ahead of Early 2027 Release on Netflix",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "show",
-        "release"
-      ],
-      "film_general": [
-        "new",
-        "first",
-        "just"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:charlie-brooker-s-blackmere-casts-rory-kinnear-and-others-ahead-of-early-2027-release-on-netflix:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b88ca0c835b9:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
-      "url": "https://www.whats-on-netflix.com/news/give-me-some-sugah-netflix-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/give-me-some-sugah-netflix-first-look",
-      "event_at": "2026-09-24T06:47:34+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at Taraji P. Henson in ‘Give Me Some Sugah’ Netflix Movie Produced by Tyler Perry",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "movie",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:cc87185fb9e6",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c0d05e7ba63c:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Fury vs. Joshua: Historic Heavyweight Clash Streaming Live on Netflix in December 2026",
-      "url": "https://www.whats-on-netflix.com/news/tyson-fury-anthony-joshua-netflix-boxing-match-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/tyson-fury-anthony-joshua-netflix-boxing-match-2026",
-      "event_at": "2026-09-24T03:27:55+00:00",
-      "movie_id": "",
-      "normalized_title": "Fury vs. Joshua: Historic Heavyweight Clash Streaming Live on Netflix in December 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:fury-vs-joshua-historic-heavyweight-clash-streaming-live-on-netflix-in-december-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:87b236672e52:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Where Does the Stranger Things Go From Here?",
-      "url": "https://www.whats-on-netflix.com/news/future-of-stranger-things-post-tales-from-85",
-      "source_url": "https://www.whats-on-netflix.com/news/future-of-stranger-things-post-tales-from-85",
-      "event_at": "2026-09-24T02:07:47+00:00",
-      "movie_id": "",
-      "normalized_title": "Where Does the Stranger Things Go From Here?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "most",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:eaf469798dc4",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:43db9865f398:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Sports Documentaries Coming to Netflix in 2026",
-      "url": "https://www.whats-on-netflix.com/news/sports/sports-documentaries-coming-to-netflix-in-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/sports/sports-documentaries-coming-to-netflix-in-2026",
-      "event_at": "2026-09-24T01:46:03+00:00",
-      "movie_id": "",
-      "normalized_title": "Sports Documentaries Coming to Netflix in 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:sports-documentaries-coming-to-netflix-in-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:65ca6113fe72:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix India Expanding Into Under-90-minute Films, Multiple Projects in the Works",
-      "url": "https://www.whats-on-netflix.com/news/netflix-india-expanding-into-under-90-minute-films-multiple-projects-in-the-works",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-india-expanding-into-under-90-minute-films-multiple-projects-in-the-works",
-      "event_at": "2026-09-24T01:25:46+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix India Expanding Into Under-90-minute Films, Multiple Projects in the Works",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "films",
-        "movies",
-        "viewing",
-        "audiences",
-        "time",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:6e2f1f968cb0",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4f8b14a79c9f:20260924",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Two Popular Netflix Games Get KPop Demon Hunters and Stranger Things Makeovers",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-games-stranger-things-kpop-demon-hunters-updates",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-games-stranger-things-kpop-demon-hunters-updates",
-      "event_at": "2026-09-23T12:55:21+00:00",
-      "movie_id": "",
-      "normalized_title": "Two Popular Netflix Games Get KPop Demon Hunters and Stranger Things Makeovers",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "two",
-        "latest",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:cef929b017aa",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:dd4ead9964b9:20260923",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3765,14 +3285,10 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Netflix Movies Generating Massive Oscar Buzz Out of TIFF",
-      "canonical_key": "movie_source:what-s-on-netflix:e847e9dea06a",
-      "required_field_gaps": [
-        "release_year"
-      ]
+      "reason": "source_missing",
+      "source": "KOFIC 박스오피스",
+      "event_model": "box_office",
+      "age_days": null
     }
   ],
   "source_backlog": {
