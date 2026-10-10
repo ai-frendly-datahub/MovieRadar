@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-09T12:41:27.724674+00:00",
+  "generated_at": "2026-10-10T12:00:51.532771+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,24 +17,24 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 36,
-    "movie_signal_event_count": 37,
+    "release_calendar_events": 34,
+    "movie_signal_event_count": 35,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 17,
-    "proxy_canonical_key_count": 20,
+    "complete_canonical_key_count": 16,
+    "proxy_canonical_key_count": 19,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 37,
-    "release_year_present_count": 17,
+    "normalized_title_present_count": 35,
+    "release_year_present_count": 16,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 34,
-    "event_required_field_gap_count": 23,
+    "platform_present_count": 33,
+    "event_required_field_gap_count": 22,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 48
+    "daily_review_item_count": 46
   },
   "sources": [
     {
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 110,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,10 +198,10 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 36,
-      "event_count": 36,
+      "article_count": 34,
+      "event_count": 34,
       "latest_event_at": "2026-10-05T01:18:59+00:00",
-      "age_days": 4.47,
+      "age_days": 5.45,
       "latest_title": "Netflix Sets November 2026 Release Date for Thai Action-Comedy ‘Overacting’",
       "latest_url": "https://www.whats-on-netflix.com/news/overacting-netflix-movie-november-release-date",
       "latest_source_signal": [
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-09T12:41:23.058362+00:00",
+      "latest_event_at": "2026-10-10T12:00:48.076337+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-09T12:41:23.058362+00:00",
+      "event_at": "2026-10-10T12:00:48.076337+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -379,9 +379,8 @@
       "film_general": [
         "movie",
         "movies",
-        "cinematic",
+        "see",
         "story",
-        "year",
         "time",
         "top",
         "new",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261009",
+      "event_key": "box_office:907d712300a5:20261010",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -2436,124 +2435,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Everything New on Netflix This Week and Top 10 Movies & Series: September 26, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/everything-new-on-netflix-this-week-and-top-10-movies-series-september-26-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/everything-new-on-netflix-this-week-and-top-10-movies-series-september-26-2026",
-      "event_at": "2026-09-26T06:40:52+00:00",
-      "movie_id": "",
-      "normalized_title": "Everything New on Netflix This Week and Top 10 Movies & Series: September 26, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:everything-new-on-netflix-this-week-and-top-10-movies-series-september-26-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:401e5f6c7c57:20260926",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
-      "url": "https://www.whats-on-netflix.com/interviews/unabomber-screenwriters-interview-harvard-experiments",
-      "source_url": "https://www.whats-on-netflix.com/interviews/unabomber-screenwriters-interview-harvard-experiments",
-      "event_at": "2026-09-25T14:39:06+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "movie",
-        "screen",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:9f40bf080602",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:51c7c14ac05b:20260925",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2890,23 +2771,6 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Rob Lowe Announces New Netflix Documentary About His Life and Career",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
-      "canonical_key": "movie_source:what-s-on-netflix:9f40bf080602",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Unabomber’ Screenwriters Break Down the Dark Psychology and “Crazy” Real-Life Experiments Behind New Movie",
       "canonical_key_status": "source_proxy"
     },
     {
