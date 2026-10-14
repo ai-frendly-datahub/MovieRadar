@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-13T13:41:58.042161+00:00",
+  "generated_at": "2026-10-14T11:20:15.101019+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 54,
-    "movie_signal_event_count": 55,
+    "release_calendar_events": 58,
+    "movie_signal_event_count": 59,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 33,
+    "complete_canonical_key_count": 23,
+    "proxy_canonical_key_count": 36,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 55,
-    "release_year_present_count": 22,
+    "normalized_title_present_count": 59,
+    "release_year_present_count": 23,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 54,
-    "event_required_field_gap_count": 36,
+    "platform_present_count": 57,
+    "event_required_field_gap_count": 39,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 105,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 54,
-      "event_count": 54,
-      "latest_event_at": "2026-10-13T03:18:41+00:00",
-      "age_days": 0.43,
-      "latest_title": "‘The Perfect Lie’ Star Loes Haverkort on Netflix’s Dutch Hit, Season 2 Hopes and Her Move Into Directing",
-      "latest_url": "https://www.whats-on-netflix.com/interviews/the-perfect-lie-loes-haverkort-interview",
+      "article_count": 58,
+      "event_count": 58,
+      "latest_event_at": "2026-10-14T01:36:12+00:00",
+      "age_days": 0.41,
+      "latest_title": "Harlan Coben’s ‘The Woods’ Has Wrapped Filming, But It’s Skipping Netflix’s New Year’s Day Tradition",
+      "latest_url": "https://www.whats-on-netflix.com/news/the-woods-netflix-michelle-keegan-filming-wrap",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-13T13:41:54.233749+00:00",
+      "latest_event_at": "2026-10-14T11:20:08.988035+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-13T13:41:54.233749+00:00",
+      "event_at": "2026-10-14T11:20:08.988035+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261013",
+      "event_key": "box_office:907d712300a5:20261014",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +407,551 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Harlan Coben’s ‘The Woods’ Has Wrapped Filming, But It’s Skipping Netflix’s New Year’s Day Tradition",
+      "url": "https://www.whats-on-netflix.com/news/the-woods-netflix-michelle-keegan-filming-wrap",
+      "source_url": "https://www.whats-on-netflix.com/news/the-woods-netflix-michelle-keegan-filming-wrap",
+      "event_at": "2026-10-14T01:36:12+00:00",
+      "movie_id": "",
+      "normalized_title": "Harlan Coben’s ‘The Woods’ Has Wrapped Filming, But It’s Skipping Netflix’s New Year’s Day Tradition",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "year",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bc86d797933b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5dce07f4da24:20261014",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Narnia: The Magician’s Nephew Trailer Breakdown: Every Secret Spotted in the First Look",
+      "url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-breakdown-details",
+      "source_url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-breakdown-details",
+      "event_at": "2026-10-13T11:17:48+00:00",
+      "movie_id": "",
+      "normalized_title": "Narnia: The Magician’s Nephew Trailer Breakdown: Every Secret Spotted in the First Look",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:97478d04274e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:9afe4192eeee:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts",
+      "event_at": "2026-10-13T10:39:13+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "top",
+        "latest"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:aed07beae53c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:60577b3e8bc3:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Trailer and New First Looks Released for Greta Gerwig’s ‘Narnia: The Magician’s Nephew’",
+      "url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-release-date",
+      "event_at": "2026-10-13T09:01:31+00:00",
+      "movie_id": "",
+      "normalized_title": "First Trailer and New First Looks Released for Greta Gerwig’s ‘Narnia: The Magician’s Nephew’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:536dcd569f5b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2cf9d92f1e88:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Tyler Perry’s New Netflix Holiday Movie ‘The Gospel of Christmas’: Cast, Release Date & First Look",
+      "url": "https://www.whats-on-netflix.com/news/the-gospel-of-christmas-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-gospel-of-christmas-netflix-release-date",
+      "event_at": "2026-10-13T07:47:41+00:00",
+      "movie_id": "",
+      "normalized_title": "Tyler Perry’s New Netflix Holiday Movie ‘The Gospel of Christmas’: Cast, Release Date & First Look",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "first",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d9e79b865c76",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1175089c1ea5:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
+      "url": "https://www.whats-on-netflix.com/news/the-babysitter-3-netflix-status-mcg",
+      "source_url": "https://www.whats-on-netflix.com/news/the-babysitter-3-netflix-status-mcg",
+      "event_at": "2026-10-13T07:16:27+00:00",
+      "movie_id": "",
+      "normalized_title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "years",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:30c2deca1a62",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e2e7ceec1507:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets November 2026 Release Date for Swedish Rom-Com ‘The Christmas Switch’",
+      "url": "https://www.whats-on-netflix.com/news/the-christmas-switch-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-christmas-switch-netflix-release-date",
+      "event_at": "2026-10-13T07:04:39+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets November 2026 Release Date for Swedish Rom-Com ‘The Christmas Switch’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-november-2026-release-date-for-swedish-rom-com-the-christmas-switch:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:40ae2ec94819:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Reveals First Look at ‘Toos’: The Van der Valk Kidnapping, And Its Release Date Is No Coincidence",
+      "url": "https://www.whats-on-netflix.com/news/toos-van-der-valk-kidnapping-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/toos-van-der-valk-kidnapping-netflix-release-date",
+      "event_at": "2026-10-13T06:11:48+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Reveals First Look at ‘Toos’: The Van der Valk Kidnapping, And Its Release Date Is No Coincidence",
+      "release_year": "1982",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "story",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-reveals-first-look-at-toos-the-van-der-valk-kidnapping-and-its-release-date-is-no-coincidence:1982:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:35693e538edf:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix UK in November 2026",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/every-movie-and-tv-show-leaving-netflix-uk-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/every-movie-and-tv-show-leaving-netflix-uk-november-2026",
+      "event_at": "2026-10-13T05:10:25+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix UK in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "nolan"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-uk-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:1d246ba42503:20261013",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3370,305 +3916,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Our Most Anticipated K-Dramas Coming to Netflix in 2027",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/most-anticipated-2027-netflix-k-dramas-all-of-us-are-dead-the-dealer",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/most-anticipated-2027-netflix-k-dramas-all-of-us-are-dead-the-dealer",
-      "event_at": "2026-09-30T06:02:33+00:00",
-      "movie_id": "",
-      "normalized_title": "Our Most Anticipated K-Dramas Coming to Netflix in 2027",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch",
-        "coming"
-      ],
-      "film_general": [
-        "watch",
-        "most",
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:our-most-anticipated-k-dramas-coming-to-netflix-in-2027:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7cbbd41622a4:20260930",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Wednesday’ Season 3 Wraps Filming Sooner Than Expected",
-      "url": "https://www.whats-on-netflix.com/news/wednesday-season-3-winona-ryder-filming-wrap",
-      "source_url": "https://www.whats-on-netflix.com/news/wednesday-season-3-winona-ryder-filming-wrap",
-      "event_at": "2026-09-30T05:25:00+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Wednesday’ Season 3 Wraps Filming Sooner Than Expected",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "news",
-        "today"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:185c163c73bd",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:67f053984203:20260930",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Twilight Zone’ and ‘Dynasty’ Lead Huge Wave of Retro TV Hits Coming to Netflix Canada",
-      "url": "https://www.whats-on-netflix.com/news/netflix-canada-classic-tv-shows-october-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-canada-classic-tv-shows-october-2026",
-      "event_at": "2026-09-30T04:54:42+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Twilight Zone’ and ‘Dynasty’ Lead Huge Wave of Retro TV Hits Coming to Netflix Canada",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "show",
-        "coming"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-twilight-zone-and-dynasty-lead-huge-wave-of-retro-tv-hits-coming-to-netflix-canada:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:a8c06961f55e:20260930",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Grown Ups 3’ Filming Update: Adam Sandler and Cast Head to Italy for Final Month of Production",
-      "url": "https://www.whats-on-netflix.com/news/grown-ups-3-takes-the-ultimate-adventure-to-italy-as-netflix-production-continues",
-      "source_url": "https://www.whats-on-netflix.com/news/grown-ups-3-takes-the-ultimate-adventure-to-italy-as-netflix-production-continues",
-      "event_at": "2026-09-30T04:10:35+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Grown Ups 3’ Filming Update: Adam Sandler and Cast Head to Italy for Final Month of Production",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:473640b4f90e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:26346f6df69b:20260930",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/codenames-board-game-netflix-cloud-gaming-release",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/codenames-board-game-netflix-cloud-gaming-release",
-      "event_at": "2026-09-29T15:18:46+00:00",
-      "movie_id": "",
-      "normalized_title": "Popular Tabletop Game ‘Codenames Party’ Joins Netflix Cloud Gaming Library",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "award"
-      ],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1689321e44c6",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e90e0547042a:20260929",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3683,6 +3930,108 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Harlan Coben’s ‘The Woods’ Has Wrapped Filming, But It’s Skipping Netflix’s New Year’s Day Tradition",
+      "canonical_key": "movie_source:what-s-on-netflix:bc86d797933b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Harlan Coben’s ‘The Woods’ Has Wrapped Filming, But It’s Skipping Netflix’s New Year’s Day Tradition",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Narnia: The Magician’s Nephew Trailer Breakdown: Every Secret Spotted in the First Look",
+      "canonical_key": "movie_source:what-s-on-netflix:97478d04274e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Narnia: The Magician’s Nephew Trailer Breakdown: Every Secret Spotted in the First Look",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
+      "canonical_key": "movie_source:what-s-on-netflix:aed07beae53c",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Trailer and New First Looks Released for Greta Gerwig’s ‘Narnia: The Magician’s Nephew’",
+      "canonical_key": "movie_source:what-s-on-netflix:536dcd569f5b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Trailer and New First Looks Released for Greta Gerwig’s ‘Narnia: The Magician’s Nephew’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Tyler Perry’s New Netflix Holiday Movie ‘The Gospel of Christmas’: Cast, Release Date & First Look",
+      "canonical_key": "movie_source:what-s-on-netflix:d9e79b865c76",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Tyler Perry’s New Netflix Holiday Movie ‘The Gospel of Christmas’: Cast, Release Date & First Look",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
+      "canonical_key": "movie_source:what-s-on-netflix:30c2deca1a62",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -3996,108 +4345,6 @@
       "source": "What's on Netflix",
       "title": "‘Animals’ Review: Ben Affleck Returns to His Crime Directing Roots in Netflix Movie",
       "canonical_key": "movie_source:what-s-on-netflix:114eaf2fb682",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Animals’ Review: Ben Affleck Returns to His Crime Directing Roots in Netflix Movie",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Mark Millar Teases Millarworld Revival With ‘King of Spies’ Film Next Up at Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:2f712ceec019",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Mark Millar Teases Millarworld Revival With ‘King of Spies’ Film Next Up at Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Best of the Best’ Choreographer Joya Kazi Breaks Down the Cultural Nuance in Netflix’s Dance Movie",
-      "canonical_key": "movie_source:what-s-on-netflix:8495f3882833",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Best of the Best’ Choreographer Joya Kazi Breaks Down the Cultural Nuance in Netflix’s Dance Movie",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Cinematographer C. Kim Miles Breaks Down the Terrence Malick Influence on Netflix’s ‘Little House on the Prairie’",
-      "canonical_key": "movie_source:what-s-on-netflix:ed4c4140aabf",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Cinematographer C. Kim Miles Breaks Down the Terrence Malick Influence on Netflix’s ‘Little House on the Prairie’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Just Dropped the Trailer for Its FTX Sam Bankman-Fried ‘The Altruists’ Series",
-      "canonical_key": "movie_source:what-s-on-netflix:498d318742a8",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Just Dropped the Trailer for Its FTX Sam Bankman-Fried ‘The Altruists’ Series",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Under Paris’ Director Xavier Gens Sets New Crime Thriller Series ‘La Part Du Mal’ at Netflix",
-      "canonical_key": "movie_source:what-s-on-netflix:c7576408de0e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Under Paris’ Director Xavier Gens Sets New Crime Thriller Series ‘La Part Du Mal’ at Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Capcom’s ‘Monster Hunter Rise’ Is Headed to Netflix Games on Mobile",
-      "canonical_key": "movie_source:what-s-on-netflix:16e579e1644f",
       "required_field_gaps": [
         "release_year"
       ]
