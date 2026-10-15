@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-14T11:20:15.101019+00:00",
+  "generated_at": "2026-10-15T10:57:49.379900+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 59,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 23,
-    "proxy_canonical_key_count": 36,
+    "complete_canonical_key_count": 22,
+    "proxy_canonical_key_count": 37,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 59,
-    "release_year_present_count": 23,
+    "release_year_present_count": 22,
     "rank_present_count": 0,
     "gross_present_count": 0,
     "platform_present_count": 57,
-    "event_required_field_gap_count": 39,
+    "event_required_field_gap_count": 40,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,10 +200,10 @@
       "status": "fresh",
       "article_count": 58,
       "event_count": 58,
-      "latest_event_at": "2026-10-14T01:36:12+00:00",
-      "age_days": 0.41,
-      "latest_title": "Harlan Coben’s ‘The Woods’ Has Wrapped Filming, But It’s Skipping Netflix’s New Year’s Day Tradition",
-      "latest_url": "https://www.whats-on-netflix.com/news/the-woods-netflix-michelle-keegan-filming-wrap",
+      "latest_event_at": "2026-10-15T00:07:43+00:00",
+      "age_days": 0.45,
+      "latest_title": "Mexican ‘The Good Wife’ Adaptation ‘Alicia’s Law’ Lands on Netflix in November 2026",
+      "latest_url": "https://www.whats-on-netflix.com/news/alicias-law-mexican-the-good-wife-adaptation-netflix-release-date",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-14T11:20:08.988035+00:00",
+      "latest_event_at": "2026-10-15T10:57:45.459493+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-14T11:20:08.988035+00:00",
+      "event_at": "2026-10-15T10:57:45.459493+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261014",
+      "event_key": "box_office:907d712300a5:20261015",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,369 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Mexican ‘The Good Wife’ Adaptation ‘Alicia’s Law’ Lands on Netflix in November 2026",
+      "url": "https://www.whats-on-netflix.com/news/alicias-law-mexican-the-good-wife-adaptation-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/alicias-law-mexican-the-good-wife-adaptation-netflix-release-date",
+      "event_at": "2026-10-15T00:07:43+00:00",
+      "movie_id": "",
+      "normalized_title": "Mexican ‘The Good Wife’ Adaptation ‘Alicia’s Law’ Lands on Netflix in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "premiere"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:mexican-the-good-wife-adaptation-alicia-s-law-lands-on-netflix-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:c55b7b35dafe:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
+      "url": "https://www.whats-on-netflix.com/news/the-diplomat-season-4-everything-you-need-to-know",
+      "source_url": "https://www.whats-on-netflix.com/news/the-diplomat-season-4-everything-you-need-to-know",
+      "event_at": "2026-10-14T10:46:55+00:00",
+      "movie_id": "",
+      "normalized_title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "time",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:7741f0814804",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c1c51f10cf24:20261014",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Everything Announced at Netflix’s First French Upfront: ‘Under Paris 2’, ‘Lupin’, 2 Reality Renewals & More",
+      "url": "https://www.whats-on-netflix.com/news/netflix-france-upfronts-2026-announcements-renewals",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-france-upfronts-2026-announcements-renewals",
+      "event_at": "2026-10-14T09:08:18+00:00",
+      "movie_id": "",
+      "normalized_title": "Everything Announced at Netflix’s First French Upfront: ‘Under Paris 2’, ‘Lupin’, 2 Reality Renewals & More",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:everything-announced-at-netflix-s-first-french-upfront-under-paris-2-lupin-2-reality-renewals-more:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:49c5f4b9aeb2:20261014",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look and Release Date for Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’",
+      "url": "https://www.whats-on-netflix.com/news/guarding-stars-netflix-release-date-cast",
+      "source_url": "https://www.whats-on-netflix.com/news/guarding-stars-netflix-release-date-cast",
+      "event_at": "2026-10-14T05:51:12+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look and Release Date for Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:548de2789875",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:6d846060ffc3:20261014",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Most Watched New Netflix Movies of 2026 So Far",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-new-netflix-movies-2026",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/most-watched-new-netflix-movies-2026",
+      "event_at": "2026-10-14T05:47:36+00:00",
+      "movie_id": "",
+      "normalized_title": "Most Watched New Netflix Movies of 2026 So Far",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "most",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:most-watched-new-netflix-movies-of-2026-so-far:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:5226a5b9412a:20261014",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Greta Gerwig Lays Out Vision For Narnia: The Magician’s Nephew As Reactions Flood In",
+      "url": "https://www.whats-on-netflix.com/news/greta-gerwig-lays-out-the-case-for-narnia-the-magicians-nephew-as-mixed-reactions-flood-in",
+      "source_url": "https://www.whats-on-netflix.com/news/greta-gerwig-lays-out-the-case-for-narnia-the-magicians-nephew-as-mixed-reactions-flood-in",
+      "event_at": "2026-10-14T03:10:05+00:00",
+      "movie_id": "",
+      "normalized_title": "Greta Gerwig Lays Out Vision For Narnia: The Magician’s Nephew As Reactions Flood In",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "imax",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [
+        "imax",
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "new",
+        "first",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:40758c967ad2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4f6261da6b91:20261014",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3560,362 +3923,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Halloween 2026 Lineup: Every New Horror Movie and Series",
-      "url": "https://www.whats-on-netflix.com/whats-new/netflix-halloween-2026-every-new-horror-movie-and-series-released",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/netflix-halloween-2026-every-new-horror-movie-and-series-released",
-      "event_at": "2026-10-01T06:18:43+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Halloween 2026 Lineup: Every New Horror Movie and Series",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-halloween-2026-lineup-every-new-horror-movie-and-series:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1878ff4dc22f:20261001",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New ‘The Watcher’ Season 2 Details Revealed Ahead of Expected October Production Start",
-      "url": "https://www.whats-on-netflix.com/news/the-watcher-season-2-anthology-plot-details",
-      "source_url": "https://www.whats-on-netflix.com/news/the-watcher-season-2-anthology-plot-details",
-      "event_at": "2026-10-01T05:39:59+00:00",
-      "movie_id": "",
-      "normalized_title": "New ‘The Watcher’ Season 2 Details Revealed Ahead of Expected October Production Start",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "production"
-      ],
-      "platform": [],
-      "film_general": [
-        "now",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:23a3d21c6407",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0b4b456feea0:20261001",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New K-Dramas on Netflix in November 2026",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/k-dramas-coming-to-netflix-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/k-dramas-coming-to-netflix-november-2026",
-      "event_at": "2026-10-01T05:15:23+00:00",
-      "movie_id": "",
-      "normalized_title": "New K-Dramas on Netflix in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar"
-      ],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "releases"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-k-dramas-on-netflix-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:06495819a4b2:20261001",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Night Agent’ Season 4 Officially Wraps Filming Ahead of 2027 Release",
-      "url": "https://www.whats-on-netflix.com/news/the-night-agent-season-4-wraps-filming-2027-release",
-      "source_url": "https://www.whats-on-netflix.com/news/the-night-agent-season-4-wraps-filming-2027-release",
-      "event_at": "2026-10-01T04:18:55+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Night Agent’ Season 4 Officially Wraps Filming Ahead of 2027 Release",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-night-agent-season-4-officially-wraps-filming-ahead-of-2027-release:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:47890ac93a66:20261001",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets October 2026 Release Date and Drops First Trailer for ‘Dead-End Job’",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/dead-end-job-netflix-release-date-trailer",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/dead-end-job-netflix-release-date-trailer",
-      "event_at": "2026-09-30T23:48:14+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets October 2026 Release Date and Drops First Trailer for ‘Dead-End Job’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "time",
-        "first",
-        "this",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-october-2026-release-date-and-drops-first-trailer-for-dead-end-job:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1f289d1dcbb2:20260930",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix to Livestream NASA’s SpaceX Crew-13 Launch Worldwide",
-      "url": "https://www.whats-on-netflix.com/news/netflix-to-livestream-nasas-spacex-crew-13-launch-worldwide",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-to-livestream-nasas-spacex-crew-13-launch-worldwide",
-      "event_at": "2026-09-30T13:57:35+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix to Livestream NASA’s SpaceX Crew-13 Launch Worldwide",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:31b2661a7dc0",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:68653186afde:20260930",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3930,6 +3937,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
+      "canonical_key": "movie_source:what-s-on-netflix:7741f0814804",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look and Release Date for Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’",
+      "canonical_key": "movie_source:what-s-on-netflix:548de2789875",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look and Release Date for Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Greta Gerwig Lays Out Vision For Narnia: The Magician’s Nephew As Reactions Flood In",
+      "canonical_key": "movie_source:what-s-on-netflix:40758c967ad2",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Greta Gerwig Lays Out Vision For Narnia: The Magician’s Nephew As Reactions Flood In",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4294,57 +4352,6 @@
       "source": "What's on Netflix",
       "title": "Director Anand Tiwari Sets Netflix Series ‘Janta Inter College’ Starring Vishal Jethwa and Palak Tiwari",
       "canonical_key": "movie_source:what-s-on-netflix:018629676f8f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Anand Tiwari Sets Netflix Series ‘Janta Inter College’ Starring Vishal Jethwa and Palak Tiwari",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
-      "canonical_key": "movie_source:what-s-on-netflix:f7e29467c7ef",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Samara Weaving and Kyle Gallner’s ‘Carolina Caroline’ Sets Netflix Streaming Debut",
-      "canonical_key": "movie_source:what-s-on-netflix:b2745a31bc53",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Samara Weaving and Kyle Gallner’s ‘Carolina Caroline’ Sets Netflix Streaming Debut",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Animals’ Review: Ben Affleck Returns to His Crime Directing Roots in Netflix Movie",
-      "canonical_key": "movie_source:what-s-on-netflix:114eaf2fb682",
       "required_field_gaps": [
         "release_year"
       ]
