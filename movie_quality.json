@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-15T10:57:49.379900+00:00",
+  "generated_at": "2026-10-16T10:50:08.877520+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 58,
-    "movie_signal_event_count": 59,
+    "release_calendar_events": 63,
+    "movie_signal_event_count": 64,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 37,
+    "complete_canonical_key_count": 24,
+    "proxy_canonical_key_count": 40,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 59,
-    "release_year_present_count": 22,
+    "normalized_title_present_count": 64,
+    "release_year_present_count": 24,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 57,
-    "event_required_field_gap_count": 40,
+    "platform_present_count": 62,
+    "event_required_field_gap_count": 43,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 100,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 29,
+      "article_count": 31,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,12 +198,12 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 58,
-      "event_count": 58,
-      "latest_event_at": "2026-10-15T00:07:43+00:00",
-      "age_days": 0.45,
-      "latest_title": "Mexican ‘The Good Wife’ Adaptation ‘Alicia’s Law’ Lands on Netflix in November 2026",
-      "latest_url": "https://www.whats-on-netflix.com/news/alicias-law-mexican-the-good-wife-adaptation-netflix-release-date",
+      "article_count": 63,
+      "event_count": 63,
+      "latest_event_at": "2026-10-16T01:45:57+00:00",
+      "age_days": 0.38,
+      "latest_title": "Pratik Gandhi and Shefali Shah To Headline Netflix ‘Scoop’ Season 2 as Series Shifts to Anthology Format",
+      "latest_url": "https://www.whats-on-netflix.com/news/scoop-season-2-netflix-cast-pratik-gandhi-shefali-shah",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-15T10:57:45.459493+00:00",
+      "latest_event_at": "2026-10-16T10:50:02.872824+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-15T10:57:45.459493+00:00",
+      "event_at": "2026-10-16T10:50:02.872824+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261015",
+      "event_key": "box_office:907d712300a5:20261016",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,474 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Pratik Gandhi and Shefali Shah To Headline Netflix ‘Scoop’ Season 2 as Series Shifts to Anthology Format",
+      "url": "https://www.whats-on-netflix.com/news/scoop-season-2-netflix-cast-pratik-gandhi-shefali-shah",
+      "source_url": "https://www.whats-on-netflix.com/news/scoop-season-2-netflix-cast-pratik-gandhi-shefali-shah",
+      "event_at": "2026-10-16T01:45:57+00:00",
+      "movie_id": "",
+      "normalized_title": "Pratik Gandhi and Shefali Shah To Headline Netflix ‘Scoop’ Season 2 as Series Shifts to Anthology Format",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:pratik-gandhi-and-shefali-shah-to-headline-netflix-scoop-season-2-as-series-shifts-to-anthology-format:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7805f9a14740:20261016",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s Week of Disruption: Bela Bajaria Out, Peter Rice In as 1,000 Jobs Are Cut",
+      "url": "https://www.whats-on-netflix.com/news/netflixs-week-of-disruption-bela-bajaria-out-peter-rice-in-as-1000-jobs-are-cut",
+      "source_url": "https://www.whats-on-netflix.com/news/netflixs-week-of-disruption-bela-bajaria-out-peter-rice-in-as-1000-jobs-are-cut",
+      "event_at": "2026-10-15T13:42:28+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s Week of Disruption: Bela Bajaria Out, Peter Rice In as 1,000 Jobs Are Cut",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "disney",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:2ededb8e1d09",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1a15a8dbc9dc:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Storm’: Gustaf Skarsgård’s Chaotic Thriller Is The Most Bonkers Netflix Release of 2026",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/the-storm-netflix-gustaf-skarsgard-movie-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-storm-netflix-gustaf-skarsgard-movie-review",
+      "event_at": "2026-10-15T05:44:12+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Storm’: Gustaf Skarsgård’s Chaotic Thriller Is The Most Bonkers Netflix Release of 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "most",
+        "this"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-storm-gustaf-skarsg-rd-s-chaotic-thriller-is-the-most-bonkers-netflix-release-of-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:5386beb59cdc:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Christmas Movie Schedule 2026: Full List of New Holiday Releases",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-2026-christmas-movie-lineup",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-2026-christmas-movie-lineup",
+      "event_at": "2026-10-15T05:25:54+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Christmas Movie Schedule 2026: Full List of New Holiday Releases",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-christmas-movie-schedule-2026-full-list-of-new-holiday-releases:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0499a3f421e5:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Daredevil’ Costume Designer Liz Vastola on Creating the Vibrant Looks of ‘Best of the Best’ on Netflix",
+      "url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-costume-designer-liz-vastola-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-costume-designer-liz-vastola-interview",
+      "event_at": "2026-10-15T05:01:26+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Daredevil’ Costume Designer Liz Vastola on Creating the Vibrant Looks of ‘Best of the Best’ on Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "best",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:0a795080916e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1fe5b7f0633d:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Pulls the Plug on ‘Shadow and Bone’, Again: Mobile Game Shutting Down in November",
+      "url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-pulls-the-plug-on-shadow-and-bone-again-mobile-game-shutting-down-in-november",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-pulls-the-plug-on-shadow-and-bone-again-mobile-game-shutting-down-in-november",
+      "event_at": "2026-10-15T04:46:15+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Pulls the Plug on ‘Shadow and Bone’, Again: Mobile Game Shutting Down in November",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "years"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:00a4492d80b7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:bbde5dd0a577:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘Steps’ Soundtrack To Feature New Song from BLACKPINK’s JENNIE As Official Trailer Drops",
+      "url": "https://www.whats-on-netflix.com/news/steps-trailer-drop-blackpink-jennie-soundtrack-news",
+      "source_url": "https://www.whats-on-netflix.com/news/steps-trailer-drop-blackpink-jennie-soundtrack-news",
+      "event_at": "2026-10-15T04:00:42+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘Steps’ Soundtrack To Feature New Song from BLACKPINK’s JENNIE As Official Trailer Drops",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "news",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d74460a82cd8",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3107a4df1a2c:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
+      "url": "https://www.whats-on-netflix.com/interviews/ed-goldfarb-pokemon-theme-songs-composer-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/ed-goldfarb-pokemon-theme-songs-composer-interview",
+      "event_at": "2026-10-15T02:15:36+00:00",
+      "movie_id": "",
+      "normalized_title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "most"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:02a591d68330",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:a43c90f7f91c:20261015",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -1689,6 +2157,72 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
+      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
+      "event_at": "2026-10-12T05:32:10+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "story",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3a7f26bb7a8f:20261012",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
       "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "url": "https://www.whats-on-netflix.com/news/a-dogs-perfect-christmas-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/a-dogs-perfect-christmas-netflix-release-date",
@@ -1734,72 +2268,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:df0a0767d388:20261012",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
-      "event_at": "2026-10-12T05:32:10+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "story",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3a7f26bb7a8f:20261012",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -3742,187 +4210,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Florence Pugh’s ‘East of Eden’ Adaptation Leads 38 New Additions to Netflix UK This Week",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/florence-pugh-east-of-eden-netflix-uk",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/florence-pugh-east-of-eden-netflix-uk",
-      "event_at": "2026-10-02T02:25:21+00:00",
-      "movie_id": "",
-      "normalized_title": "Florence Pugh’s ‘East of Eden’ Adaptation Leads 38 New Additions to Netflix UK This Week",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "one",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:4bac1e17b71a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3a97c745c3e0:20261002",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Son Suk Ku and Eita Nagayama’s Cross-Border Crime Series ‘Blue Road’ Gets Official Premiere Date",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/blue-road-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/blue-road-netflix-release-date",
-      "event_at": "2026-10-01T23:58:12+00:00",
-      "movie_id": "",
-      "normalized_title": "Son Suk Ku and Eita Nagayama’s Cross-Border Crime Series ‘Blue Road’ Gets Official Premiere Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:son-suk-ku-and-eita-nagayama-s-cross-border-crime-series-blue-road-gets-official-premiere-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:910619a6b213:20261001",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Why a Cinematographer is Begging You to Change Your TV Settings When Watching Netflix",
-      "url": "https://www.whats-on-netflix.com/news/shawn-peters-netflix-tv-settings-guide",
-      "source_url": "https://www.whats-on-netflix.com/news/shawn-peters-netflix-tv-settings-guide",
-      "event_at": "2026-10-01T23:16:03+00:00",
-      "movie_id": "",
-      "normalized_title": "Why a Cinematographer is Begging You to Change Your TV Settings When Watching Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "watching"
-      ],
-      "film_general": [
-        "watching",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:af2e1c3a41e9",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f4826aaccf61:20261001",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -3937,6 +4224,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s Week of Disruption: Bela Bajaria Out, Peter Rice In as 1,000 Jobs Are Cut",
+      "canonical_key": "movie_source:what-s-on-netflix:2ededb8e1d09",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s Week of Disruption: Bela Bajaria Out, Peter Rice In as 1,000 Jobs Are Cut",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Daredevil’ Costume Designer Liz Vastola on Creating the Vibrant Looks of ‘Best of the Best’ on Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:0a795080916e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Daredevil’ Costume Designer Liz Vastola on Creating the Vibrant Looks of ‘Best of the Best’ on Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Pulls the Plug on ‘Shadow and Bone’, Again: Mobile Game Shutting Down in November",
+      "canonical_key": "movie_source:what-s-on-netflix:00a4492d80b7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Pulls the Plug on ‘Shadow and Bone’, Again: Mobile Game Shutting Down in November",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Steps’ Soundtrack To Feature New Song from BLACKPINK’s JENNIE As Official Trailer Drops",
+      "canonical_key": "movie_source:what-s-on-netflix:d74460a82cd8",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Steps’ Soundtrack To Feature New Song from BLACKPINK’s JENNIE As Official Trailer Drops",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:02a591d68330",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4163,23 +4535,6 @@
       "reason": "missing_required_fields",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
       "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
       "required_field_gaps": [
@@ -4191,6 +4546,23 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -4267,91 +4639,6 @@
       "source": "What's on Netflix",
       "title": "‘Ray Gunn’ Gets Rousing LFF Premiere as Scarlett Johansson Reveals Why She Signed On",
       "canonical_key": "movie_source:what-s-on-netflix:5c3fbeaf3499",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ray Gunn’ Gets Rousing LFF Premiere as Scarlett Johansson Reveals Why She Signed On",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ray Gunn’ Netflix Review: Brad Bird Delivers a Mesmerizing Yet Safe Sci-Fi Noir",
-      "canonical_key": "movie_source:what-s-on-netflix:64f5d29af9f3",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Ray Gunn’ Netflix Review: Brad Bird Delivers a Mesmerizing Yet Safe Sci-Fi Noir",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Animated Football Movie ‘Garuda: Dare to Dream’ Scores Netflix Release",
-      "canonical_key": "movie_source:what-s-on-netflix:4d76608af92f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Animated Football Movie ‘Garuda: Dare to Dream’ Scores Netflix Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Little House on the Prairie Season 2 Wraps Filming as Netflix Rounds Out the Walnut Grove Cast",
-      "canonical_key": "movie_source:what-s-on-netflix:db90b656a5fc",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Little House on the Prairie Season 2 Wraps Filming as Netflix Rounds Out the Walnut Grove Cast",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Hallmark’s ‘Mistletoe Murders’ Finds New Streaming Home Ahead of Season 3 Release",
-      "canonical_key": "movie_source:what-s-on-netflix:1d8dbc86e935",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Hallmark’s ‘Mistletoe Murders’ Finds New Streaming Home Ahead of Season 3 Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Director Anand Tiwari Sets Netflix Series ‘Janta Inter College’ Starring Vishal Jethwa and Palak Tiwari",
-      "canonical_key": "movie_source:what-s-on-netflix:018629676f8f",
       "required_field_gaps": [
         "release_year"
       ]
