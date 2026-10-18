@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-17T10:14:48.547659+00:00",
+  "generated_at": "2026-10-18T10:30:01.676301+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 66,
-    "movie_signal_event_count": 67,
+    "release_calendar_events": 67,
+    "movie_signal_event_count": 68,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
+    "complete_canonical_key_count": 27,
     "proxy_canonical_key_count": 41,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 67,
-    "release_year_present_count": 26,
+    "normalized_title_present_count": 68,
+    "release_year_present_count": 27,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 65,
+    "platform_present_count": 66,
     "event_required_field_gap_count": 44,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 66,
-      "event_count": 66,
-      "latest_event_at": "2026-10-16T11:35:30+00:00",
-      "age_days": 0.94,
-      "latest_title": "Best New Movies Added to Netflix in October 2026",
-      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/best-new-movies-added-to-netflix-in-october-2026",
+      "article_count": 67,
+      "event_count": 67,
+      "latest_event_at": "2026-10-17T11:01:08+00:00",
+      "age_days": 0.98,
+      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 17, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-17-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-17T10:14:42.385825+00:00",
+      "latest_event_at": "2026-10-18T10:29:55.672383+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-17T10:14:42.385825+00:00",
+      "event_at": "2026-10-18T10:29:55.672383+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -370,8 +371,7 @@
       "award": [],
       "studio": [
         "new",
-        "release",
-        "studio"
+        "release"
       ],
       "platform": [
         "release"
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261017",
+      "event_key": "box_office:907d712300a5:20261018",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,131 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 17, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-17-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-17-2026",
+      "event_at": "2026-10-17T11:01:08+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 17, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "best",
+        "top",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-october-17-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:6a21d8aacf98:20261017",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘How to Kill Your Family’ Begins Filming for Netflix; First Look at Anya Taylor-Joy in London",
+      "url": "https://www.whats-on-netflix.com/news/how-to-kill-your-family-anya-taylor-joy-set-photos",
+      "source_url": "https://www.whats-on-netflix.com/news/how-to-kill-your-family-anya-taylor-joy-set-photos",
+      "event_at": "2026-10-17T10:00:06+00:00",
+      "movie_id": "",
+      "normalized_title": "‘How to Kill Your Family’ Begins Filming for Netflix; First Look at Anya Taylor-Joy in London",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:18e7c8ad754d",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4d22d8def46f:20261017",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -2394,72 +2519,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
-      "event_at": "2026-10-12T05:32:10+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "story",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3a7f26bb7a8f:20261012",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "url": "https://www.whats-on-netflix.com/news/a-dogs-perfect-christmas-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/a-dogs-perfect-christmas-netflix-release-date",
@@ -2505,6 +2564,72 @@
       "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:df0a0767d388:20261012",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
+      "event_at": "2026-10-12T05:32:10+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "story",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3a7f26bb7a8f:20261012",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -4329,61 +4454,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Blue Box’ Season 2 Premiere Finally Delivers on That Massive Cliffhanger",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/blue-box-season-2-premiere-review-netflix",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/blue-box-season-2-premiere-review-netflix",
-      "event_at": "2026-10-04T04:33:45+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Blue Box’ Season 2 Premiere Finally Delivers on That Massive Cliffhanger",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "premiere",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8542cb48c887",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:eaf913b910f8:20261004",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4398,6 +4468,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘How to Kill Your Family’ Begins Filming for Netflix; First Look at Anya Taylor-Joy in London",
+      "canonical_key": "movie_source:what-s-on-netflix:18e7c8ad754d",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘How to Kill Your Family’ Begins Filming for Netflix; First Look at Anya Taylor-Joy in London",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4726,23 +4813,6 @@
       "reason": "missing_required_fields",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
       "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
       "required_field_gaps": [
@@ -4754,6 +4824,23 @@
       "event_model": "release_calendar",
       "source": "What's on Netflix",
       "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -4796,23 +4883,6 @@
       "source": "What's on Netflix",
       "title": "Han Jun-hee Reflects on the Making of Netflix’s ‘The Blue Road’ and a Career of Genre Storytelling",
       "canonical_key": "movie_source:what-s-on-netflix:e548dd4fda81",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Han Jun-hee Reflects on the Making of Netflix’s ‘The Blue Road’ and a Career of Genre Storytelling",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Young Korean Filmmakers Discuss How Netflix & Streaming Has Affected Distribution at Creative Asia",
-      "canonical_key": "movie_source:what-s-on-netflix:ece6856ee072",
       "required_field_gaps": [
         "release_year"
       ]
