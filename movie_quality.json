@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-19T12:19:24.326647+00:00",
+  "generated_at": "2026-10-20T11:00:16.305759+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 68,
-    "movie_signal_event_count": 69,
+    "release_calendar_events": 73,
+    "movie_signal_event_count": 74,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 28,
+    "complete_canonical_key_count": 33,
     "proxy_canonical_key_count": 41,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 69,
-    "release_year_present_count": 28,
+    "normalized_title_present_count": 74,
+    "release_year_present_count": 33,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 67,
+    "platform_present_count": 71,
     "event_required_field_gap_count": 44,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 68,
-      "event_count": 68,
-      "latest_event_at": "2026-10-19T02:55:25+00:00",
-      "age_days": 0.39,
-      "latest_title": "‘Obsession’ Confirms Netflix US Streaming Release Date",
-      "latest_url": "https://www.whats-on-netflix.com/news/obsession-netflix-release-date",
+      "article_count": 73,
+      "event_count": 73,
+      "latest_event_at": "2026-10-19T10:37:53+00:00",
+      "age_days": 1.02,
+      "latest_title": "Manifest Spin-Off ‘Arrivals’ Begins Filming in January 2027: First Character Details Revealed",
+      "latest_url": "https://www.whats-on-netflix.com/news/manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 13,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-19T12:19:17.884230+00:00",
+      "latest_event_at": "2026-10-20T11:00:10.486907+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-19T12:19:17.884230+00:00",
+      "event_at": "2026-10-20T11:00:10.486907+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261019",
+      "event_key": "box_office:907d712300a5:20261020",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +407,303 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Manifest Spin-Off ‘Arrivals’ Begins Filming in January 2027: First Character Details Revealed",
+      "url": "https://www.whats-on-netflix.com/news/manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed",
+      "source_url": "https://www.whats-on-netflix.com/news/manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed",
+      "event_at": "2026-10-19T10:37:53+00:00",
+      "movie_id": "",
+      "normalized_title": "Manifest Spin-Off ‘Arrivals’ Begins Filming in January 2027: First Character Details Revealed",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:1905cc78a5bb:20261019",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘All of Us Are Dead’ Season 2: Expected Netflix Release Date & Everything We Know",
+      "url": "https://www.whats-on-netflix.com/news/all-of-us-are-dead-season-2-on-netflix-everything-we-know-so-far-2",
+      "source_url": "https://www.whats-on-netflix.com/news/all-of-us-are-dead-season-2-on-netflix-everything-we-know-so-far-2",
+      "event_at": "2026-10-19T07:28:24+00:00",
+      "movie_id": "",
+      "normalized_title": "‘All of Us Are Dead’ Season 2: Expected Netflix Release Date & Everything We Know",
+      "release_year": "2022",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "show",
+        "release"
+      ],
+      "film_general": [
+        "time",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:all-of-us-are-dead-season-2-expected-netflix-release-date-everything-we-know:2022:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0087f5b16928:20261019",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Ibai Llanos’ Live Boxing Events ‘La Velada del Año’ to Stream Exclusively on Netflix From 2027",
+      "url": "https://www.whats-on-netflix.com/news/ibai-llanos-live-boxing-event-la-velada-del-ano-to-stream-exclusively-on-netflix-from-2027",
+      "source_url": "https://www.whats-on-netflix.com/news/ibai-llanos-live-boxing-event-la-velada-del-ano-to-stream-exclusively-on-netflix-from-2027",
+      "event_at": "2026-10-19T06:22:05+00:00",
+      "movie_id": "",
+      "normalized_title": "Ibai Llanos’ Live Boxing Events ‘La Velada del Año’ to Stream Exclusively on Netflix From 2027",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "year",
+        "one"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:ibai-llanos-live-boxing-events-la-velada-del-a-o-to-stream-exclusively-on-netflix-from-2027:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:3545ee20d70d:20261019",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix This Week: October 19 to 25, 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-19-to-25-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-19-to-25-2026",
+      "event_at": "2026-10-19T05:47:06+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix This Week: October 19 to 25, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "theatrical",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-this-week-october-19-to-25-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:78550d44ae9b:20261019",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Italian Drama Film ‘You, Me, Us’: October 2026 Release & First Look",
+      "url": "https://www.whats-on-netflix.com/news/you-me-us-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/you-me-us-netflix-release-date",
+      "event_at": "2026-10-19T04:55:22+00:00",
+      "movie_id": "",
+      "normalized_title": "Italian Drama Film ‘You, Me, Us’: October 2026 Release & First Look",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere",
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "premiere"
+      ],
+      "film_general": [
+        "film",
+        "latest",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:italian-drama-film-you-me-us-october-2026-release-first-look:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7f67fd3948ef:20261019",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
