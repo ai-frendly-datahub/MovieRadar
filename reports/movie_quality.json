@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-20T11:00:16.305759+00:00",
+  "generated_at": "2026-10-21T11:17:50.860417+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 73,
-    "movie_signal_event_count": 74,
+    "release_calendar_events": 79,
+    "movie_signal_event_count": 80,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 33,
-    "proxy_canonical_key_count": 41,
+    "complete_canonical_key_count": 34,
+    "proxy_canonical_key_count": 46,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 74,
-    "release_year_present_count": 33,
+    "normalized_title_present_count": 80,
+    "release_year_present_count": 34,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 71,
-    "event_required_field_gap_count": 44,
+    "platform_present_count": 76,
+    "event_required_field_gap_count": 49,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 73,
-      "event_count": 73,
-      "latest_event_at": "2026-10-19T10:37:53+00:00",
-      "age_days": 1.02,
-      "latest_title": "Manifest Spin-Off ‘Arrivals’ Begins Filming in January 2027: First Character Details Revealed",
-      "latest_url": "https://www.whats-on-netflix.com/news/manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed",
+      "article_count": 79,
+      "event_count": 79,
+      "latest_event_at": "2026-10-20T11:10:44+00:00",
+      "age_days": 1.0,
+      "latest_title": "How ‘Below’ Created Its Terrifying Sea Monster: A Deep Dive into Episode 4’s VFX",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/below-netflix-josh-hartnett-sea-monster-filming-locations",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 13,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-20T11:00:10.486907+00:00",
+      "latest_event_at": "2026-10-21T11:17:47.125379+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-20T11:00:10.486907+00:00",
+      "event_at": "2026-10-21T11:17:47.125379+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261020",
+      "event_key": "box_office:907d712300a5:20261021",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,480 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "How ‘Below’ Created Its Terrifying Sea Monster: A Deep Dive into Episode 4’s VFX",
+      "url": "https://www.whats-on-netflix.com/interviews/below-netflix-josh-hartnett-sea-monster-filming-locations",
+      "source_url": "https://www.whats-on-netflix.com/interviews/below-netflix-josh-hartnett-sea-monster-filming-locations",
+      "event_at": "2026-10-20T11:10:44+00:00",
+      "movie_id": "",
+      "normalized_title": "How ‘Below’ Created Its Terrifying Sea Monster: A Deep Dive into Episode 4’s VFX",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:cfff1ab28e0b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2f4e54a4d057:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Top 10s: ‘The Diplomat’ S4 Returns Strong While ‘Hollywood Arts’ and’ ‘Sacrifice’ Miss",
+      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-the-diplomat-s4-returns-strong-while-hollywood-arts-and-sacrifice-miss",
+      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-the-diplomat-s4-returns-strong-while-hollywood-arts-and-sacrifice-miss",
+      "event_at": "2026-10-20T10:55:00+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Top 10s: ‘The Diplomat’ S4 Returns Strong While ‘Hollywood Arts’ and’ ‘Sacrifice’ Miss",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies",
+        "top"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1270367abd39",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c3d4eeff0cfd:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Confirms ‘Rob Lowe: The Outsider’ Documentary and Brings ‘Literally!’ Podcast to the Service",
+      "url": "https://www.whats-on-netflix.com/news/netflix-confirms-rob-lowe-the-outsider-documentary-and-brings-literally-podcast-to-the-service",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-confirms-rob-lowe-the-outsider-documentary-and-brings-literally-podcast-to-the-service",
+      "event_at": "2026-10-20T08:20:07+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Confirms ‘Rob Lowe: The Outsider’ Documentary and Brings ‘Literally!’ Podcast to the Service",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:87d6e99822e6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ec3db312ddbf:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Luke Thompson Has Wrapped Filming on ‘Bridgerton’ Season 5, But Production Isn’t Fully Over Just Yet",
+      "url": "https://www.whats-on-netflix.com/news/bridgerton-star-luke-thompson-confirms-season-5-filming-has-wrapped",
+      "source_url": "https://www.whats-on-netflix.com/news/bridgerton-star-luke-thompson-confirms-season-5-filming-has-wrapped",
+      "event_at": "2026-10-20T06:57:10+00:00",
+      "movie_id": "",
+      "normalized_title": "Luke Thompson Has Wrapped Filming on ‘Bridgerton’ Season 5, But Production Isn’t Fully Over Just Yet",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:luke-thompson-has-wrapped-filming-on-bridgerton-season-5-but-production-isn-t-fully-over-just-yet:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:99762f3b3aae:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Will Sharpe and Stephanie Hsu’s Animated Netflix Tearjerker ‘In Waves’ Gets First Trailer",
+      "url": "https://www.whats-on-netflix.com/news/in-waves-netflix-trailer-first-look-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/in-waves-netflix-trailer-first-look-release-date",
+      "event_at": "2026-10-20T06:00:47+00:00",
+      "movie_id": "",
+      "normalized_title": "Will Sharpe and Stephanie Hsu’s Animated Netflix Tearjerker ‘In Waves’ Gets First Trailer",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "released"
+      ],
+      "film_general": [
+        "theatrical",
+        "now",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:00de424bef5d",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:0edc9e6b7c00:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Oriol Paulo Returns to Netflix With Twisted New Christmas Thriller ‘Proxies’",
+      "url": "https://www.whats-on-netflix.com/news/netflix-proxies-spanish-movie-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-proxies-spanish-movie-release-date",
+      "event_at": "2026-10-20T05:11:05+00:00",
+      "movie_id": "",
+      "normalized_title": "Oriol Paulo Returns to Netflix With Twisted New Christmas Thriller ‘Proxies’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:oriol-paulo-returns-to-netflix-with-twisted-new-christmas-thriller-proxies:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:fc269d857686:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Hunting Wives’ Season 2 Drops New First Looks and Trailer Ahead of November Release",
+      "url": "https://www.whats-on-netflix.com/news/the-hunting-wives-season-2-drops-new-first-looks-and-trailer-ahead-of-november-release",
+      "source_url": "https://www.whats-on-netflix.com/news/the-hunting-wives-season-2-drops-new-first-looks-and-trailer-ahead-of-november-release",
+      "event_at": "2026-10-20T05:00:42+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Hunting Wives’ Season 2 Drops New First Looks and Trailer Ahead of November Release",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "new",
+        "first",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:8216d13a6ba1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:1c54bf2e5a95:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look at Robert Webb Filming Robert Popper’s Netflix Comedy ‘Marbles’, Kevin Eldon Joins Cast",
+      "url": "https://www.whats-on-netflix.com/news/marbles-first-look-at-robert-webb-filming-robert-poppers-netflix-comedy-kevin-eldon-joins-cast",
+      "source_url": "https://www.whats-on-netflix.com/news/marbles-first-look-at-robert-webb-filming-robert-poppers-netflix-comedy-kevin-eldon-joins-cast",
+      "event_at": "2026-10-20T03:16:11+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look at Robert Webb Filming Robert Popper’s Netflix Comedy ‘Marbles’, Kevin Eldon Joins Cast",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:ac00b489ef85",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:64797d0fa305:20261020",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4690,125 +5163,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Capcom’s ‘Monster Hunter Rise’ Is Headed to Netflix Games on Mobile",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/capcoms-monster-hunter-rise-is-headed-to-netflix-games-on-mobile",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/capcoms-monster-hunter-rise-is-headed-to-netflix-games-on-mobile",
-      "event_at": "2026-10-07T10:33:25+00:00",
-      "movie_id": "",
-      "normalized_title": "Capcom’s ‘Monster Hunter Rise’ Is Headed to Netflix Games on Mobile",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "best",
-        "one",
-        "need"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:16e579e1644f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:34e7f4c23e94:20261007",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "20 Big Netflix Movies Expected to Release in 2027",
-      "url": "https://www.whats-on-netflix.com/coming-soon/20-big-netflix-movies-expected-to-release-in-2027",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/20-big-netflix-movies-expected-to-release-in-2027",
-      "event_at": "2026-10-07T10:15:34+00:00",
-      "movie_id": "",
-      "normalized_title": "20 Big Netflix Movies Expected to Release in 2027",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "film",
-        "movies",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:20-big-netflix-movies-expected-to-release-in-2027:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:57c33fe6992e:20261007",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4823,6 +5177,108 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How ‘Below’ Created Its Terrifying Sea Monster: A Deep Dive into Episode 4’s VFX",
+      "canonical_key": "movie_source:what-s-on-netflix:cfff1ab28e0b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "How ‘Below’ Created Its Terrifying Sea Monster: A Deep Dive into Episode 4’s VFX",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10s: ‘The Diplomat’ S4 Returns Strong While ‘Hollywood Arts’ and’ ‘Sacrifice’ Miss",
+      "canonical_key": "movie_source:what-s-on-netflix:1270367abd39",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Top 10s: ‘The Diplomat’ S4 Returns Strong While ‘Hollywood Arts’ and’ ‘Sacrifice’ Miss",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Confirms ‘Rob Lowe: The Outsider’ Documentary and Brings ‘Literally!’ Podcast to the Service",
+      "canonical_key": "movie_source:what-s-on-netflix:87d6e99822e6",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Confirms ‘Rob Lowe: The Outsider’ Documentary and Brings ‘Literally!’ Podcast to the Service",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Will Sharpe and Stephanie Hsu’s Animated Netflix Tearjerker ‘In Waves’ Gets First Trailer",
+      "canonical_key": "movie_source:what-s-on-netflix:00de424bef5d",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Will Sharpe and Stephanie Hsu’s Animated Netflix Tearjerker ‘In Waves’ Gets First Trailer",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Hunting Wives’ Season 2 Drops New First Looks and Trailer Ahead of November Release",
+      "canonical_key": "movie_source:what-s-on-netflix:8216d13a6ba1",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Hunting Wives’ Season 2 Drops New First Looks and Trailer Ahead of November Release",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look at Robert Webb Filming Robert Popper’s Netflix Comedy ‘Marbles’, Kevin Eldon Joins Cast",
+      "canonical_key": "movie_source:what-s-on-netflix:ac00b489ef85",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look at Robert Webb Filming Robert Popper’s Netflix Comedy ‘Marbles’, Kevin Eldon Joins Cast",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5136,108 +5592,6 @@
       "source": "What's on Netflix",
       "title": "New Poster and Artwork Revealed for ‘Narnia: The Magician’s Nephew’ Ahead of Trailer Drop",
       "canonical_key": "movie_source:what-s-on-netflix:66510fbd6ed7",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "New Poster and Artwork Revealed for ‘Narnia: The Magician’s Nephew’ Ahead of Trailer Drop",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "“Oh, S***”: The Reason Ben Affleck Almost Canceled His New Netflix Movie ‘Animals’",
-      "canonical_key": "movie_source:what-s-on-netflix:b44fcd923ac3",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "“Oh, S***”: The Reason Ben Affleck Almost Canceled His New Netflix Movie ‘Animals’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Possible Love’ Cinematographer Kim Ji-yong Explains How Looking Natural Takes A Lot Of Work",
-      "canonical_key": "movie_source:what-s-on-netflix:c55354723b69",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Possible Love’ Cinematographer Kim Ji-yong Explains How Looking Natural Takes A Lot Of Work",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Where the Mask Ends’: Tian Xi Wei’s New Period C-Drama Heading to Netflix Weekly",
-      "canonical_key": "movie_source:what-s-on-netflix:0a34d1fa921d",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Where the Mask Ends’: Tian Xi Wei’s New Period C-Drama Heading to Netflix Weekly",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Han Jun-hee Reflects on the Making of Netflix’s ‘The Blue Road’ and a Career of Genre Storytelling",
-      "canonical_key": "movie_source:what-s-on-netflix:e548dd4fda81",
       "required_field_gaps": [
         "release_year"
       ]
