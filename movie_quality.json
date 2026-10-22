@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-21T11:17:50.860417+00:00",
+  "generated_at": "2026-10-22T11:16:31.277486+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 79,
-    "movie_signal_event_count": 80,
+    "release_calendar_events": 74,
+    "movie_signal_event_count": 75,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 34,
-    "proxy_canonical_key_count": 46,
+    "complete_canonical_key_count": 32,
+    "proxy_canonical_key_count": 43,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 80,
-    "release_year_present_count": 34,
+    "normalized_title_present_count": 75,
+    "release_year_present_count": 32,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 76,
-    "event_required_field_gap_count": 49,
+    "platform_present_count": 71,
+    "event_required_field_gap_count": 46,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 79,
-      "event_count": 79,
-      "latest_event_at": "2026-10-20T11:10:44+00:00",
-      "age_days": 1.0,
-      "latest_title": "How ‘Below’ Created Its Terrifying Sea Monster: A Deep Dive into Episode 4’s VFX",
-      "latest_url": "https://www.whats-on-netflix.com/interviews/below-netflix-josh-hartnett-sea-monster-filming-locations",
+      "article_count": 74,
+      "event_count": 74,
+      "latest_event_at": "2026-10-21T07:14:36+00:00",
+      "age_days": 1.17,
+      "latest_title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
+      "latest_url": "https://www.whats-on-netflix.com/news/misty-green-rosalind-eleazar-netflix-arrival",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 12,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-21T11:17:47.125379+00:00",
+      "latest_event_at": "2026-10-22T11:16:27.705245+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-21T11:17:47.125379+00:00",
+      "event_at": "2026-10-22T11:16:27.705245+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261021",
+      "event_key": "box_office:907d712300a5:20261022",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +407,250 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
+      "url": "https://www.whats-on-netflix.com/news/misty-green-rosalind-eleazar-netflix-arrival",
+      "source_url": "https://www.whats-on-netflix.com/news/misty-green-rosalind-eleazar-netflix-arrival",
+      "event_at": "2026-10-21T07:14:36+00:00",
+      "movie_id": "",
+      "normalized_title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "a24",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "hbo max",
+        "streaming",
+        "max"
+      ],
+      "film_general": [
+        "film",
+        "first",
+        "just"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d3ea0c6df929",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:9bfd73e1673b:20261021",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix US Streaming Date for ‘The Super Mario Galaxy Movie’ Confirmed (And It’s Earlier Than Expected)",
+      "url": "https://www.whats-on-netflix.com/news/the-super-mario-galaxy-movie-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-super-mario-galaxy-movie-netflix-release-date",
+      "event_at": "2026-10-21T05:26:57+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix US Streaming Date for ‘The Super Mario Galaxy Movie’ Confirmed (And It’s Earlier Than Expected)",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "blockbuster",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "blockbuster"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "universal",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-us-streaming-date-for-the-super-mario-galaxy-movie-confirmed-and-it-s-earlier-than-expected:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:4895da460531:20261021",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s New Spanish Murder Mystery ‘The Whisper of Fire’ Begins Filming",
+      "url": "https://www.whats-on-netflix.com/news/whisper-of-fire-netflix-spanish-mystery-begins-filming",
+      "source_url": "https://www.whats-on-netflix.com/news/whisper-of-fire-netflix-spanish-mystery-begins-filming",
+      "event_at": "2026-10-21T05:26:55+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s New Spanish Murder Mystery ‘The Whisper of Fire’ Begins Filming",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f988e7a13076",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c0025c49b5a3:20261021",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Lupin Season 4: 9 Big Reveals From Omar Sy Ahead of the Netflix Premiere",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/lupin-season-4-plot-villain-deepfakes",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/lupin-season-4-plot-villain-deepfakes",
+      "event_at": "2026-10-21T02:17:36+00:00",
+      "movie_id": "",
+      "normalized_title": "Lupin Season 4: 9 Big Reveals From Omar Sy Ahead of the Netflix Premiere",
+      "release_year": "2025",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "premiere"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:lupin-season-4-9-big-reveals-from-omar-sy-ahead-of-the-netflix-premiere:2025:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:89b503480492:20261021",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3403,6 +3648,72 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
+      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
+      "event_at": "2026-10-12T05:32:10+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "story",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3a7f26bb7a8f:20261012",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
       "title": "Dennis Quaid Netflix Christmas Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "url": "https://www.whats-on-netflix.com/news/a-dogs-perfect-christmas-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/a-dogs-perfect-christmas-netflix-release-date",
@@ -3448,72 +3759,6 @@
       "canonical_key": "movie_source:what-s-on-netflix:0503e7d08cd3",
       "canonical_key_status": "source_proxy",
       "event_key": "release_calendar:df0a0767d388:20261012",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
-      "event_at": "2026-10-12T05:32:10+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "story",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:84d38b40d576",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3a7f26bb7a8f:20261012",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -4614,555 +4859,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Mark Millar Teases Millarworld Revival With ‘King of Spies’ Film Next Up at Netflix",
-      "url": "https://www.whats-on-netflix.com/news/king-of-spies-netflix-millarworld-revival",
-      "source_url": "https://www.whats-on-netflix.com/news/king-of-spies-netflix-millarworld-revival",
-      "event_at": "2026-10-08T09:09:37+00:00",
-      "movie_id": "",
-      "normalized_title": "Mark Millar Teases Millarworld Revival With ‘King of Spies’ Film Next Up at Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:2f712ceec019",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2057ac29f31e:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘An Innocent Girl’ Netflix Movie: Cast, Plot & Expected 2027 Release Date Window",
-      "url": "https://www.whats-on-netflix.com/news/kerry-washington-an-innocent-girl-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/kerry-washington-an-innocent-girl-netflix",
-      "event_at": "2026-10-08T08:44:18+00:00",
-      "movie_id": "",
-      "normalized_title": "‘An Innocent Girl’ Netflix Movie: Cast, Plot & Expected 2027 Release Date Window",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "starring",
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:an-innocent-girl-netflix-movie-cast-plot-expected-2027-release-date-window:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:93b23635c746:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Best of the Best’ Choreographer Joya Kazi Breaks Down the Cultural Nuance in Netflix’s Dance Movie",
-      "url": "https://www.whats-on-netflix.com/interviews/joya-kazi-interview-best-of-the-best-netflix",
-      "source_url": "https://www.whats-on-netflix.com/interviews/joya-kazi-interview-best-of-the-best-netflix",
-      "event_at": "2026-10-08T05:57:32+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Best of the Best’ Choreographer Joya Kazi Breaks Down the Cultural Nuance in Netflix’s Dance Movie",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "best"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8495f3882833",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0911079f7fba:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Cinematographer C. Kim Miles Breaks Down the Terrence Malick Influence on Netflix’s ‘Little House on the Prairie’",
-      "url": "https://www.whats-on-netflix.com/interviews/little-house-on-the-prairie-kim-miles-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/little-house-on-the-prairie-kim-miles-interview",
-      "event_at": "2026-10-08T05:46:49+00:00",
-      "movie_id": "",
-      "normalized_title": "Cinematographer C. Kim Miles Breaks Down the Terrence Malick Influence on Netflix’s ‘Little House on the Prairie’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ed4c4140aabf",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:0c1bc31deaf6:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘In a Holidaze’ Netflix Christmas Film: December 2026 Release, Cast & What Else We Know",
-      "url": "https://www.whats-on-netflix.com/news/in-a-holidaze-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/in-a-holidaze-netflix-release-date",
-      "event_at": "2026-10-08T05:09:06+00:00",
-      "movie_id": "",
-      "normalized_title": "‘In a Holidaze’ Netflix Christmas Film: December 2026 Release, Cast & What Else We Know",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "film",
-        "time"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:in-a-holidaze-netflix-christmas-film-december-2026-release-cast-what-else-we-know:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:c8227f56b9b3:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Just Dropped the Trailer for Its FTX Sam Bankman-Fried ‘The Altruists’ Series",
-      "url": "https://www.whats-on-netflix.com/news/the-altruists-netflix-series-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/the-altruists-netflix-series-everything-we-know",
-      "event_at": "2026-10-08T05:06:24+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Just Dropped the Trailer for Its FTX Sam Bankman-Fried ‘The Altruists’ Series",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [
-        "oscar",
-        "winner"
-      ],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "story",
-        "this",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:498d318742a8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:283a2f1f0b85:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Under Paris’ Director Xavier Gens Sets New Crime Thriller Series ‘La Part Du Mal’ at Netflix",
-      "url": "https://www.whats-on-netflix.com/news/la-part-du-mal-netflix-xavier-gens-thriller",
-      "source_url": "https://www.whats-on-netflix.com/news/la-part-du-mal-netflix-xavier-gens-thriller",
-      "event_at": "2026-10-08T03:42:56+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Under Paris’ Director Xavier Gens Sets New Crime Thriller Series ‘La Part Du Mal’ at Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c7576408de0e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3369165db018:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Adding CBS Sitcom ‘The Neighborhood’ with Cedric the Entertainer and Max Greenfield",
-      "url": "https://www.whats-on-netflix.com/news/the-neighborhood-cbs-sitcom-netflix-arrival-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-neighborhood-cbs-sitcom-netflix-arrival-date",
-      "event_at": "2026-10-08T01:57:53+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Adding CBS Sitcom ‘The Neighborhood’ with Cedric the Entertainer and Max Greenfield",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "max"
-      ],
-      "film_general": [
-        "latest"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-adding-cbs-sitcom-the-neighborhood-with-cedric-the-entertainer-and-max-greenfield:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:d6af8bba8908:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Sarah Lancashire Reunites With Abi Morgan for Netflix Thriller ‘Witch Hunt’",
-      "url": "https://www.whats-on-netflix.com/news/sarah-lancashire-netflix-gothic-thriller-witch-hunt",
-      "source_url": "https://www.whats-on-netflix.com/news/sarah-lancashire-netflix-gothic-thriller-witch-hunt",
-      "event_at": "2026-10-08T01:55:33+00:00",
-      "movie_id": "",
-      "normalized_title": "Sarah Lancashire Reunites With Abi Morgan for Netflix Thriller ‘Witch Hunt’",
-      "release_year": "2028",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:sarah-lancashire-reunites-with-abi-morgan-for-netflix-thriller-witch-hunt:2028:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0fb284313e61:20261008",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5177,6 +4873,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
+      "canonical_key": "movie_source:what-s-on-netflix:d3ea0c6df929",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s New Spanish Murder Mystery ‘The Whisper of Fire’ Begins Filming",
+      "canonical_key": "movie_source:what-s-on-netflix:f988e7a13076",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s New Spanish Murder Mystery ‘The Whisper of Fire’ Begins Filming",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5558,40 +5288,6 @@
       "source": "What's on Netflix",
       "title": "‘The Perfect Lie’ Star Loes Haverkort on Netflix’s Dutch Hit, Season 2 Hopes and Her Move Into Directing",
       "canonical_key": "movie_source:what-s-on-netflix:080a75188d70",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Perfect Lie’ Star Loes Haverkort on Netflix’s Dutch Hit, Season 2 Hopes and Her Move Into Directing",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Colleen Hoover’s ‘Reminders of Him’ Sets November Netflix Release Following Peacock Run",
-      "canonical_key": "movie_source:what-s-on-netflix:10e1341a5938",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Colleen Hoover’s ‘Reminders of Him’ Sets November Netflix Release Following Peacock Run",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "New Poster and Artwork Revealed for ‘Narnia: The Magician’s Nephew’ Ahead of Trailer Drop",
-      "canonical_key": "movie_source:what-s-on-netflix:66510fbd6ed7",
       "required_field_gaps": [
         "release_year"
       ]
