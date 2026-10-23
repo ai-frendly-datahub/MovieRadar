@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-22T11:16:31.277486+00:00",
+  "generated_at": "2026-10-23T11:07:34.372077+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 74,
-    "movie_signal_event_count": 75,
+    "release_calendar_events": 67,
+    "movie_signal_event_count": 68,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
-    "proxy_canonical_key_count": 43,
+    "complete_canonical_key_count": 31,
+    "proxy_canonical_key_count": 37,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 75,
-    "release_year_present_count": 32,
+    "normalized_title_present_count": 68,
+    "release_year_present_count": 31,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 71,
-    "event_required_field_gap_count": 46,
+    "platform_present_count": 64,
+    "event_required_field_gap_count": 40,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,13 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 74,
-      "event_count": 74,
-      "latest_event_at": "2026-10-21T07:14:36+00:00",
-      "age_days": 1.17,
-      "latest_title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
-      "latest_url": "https://www.whats-on-netflix.com/news/misty-green-rosalind-eleazar-netflix-arrival",
+      "article_count": 67,
+      "event_count": 67,
+      "latest_event_at": "2026-10-23T02:02:50+00:00",
+      "age_days": 0.38,
+      "latest_title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
+      "latest_url": "https://www.whats-on-netflix.com/news/ghooskhor-pandat-renamed-gajab-raat-netflix",
       "latest_source_signal": [
-        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -227,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 9,
+      "article_count": 6,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-22T11:16:27.705245+00:00",
+      "latest_event_at": "2026-10-23T11:07:30.617589+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-22T11:16:27.705245+00:00",
+      "event_at": "2026-10-23T11:07:30.617589+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261022",
+      "event_key": "box_office:907d712300a5:20261023",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +406,236 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
+      "url": "https://www.whats-on-netflix.com/news/ghooskhor-pandat-renamed-gajab-raat-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/ghooskhor-pandat-renamed-gajab-raat-netflix",
+      "event_at": "2026-10-23T02:02:50+00:00",
+      "movie_id": "",
+      "normalized_title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "need"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:ddaf794c8b9a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8299bce0fb6d:20261023",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix in November 2026",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
+      "event_at": "2026-10-22T06:34:01+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e00fa86ee8bf:20261022",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Meryl Streep’s Netflix Series ‘The Corrections’ Gearing Up For January 2027 Filming Start",
+      "url": "https://www.whats-on-netflix.com/news/meryl-streeps-the-corrections-netflix-series-january-2027-filming",
+      "source_url": "https://www.whats-on-netflix.com/news/meryl-streeps-the-corrections-netflix-series-january-2027-filming",
+      "event_at": "2026-10-22T06:19:34+00:00",
+      "movie_id": "",
+      "normalized_title": "Meryl Streep’s Netflix Series ‘The Corrections’ Gearing Up For January 2027 Filming Start",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:meryl-streep-s-netflix-series-the-corrections-gearing-up-for-january-2027-filming-start:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:be9d993c8686:20261022",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "David Fincher Says Netflix’s ‘Cliff Booth’ Follow-up Could’ve Been a Series",
+      "url": "https://www.whats-on-netflix.com/news/the-further-misadventures-of-cliff-booth-netflix-series-movie",
+      "source_url": "https://www.whats-on-netflix.com/news/the-further-misadventures-of-cliff-booth-netflix-series-movie",
+      "event_at": "2026-10-22T04:45:40+00:00",
+      "movie_id": "",
+      "normalized_title": "David Fincher Says Netflix’s ‘Cliff Booth’ Follow-up Could’ve Been a Series",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "imax",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "imax"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "time",
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:david-fincher-says-netflix-s-cliff-booth-follow-up-could-ve-been-a-series:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:4790e0efa41a:20261022",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3591,63 +3820,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in November 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
-      "event_at": "2026-10-12T06:09:01+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e00fa86ee8bf:20261012",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "Netflix Holiday Movie ‘A Dog’s Perfect Christmas’: Cast, Trailer, Release Date & Everything We Know",
       "url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/coming-soon/a-dogs-perfect-christmas-netflix-release-date",
@@ -4248,617 +4420,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Animated Football Movie ‘Garuda: Dare to Dream’ Scores Netflix Release",
-      "url": "https://www.whats-on-netflix.com/news/animated-football-movie-garuda-dare-to-dream-scores-netflix-release",
-      "source_url": "https://www.whats-on-netflix.com/news/animated-football-movie-garuda-dare-to-dream-scores-netflix-release",
-      "event_at": "2026-10-09T08:16:00+00:00",
-      "movie_id": "",
-      "normalized_title": "Animated Football Movie ‘Garuda: Dare to Dream’ Scores Netflix Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [
-        "award"
-      ],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "scores"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:4d76608af92f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:be54c593087e:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘The God of the Woods’ Stars Wrap Filming: Everything We Know About the Series",
-      "url": "https://www.whats-on-netflix.com/news/netflixs-the-god-of-the-woods-everything-we-know-10-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/netflixs-the-god-of-the-woods-everything-we-know-10-2026",
-      "event_at": "2026-10-09T07:58:22+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘The God of the Woods’ Stars Wrap Filming: Everything We Know About the Series",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "share"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-the-god-of-the-woods-stars-wrap-filming-everything-we-know-about-the-series:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:821d4a8dd25c:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Little House on the Prairie Season 2 Wraps Filming as Netflix Rounds Out the Walnut Grove Cast",
-      "url": "https://www.whats-on-netflix.com/news/little-house-on-the-prairie-season-2-production-wrap-cast",
-      "source_url": "https://www.whats-on-netflix.com/news/little-house-on-the-prairie-season-2-production-wrap-cast",
-      "event_at": "2026-10-09T07:00:41+00:00",
-      "movie_id": "",
-      "normalized_title": "Little House on the Prairie Season 2 Wraps Filming as Netflix Rounds Out the Walnut Grove Cast",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:db90b656a5fc",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:05622be07ae9:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Hallmark’s ‘Mistletoe Murders’ Finds New Streaming Home Ahead of Season 3 Release",
-      "url": "https://www.whats-on-netflix.com/news/hallmarks-mistletoe-murders-finds-new-streaming-home-ahead-of-season-3-release",
-      "source_url": "https://www.whats-on-netflix.com/news/hallmarks-mistletoe-murders-finds-new-streaming-home-ahead-of-season-3-release",
-      "event_at": "2026-10-09T06:02:49+00:00",
-      "movie_id": "",
-      "normalized_title": "Hallmark’s ‘Mistletoe Murders’ Finds New Streaming Home Ahead of Season 3 Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release",
-        "premieres"
-      ],
-      "film_general": [
-        "new",
-        "latest",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:1d8dbc86e935",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:294a38a46461:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Director Anand Tiwari Sets Netflix Series ‘Janta Inter College’ Starring Vishal Jethwa and Palak Tiwari",
-      "url": "https://www.whats-on-netflix.com/news/anand-tiwari-janta-inter-college-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/anand-tiwari-janta-inter-college-netflix",
-      "event_at": "2026-10-09T05:24:52+00:00",
-      "movie_id": "",
-      "normalized_title": "Director Anand Tiwari Sets Netflix Series ‘Janta Inter College’ Starring Vishal Jethwa and Palak Tiwari",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:018629676f8f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2c038d97b39c:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets November 2026 Release Date for Gritty Home Invasion Thriller ‘Never Surrender’",
-      "url": "https://www.whats-on-netflix.com/news/never-surrender-netflix-2026-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/never-surrender-netflix-2026-release-date",
-      "event_at": "2026-10-09T04:49:56+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets November 2026 Release Date for Gritty Home Invasion Thriller ‘Never Surrender’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "film",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-november-2026-release-date-for-gritty-home-invasion-thriller-never-surrender:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:a83e40e29b16:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/ben-affleck-thriller-animals-leads-a-massive-63-title-drop-on-netflix-uk",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/ben-affleck-thriller-animals-leads-a-massive-63-title-drop-on-netflix-uk",
-      "event_at": "2026-10-09T01:36:43+00:00",
-      "movie_id": "",
-      "normalized_title": "Ben Affleck Thriller ‘Animals’ Leads a Massive 63-Title Drop on Netflix UK",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movies",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:f7e29467c7ef",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a606a6153810:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Samara Weaving and Kyle Gallner’s ‘Carolina Caroline’ Sets Netflix Streaming Debut",
-      "url": "https://www.whats-on-netflix.com/news/samara-weaving-and-kyle-gallners-carolina-caroline-sets-netflix-streaming-debut",
-      "source_url": "https://www.whats-on-netflix.com/news/samara-weaving-and-kyle-gallners-carolina-caroline-sets-netflix-streaming-debut",
-      "event_at": "2026-10-09T01:22:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Samara Weaving and Kyle Gallner’s ‘Carolina Caroline’ Sets Netflix Streaming Debut",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:b2745a31bc53",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:5e61c3482f76:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘The Blue Road’ Review: A Brutal, Brilliant Buddy-Cop Thriller Debuts at Busan",
-      "url": "https://www.whats-on-netflix.com/news/k-dramas/the-blue-road-netflix-review-hannibal",
-      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/the-blue-road-netflix-review-hannibal",
-      "event_at": "2026-10-09T00:27:19+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘The Blue Road’ Review: A Brutal, Brilliant Buddy-Cop Thriller Debuts at Busan",
-      "release_year": "2002",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "review",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-the-blue-road-review-a-brutal-brilliant-buddy-cop-thriller-debuts-at-busan:2002:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:cbcbc4c1198b:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Animals’ Review: Ben Affleck Returns to His Crime Directing Roots in Netflix Movie",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/animals-ben-affleck-netflix-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/animals-ben-affleck-netflix-review",
-      "event_at": "2026-10-09T00:16:42+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Animals’ Review: Ben Affleck Returns to His Crime Directing Roots in Netflix Movie",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "review",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:114eaf2fb682",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:68f08742281e:20261009",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4873,6 +4434,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
+      "canonical_key": "movie_source:what-s-on-netflix:ddaf794c8b9a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5271,23 +4849,6 @@
       "source": "What's on Netflix",
       "title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
       "canonical_key": "movie_source:what-s-on-netflix:30c2deca1a62",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Perfect Lie’ Star Loes Haverkort on Netflix’s Dutch Hit, Season 2 Hopes and Her Move Into Directing",
-      "canonical_key": "movie_source:what-s-on-netflix:080a75188d70",
       "required_field_gaps": [
         "release_year"
       ]
