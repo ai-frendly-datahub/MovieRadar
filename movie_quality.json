@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-24T10:24:21.162176+00:00",
+  "generated_at": "2026-10-25T10:51:44.673739+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 73,
-    "movie_signal_event_count": 74,
+    "release_calendar_events": 75,
+    "movie_signal_event_count": 76,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
-    "proxy_canonical_key_count": 42,
+    "complete_canonical_key_count": 33,
+    "proxy_canonical_key_count": 43,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 74,
-    "release_year_present_count": 32,
+    "normalized_title_present_count": 76,
+    "release_year_present_count": 33,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 70,
-    "event_required_field_gap_count": 45,
+    "platform_present_count": 72,
+    "event_required_field_gap_count": 46,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 33,
+      "article_count": 34,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 73,
-      "event_count": 73,
-      "latest_event_at": "2026-10-23T11:58:19+00:00",
-      "age_days": 0.93,
-      "latest_title": "‘Paralyzed by Hope: The Maria Bamford Story’ Netflix Review: Maria Bamford Faces Her Past in New Judd Apatow Doc",
-      "latest_url": "https://www.whats-on-netflix.com/news/paralyzed-by-hope-maria-bamford-story-netflix-review",
+      "article_count": 75,
+      "event_count": 75,
+      "latest_event_at": "2026-10-24T14:04:37+00:00",
+      "age_days": 0.87,
+      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 24, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-24T10:24:15.180326+00:00",
+      "latest_event_at": "2026-10-25T10:51:40.032993+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-24T10:24:15.180326+00:00",
+      "event_at": "2026-10-25T10:51:40.032993+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -393,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261024",
+      "event_key": "box_office:907d712300a5:20261025",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +405,197 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 24, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026",
+      "event_at": "2026-10-24T14:04:37+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 24, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "top",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:4a8896325331:20261024",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Zoey Deutch and Jon Hamm Comedy ‘Gail Daughtry and the Celebrity Sex Pass’ Sets Netflix Streaming Debut",
+      "url": "https://www.whats-on-netflix.com/news/zoey-deutch-and-jon-hamm-comedy-gail-daughtry-and-the-celebrity-sex-pass-sets-netflix-streaming-debut",
+      "source_url": "https://www.whats-on-netflix.com/news/zoey-deutch-and-jon-hamm-comedy-gail-daughtry-and-the-celebrity-sex-pass-sets-netflix-streaming-debut",
+      "event_at": "2026-10-24T05:34:01+00:00",
+      "movie_id": "",
+      "normalized_title": "Zoey Deutch and Jon Hamm Comedy ‘Gail Daughtry and the Celebrity Sex Pass’ Sets Netflix Streaming Debut",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "celebrity"
+      ],
+      "award": [],
+      "studio": [
+        "sony pictures",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "audience",
+        "first",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:9756c8409da4",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:9e68dabaf2d7:20261024",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Quentin Tarantino Surprised At AFI With ‘The Further Mis-Adventure of Cliff Booth’ Sneak Peek Ahead of Netflix Release",
+      "url": "https://www.whats-on-netflix.com/news/quentin-tarantino-debut-cliff-booth-afi-film-festival",
+      "source_url": "https://www.whats-on-netflix.com/news/quentin-tarantino-debut-cliff-booth-afi-film-festival",
+      "event_at": "2026-10-24T03:37:05+00:00",
+      "movie_id": "",
+      "normalized_title": "Quentin Tarantino Surprised At AFI With ‘The Further Mis-Adventure of Cliff Booth’ Sneak Peek Ahead of Netflix Release",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "see",
+        "time",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a2c1e662f03c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:cc743c60a263:20261024",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4726,66 +4918,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ray Gunn’ Gets Rousing LFF Premiere as Scarlett Johansson Reveals Why She Signed On",
-      "url": "https://www.whats-on-netflix.com/news/ray-gunn-gets-rousing-lff-premiere-as-scarlett-johansson-reveals-why-she-signed-on",
-      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-gets-rousing-lff-premiere-as-scarlett-johansson-reveals-why-she-signed-on",
-      "event_at": "2026-10-11T08:46:23+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ray Gunn’ Gets Rousing LFF Premiere as Scarlett Johansson Reveals Why She Signed On",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "premiere",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [],
-      "platform": [
-        "premiere"
-      ],
-      "film_general": [
-        "film",
-        "audience",
-        "years"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:5c3fbeaf3499",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:58e23ca65493:20261011",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4800,6 +4932,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Zoey Deutch and Jon Hamm Comedy ‘Gail Daughtry and the Celebrity Sex Pass’ Sets Netflix Streaming Debut",
+      "canonical_key": "movie_source:what-s-on-netflix:9756c8409da4",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Zoey Deutch and Jon Hamm Comedy ‘Gail Daughtry and the Celebrity Sex Pass’ Sets Netflix Streaming Debut",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Quentin Tarantino Surprised At AFI With ‘The Further Mis-Adventure of Cliff Booth’ Sneak Peek Ahead of Netflix Release",
+      "canonical_key": "movie_source:what-s-on-netflix:a2c1e662f03c",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Quentin Tarantino Surprised At AFI With ‘The Further Mis-Adventure of Cliff Booth’ Sneak Peek Ahead of Netflix Release",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5181,40 +5347,6 @@
       "source": "What's on Netflix",
       "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
       "canonical_key": "movie_source:what-s-on-netflix:7741f0814804",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look and Release Date for Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’",
-      "canonical_key": "movie_source:what-s-on-netflix:548de2789875",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look and Release Date for Jared Padalecki and Leighton Meester Netflix Holiday Rom-Com ‘Guarding Stars’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Greta Gerwig Lays Out Vision For Narnia: The Magician’s Nephew As Reactions Flood In",
-      "canonical_key": "movie_source:what-s-on-netflix:40758c967ad2",
       "required_field_gaps": [
         "release_year"
       ]
