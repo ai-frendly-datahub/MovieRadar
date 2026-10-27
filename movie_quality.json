@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-26T12:26:50.359224+00:00",
+  "generated_at": "2026-10-27T11:41:56.429526+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 66,
-    "movie_signal_event_count": 67,
+    "release_calendar_events": 59,
+    "movie_signal_event_count": 60,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
-    "proxy_canonical_key_count": 35,
+    "complete_canonical_key_count": 31,
+    "proxy_canonical_key_count": 29,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 67,
-    "release_year_present_count": 32,
+    "normalized_title_present_count": 60,
+    "release_year_present_count": 31,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 63,
-    "event_required_field_gap_count": 38,
+    "platform_present_count": 57,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 58,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 66,
-      "event_count": 66,
-      "latest_event_at": "2026-10-24T14:04:37+00:00",
-      "age_days": 1.93,
-      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 24, 2026",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026",
+      "article_count": 59,
+      "event_count": 59,
+      "latest_event_at": "2026-10-26T09:57:27+00:00",
+      "age_days": 1.07,
+      "latest_title": "What’s Coming to Netflix This Week: October 26 to November 1, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-26-to-november-1-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-26T12:26:45.963874+00:00",
+      "latest_event_at": "2026-10-27T11:41:52.924248+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-26T12:26:45.963874+00:00",
+      "event_at": "2026-10-27T11:41:52.924248+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -378,6 +377,7 @@
       ],
       "film_general": [
         "movie",
+        "movies",
         "see",
         "viewing",
         "story",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261026",
+      "event_key": "box_office:907d712300a5:20261027",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,241 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix This Week: October 26 to November 1, 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-26-to-november-1-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-26-to-november-1-2026",
+      "event_at": "2026-10-26T09:57:27+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix This Week: October 26 to November 1, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-this-week-october-26-to-november-1-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:78d43de7712e:20261026",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Lines Up Nearly 30 More Christmas Movies For November 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/licensed-christmas-movies-netflix-november-2026-list",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/licensed-christmas-movies-netflix-november-2026-list",
+      "event_at": "2026-10-26T06:14:36+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Lines Up Nearly 30 More Christmas Movies For November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "lionsgate",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movies",
+        "year",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-lines-up-nearly-30-more-christmas-movies-for-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:19e3db66de71:20261026",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Begins Filming ‘Jotadé’, New Spanish Crime Thriller Miniseries Starring Jose Coronado and Jaime Lorente",
+      "url": "https://www.whats-on-netflix.com/news/netflix-begins-filming-jotade-new-spanish-crime-thriller-miniseries-starring-jose-coronado-and-jaime-lorente",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-begins-filming-jotade-new-spanish-crime-thriller-miniseries-starring-jose-coronado-and-jaime-lorente",
+      "event_at": "2026-10-26T04:43:41+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Begins Filming ‘Jotadé’, New Spanish Crime Thriller Miniseries Starring Jose Coronado and Jaime Lorente",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a2bf79ad4502",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:94a90af2fb4c:20261026",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets December 2026 Release Date for Indonesian Crime Thriller ‘Secrets’",
+      "url": "https://www.whats-on-netflix.com/news/secrets-indonesian-movie-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/secrets-indonesian-movie-netflix-release-date",
+      "event_at": "2026-10-26T03:27:09+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets December 2026 Release Date for Indonesian Crime Thriller ‘Secrets’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "this"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-december-2026-release-date-for-indonesian-crime-thriller-secrets:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:3fb6cf2862c2:20261026",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3696,670 +3931,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Narnia: The Magician’s Nephew Trailer Breakdown: Every Secret Spotted in the First Look",
-      "url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-breakdown-details",
-      "source_url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-breakdown-details",
-      "event_at": "2026-10-13T11:17:48+00:00",
-      "movie_id": "",
-      "normalized_title": "Narnia: The Magician’s Nephew Trailer Breakdown: Every Secret Spotted in the First Look",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:97478d04274e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:9afe4192eeee:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
-      "url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts",
-      "source_url": "https://www.whats-on-netflix.com/news/top-10-reports/netflix-top-10s-josh-hartnetts-below-and-ben-afflecks-animals-top-the-charts",
-      "event_at": "2026-10-13T10:39:13+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Top 10s: Josh Hartnett’s ‘Below’ and Ben Affleck’s ‘Animals’ Top The Charts",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "top",
-        "latest"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:aed07beae53c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:60577b3e8bc3:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Trailer and New First Looks Released for Greta Gerwig’s ‘Narnia: The Magician’s Nephew’",
-      "url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/narnia-the-magicians-nephew-trailer-release-date",
-      "event_at": "2026-10-13T09:01:31+00:00",
-      "movie_id": "",
-      "normalized_title": "First Trailer and New First Looks Released for Greta Gerwig’s ‘Narnia: The Magician’s Nephew’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "released"
-      ],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:536dcd569f5b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:2cf9d92f1e88:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Tyler Perry’s New Netflix Holiday Movie ‘The Gospel of Christmas’: Cast, Release Date & First Look",
-      "url": "https://www.whats-on-netflix.com/news/the-gospel-of-christmas-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-gospel-of-christmas-netflix-release-date",
-      "event_at": "2026-10-13T07:47:41+00:00",
-      "movie_id": "",
-      "normalized_title": "Tyler Perry’s New Netflix Holiday Movie ‘The Gospel of Christmas’: Cast, Release Date & First Look",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "first",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d9e79b865c76",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1175089c1ea5:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
-      "url": "https://www.whats-on-netflix.com/news/the-babysitter-3-netflix-status-mcg",
-      "source_url": "https://www.whats-on-netflix.com/news/the-babysitter-3-netflix-status-mcg",
-      "event_at": "2026-10-13T07:16:27+00:00",
-      "movie_id": "",
-      "normalized_title": "Whatever Happened to ‘The Babysitter 3’ on Netflix?",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "years",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:30c2deca1a62",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e2e7ceec1507:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets November 2026 Release Date for Swedish Rom-Com ‘The Christmas Switch’",
-      "url": "https://www.whats-on-netflix.com/news/the-christmas-switch-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-christmas-switch-netflix-release-date",
-      "event_at": "2026-10-13T07:04:39+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets November 2026 Release Date for Swedish Rom-Com ‘The Christmas Switch’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-november-2026-release-date-for-swedish-rom-com-the-christmas-switch:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:40ae2ec94819:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Reveals First Look at ‘Toos’: The Van der Valk Kidnapping, And Its Release Date Is No Coincidence",
-      "url": "https://www.whats-on-netflix.com/news/toos-van-der-valk-kidnapping-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/toos-van-der-valk-kidnapping-netflix-release-date",
-      "event_at": "2026-10-13T06:11:48+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Reveals First Look at ‘Toos’: The Van der Valk Kidnapping, And Its Release Date Is No Coincidence",
-      "release_year": "1982",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "story",
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-reveals-first-look-at-toos-the-van-der-valk-kidnapping-and-its-release-date-is-no-coincidence:1982:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:35693e538edf:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix UK in November 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/every-movie-and-tv-show-leaving-netflix-uk-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/every-movie-and-tv-show-leaving-netflix-uk-november-2026",
-      "event_at": "2026-10-13T05:10:25+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix UK in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "nolan"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-uk-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1d246ba42503:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Perfect Lie’ Star Loes Haverkort on Netflix’s Dutch Hit, Season 2 Hopes and Her Move Into Directing",
-      "url": "https://www.whats-on-netflix.com/interviews/the-perfect-lie-loes-haverkort-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/the-perfect-lie-loes-haverkort-interview",
-      "event_at": "2026-10-13T03:18:41+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Perfect Lie’ Star Loes Haverkort on Netflix’s Dutch Hit, Season 2 Hopes and Her Move Into Directing",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:080a75188d70",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6a7ae0042985:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at What’s Coming to Netflix UK in November 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026",
-      "event_at": "2026-10-13T01:59:26+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at What’s Coming to Netflix UK in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "nolan"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-uk-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:9bb7049c3f85:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Colleen Hoover’s ‘Reminders of Him’ Sets November Netflix Release Following Peacock Run",
-      "url": "https://www.whats-on-netflix.com/news/colleen-hoovers-reminders-of-him-sets-november-netflix-release-following-peacock-run",
-      "source_url": "https://www.whats-on-netflix.com/news/colleen-hoovers-reminders-of-him-sets-november-netflix-release-following-peacock-run",
-      "event_at": "2026-10-13T01:49:30+00:00",
-      "movie_id": "",
-      "normalized_title": "Colleen Hoover’s ‘Reminders of Him’ Sets November Netflix Release Following Peacock Run",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "universal",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "peacock",
-        "release"
-      ],
-      "film_general": [
-        "movie",
-        "latest",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:10e1341a5938",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:969768e7efb8:20261013",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4374,6 +3945,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Begins Filming ‘Jotadé’, New Spanish Crime Thriller Miniseries Starring Jose Coronado and Jaime Lorente",
+      "canonical_key": "movie_source:what-s-on-netflix:a2bf79ad4502",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Begins Filming ‘Jotadé’, New Spanish Crime Thriller Miniseries Starring Jose Coronado and Jaime Lorente",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4772,23 +4360,6 @@
       "source": "What's on Netflix",
       "title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
       "canonical_key": "movie_source:what-s-on-netflix:02a591d68330",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Diplomat Season 4: Netflix Release Time, Cast, Trailer & What to Expect",
-      "canonical_key": "movie_source:what-s-on-netflix:7741f0814804",
       "required_field_gaps": [
         "release_year"
       ]
