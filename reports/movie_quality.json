@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-10-28T12:13:38.141605+00:00",
+  "generated_at": "2026-10-29T12:24:13.809856+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 62,
-    "movie_signal_event_count": 63,
+    "release_calendar_events": 60,
+    "movie_signal_event_count": 61,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 34,
-    "proxy_canonical_key_count": 29,
+    "complete_canonical_key_count": 33,
+    "proxy_canonical_key_count": 28,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 63,
-    "release_year_present_count": 34,
+    "normalized_title_present_count": 61,
+    "release_year_present_count": 33,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 61,
-    "event_required_field_gap_count": 32,
+    "platform_present_count": 59,
+    "event_required_field_gap_count": 31,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 36,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 54,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 62,
-      "event_count": 62,
-      "latest_event_at": "2026-10-28T01:00:48+00:00",
-      "age_days": 0.47,
-      "latest_title": "Jeanne Goursaud, Jannis Niewöhner, Peter Gallagher and Fisher Stevens Lead Netflix’s ‘Oktoberfest’ Rom-Com",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-oktoberfest-movie-cast-first-look",
+      "article_count": 60,
+      "event_count": 60,
+      "latest_event_at": "2026-10-29T02:42:40+00:00",
+      "age_days": 0.4,
+      "latest_title": "‘Tyson Fury’ Documentary Coming to Netflix in November Ahead of Anthony Joshua Fight",
+      "latest_url": "https://www.whats-on-netflix.com/news/sports/netflix-sets-release-date-tyson-fury-documentary",
       "latest_source_signal": [
         "movie_text_context",
-        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -279,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-28T12:13:34.297344+00:00",
+      "latest_event_at": "2026-10-29T12:24:10.051577+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -351,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-10-28T12:13:34.297344+00:00",
+      "event_at": "2026-10-29T12:24:10.051577+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261028",
+      "event_key": "box_office:907d712300a5:20261029",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +406,308 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Tyson Fury’ Documentary Coming to Netflix in November Ahead of Anthony Joshua Fight",
+      "url": "https://www.whats-on-netflix.com/news/sports/netflix-sets-release-date-tyson-fury-documentary",
+      "source_url": "https://www.whats-on-netflix.com/news/sports/netflix-sets-release-date-tyson-fury-documentary",
+      "event_at": "2026-10-29T02:42:40+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Tyson Fury’ Documentary Coming to Netflix in November Ahead of Anthony Joshua Fight",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "film",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bc98fbb1606e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5b54982f96da:20261029",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "World Animation Day: Netflix’s Most Watched Original Animated Movies and Series",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/netflix-most-watched-original-animated-movies-series-ranked",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/netflix-most-watched-original-animated-movies-series-ranked",
+      "event_at": "2026-10-28T12:30:14+00:00",
+      "movie_id": "",
+      "normalized_title": "World Animation Day: Netflix’s Most Watched Original Animated Movies and Series",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "movies",
+        "most"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:41adabb4458b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:a9d4c229c124:20261028",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Extraction 3’ Wraps Filming in Thailand Ahead of a Huge Year for the Franchise on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-wraps-filming-chris-hemsworth",
+      "source_url": "https://www.whats-on-netflix.com/news/extraction-3-netflix-wraps-filming-chris-hemsworth",
+      "event_at": "2026-10-28T07:38:36+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Extraction 3’ Wraps Filming in Thailand Ahead of a Huge Year for the Franchise on Netflix",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "year"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:extraction-3-wraps-filming-in-thailand-ahead-of-a-huge-year-for-the-franchise-on-netflix:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0a7564c8acba:20261028",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "5 Best Zombie Movies and TV Shows to Watch on Netflix for Halloween 2026",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/best-zombie-shows-netflix-halloween",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-zombie-shows-netflix-halloween",
+      "event_at": "2026-10-28T07:14:19+00:00",
+      "movie_id": "",
+      "normalized_title": "5 Best Zombie Movies and TV Shows to Watch on Netflix for Halloween 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "watch",
+        "shows",
+        "available"
+      ],
+      "film_general": [
+        "movies",
+        "watch",
+        "now",
+        "best"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:5-best-zombie-movies-and-tv-shows-to-watch-on-netflix-for-halloween-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:3cec274b2b1d:20261028",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘Pride & Prejudice’ Series Gets Trailer & First Looks Ahead of December Release",
+      "url": "https://www.whats-on-netflix.com/news/netflixs-pride-prejudice-series-gets-trailer-first-looks-ahead-of-december-release",
+      "source_url": "https://www.whats-on-netflix.com/news/netflixs-pride-prejudice-series-gets-trailer-first-looks-ahead-of-december-release",
+      "event_at": "2026-10-28T06:30:51+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘Pride & Prejudice’ Series Gets Trailer & First Looks Ahead of December Release",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a9d58d84223a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:17235acd1001:20261028",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -3689,420 +3990,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Storm’: Gustaf Skarsgård’s Chaotic Thriller Is The Most Bonkers Netflix Release of 2026",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/the-storm-netflix-gustaf-skarsgard-movie-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-storm-netflix-gustaf-skarsgard-movie-review",
-      "event_at": "2026-10-15T05:44:12+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Storm’: Gustaf Skarsgård’s Chaotic Thriller Is The Most Bonkers Netflix Release of 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "most",
-        "this"
-      ],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-storm-gustaf-skarsg-rd-s-chaotic-thriller-is-the-most-bonkers-netflix-release-of-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:5386beb59cdc:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Christmas Movie Schedule 2026: Full List of New Holiday Releases",
-      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-2026-christmas-movie-lineup",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-2026-christmas-movie-lineup",
-      "event_at": "2026-10-15T05:25:54+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Christmas Movie Schedule 2026: Full List of New Holiday Releases",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "releases"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-christmas-movie-schedule-2026-full-list-of-new-holiday-releases:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0499a3f421e5:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Daredevil’ Costume Designer Liz Vastola on Creating the Vibrant Looks of ‘Best of the Best’ on Netflix",
-      "url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-costume-designer-liz-vastola-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/best-of-the-best-costume-designer-liz-vastola-interview",
-      "event_at": "2026-10-15T05:01:26+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Daredevil’ Costume Designer Liz Vastola on Creating the Vibrant Looks of ‘Best of the Best’ on Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "best",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:0a795080916e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1fe5b7f0633d:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Pulls the Plug on ‘Shadow and Bone’, Again: Mobile Game Shutting Down in November",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-pulls-the-plug-on-shadow-and-bone-again-mobile-game-shutting-down-in-november",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-pulls-the-plug-on-shadow-and-bone-again-mobile-game-shutting-down-in-november",
-      "event_at": "2026-10-15T04:46:15+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Pulls the Plug on ‘Shadow and Bone’, Again: Mobile Game Shutting Down in November",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "years"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:00a4492d80b7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:bbde5dd0a577:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘Steps’ Soundtrack To Feature New Song from BLACKPINK’s JENNIE As Official Trailer Drops",
-      "url": "https://www.whats-on-netflix.com/news/steps-trailer-drop-blackpink-jennie-soundtrack-news",
-      "source_url": "https://www.whats-on-netflix.com/news/steps-trailer-drop-blackpink-jennie-soundtrack-news",
-      "event_at": "2026-10-15T04:00:42+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘Steps’ Soundtrack To Feature New Song from BLACKPINK’s JENNIE As Official Trailer Drops",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "news",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:d74460a82cd8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3107a4df1a2c:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
-      "url": "https://www.whats-on-netflix.com/interviews/ed-goldfarb-pokemon-theme-songs-composer-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/ed-goldfarb-pokemon-theme-songs-composer-interview",
-      "event_at": "2026-10-15T02:15:36+00:00",
-      "movie_id": "",
-      "normalized_title": "How Pokémon’s Lead Composer Reimagined the Iconic “Gotta Catch ’Em All” Theme for Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "most"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:02a591d68330",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a43c90f7f91c:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Mexican ‘The Good Wife’ Adaptation ‘Alicia’s Law’ Lands on Netflix in November 2026",
-      "url": "https://www.whats-on-netflix.com/news/alicias-law-mexican-the-good-wife-adaptation-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/alicias-law-mexican-the-good-wife-adaptation-netflix-release-date",
-      "event_at": "2026-10-15T00:07:43+00:00",
-      "movie_id": "",
-      "normalized_title": "Mexican ‘The Good Wife’ Adaptation ‘Alicia’s Law’ Lands on Netflix in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:mexican-the-good-wife-adaptation-alicia-s-law-lands-on-netflix-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:c55b7b35dafe:20261015",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4117,6 +4004,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Tyson Fury’ Documentary Coming to Netflix in November Ahead of Anthony Joshua Fight",
+      "canonical_key": "movie_source:what-s-on-netflix:bc98fbb1606e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Tyson Fury’ Documentary Coming to Netflix in November Ahead of Anthony Joshua Fight",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "World Animation Day: Netflix’s Most Watched Original Animated Movies and Series",
+      "canonical_key": "movie_source:what-s-on-netflix:41adabb4458b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "World Animation Day: Netflix’s Most Watched Original Animated Movies and Series",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Pride & Prejudice’ Series Gets Trailer & First Looks Ahead of December Release",
+      "canonical_key": "movie_source:what-s-on-netflix:a9d58d84223a",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s ‘Pride & Prejudice’ Series Gets Trailer & First Looks Ahead of December Release",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4481,57 +4419,6 @@
       "source": "What's on Netflix",
       "title": "First Look at Robert Webb Filming Robert Popper’s Netflix Comedy ‘Marbles’, Kevin Eldon Joins Cast",
       "canonical_key": "movie_source:what-s-on-netflix:ac00b489ef85",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "First Look at Robert Webb Filming Robert Popper’s Netflix Comedy ‘Marbles’, Kevin Eldon Joins Cast",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘How to Kill Your Family’ Begins Filming for Netflix; First Look at Anya Taylor-Joy in London",
-      "canonical_key": "movie_source:what-s-on-netflix:18e7c8ad754d",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘How to Kill Your Family’ Begins Filming for Netflix; First Look at Anya Taylor-Joy in London",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Dane Cook Documentary About His $12 Million Betrayal Making Netflix Streaming Debut in November",
-      "canonical_key": "movie_source:what-s-on-netflix:0a465ac7ca52",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The Dane Cook Documentary About His $12 Million Betrayal Making Netflix Streaming Debut in November",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s Week of Disruption: Bela Bajaria Out, Peter Rice In as 1,000 Jobs Are Cut",
-      "canonical_key": "movie_source:what-s-on-netflix:2ededb8e1d09",
       "required_field_gaps": [
         "release_year"
       ]
