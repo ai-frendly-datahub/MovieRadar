@@ -1,24 +1,24 @@
 from __future__ import annotations
 
 import time
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from unittest.mock import MagicMock, patch
-
-import pytest
-import requests
+from zoneinfo import ZoneInfo
 
 from movieradar.collector import (
+    _JS_SOURCE_TYPES,
     RateLimiter,
     _detect_encoding,
     _entry_text,
     _extract_datetime,
+    _extract_published,
     _parse_retry_after,
     _resolve_max_workers,
-    _JS_SOURCE_TYPES,
     collect_sources,
 )
 from movieradar.exceptions import NetworkError, ParseError, SourceError
-from movieradar.models import Source
+from movieradar.models import Article, Source
+from movieradar.storage import RadarStorage
 
 
 class TestRateLimiter:
@@ -158,6 +158,69 @@ class TestExtractDatetime:
         entry = {}
         result = _extract_datetime(entry)
         assert result is None
+
+    def test_feedparser_struct_stores_utc_under_asia_seoul(self, monkeypatch, tmp_path):
+        """2026-10-28 15:00 UTC struct stays 15:00 UTC when TZ=Asia/Seoul."""
+        monkeypatch.setenv("TZ", "Asia/Seoul")
+        time.tzset()
+        try:
+            entry = {"published_parsed": time.strptime("2026-10-28 15:00:00", "%Y-%m-%d %H:%M:%S")}
+            published, published_raw = _extract_published(entry)
+            assert published_raw is None
+            assert published == datetime(2026, 10, 28, 15, 0, tzinfo=UTC)
+
+            article = Article(
+                title="게시일",
+                link="https://example.com/published-tz",
+                summary="요약",
+                published=published,
+                source="TestSource",
+                category="movie",
+                published_raw=published_raw,
+            )
+            with RadarStorage(tmp_path / "tz.duckdb") as storage:
+                storage.upsert_articles([article])
+                loaded = storage.recent_articles("movie", days=3650)
+            assert loaded[0].published == datetime(2026, 10, 28, 15, 0, tzinfo=UTC)
+        finally:
+            monkeypatch.undo()
+            time.tzset()
+
+    def test_offset_string_keeps_offset(self):
+        """Strings that already carry an offset keep that offset."""
+        entry = {"published": "Wed, 28 Oct 2026 15:00:00 +0900"}
+        result = _extract_datetime(entry)
+        assert result is not None
+        assert result.utcoffset() == timedelta(hours=9)
+        assert result.astimezone(UTC) == datetime(2026, 10, 28, 6, 0, tzinfo=UTC)
+
+    def test_zoneless_string_uses_source_or_host_default(self):
+        """Zone-less strings use default_timezone, else .kr → Seoul and others → UTC."""
+        kr_source = Source(name="씨네21", type="rss", url="https://www.cine21.co.kr/rss/news.xml")
+        kr_result = _extract_datetime({"published": "2026-10-28 15:00:00"}, kr_source)
+        assert kr_result == datetime(2026, 10, 28, 15, 0, tzinfo=ZoneInfo("Asia/Seoul"))
+
+        utc_source = Source(name="Variety", type="rss", url="https://variety.com/feed/")
+        utc_result = _extract_datetime({"published": "2026-10-28 15:00:00"}, utc_source)
+        assert utc_result == datetime(2026, 10, 28, 15, 0, tzinfo=UTC)
+
+        explicit = Source(
+            name="Variety",
+            type="rss",
+            url="https://variety.com/feed/",
+            default_timezone="Asia/Seoul",
+        )
+        explicit_result = _extract_datetime({"published": "2026-10-28 15:00:00"}, explicit)
+        assert explicit_result == datetime(2026, 10, 28, 15, 0, tzinfo=ZoneInfo("Asia/Seoul"))
+
+        configured = Source(
+            name="Variety",
+            type="rss",
+            url="https://variety.com/feed/",
+            config={"default_timezone": "Asia/Seoul"},
+        )
+        configured_result = _extract_datetime({"published": "2026-10-28 15:00:00"}, configured)
+        assert configured_result == datetime(2026, 10, 28, 15, 0, tzinfo=ZoneInfo("Asia/Seoul"))
 
 
 class TestEntryText:

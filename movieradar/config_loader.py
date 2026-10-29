@@ -191,6 +191,7 @@ def _parse_source(entry: dict[str, object]) -> Source:
         info_purpose=_str_list(entry, "info_purpose"),
         notes=_str(entry, "notes"),
         config=source_config,
+        default_timezone=_str(entry, "default_timezone"),
     )
 
 

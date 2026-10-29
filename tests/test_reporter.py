@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from datetime import UTC, datetime
+from pathlib import Path
 
 from movieradar.models import Article, CategoryConfig
 from movieradar.reporter import generate_index_html, generate_report
@@ -97,8 +98,30 @@ def test_generate_index_html(tmp_path):
     assert "test_20240315.html" in rendered
 
 
+def _ensure_ontology_contract(tmp_path: Path, monkeypatch) -> None:
+    """Use a local contract when the sibling radar-ontology checkout is absent.
+
+    ``build_summary_ontology_metadata`` returns None without that directory, so
+    a clean CI checkout never writes ``summary["ontology"]``.
+    """
+    from radar_core.ontology import resolve_runtime_contract_dir
+
+    if resolve_runtime_contract_dir() is not None:
+        return
+    contract_dir = tmp_path / "runtime_contracts"
+    contract_dir.mkdir()
+    contract = {
+        "category": "movie",
+        "ontology_version": "0.1.0",
+        "event_model_mappings": {"box_office": "media.box_office"},
+    }
+    (contract_dir / "MovieRadar.json").write_text(json.dumps(contract), encoding="utf-8")
+    monkeypatch.setenv("RADAR_ONTOLOGY_RUNTIME_DIR", str(contract_dir))
+
+
 def test_generate_report_injects_movie_quality_panel(tmp_path, monkeypatch):
     """Generated report contains MovieRadar quality telemetry when provided."""
+    _ensure_ontology_contract(tmp_path, monkeypatch)
     fixed_now = datetime(2024, 3, 15, 9, 30, tzinfo=UTC)
 
     class FixedDateTime(datetime):

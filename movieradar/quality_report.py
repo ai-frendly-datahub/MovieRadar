@@ -1,13 +1,15 @@
 from __future__ import annotations
 
-import json
 import hashlib
+import json
 import re
 from collections import Counter
 from collections.abc import Iterable, Mapping
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+
+from radar_core.dates import daily_partition_date
 
 from .models import Article, CategoryConfig, Source
 
@@ -112,7 +114,7 @@ def write_quality_report(
 ) -> dict[str, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     generated_at = _parse_datetime(str(report.get("generated_at") or "")) or datetime.now(UTC)
-    date_stamp = _as_utc(generated_at).strftime("%Y%m%d")
+    date_stamp = daily_partition_date(generated_at).strftime("%Y%m%d")
     latest_path = output_dir / f"{category_name}_quality.json"
     dated_path = output_dir / f"{category_name}_{date_stamp}_quality.json"
     encoded = json.dumps(report, ensure_ascii=False, indent=2, default=str)
@@ -458,7 +460,9 @@ def _required_field_proxy(
     raw_fields = event_config.get("required_fields")
     if not isinstance(raw_fields, list):
         raw_fields = _default_required_fields(event_model)
-    return {str(field): _field_present(row, str(field)) for field in raw_fields if str(field).strip()}
+    return {
+        str(field): _field_present(row, str(field)) for field in raw_fields if str(field).strip()
+    }
 
 
 def _required_field_gaps(
@@ -559,7 +563,11 @@ def _rank(article: Article) -> int | None:
 
 
 def _gross(article: Article) -> float | None:
-    match = re.search(r"(?:gross|box office|매출)\s*[:=]?\s*(?:USD|\$|KRW)?\s*(\d[\d,]*(?:\.\d+)?)", _article_text(article), re.I)
+    match = re.search(
+        r"(?:gross|box office|매출)\s*[:=]?\s*(?:USD|\$|KRW)?\s*(\d[\d,]*(?:\.\d+)?)",
+        _article_text(article),
+        re.I,
+    )
     return float(match.group(1).replace(",", "")) if match else None
 
 
