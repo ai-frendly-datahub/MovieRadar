@@ -124,6 +124,7 @@ def collect_browser_sources(
                 published=art.published,
                 source=art.source,
                 category=art.category or category,
+                published_raw=art.published_raw,
             )
         )
 

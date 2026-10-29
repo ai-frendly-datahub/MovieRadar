@@ -70,9 +70,7 @@ def test_build_quality_report_tracks_movie_event_statuses() -> None:
         articles=articles,
         quality_config={
             "data_quality": {
-                "quality_outputs": {
-                    "tracked_event_models": ["box_office", "release_calendar"]
-                },
+                "quality_outputs": {"tracked_event_models": ["box_office", "release_calendar"]},
                 "freshness_sla": {
                     "box_office_days": 1,
                     "release_calendar_days": 14,
@@ -110,3 +108,18 @@ def test_write_quality_report_writes_latest_and_dated_json(tmp_path) -> None:
     assert paths["latest"].name == "movie_quality.json"
     assert paths["dated"].name == "movie_20260413_quality.json"
     assert json.loads(paths["latest"].read_text(encoding="utf-8"))["category"] == "movie"
+
+
+def test_write_quality_report_uses_kst_collection_date(tmp_path) -> None:
+    """Dated quality reports use the Asia/Seoul date of the collection instant."""
+    report = {
+        "category": "movie",
+        "generated_at": "2026-10-28T15:30:00+00:00",
+        "summary": {},
+        "sources": [],
+        "events": [],
+    }
+
+    paths = write_quality_report(report, output_dir=tmp_path, category_name="movie")
+
+    assert paths["dated"].name == "movie_20261029_quality.json"
