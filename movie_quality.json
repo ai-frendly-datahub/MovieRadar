@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-01T12:46:18.219151+00:00",
+  "generated_at": "2026-11-02T14:54:47.513706+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 66,
-    "movie_signal_event_count": 67,
+    "release_calendar_events": 68,
+    "movie_signal_event_count": 69,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 36,
-    "proxy_canonical_key_count": 31,
+    "complete_canonical_key_count": 34,
+    "proxy_canonical_key_count": 35,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 67,
-    "release_year_present_count": 36,
+    "normalized_title_present_count": 69,
+    "release_year_present_count": 34,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 65,
-    "event_required_field_gap_count": 34,
+    "platform_present_count": 66,
+    "event_required_field_gap_count": 38,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 36,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 53,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,16 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 66,
-      "event_count": 66,
-      "latest_event_at": "2026-10-30T19:29:26+00:00",
-      "age_days": 1.72,
-      "latest_title": "Netflix UK Reveals Lineup of Licensed Christmas Classics for the 2026 Holiday Season",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/uk/netflix-uk-christmas-movies-2026-lineup",
+      "article_count": 68,
+      "event_count": 68,
+      "latest_event_at": "2026-11-02T14:27:14+00:00",
+      "age_days": 0.02,
+      "latest_title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
+      "latest_url": "https://www.whats-on-netflix.com/interviews/sacrifice-netflix-movie-locations-greece-iceland",
       "latest_source_signal": [
         "movie_text_context",
+        "movie_url_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -227,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 9,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-01T12:46:12.735249+00:00",
+      "latest_event_at": "2026-11-02T14:54:41.988197+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-01T12:46:12.735249+00:00",
+      "event_at": "2026-11-02T14:54:41.988197+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -394,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261101",
+      "event_key": "box_office:907d712300a5:20261102",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +406,602 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
+      "url": "https://www.whats-on-netflix.com/interviews/sacrifice-netflix-movie-locations-greece-iceland",
+      "source_url": "https://www.whats-on-netflix.com/interviews/sacrifice-netflix-movie-locations-greece-iceland",
+      "event_at": "2026-11-02T14:27:14+00:00",
+      "movie_id": "",
+      "normalized_title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a54f484b8cb2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:ae27dae5ece9:20261102",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets November 2026 Release Date for 1980s Televangelist Scandal Doc ‘Primetime Preacher$’",
+      "url": "https://www.whats-on-netflix.com/news/primetime-preachers-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/primetime-preachers-netflix-release-date",
+      "event_at": "2026-11-02T13:59:14+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets November 2026 Release Date for 1980s Televangelist Scandal Doc ‘Primetime Preacher$’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-november-2026-release-date-for-1980s-televangelist-scandal-doc-primetime-preacher:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:1ba6838d466a:20261102",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Dept. Q’ Season 2: Everything We Know About the New Case and Cast As Filming Wraps",
+      "url": "https://www.whats-on-netflix.com/news/dept-q-season-2-release-date-everything-we-know-as-filming-wraps",
+      "source_url": "https://www.whats-on-netflix.com/news/dept-q-season-2-release-date-everything-we-know-as-filming-wraps",
+      "event_at": "2026-11-02T13:20:44+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Dept. Q’ Season 2: Everything We Know About the New Case and Cast As Filming Wraps",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "now",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:73b4e39b17d4",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e3b6b4436163:20261102",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix UK in November 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026",
+      "event_at": "2026-11-02T12:37:26+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix UK in November 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "nolan"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-uk-in-november-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:eb44189f212f:20261102",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Over 500 IMAX Locations Confirmed for ‘The Further Mis-Adventures of Cliff Booth’ Global Release",
+      "url": "https://www.whats-on-netflix.com/news/over-500-imax-locations-confirmed-for-the-further-mis-adventures-of-cliff-booth-global-release",
+      "source_url": "https://www.whats-on-netflix.com/news/over-500-imax-locations-confirmed-for-the-further-mis-adventures-of-cliff-booth-global-release",
+      "event_at": "2026-11-02T11:54:31+00:00",
+      "movie_id": "",
+      "normalized_title": "Over 500 IMAX Locations Confirmed for ‘The Further Mis-Adventures of Cliff Booth’ Global Release",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "imax",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "imax"
+      ],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:2580fbcaf501",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5e99888434bd:20261102",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
+      "url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-movies-netflix-2026-2027",
+      "event_at": "2026-11-01T18:23:35+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s 2026 & 2027 Spanish Movie Slate: All Upcoming Films & First Looks",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "preview",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "preview"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "films",
+        "movie",
+        "movies",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-s-2026-2027-spanish-movie-slate-all-upcoming-films-first-looks:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:65fc396a1f6a:20261101",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Is ‘The Gray Man 2’ Filming in New York? The Truth Behind the Viral Movie Set Footage",
+      "url": "https://www.whats-on-netflix.com/news/the-gray-man-2-netflix-ishowspeed-rumors-debunked",
+      "source_url": "https://www.whats-on-netflix.com/news/the-gray-man-2-netflix-ishowspeed-rumors-debunked",
+      "event_at": "2026-11-01T16:32:20+00:00",
+      "movie_id": "",
+      "normalized_title": "Is ‘The Gray Man 2’ Filming in New York? The Truth Behind the Viral Movie Set Footage",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new"
+      ],
+      "platform": [],
+      "film_general": [
+        "film",
+        "movie",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:fcb0f3b13f2c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:dc552c9b01e6:20261101",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 1, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-1-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-1-2026",
+      "event_at": "2026-11-01T15:54:40+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 1, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movie",
+        "movies",
+        "top",
+        "new",
+        "first",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-november-1-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:5ae616782dbe:20261101",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Indian Movie and Show New to Netflix in October 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/every-indian-movie-and-show-new-to-netflix-in-october-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/every-indian-movie-and-show-new-to-netflix-in-october-2026",
+      "event_at": "2026-11-01T15:40:28+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Indian Movie and Show New to Netflix in October 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "show"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:every-indian-movie-and-show-new-to-netflix-in-october-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:967eac59745f:20261101",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Beat Luke Littler’ Debrief: Live Event Stunt Hits Netflix Top 10s, Sherrock Backlash, and a 2027 Sequel Tease",
+      "url": "https://www.whats-on-netflix.com/news/beat-luke-littler-netflix-top-10-data",
+      "source_url": "https://www.whats-on-netflix.com/news/beat-luke-littler-netflix-top-10-data",
+      "event_at": "2026-11-01T13:02:35+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Beat Luke Littler’ Debrief: Live Event Stunt Hits Netflix Top 10s, Sherrock Backlash, and a 2027 Sequel Tease",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "viewing",
+        "top",
+        "latest"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:beat-luke-littler-debrief-live-event-stunt-hits-netflix-top-10s-sherrock-backlash-and-a-2027-sequel-tease:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:2d811156ed3b:20261101",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -1848,63 +2444,6 @@
       "canonical_key": "movie:bridgerton-season-5-officially-wraps-filming-ahead-of-2027-release:2027:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:73e9afeb0cfe:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix UK in November 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-uk-in-november-2026",
-      "event_at": "2026-10-27T15:41:26+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix UK in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "nolan"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-uk-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:eb44189f212f:20261027",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
@@ -3953,417 +4492,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Manifest Spin-Off ‘Arrivals’ Begins Filming in January 2027: First Character Details Revealed",
-      "url": "https://www.whats-on-netflix.com/news/manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed",
-      "source_url": "https://www.whats-on-netflix.com/news/manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed",
-      "event_at": "2026-10-19T10:37:53+00:00",
-      "movie_id": "",
-      "normalized_title": "Manifest Spin-Off ‘Arrivals’ Begins Filming in January 2027: First Character Details Revealed",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new"
-      ],
-      "platform": [],
-      "film_general": [
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:manifest-spin-off-arrivals-begins-filming-in-january-2027-first-character-details-revealed:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1905cc78a5bb:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘All of Us Are Dead’ Season 2: Expected Netflix Release Date & Everything We Know",
-      "url": "https://www.whats-on-netflix.com/news/all-of-us-are-dead-season-2-on-netflix-everything-we-know-so-far-2",
-      "source_url": "https://www.whats-on-netflix.com/news/all-of-us-are-dead-season-2-on-netflix-everything-we-know-so-far-2",
-      "event_at": "2026-10-19T07:28:24+00:00",
-      "movie_id": "",
-      "normalized_title": "‘All of Us Are Dead’ Season 2: Expected Netflix Release Date & Everything We Know",
-      "release_year": "2022",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "show",
-        "release"
-      ],
-      "film_general": [
-        "time",
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:all-of-us-are-dead-season-2-expected-netflix-release-date-everything-we-know:2022:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0087f5b16928:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Ibai Llanos’ Live Boxing Events ‘La Velada del Año’ to Stream Exclusively on Netflix From 2027",
-      "url": "https://www.whats-on-netflix.com/news/ibai-llanos-live-boxing-event-la-velada-del-ano-to-stream-exclusively-on-netflix-from-2027",
-      "source_url": "https://www.whats-on-netflix.com/news/ibai-llanos-live-boxing-event-la-velada-del-ano-to-stream-exclusively-on-netflix-from-2027",
-      "event_at": "2026-10-19T06:22:05+00:00",
-      "movie_id": "",
-      "normalized_title": "Ibai Llanos’ Live Boxing Events ‘La Velada del Año’ to Stream Exclusively on Netflix From 2027",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming"
-      ],
-      "film_general": [
-        "year",
-        "one"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:ibai-llanos-live-boxing-events-la-velada-del-a-o-to-stream-exclusively-on-netflix-from-2027:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:3545ee20d70d:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix This Week: October 19 to 25, 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-19-to-25-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-october-19-to-25-2026",
-      "event_at": "2026-10-19T05:47:06+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix This Week: October 19 to 25, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [
-        "theatrical",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-this-week-october-19-to-25-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:78550d44ae9b:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Italian Drama Film ‘You, Me, Us’: October 2026 Release & First Look",
-      "url": "https://www.whats-on-netflix.com/news/you-me-us-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/you-me-us-netflix-release-date",
-      "event_at": "2026-10-19T04:55:22+00:00",
-      "movie_id": "",
-      "normalized_title": "Italian Drama Film ‘You, Me, Us’: October 2026 Release & First Look",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere",
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "film",
-        "latest",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:italian-drama-film-you-me-us-october-2026-release-first-look:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:7f67fd3948ef:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Obsession’ Confirms Netflix US Streaming Release Date",
-      "url": "https://www.whats-on-netflix.com/news/obsession-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/obsession-netflix-release-date",
-      "event_at": "2026-10-19T02:55:25+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Obsession’ Confirms Netflix US Streaming Release Date",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:obsession-confirms-netflix-us-streaming-release-date:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f32824dc1f50:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Is Losing 10 Huge Shows in November Including The Big C, Little Women and Minx",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/licensed-shows-leaving-netflix-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/licensed-shows-leaving-netflix-november-2026",
-      "event_at": "2026-10-19T00:58:52+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Is Losing 10 Huge Shows in November Including The Big C, Little Women and Minx",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows"
-      ],
-      "film_general": [
-        "year",
-        "one",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-is-losing-10-huge-shows-in-november-including-the-big-c-little-women-and-minx:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:ce0181404cc0:20261019",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4378,6 +4506,74 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
+      "canonical_key": "movie_source:what-s-on-netflix:a54f484b8cb2",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Dept. Q’ Season 2: Everything We Know About the New Case and Cast As Filming Wraps",
+      "canonical_key": "movie_source:what-s-on-netflix:73b4e39b17d4",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Dept. Q’ Season 2: Everything We Know About the New Case and Cast As Filming Wraps",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Over 500 IMAX Locations Confirmed for ‘The Further Mis-Adventures of Cliff Booth’ Global Release",
+      "canonical_key": "movie_source:what-s-on-netflix:2580fbcaf501",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Over 500 IMAX Locations Confirmed for ‘The Further Mis-Adventures of Cliff Booth’ Global Release",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Is ‘The Gray Man 2’ Filming in New York? The Truth Behind the Viral Movie Set Footage",
+      "canonical_key": "movie_source:what-s-on-netflix:fcb0f3b13f2c",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Is ‘The Gray Man 2’ Filming in New York? The Truth Behind the Viral Movie Set Footage",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -4725,74 +4921,6 @@
       "source": "What's on Netflix",
       "title": "‘The Gentlemen’ Season 3 in Production at Netflix as Robert Carlyle, Elijah Wood and Orlando Bloom Join Cast",
       "canonical_key": "movie_source:what-s-on-netflix:0825f453a310",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Gentlemen’ Season 3 in Production at Netflix as Robert Carlyle, Elijah Wood and Orlando Bloom Join Cast",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Nobody Wants This’ Season 3 and ‘Lupin’ Lead Netflix UK’s 43 New Releases This Week",
-      "canonical_key": "movie_source:what-s-on-netflix:36639a961d3a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Nobody Wants This’ Season 3 and ‘Lupin’ Lead Netflix UK’s 43 New Releases This Week",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
-      "canonical_key": "movie_source:what-s-on-netflix:ddaf794c8b9a",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
-      "canonical_key": "movie_source:what-s-on-netflix:d3ea0c6df929",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "A24’s ‘Misty Green’ Skips HBO Max for Netflix Streaming Debut in November",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s New Spanish Murder Mystery ‘The Whisper of Fire’ Begins Filming",
-      "canonical_key": "movie_source:what-s-on-netflix:f988e7a13076",
       "required_field_gaps": [
         "release_year"
       ]
