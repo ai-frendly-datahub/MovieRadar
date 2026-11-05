@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-04T13:52:16.846966+00:00",
+  "generated_at": "2026-11-05T14:06:14.951896+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 71,
-    "movie_signal_event_count": 72,
+    "release_calendar_events": 73,
+    "movie_signal_event_count": 74,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 38,
-    "proxy_canonical_key_count": 34,
+    "complete_canonical_key_count": 37,
+    "proxy_canonical_key_count": 37,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 72,
-    "release_year_present_count": 38,
+    "normalized_title_present_count": 74,
+    "release_year_present_count": 37,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 70,
-    "event_required_field_gap_count": 37,
+    "platform_present_count": 72,
+    "event_required_field_gap_count": 40,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 37,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 71,
-      "event_count": 71,
-      "latest_event_at": "2026-11-04T11:52:11+00:00",
-      "age_days": 0.08,
-      "latest_title": "Netflix Sets December 2026 Release Date for YA Drama ‘Sunshine Girls’",
-      "latest_url": "https://www.whats-on-netflix.com/news/sunshine-girls-netflix-release-date",
+      "article_count": 73,
+      "event_count": 73,
+      "latest_event_at": "2026-11-05T10:39:31+00:00",
+      "age_days": 0.14,
+      "latest_title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
+      "latest_url": "https://www.whats-on-netflix.com/what-to-watch/a-dogs-perfect-christmas-netflix-review-dennis-quaid-stars-in-a-moving-holiday-tale-where-the-pup-actually-lives",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -277,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-04T13:52:11.401502+00:00",
+      "latest_event_at": "2026-11-05T14:06:08.742863+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-04T13:52:11.401502+00:00",
+      "event_at": "2026-11-05T14:06:08.742863+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -377,7 +377,6 @@
       ],
       "film_general": [
         "movie",
-        "movies",
         "see",
         "viewing",
         "story",
@@ -394,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261104",
+      "event_key": "box_office:907d712300a5:20261105",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,311 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/a-dogs-perfect-christmas-netflix-review-dennis-quaid-stars-in-a-moving-holiday-tale-where-the-pup-actually-lives",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/a-dogs-perfect-christmas-netflix-review-dennis-quaid-stars-in-a-moving-holiday-tale-where-the-pup-actually-lives",
+      "event_at": "2026-11-05T10:39:31+00:00",
+      "movie_id": "",
+      "normalized_title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "watch"
+      ],
+      "film_general": [
+        "movie",
+        "watch",
+        "review",
+        "now"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:59fc9396e92e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e12a4f293411:20261105",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘A Dog’s Perfect Christmas’ Director Cathryn Michon on Adapting the W. Bruce Cameron Novel for Netflix",
+      "url": "https://www.whats-on-netflix.com/interviews/a-dogs-perfect-christmas-netflix-interview-cathryn-michon",
+      "source_url": "https://www.whats-on-netflix.com/interviews/a-dogs-perfect-christmas-netflix-interview-cathryn-michon",
+      "event_at": "2026-11-04T17:18:00+00:00",
+      "movie_id": "",
+      "normalized_title": "‘A Dog’s Perfect Christmas’ Director Cathryn Michon on Adapting the W. Bruce Cameron Novel for Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bea3cde88611",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4e20d321ac51:20261104",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Filming Begins on ‘Operation TAP’ Netflix’s First Portuguese Film",
+      "url": "https://www.whats-on-netflix.com/news/operation-tap-netflixs-first-portuguese-film",
+      "source_url": "https://www.whats-on-netflix.com/news/operation-tap-netflixs-first-portuguese-film",
+      "event_at": "2026-11-04T16:50:22+00:00",
+      "movie_id": "",
+      "normalized_title": "Filming Begins on ‘Operation TAP’ Netflix’s First Portuguese Film",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "story",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:e795e35a5d10",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d593ab5fda4e:20261104",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Take’ Netflix Heist-Thriller Starring Denzel Washington, Daisy Edger Jones & Robert Pattinson: What We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/the-take-netflix-heist-thriller-what-we-know-so-far",
+      "source_url": "https://www.whats-on-netflix.com/news/the-take-netflix-heist-thriller-what-we-know-so-far",
+      "event_at": "2026-11-04T14:26:59+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Take’ Netflix Heist-Thriller Starring Denzel Washington, Daisy Edger Jones & Robert Pattinson: What We Know So Far",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-take-netflix-heist-thriller-starring-denzel-washington-daisy-edger-jones-robert-pattinson-what-we-know-so-far:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:8b4d316839a2:20261104",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look at What’s Coming to Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-december-2026",
+      "event_at": "2026-11-04T13:55:54+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look at What’s Coming to Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "latest",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:48ef6582b405:20261104",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -4499,177 +4803,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in November 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-in-november-2026",
-      "event_at": "2026-10-22T06:34:01+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:e00fa86ee8bf:20261022",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Meryl Streep’s Netflix Series ‘The Corrections’ Gearing Up For January 2027 Filming Start",
-      "url": "https://www.whats-on-netflix.com/news/meryl-streeps-the-corrections-netflix-series-january-2027-filming",
-      "source_url": "https://www.whats-on-netflix.com/news/meryl-streeps-the-corrections-netflix-series-january-2027-filming",
-      "event_at": "2026-10-22T06:19:34+00:00",
-      "movie_id": "",
-      "normalized_title": "Meryl Streep’s Netflix Series ‘The Corrections’ Gearing Up For January 2027 Filming Start",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:meryl-streep-s-netflix-series-the-corrections-gearing-up-for-january-2027-filming-start:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:be9d993c8686:20261022",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "David Fincher Says Netflix’s ‘Cliff Booth’ Follow-up Could’ve Been a Series",
-      "url": "https://www.whats-on-netflix.com/news/the-further-misadventures-of-cliff-booth-netflix-series-movie",
-      "source_url": "https://www.whats-on-netflix.com/news/the-further-misadventures-of-cliff-booth-netflix-series-movie",
-      "event_at": "2026-10-22T04:45:40+00:00",
-      "movie_id": "",
-      "normalized_title": "David Fincher Says Netflix’s ‘Cliff Booth’ Follow-up Could’ve Been a Series",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "imax",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "imax"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [
-        "time",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:david-fincher-says-netflix-s-cliff-booth-follow-up-could-ve-been-a-series:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:4790e0efa41a:20261022",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4684,6 +4817,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
+      "canonical_key": "movie_source:what-s-on-netflix:59fc9396e92e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘A Dog’s Perfect Christmas’ Director Cathryn Michon on Adapting the W. Bruce Cameron Novel for Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:bea3cde88611",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘A Dog’s Perfect Christmas’ Director Cathryn Michon on Adapting the W. Bruce Cameron Novel for Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Filming Begins on ‘Operation TAP’ Netflix’s First Portuguese Film",
+      "canonical_key": "movie_source:what-s-on-netflix:e795e35a5d10",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Filming Begins on ‘Operation TAP’ Netflix’s First Portuguese Film",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5048,57 +5232,6 @@
       "source": "What's on Netflix",
       "title": "Keanu Reeves Replaces Alan Ritchson in Netflix’s Action Thriller ‘Maelstrom’",
       "canonical_key": "movie_source:what-s-on-netflix:3335b30c7e9c",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Keanu Reeves Replaces Alan Ritchson in Netflix’s Action Thriller ‘Maelstrom’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Farming Simulator Leaving Netflix Games After 3 Years",
-      "canonical_key": "movie_source:what-s-on-netflix:3b8f80912fcb",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Farming Simulator Leaving Netflix Games After 3 Years",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Nicola Coughlan Films Overnight Scenes for Netflix’s Roald Dahl Series as Kevin Bishop and Kadeem Ramsay Join Cast",
-      "canonical_key": "movie_source:what-s-on-netflix:3f5b94069387",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Nicola Coughlan Films Overnight Scenes for Netflix’s Roald Dahl Series as Kevin Bishop and Kadeem Ramsay Join Cast",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Begins Filming ‘Jotadé’, New Spanish Crime Thriller Miniseries Starring Jose Coronado and Jaime Lorente",
-      "canonical_key": "movie_source:what-s-on-netflix:a2bf79ad4502",
       "required_field_gaps": [
         "release_year"
       ]
