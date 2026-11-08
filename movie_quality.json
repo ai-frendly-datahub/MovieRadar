@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-07T12:33:32.800060+00:00",
+  "generated_at": "2026-11-08T12:51:36.979717+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 76,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 40,
-    "proxy_canonical_key_count": 36,
+    "complete_canonical_key_count": 39,
+    "proxy_canonical_key_count": 37,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 76,
-    "release_year_present_count": 40,
+    "release_year_present_count": 39,
     "rank_present_count": 1,
     "gross_present_count": 0,
     "platform_present_count": 72,
-    "event_required_field_gap_count": 39,
+    "event_required_field_gap_count": 40,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 88,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 54,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,11 +200,12 @@
       "status": "fresh",
       "article_count": 75,
       "event_count": 75,
-      "latest_event_at": "2026-11-06T20:06:57+00:00",
-      "age_days": 0.69,
-      "latest_title": "‘Welcome to El Bulli’: Ferran Adrià Chef Drama Sets Netflix Release Date",
-      "latest_url": "https://www.whats-on-netflix.com/news/welcome-to-el-bulli-ferran-adria-chef-drama-sets-netflix-release-date",
+      "latest_event_at": "2026-11-08T11:02:25+00:00",
+      "age_days": 0.08,
+      "latest_title": "‘Insidious: Out of the Further’ Lands Netflix Streaming Debut Much Earlier Than Expected",
+      "latest_url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-us-release-date-confirmed",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-07T12:33:29.440645+00:00",
+      "latest_event_at": "2026-11-08T12:51:31.944971+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-07T12:33:29.440645+00:00",
+      "event_at": "2026-11-08T12:51:31.944971+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -377,10 +378,8 @@
       ],
       "film_general": [
         "movie",
-        "movies",
         "cinema",
         "see",
-        "viewing",
         "story",
         "time",
         "top",
@@ -395,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261107",
+      "event_key": "box_office:907d712300a5:20261108",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +405,65 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Insidious: Out of the Further’ Lands Netflix Streaming Debut Much Earlier Than Expected",
+      "url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-us-release-date-confirmed",
+      "source_url": "https://www.whats-on-netflix.com/news/insidious-out-of-the-further-netflix-us-release-date-confirmed",
+      "event_at": "2026-11-08T11:02:25+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Insidious: Out of the Further’ Lands Netflix Streaming Debut Much Earlier Than Expected",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:5a9a0218eb47",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:2a2f108b93eb:20261108",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4854,68 +4912,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 24, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026",
-      "event_at": "2026-10-24T14:04:37+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: October 24, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-october-24-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:4a8896325331:20261024",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -4930,6 +4926,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Insidious: Out of the Further’ Lands Netflix Streaming Debut Much Earlier Than Expected",
+      "canonical_key": "movie_source:what-s-on-netflix:5a9a0218eb47",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Insidious: Out of the Further’ Lands Netflix Streaming Debut Much Earlier Than Expected",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5328,23 +5341,6 @@
       "source": "What's on Netflix",
       "title": "Everyone Thinks They Know How to Fix Netflix. The Data Proves They’re All Wrong.",
       "canonical_key": "movie_source:what-s-on-netflix:ad03f1f960a7",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everyone Thinks They Know How to Fix Netflix. The Data Proves They’re All Wrong.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Should You Watch ‘Collision Course’? Review of the New Netflix Thriller",
-      "canonical_key": "movie_source:what-s-on-netflix:6779722324b9",
       "required_field_gaps": [
         "release_year"
       ]
