@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-09T15:22:47.315366+00:00",
+  "generated_at": "2026-11-10T14:28:18.042519+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 77,
-    "movie_signal_event_count": 78,
+    "release_calendar_events": 82,
+    "movie_signal_event_count": 83,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 39,
-    "proxy_canonical_key_count": 39,
+    "complete_canonical_key_count": 43,
+    "proxy_canonical_key_count": 40,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 78,
-    "release_year_present_count": 39,
+    "normalized_title_present_count": 83,
+    "release_year_present_count": 43,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 74,
-    "event_required_field_gap_count": 42,
+    "platform_present_count": 78,
+    "event_required_field_gap_count": 43,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,14 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 77,
-      "event_count": 77,
-      "latest_event_at": "2026-11-09T14:58:39+00:00",
-      "age_days": 0.02,
-      "latest_title": "Denzel Washington and Robert Pattinson Heist Thriller ‘The Take’ Gets Netflix Release Date & First Looks",
-      "latest_url": "https://www.whats-on-netflix.com/news/the-take-netflix-release-date-denzel-washington-robert-pattinson",
+      "article_count": 82,
+      "event_count": 82,
+      "latest_event_at": "2026-11-10T14:18:36+00:00",
+      "age_days": 0.01,
+      "latest_title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
+      "latest_url": "https://www.whats-on-netflix.com/news/blood-legacy-cancelled-netflix-season-2",
       "latest_source_signal": [
+        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-09T15:22:41.067420+00:00",
+      "latest_event_at": "2026-11-10T14:28:14.256082+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-09T15:22:41.067420+00:00",
+      "event_at": "2026-11-10T14:28:14.256082+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -377,11 +378,11 @@
       ],
       "film_general": [
         "movie",
+        "movies",
         "cinema",
         "see",
         "story",
         "time",
-        "best",
         "top",
         "new",
         "latest"
@@ -394,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261109",
+      "event_key": "box_office:907d712300a5:20261110",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +407,418 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
+      "url": "https://www.whats-on-netflix.com/news/blood-legacy-cancelled-netflix-season-2",
+      "source_url": "https://www.whats-on-netflix.com/news/blood-legacy-cancelled-netflix-season-2",
+      "event_at": "2026-11-10T14:18:36+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "films"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:3a52ede057d0",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f520bddb8a9d:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s ‘Assassin’s Creed’: Everything We Know As New Cast and Directors Join and Filming Wraps",
+      "url": "https://www.whats-on-netflix.com/news/netflixs-assassins-creed-everything-we-know-so-far",
+      "source_url": "https://www.whats-on-netflix.com/news/netflixs-assassins-creed-everything-we-know-so-far",
+      "event_at": "2026-11-10T13:59:33+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s ‘Assassin’s Creed’: Everything We Know As New Cast and Directors Join and Filming Wraps",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "release"
+      ],
+      "film_general": [
+        "years",
+        "new",
+        "post"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-s-assassin-s-creed-everything-we-know-as-new-cast-and-directors-join-and-filming-wraps:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:11b97ec4cbba:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
+      "url": "https://www.whats-on-netflix.com/news/league-of-legends-music-collection-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/league-of-legends-music-collection-netflix-release-date",
+      "event_at": "2026-11-10T13:51:22+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "cinematic",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:46f68b977cce",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:715fe80b7910:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
+      "url": "https://www.whats-on-netflix.com/news/pagans-netflix-thriller-drama-series-everything-we-know",
+      "source_url": "https://www.whats-on-netflix.com/news/pagans-netflix-thriller-drama-series-everything-we-know",
+      "event_at": "2026-11-10T11:01:11+00:00",
+      "movie_id": "",
+      "normalized_title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "blockbuster",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "blockbuster"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6d62f01417a4",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e92a2608f012:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Stranger Things’ Prequel ‘Other Worlds’ Gets Filming Update Plus The Fan Reaction So Far",
+      "url": "https://www.whats-on-netflix.com/news/other-worlds-stranger-things-prequel-filming-dates",
+      "source_url": "https://www.whats-on-netflix.com/news/other-worlds-stranger-things-prequel-filming-dates",
+      "event_at": "2026-11-09T21:38:54+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Stranger Things’ Prequel ‘Other Worlds’ Gets Filming Update Plus The Fan Reaction So Far",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "production"
+      ],
+      "platform": [],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:stranger-things-prequel-other-worlds-gets-filming-update-plus-the-fan-reaction-so-far:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:336a53962159:20261109",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Over 80 Originals Eying Removal from Netflix Throughout 2027",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/over-80-originals-eying-removal-from-netflix-throughout-2027",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/over-80-originals-eying-removal-from-netflix-throughout-2027",
+      "event_at": "2026-11-09T19:33:20+00:00",
+      "movie_id": "",
+      "normalized_title": "Over 80 Originals Eying Removal from Netflix Throughout 2027",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:over-80-originals-eying-removal-from-netflix-throughout-2027:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7ee89e094836:20261109",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Football Manager Mobile’ Getting Major Update on Netflix",
+      "url": "https://www.whats-on-netflix.com/news/netflix-games/football-manager-2027-mobile-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/football-manager-2027-mobile-netflix-release-date",
+      "event_at": "2026-11-09T16:08:01+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Football Manager Mobile’ Getting Major Update on Netflix",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "most",
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:football-manager-mobile-getting-major-update-on-netflix:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:b4e91c476cb6:20261109",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -4915,128 +5328,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Farming Simulator Leaving Netflix Games After 3 Years",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/farming-simulator-leaving-netflix-games-after-3-years",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/farming-simulator-leaving-netflix-games-after-3-years",
-      "event_at": "2026-10-27T04:37:52+00:00",
-      "movie_id": "",
-      "normalized_title": "Farming Simulator Leaving Netflix Games After 3 Years",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "years",
-        "most",
-        "one",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3b8f80912fcb",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:3a12b6c8c42e:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Nicola Coughlan Films Overnight Scenes for Netflix’s Roald Dahl Series as Kevin Bishop and Kadeem Ramsay Join Cast",
-      "url": "https://www.whats-on-netflix.com/news/nicola-coughlan-films-overnight-scenes-for-netflixs-roald-dahl-series-as-kevin-bishop-and-kadeem-ramsay-join-cast",
-      "source_url": "https://www.whats-on-netflix.com/news/nicola-coughlan-films-overnight-scenes-for-netflixs-roald-dahl-series-as-kevin-bishop-and-kadeem-ramsay-join-cast",
-      "event_at": "2026-10-27T03:58:48+00:00",
-      "movie_id": "",
-      "normalized_title": "Nicola Coughlan Films Overnight Scenes for Netflix’s Roald Dahl Series as Kevin Bishop and Kadeem Ramsay Join Cast",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "films"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3f5b94069387",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:968cf091d70e:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5051,6 +5342,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
+      "canonical_key": "movie_source:what-s-on-netflix:3a52ede057d0",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:46f68b977cce",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
+      "canonical_key": "movie_source:what-s-on-netflix:6d62f01417a4",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5415,57 +5757,6 @@
       "source": "What's on Netflix",
       "title": "‘Teen Wolf’ Leaving Netflix After Only a Year",
       "canonical_key": "movie_source:what-s-on-netflix:33321c5020bd",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Teen Wolf’ Leaving Netflix After Only a Year",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
-      "canonical_key": "movie_source:what-s-on-netflix:a54f484b8cb2",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Why Romain Gavras’s Netflix Movie ‘Sacrifice’ Ditched Iceland for Greek Volcanoes",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Dept. Q’ Season 2: Everything We Know About the New Case and Cast As Filming Wraps",
-      "canonical_key": "movie_source:what-s-on-netflix:73b4e39b17d4",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Dept. Q’ Season 2: Everything We Know About the New Case and Cast As Filming Wraps",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Over 500 IMAX Locations Confirmed for ‘The Further Mis-Adventures of Cliff Booth’ Global Release",
-      "canonical_key": "movie_source:what-s-on-netflix:2580fbcaf501",
       "required_field_gaps": [
         "release_year"
       ]
