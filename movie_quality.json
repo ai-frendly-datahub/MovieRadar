@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-10T14:28:18.042519+00:00",
+  "generated_at": "2026-11-11T13:40:26.026261+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 83,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 43,
-    "proxy_canonical_key_count": 40,
+    "complete_canonical_key_count": 44,
+    "proxy_canonical_key_count": 39,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 83,
-    "release_year_present_count": 43,
+    "release_year_present_count": 44,
     "rank_present_count": 1,
     "gross_present_count": 0,
     "platform_present_count": 78,
-    "event_required_field_gap_count": 43,
+    "event_required_field_gap_count": 42,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 43,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,10 +200,10 @@
       "status": "fresh",
       "article_count": 82,
       "event_count": 82,
-      "latest_event_at": "2026-11-10T14:18:36+00:00",
-      "age_days": 0.01,
-      "latest_title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
-      "latest_url": "https://www.whats-on-netflix.com/news/blood-legacy-cancelled-netflix-season-2",
+      "latest_event_at": "2026-11-11T13:04:56+00:00",
+      "age_days": 0.02,
+      "latest_title": "What’s Leaving Netflix in December 2026",
+      "latest_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-december-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-10T14:28:14.256082+00:00",
+      "latest_event_at": "2026-11-11T13:40:22.129162+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-10T14:28:14.256082+00:00",
+      "event_at": "2026-11-11T13:40:22.129162+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261110",
+      "event_key": "box_office:907d712300a5:20261111",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +407,408 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-december-2026",
+      "event_at": "2026-11-11T13:04:56+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "year"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:32c8c0d9db45:20261111",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
+      "url": "https://www.whats-on-netflix.com/news/john-earlys-cult-comedy-maddies-secret-sets-netflix-streaming-debut",
+      "source_url": "https://www.whats-on-netflix.com/news/john-earlys-cult-comedy-maddies-secret-sets-netflix-streaming-debut",
+      "event_at": "2026-11-11T12:48:00+00:00",
+      "movie_id": "",
+      "normalized_title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6226fe2eb5da",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5b7b839c238c:20261111",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Team Behind ‘Culinary Class Wars’ Sets New Singing Competition at Netflix ‘Vocal Class Wars’",
+      "url": "https://www.whats-on-netflix.com/news/netflix-greenlights-vocal-class-wars-singing-competition-2027",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-greenlights-vocal-class-wars-singing-competition-2027",
+      "event_at": "2026-11-11T10:15:56+00:00",
+      "movie_id": "",
+      "normalized_title": "The Team Behind ‘Culinary Class Wars’ Sets New Singing Competition at Netflix ‘Vocal Class Wars’",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-team-behind-culinary-class-wars-sets-new-singing-competition-at-netflix-vocal-class-wars:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:31a639893343:20261111",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "How ‘The Body’ Cinematographer Isiah Donté Lee Captured The Show’s Dark Atmosphere",
+      "url": "https://www.whats-on-netflix.com/interviews/the-body-netflix-cinematographer-isiah-donte-lee-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/the-body-netflix-cinematographer-isiah-donte-lee-interview",
+      "event_at": "2026-11-10T19:08:25+00:00",
+      "movie_id": "",
+      "normalized_title": "How ‘The Body’ Cinematographer Isiah Donté Lee Captured The Show’s Dark Atmosphere",
+      "release_year": "2004",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "show"
+      ],
+      "film_general": [
+        "latest"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:how-the-body-cinematographer-isiah-dont-lee-captured-the-show-s-dark-atmosphere:2004:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:6e42a3d2085b:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look & Release Date For Netflix Period Drama ‘The Age of Innocence’",
+      "url": "https://www.whats-on-netflix.com/news/first-look-release-date-for-netflix-period-drama-the-age-of-innocence",
+      "source_url": "https://www.whats-on-netflix.com/news/first-look-release-date-for-netflix-period-drama-the-age-of-innocence",
+      "event_at": "2026-11-10T16:53:04+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look & Release Date For Netflix Period Drama ‘The Age of Innocence’",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:first-look-release-date-for-netflix-period-drama-the-age-of-innocence:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:7f6059978168:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Sony Pictures Movies Coming to Netflix in 2027: Resident Evil, The Legend of Zelda, Spider-Verse & More",
+      "url": "https://www.whats-on-netflix.com/coming-soon/sony-pictures-movies-2027-netflix-schedule",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/sony-pictures-movies-2027-netflix-schedule",
+      "event_at": "2026-11-10T16:35:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Sony Pictures Movies Coming to Netflix in 2027: Resident Evil, The Legend of Zelda, Spider-Verse & More",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "sony pictures",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "theatrical",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:sony-pictures-movies-coming-to-netflix-in-2027-resident-evil-the-legend-of-zelda-spider-verse-more:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f45bd7b48dc7:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Leaving Netflix UK in December 2026",
+      "url": "https://www.whats-on-netflix.com/news/movies-tv-shows-leaving-netflix-uk-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/movies-tv-shows-leaving-netflix-uk-december-2026",
+      "event_at": "2026-11-10T15:49:10+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Leaving Netflix UK in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "shows"
+      ],
+      "film_general": [
+        "movies"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-leaving-netflix-uk-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:ad4684128164:20261110",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -3064,62 +3466,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "What’s Leaving Netflix in December 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-december-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/whats-leaving-netflix-december-2026",
-      "event_at": "2026-11-02T17:27:56+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Leaving Netflix in December 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "year"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-leaving-netflix-in-december-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:32c8c0d9db45:20261102",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "‘Teen Wolf’ Leaving Netflix After Only a Year",
       "url": "https://www.whats-on-netflix.com/leaving-soon/teen-wolf-leaving-netflix-us-after-only-a-year",
       "source_url": "https://www.whats-on-netflix.com/leaving-soon/teen-wolf-leaving-netflix-us-after-only-a-year",
@@ -4973,361 +5319,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Jeanne Goursaud, Jannis Niewöhner, Peter Gallagher and Fisher Stevens Lead Netflix’s ‘Oktoberfest’ Rom-Com",
-      "url": "https://www.whats-on-netflix.com/news/netflix-oktoberfest-movie-cast-first-look",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-oktoberfest-movie-cast-first-look",
-      "event_at": "2026-10-28T10:00:48+00:00",
-      "movie_id": "",
-      "normalized_title": "Jeanne Goursaud, Jannis Niewöhner, Peter Gallagher and Fisher Stevens Lead Netflix’s ‘Oktoberfest’ Rom-Com",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "most",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:609c4ae766d0",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d6b9fb823061:20261028",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Keanu Reeves Replaces Alan Ritchson in Netflix’s Action Thriller ‘Maelstrom’",
-      "url": "https://www.whats-on-netflix.com/news/keanu-reeves-replaces-alan-ritchson-in-netflix-action-thriller-maelstrom",
-      "source_url": "https://www.whats-on-netflix.com/news/keanu-reeves-replaces-alan-ritchson-in-netflix-action-thriller-maelstrom",
-      "event_at": "2026-10-28T09:59:14+00:00",
-      "movie_id": "",
-      "normalized_title": "Keanu Reeves Replaces Alan Ritchson in Netflix’s Action Thriller ‘Maelstrom’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:3335b30c7e9c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:b56ac756c431:20261028",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Allen’ Trailer: First Look at Ludo Studio’s Heartwarming Alien Sci-Fi Comedy Coming to Netflix",
-      "url": "https://www.whats-on-netflix.com/news/allen-netflix-movie-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/allen-netflix-movie-release-date",
-      "event_at": "2026-10-27T21:30:56+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Allen’ Trailer: First Look at Ludo Studio’s Heartwarming Alien Sci-Fi Comedy Coming to Netflix",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "studio"
-      ],
-      "platform": [
-        "netflix",
-        "coming"
-      ],
-      "film_general": [
-        "film",
-        "screen",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:allen-trailer-first-look-at-ludo-studio-s-heartwarming-alien-sci-fi-comedy-coming-to-netflix:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:2cf937102cf9:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Shows Still Awaiting Renewal or Cancelation as of Late 2026 (And Our Predictions)",
-      "url": "https://www.whats-on-netflix.com/news/netflix-shows-still-awaiting-renewal-or-cancelation-as-of-late-2026-and-our-predictions",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-shows-still-awaiting-renewal-or-cancelation-as-of-late-2026-and-our-predictions",
-      "event_at": "2026-10-27T20:33:26+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Shows Still Awaiting Renewal or Cancelation as of Late 2026 (And Our Predictions)",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows"
-      ],
-      "film_general": [
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-shows-still-awaiting-renewal-or-cancelation-as-of-late-2026-and-our-predictions:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6f5dcb6c4322:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Bridgerton’ Season 5 Officially Wraps Filming Ahead of 2027 Release",
-      "url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-officially-wraps-filming-ahead-of-2027-release",
-      "source_url": "https://www.whats-on-netflix.com/news/bridgerton-season-5-officially-wraps-filming-ahead-of-2027-release",
-      "event_at": "2026-10-27T17:45:43+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Bridgerton’ Season 5 Officially Wraps Filming Ahead of 2027 Release",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:bridgerton-season-5-officially-wraps-filming-ahead-of-2027-release:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:73e9afeb0cfe:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Randall Park, Victor Garber, and Ego Nwodim To Feature in Lindsay Lohan New Netflix Movie ‘Return to You’",
-      "url": "https://www.whats-on-netflix.com/news/randall-park-victor-garber-and-ego-nwodim-join-lindsay-lohan-in-netflixs-return-to-you",
-      "source_url": "https://www.whats-on-netflix.com/news/randall-park-victor-garber-and-ego-nwodim-join-lindsay-lohan-in-netflixs-return-to-you",
-      "event_at": "2026-10-27T15:30:12+00:00",
-      "movie_id": "",
-      "normalized_title": "Randall Park, Victor Garber, and Ego Nwodim To Feature in Lindsay Lohan New Netflix Movie ‘Return to You’",
-      "release_year": "2008",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:randall-park-victor-garber-and-ego-nwodim-to-feature-in-lindsay-lohan-new-netflix-movie-return-to-you:2008:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6c8be85c8bbb:20261027",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5342,6 +5333,23 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
+      "canonical_key": "movie_source:what-s-on-netflix:6226fe2eb5da",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5740,23 +5748,6 @@
       "source": "What's on Netflix",
       "title": "‘Red Dead Redemption’ Leaving Netflix Games in December After One Year",
       "canonical_key": "movie_source:what-s-on-netflix:a338804b5c7f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Red Dead Redemption’ Leaving Netflix Games in December After One Year",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Teen Wolf’ Leaving Netflix After Only a Year",
-      "canonical_key": "movie_source:what-s-on-netflix:33321c5020bd",
       "required_field_gaps": [
         "release_year"
       ]
