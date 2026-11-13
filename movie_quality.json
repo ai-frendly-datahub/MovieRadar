@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-12T14:44:16.057730+00:00",
+  "generated_at": "2026-11-13T14:01:21.952896+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 86,
-    "movie_signal_event_count": 87,
+    "release_calendar_events": 90,
+    "movie_signal_event_count": 91,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 43,
-    "proxy_canonical_key_count": 44,
+    "complete_canonical_key_count": 44,
+    "proxy_canonical_key_count": 47,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 87,
-    "release_year_present_count": 43,
+    "normalized_title_present_count": 91,
+    "release_year_present_count": 44,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 82,
-    "event_required_field_gap_count": 47,
+    "platform_present_count": 85,
+    "event_required_field_gap_count": 50,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 86,
-      "event_count": 86,
-      "latest_event_at": "2026-11-12T14:30:24+00:00",
-      "age_days": 0.01,
-      "latest_title": "‘Ray Gunn’ Gets Its Most Revealing Trailer Yet Plus a New Poster and First Looks (With a Pixar Easter Egg)",
-      "latest_url": "https://www.whats-on-netflix.com/news/ray-gunn-gets-its-most-revealing-trailer-yet-plus-a-new-poster-and-first-looks-with-a-pixar-easter-egg",
+      "article_count": 90,
+      "event_count": 90,
+      "latest_event_at": "2026-11-13T13:14:16+00:00",
+      "age_days": 0.03,
+      "latest_title": "‘Heartland’ Soundtrack: Every Country Song in Netflix’s New Jessica Chastain Movie",
+      "latest_url": "https://www.whats-on-netflix.com/news/soundtracks/heartland-netflix-movie-soundtrack-every-song",
       "latest_source_signal": [
         "movie_text_context",
+        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -278,7 +279,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-12T14:44:10.141449+00:00",
+      "latest_event_at": "2026-11-13T14:01:17.505633+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +351,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-12T14:44:10.141449+00:00",
+      "event_at": "2026-11-13T14:01:17.505633+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -396,7 +397,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261112",
+      "event_key": "box_office:907d712300a5:20261113",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -408,6 +409,470 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Heartland’ Soundtrack: Every Country Song in Netflix’s New Jessica Chastain Movie",
+      "url": "https://www.whats-on-netflix.com/news/soundtracks/heartland-netflix-movie-soundtrack-every-song",
+      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/heartland-netflix-movie-soundtrack-every-song",
+      "event_at": "2026-11-13T13:14:16+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Heartland’ Soundtrack: Every Country Song in Netflix’s New Jessica Chastain Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:6287db9e0632",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:fd9cca4da7be:20261113",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Unveils ‘KPop Demon Hunters’ 2027 World Tour Dates and Ticket Presale Schedule",
+      "url": "https://www.whats-on-netflix.com/news/kpop-demon-hunters-2027-world-tour-dates-tickets",
+      "source_url": "https://www.whats-on-netflix.com/news/kpop-demon-hunters-2027-world-tour-dates-tickets",
+      "event_at": "2026-11-13T13:00:56+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Unveils ‘KPop Demon Hunters’ 2027 World Tour Dates and Ticket Presale Schedule",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-unveils-kpop-demon-hunters-2027-world-tour-dates-and-ticket-presale-schedule:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:293c93b2760f:20261113",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Heartland’ Review: Jessica Chastain Plays a Gun-Toting Country Star in a Nashville Thriller That Goes Off-Key",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/heartland-jessica-chastain-movie-review",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/heartland-jessica-chastain-movie-review",
+      "event_at": "2026-11-13T12:22:24+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Heartland’ Review: Jessica Chastain Plays a Gun-Toting Country Star in a Nashville Thriller That Goes Off-Key",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "review"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:191a8b395cf8",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:f031c6de8ad3:20261113",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "62 New Movies and Shows Land on Netflix UK Including Jessica Chastain’s ‘Heartland’",
+      "url": "https://www.whats-on-netflix.com/whats-new/uk/62-new-movies-shows-netflix-uk-heartland",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/62-new-movies-shows-netflix-uk-heartland",
+      "event_at": "2026-11-13T12:21:47+00:00",
+      "movie_id": "",
+      "normalized_title": "62 New Movies and Shows Land on Netflix UK Including Jessica Chastain’s ‘Heartland’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming",
+        "shows"
+      ],
+      "film_general": [
+        "movies",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:56fb0fb1b549",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:22019339ef46:20261113",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Is Slowly Revealing the ‘KPop Demon Hunters’ World Tour Cities",
+      "url": "https://www.whats-on-netflix.com/news/kpop-demon-hunters-world-tour-cities-revealed",
+      "source_url": "https://www.whats-on-netflix.com/news/kpop-demon-hunters-world-tour-cities-revealed",
+      "event_at": "2026-11-12T22:06:57+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Is Slowly Revealing the ‘KPop Demon Hunters’ World Tour Cities",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "here"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:01a1a6e3bf63",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:655d3b869c8e:20261112",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Launches New ‘What’s Hot’ Hub Collecting Its Buzziest Titles, Top 10s and Genre Favorites in One Place",
+      "url": "https://www.whats-on-netflix.com/news/netflix-launches-whats-hot-hub-trending-movies-shows",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-launches-whats-hot-hub-trending-movies-shows",
+      "event_at": "2026-11-12T18:48:45+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Launches New ‘What’s Hot’ Hub Collecting Its Buzziest Titles, Top 10s and Genre Favorites in One Place",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "top",
+        "one",
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:080829e5f325",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d26240615831:20261112",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
+      "event_at": "2026-11-12T18:09:30+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f019d840051c:20261112",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Sets December 2026 Release Date for Colombian Period Drama ‘The December Breeze’",
+      "url": "https://www.whats-on-netflix.com/news/the-december-breeze-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-december-breeze-netflix-release-date",
+      "event_at": "2026-11-12T16:39:57+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Sets December 2026 Release Date for Colombian Period Drama ‘The December Breeze’",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-sets-december-2026-release-date-for-colombian-period-drama-the-december-breeze:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:1e0de34739d7:20261112",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -544,12 +1009,12 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "Netflix Lands Streaming Debut of WWII Film ‘The Ghost and the Gun’",
+      "title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
       "url": "https://www.whats-on-netflix.com/news/the-ghost-and-the-gun-netflix-release-date",
       "source_url": "https://www.whats-on-netflix.com/news/the-ghost-and-the-gun-netflix-release-date",
       "event_at": "2026-11-12T14:16:36+00:00",
       "movie_id": "",
-      "normalized_title": "Netflix Lands Streaming Debut of WWII Film ‘The Ghost and the Gun’",
+      "normalized_title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
       "release_year": "",
       "country": "US",
       "region": "US",
@@ -583,9 +1048,9 @@
         "ott_release_context",
         "release_calendar"
       ],
-      "canonical_key": "movie_source:what-s-on-netflix:839fe455e2cc",
+      "canonical_key": "movie_source:what-s-on-netflix:dac34edb7d92",
       "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:1f1c6bb5db3b:20261112",
+      "event_key": "release_calendar:636561c5d916:20261112",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -5312,245 +5777,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Manoj Bajpayee Movie ‘Gajab Raat’: Director Ritesh Shah on Title Controversies and His Directing Debut",
-      "url": "https://www.whats-on-netflix.com/interviews/gajab-raat-netflix-ending-ritesh-shah-interview",
-      "source_url": "https://www.whats-on-netflix.com/interviews/gajab-raat-netflix-ending-ritesh-shah-interview",
-      "event_at": "2026-10-30T13:46:47+00:00",
-      "movie_id": "",
-      "normalized_title": "Manoj Bajpayee Movie ‘Gajab Raat’: Director Ritesh Shah on Title Controversies and His Directing Debut",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "film",
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:b9db43e6715e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:bca3bb5a3165:20261030",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The One About Matthew Perry’ Documentary Leads 42 New Netflix UK Releases",
-      "url": "https://www.whats-on-netflix.com/whats-new/uk/the-one-about-matthew-perry-documentary-leads-42-new-netflix-uk-releases",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/uk/the-one-about-matthew-perry-documentary-leads-42-new-netflix-uk-releases",
-      "event_at": "2026-10-30T12:19:13+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The One About Matthew Perry’ Documentary Leads 42 New Netflix UK Releases",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "releases"
-      ],
-      "film_general": [
-        "one",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:352846d683b4",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f88e33e1c936:20261030",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "9 Great Movies Leaving Netflix Throughout November 2026",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/9-great-movies-leaving-netflix-throughout-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/9-great-movies-leaving-netflix-throughout-november-2026",
-      "event_at": "2026-10-29T17:02:49+00:00",
-      "movie_id": "",
-      "normalized_title": "9 Great Movies Leaving Netflix Throughout November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "movies",
-        "latest"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:9-great-movies-leaving-netflix-throughout-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:578f338fed8d:20261029",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Cunk on Cinema’ Sets Netflix November 2026 Release Date & Features Huge Hollywood Stars",
-      "url": "https://www.whats-on-netflix.com/news/cunk-on-cinema-netflix-release-details",
-      "source_url": "https://www.whats-on-netflix.com/news/cunk-on-cinema-netflix-release-details",
-      "event_at": "2026-10-29T14:56:06+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Cunk on Cinema’ Sets Netflix November 2026 Release Date & Features Huge Hollywood Stars",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movies",
-        "cinema"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:cunk-on-cinema-sets-netflix-november-2026-release-date-features-huge-hollywood-stars:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6b1cfafa42d7:20261029",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5565,6 +5791,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Heartland’ Soundtrack: Every Country Song in Netflix’s New Jessica Chastain Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:6287db9e0632",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Heartland’ Soundtrack: Every Country Song in Netflix’s New Jessica Chastain Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Heartland’ Review: Jessica Chastain Plays a Gun-Toting Country Star in a Nashville Thriller That Goes Off-Key",
+      "canonical_key": "movie_source:what-s-on-netflix:191a8b395cf8",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Heartland’ Review: Jessica Chastain Plays a Gun-Toting Country Star in a Nashville Thriller That Goes Off-Key",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "62 New Movies and Shows Land on Netflix UK Including Jessica Chastain’s ‘Heartland’",
+      "canonical_key": "movie_source:what-s-on-netflix:56fb0fb1b549",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "62 New Movies and Shows Land on Netflix UK Including Jessica Chastain’s ‘Heartland’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Is Slowly Revealing the ‘KPop Demon Hunters’ World Tour Cities",
+      "canonical_key": "movie_source:what-s-on-netflix:01a1a6e3bf63",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Is Slowly Revealing the ‘KPop Demon Hunters’ World Tour Cities",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Launches New ‘What’s Hot’ Hub Collecting Its Buzziest Titles, Top 10s and Genre Favorites in One Place",
+      "canonical_key": "movie_source:what-s-on-netflix:080829e5f325",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Launches New ‘What’s Hot’ Hub Collecting Its Buzziest Titles, Top 10s and Genre Favorites in One Place",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5604,8 +5915,8 @@
       "reason": "missing_required_fields",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "Netflix Lands Streaming Debut of WWII Film ‘The Ghost and the Gun’",
-      "canonical_key": "movie_source:what-s-on-netflix:839fe455e2cc",
+      "title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
+      "canonical_key": "movie_source:what-s-on-netflix:dac34edb7d92",
       "required_field_gaps": [
         "release_year"
       ]
@@ -5614,7 +5925,7 @@
       "reason": "proxy_canonical_key",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "Netflix Lands Streaming Debut of WWII Film ‘The Ghost and the Gun’",
+      "title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -5895,91 +6206,6 @@
       "source": "What's on Netflix",
       "title": "Second Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Lands After Playing With IMAX Re-Release",
       "canonical_key": "movie_source:what-s-on-netflix:9e55cff604ba",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Second Trailer for ‘The Further Mis-Adventures of Cliff Booth’ Lands After Playing With IMAX Re-Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "75 New Movies and Shows on Netflix UK This Week: ‘Black Doves’ and ‘Possible Love’",
-      "canonical_key": "movie_source:what-s-on-netflix:e9960fc7011e",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "75 New Movies and Shows on Netflix UK This Week: ‘Black Doves’ and ‘Possible Love’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Frankenstein’s Director’s Cut Restores the Murder James Cameron Told Guillermo del Toro to Remove",
-      "canonical_key": "movie_source:what-s-on-netflix:063c09603a21",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Frankenstein’s Director’s Cut Restores the Murder James Cameron Told Guillermo del Toro to Remove",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everything You Need to Know About ‘Dilwali Diwali’: Netflix India’s New Short Film",
-      "canonical_key": "movie_source:what-s-on-netflix:e14b56ee8af9",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everything You Need to Know About ‘Dilwali Diwali’: Netflix India’s New Short Film",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Launches Special ‘KPop Demon Hunters: For the Fans!’ Collection Hub",
-      "canonical_key": "movie_source:what-s-on-netflix:f98120aa0dda",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Launches Special ‘KPop Demon Hunters: For the Fans!’ Collection Hub",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Brutal: Netflix Unveils Spanish Thriller Starring Bárbara Lennie and Carmen Machi",
-      "canonical_key": "movie_source:what-s-on-netflix:241cc14161e5",
       "required_field_gaps": [
         "release_year"
       ]
