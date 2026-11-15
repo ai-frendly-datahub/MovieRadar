@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-14T13:02:40.486380+00:00",
+  "generated_at": "2026-11-15T13:31:24.358941+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 86,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 43,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 99,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,10 +200,10 @@
       "status": "fresh",
       "article_count": 88,
       "event_count": 88,
-      "latest_event_at": "2026-11-13T19:31:17+00:00",
-      "age_days": 0.73,
-      "latest_title": "Netflix Reveals Title, 2027 Release Window & First Look for ‘Magic: The Gathering: Planeswalker’ Animated Series",
-      "latest_url": "https://www.whats-on-netflix.com/news/magic-the-gathering-netflix-series-title-2027-release",
+      "latest_event_at": "2026-11-14T21:31:01+00:00",
+      "age_days": 0.67,
+      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 14, 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-14-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
@@ -278,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-14T13:02:34.013222+00:00",
+      "latest_event_at": "2026-11-15T13:31:18.420563+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-14T13:02:34.013222+00:00",
+      "event_at": "2026-11-15T13:31:18.420563+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -378,7 +378,6 @@
       ],
       "film_general": [
         "movie",
-        "cinema",
         "see",
         "viewing",
         "story",
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261114",
+      "event_key": "box_office:907d712300a5:20261115",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -408,6 +407,69 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 14, 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-14-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-14-2026",
+      "event_at": "2026-11-14T21:31:01+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 14, 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "top",
+        "new",
+        "here",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-november-14-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:a796b1ae4f01:20261114",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -5574,63 +5636,6 @@
       "canonical_key": "movie:every-indian-movie-and-show-new-to-netflix-in-october-2026:2026:us",
       "canonical_key_status": "complete",
       "event_key": "release_calendar:967eac59745f:20261101",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Beat Luke Littler’ Debrief: Live Event Stunt Hits Netflix Top 10s, Sherrock Backlash, and a 2027 Sequel Tease",
-      "url": "https://www.whats-on-netflix.com/news/beat-luke-littler-netflix-top-10-data",
-      "source_url": "https://www.whats-on-netflix.com/news/beat-luke-littler-netflix-top-10-data",
-      "event_at": "2026-11-01T13:02:35+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Beat Luke Littler’ Debrief: Live Event Stunt Hits Netflix Top 10s, Sherrock Backlash, and a 2027 Sequel Tease",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "viewing",
-        "top",
-        "latest"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:beat-luke-littler-debrief-live-event-stunt-hits-netflix-top-10s-sherrock-backlash-and-a-2027-sequel-tease:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:2d811156ed3b:20261101",
       "required_field_proxy": {
         "title": true,
         "release_year": true,
