@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-16T14:57:55.066132+00:00",
+  "generated_at": "2026-11-17T15:34:57.521868+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 80,
-    "movie_signal_event_count": 81,
+    "release_calendar_events": 81,
+    "movie_signal_event_count": 82,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 37,
-    "proxy_canonical_key_count": 44,
+    "complete_canonical_key_count": 36,
+    "proxy_canonical_key_count": 46,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 81,
-    "release_year_present_count": 37,
+    "normalized_title_present_count": 82,
+    "release_year_present_count": 36,
     "rank_present_count": 1,
     "gross_present_count": 0,
-    "platform_present_count": 76,
-    "event_required_field_gap_count": 47,
+    "platform_present_count": 77,
+    "event_required_field_gap_count": 49,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 90,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,13 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 80,
-      "event_count": 80,
-      "latest_event_at": "2026-11-16T00:07:26+00:00",
-      "age_days": 0.62,
-      "latest_title": "Netflix Testing Running Trailers for Its Own Titles Before Episodes (Again)",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-testing-running-trailers-for-its-own-shows-before-episodes-again",
+      "article_count": 81,
+      "event_count": 81,
+      "latest_event_at": "2026-11-17T14:30:50+00:00",
+      "age_days": 0.04,
+      "latest_title": "Netflix UK Is Adding ‘Casualty’ and ‘Holby City’ for the First Time, Plus More BBC and ITV Favorites",
+      "latest_url": "https://www.whats-on-netflix.com/news/netflix-uk-is-adding-casualty-and-holby-city-for-the-first-time-plus-more-bbc-and-itv-favorites",
       "latest_source_signal": [
-        "movie_text_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -227,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 8,
+      "article_count": 6,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-16T14:57:50.077978+00:00",
+      "latest_event_at": "2026-11-17T15:34:53.842049+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-16T14:57:50.077978+00:00",
+      "event_at": "2026-11-17T15:34:53.842049+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261116",
+      "event_key": "box_office:907d712300a5:20261117",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -407,6 +406,486 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix UK Is Adding ‘Casualty’ and ‘Holby City’ for the First Time, Plus More BBC and ITV Favorites",
+      "url": "https://www.whats-on-netflix.com/news/netflix-uk-is-adding-casualty-and-holby-city-for-the-first-time-plus-more-bbc-and-itv-favorites",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-uk-is-adding-casualty-and-holby-city-for-the-first-time-plus-more-bbc-and-itv-favorites",
+      "event_at": "2026-11-17T14:30:50+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix UK Is Adding ‘Casualty’ and ‘Holby City’ for the First Time, Plus More BBC and ITV Favorites",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "year",
+        "time",
+        "first"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1e553e41a1ec",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:e9091552b920:20261117",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Real-Life Superhero Documentary ‘Phoenix Jones’ Sets Netflix Streaming Debut",
+      "url": "https://www.whats-on-netflix.com/news/netflix-sets-december-release-phoenix-jones-documentary",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-sets-december-release-phoenix-jones-documentary",
+      "event_at": "2026-11-17T14:01:01+00:00",
+      "movie_id": "",
+      "normalized_title": "Real-Life Superhero Documentary ‘Phoenix Jones’ Sets Netflix Streaming Debut",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [
+        "year",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bf2eca163555",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:18fbd659aba6:20261117",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "“Cowboy Hats Are Haircuts”: Crafting the Wardrobe for Jessica Chastain’s New Netflix Thriller ‘Heartland’",
+      "url": "https://www.whats-on-netflix.com/interviews/heartland-netflix-mitchell-travers-costume-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/heartland-netflix-mitchell-travers-costume-interview",
+      "event_at": "2026-11-17T12:44:15+00:00",
+      "movie_id": "",
+      "normalized_title": "“Cowboy Hats Are Haircuts”: Crafting the Wardrobe for Jessica Chastain’s New Netflix Thriller ‘Heartland’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:1feba1dde3e5",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:640b4af36e13:20261117",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Italian Series and Movies Coming to Netflix in 2026 and Beyond",
+      "url": "https://www.whats-on-netflix.com/coming-soon/new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond",
+      "event_at": "2026-11-17T12:15:56+00:00",
+      "movie_id": "",
+      "normalized_title": "New Italian Series and Movies Coming to Netflix in 2026 and Beyond",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "movies",
+        "new",
+        "latest",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-italian-series-and-movies-coming-to-netflix-in-2026-and-beyond:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:17572707bca1:20261117",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Cunk on Cinema’ Isn’t the Same Show on Netflix As It Is On The BBC",
+      "url": "https://www.whats-on-netflix.com/news/cunk-on-cinema-bbc-vs-netflix-cut-differences",
+      "source_url": "https://www.whats-on-netflix.com/news/cunk-on-cinema-bbc-vs-netflix-cut-differences",
+      "event_at": "2026-11-16T22:30:18+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Cunk on Cinema’ Isn’t the Same Show on Netflix As It Is On The BBC",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "show"
+      ],
+      "film_general": [
+        "cinema",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:0b329966e834",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d257672971f0:20261116",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "3 Body Problem Season 2 Finally Has a Netflix Release Date and Season 3 Isn’t Far Behind",
+      "url": "https://www.whats-on-netflix.com/news/3-body-problem-season-2-netflix-release-date-season-3-filming-update",
+      "source_url": "https://www.whats-on-netflix.com/news/3-body-problem-season-2-netflix-release-date-season-3-filming-update",
+      "event_at": "2026-11-16T19:00:09+00:00",
+      "movie_id": "",
+      "normalized_title": "3 Body Problem Season 2 Finally Has a Netflix Release Date and Season 3 Isn’t Far Behind",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "premiere"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:3-body-problem-season-2-finally-has-a-netflix-release-date-and-season-3-isn-t-far-behind:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:766ebe455e5a:20261116",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Reveals Series & Movie Book Adaptation Lineup For 2027",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-book-adaptations-2027",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-book-adaptations-2027",
+      "event_at": "2026-11-16T19:00:08+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Reveals Series & Movie Book Adaptation Lineup For 2027",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movie"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-reveals-series-movie-book-adaptation-lineup-for-2027:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:b50e80aa5904:20261116",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Series ‘How to Kill Your Family’ Filming Moves to Spain: Anya Taylor-Joy Spotted in Barcelona",
+      "url": "https://www.whats-on-netflix.com/news/netflix-series-how-to-kill-your-family-filming-moves-to-spain-anya-taylor-joy-spotted-in-barcelona",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-series-how-to-kill-your-family-filming-moves-to-spain-anya-taylor-joy-spotted-in-barcelona",
+      "event_at": "2026-11-16T15:08:31+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Series ‘How to Kill Your Family’ Filming Moves to Spain: Anya Taylor-Joy Spotted in Barcelona",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "show"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:30fd538dcc93",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:8d4ef4060b32:20261116",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4751,419 +5230,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s Live-Action ‘Scooby-Doo: Origins’ Has a Real Dog, a Darker Tone and a 2027 Release: Everything We Know",
-      "url": "https://www.whats-on-netflix.com/news/scooby-doo-origins-netflix-release-date-everything-we-know",
-      "source_url": "https://www.whats-on-netflix.com/news/scooby-doo-origins-netflix-release-date-everything-we-know",
-      "event_at": "2026-11-03T15:20:52+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s Live-Action ‘Scooby-Doo: Origins’ Has a Real Dog, a Darker Tone and a 2027 Release: Everything We Know",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-live-action-scooby-doo-origins-has-a-real-dog-a-darker-tone-and-a-2027-release-everything-we-know:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:624335310184:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Jason Statham and Guy Ritchie Set New Netflix Revenge Movie ‘Dogfight’",
-      "url": "https://www.whats-on-netflix.com/news/jason-statham-and-guy-ritchie-set-new-netflix-revenge-movie-dogfight",
-      "source_url": "https://www.whats-on-netflix.com/news/jason-statham-and-guy-ritchie-set-new-netflix-revenge-movie-dogfight",
-      "event_at": "2026-11-03T14:08:20+00:00",
-      "movie_id": "",
-      "normalized_title": "Jason Statham and Guy Ritchie Set New Netflix Revenge Movie ‘Dogfight’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "cinema",
-        "most",
-        "one",
-        "new",
-        "just"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:30f32b531814",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:60d7b7b86aa8:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Red Dead Redemption’ Leaving Netflix Games in December After One Year",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/red-dead-redemption-leaving-netflix-games-in-december-after-one-year",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/red-dead-redemption-leaving-netflix-games-in-december-after-one-year",
-      "event_at": "2026-11-03T12:18:21+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Red Dead Redemption’ Leaving Netflix Games in December After One Year",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "year",
-        "one"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:a338804b5c7f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:73de4dab3d2d:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Brendan Fraser and Andrew Scott’s WWII Thriller ‘Pressure’ Sets Netflix Release",
-      "url": "https://www.whats-on-netflix.com/news/brendan-fraser-and-andrew-scotts-wwii-thriller-pressure-sets-netflix-release",
-      "source_url": "https://www.whats-on-netflix.com/news/brendan-fraser-and-andrew-scotts-wwii-thriller-pressure-sets-netflix-release",
-      "event_at": "2026-11-03T11:48:07+00:00",
-      "movie_id": "",
-      "normalized_title": "Brendan Fraser and Andrew Scott’s WWII Thriller ‘Pressure’ Sets Netflix Release",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "release"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:brendan-fraser-and-andrew-scott-s-wwii-thriller-pressure-sets-netflix-release:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:367f7ad76f7f:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Filming Begins on Netflix’s Spanish Disaster Movie ‘Chapapote’",
-      "url": "https://www.whats-on-netflix.com/news/filming-begins-netflix-spanish-disaster-movie-chapapote",
-      "source_url": "https://www.whats-on-netflix.com/news/filming-begins-netflix-spanish-disaster-movie-chapapote",
-      "event_at": "2026-11-03T11:05:38+00:00",
-      "movie_id": "",
-      "normalized_title": "Filming Begins on Netflix’s Spanish Disaster Movie ‘Chapapote’",
-      "release_year": "2002",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:filming-begins-on-netflix-s-spanish-disaster-movie-chapapote:2002:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:2a2f88ca6674:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Teen Wolf’ Leaving Netflix After Only a Year",
-      "url": "https://www.whats-on-netflix.com/leaving-soon/teen-wolf-leaving-netflix-us-after-only-a-year",
-      "source_url": "https://www.whats-on-netflix.com/leaving-soon/teen-wolf-leaving-netflix-us-after-only-a-year",
-      "event_at": "2026-11-02T15:36:31+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Teen Wolf’ Leaving Netflix After Only a Year",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "year"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:33321c5020bd",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:c8b094a113f8:20261102",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix This Week: November 2 to 8, 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-november-2-to-8-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-november-2-to-8-2026",
-      "event_at": "2026-11-02T15:13:36+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix This Week: November 2 to 8, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "show",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "new",
-        "here",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-this-week-november-2-to-8-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:1e766e5dd6ba:20261102",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5178,6 +5244,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix UK Is Adding ‘Casualty’ and ‘Holby City’ for the First Time, Plus More BBC and ITV Favorites",
+      "canonical_key": "movie_source:what-s-on-netflix:1e553e41a1ec",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix UK Is Adding ‘Casualty’ and ‘Holby City’ for the First Time, Plus More BBC and ITV Favorites",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Real-Life Superhero Documentary ‘Phoenix Jones’ Sets Netflix Streaming Debut",
+      "canonical_key": "movie_source:what-s-on-netflix:bf2eca163555",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Real-Life Superhero Documentary ‘Phoenix Jones’ Sets Netflix Streaming Debut",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "“Cowboy Hats Are Haircuts”: Crafting the Wardrobe for Jessica Chastain’s New Netflix Thriller ‘Heartland’",
+      "canonical_key": "movie_source:what-s-on-netflix:1feba1dde3e5",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "“Cowboy Hats Are Haircuts”: Crafting the Wardrobe for Jessica Chastain’s New Netflix Thriller ‘Heartland’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Cunk on Cinema’ Isn’t the Same Show on Netflix As It Is On The BBC",
+      "canonical_key": "movie_source:what-s-on-netflix:0b329966e834",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Cunk on Cinema’ Isn’t the Same Show on Netflix As It Is On The BBC",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Series ‘How to Kill Your Family’ Filming Moves to Spain: Anya Taylor-Joy Spotted in Barcelona",
+      "canonical_key": "movie_source:what-s-on-netflix:30fd538dcc93",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Series ‘How to Kill Your Family’ Filming Moves to Spain: Anya Taylor-Joy Spotted in Barcelona",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5508,91 +5659,6 @@
       "source": "What's on Netflix",
       "title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
       "canonical_key": "movie_source:what-s-on-netflix:6226fe2eb5da",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
-      "canonical_key": "movie_source:what-s-on-netflix:3a52ede057d0",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Blood Legacy’ Cancelled at Netflix: No Season 3 for the South African Drama",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
-      "canonical_key": "movie_source:what-s-on-netflix:6d62f01417a4",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Filming Underway on Joshua Zetumer’s Netflix Thriller Series ‘Pagans’ & Cast Confirmed",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix To Stream Jenna Ortega and Natalie Portman’s ‘The Gallerist’ Outside the United States",
-      "canonical_key": "movie_source:what-s-on-netflix:dca06a823ea5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix To Stream Jenna Ortega and Natalie Portman’s ‘The Gallerist’ Outside the United States",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Good Lawyer’ Review: Laurent Lafitte and Mélanie Laurent Star in Tense Yet Familiar Character Study",
-      "canonical_key": "movie_source:what-s-on-netflix:20716e60c48c",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Good Lawyer’ Review: Laurent Lafitte and Mélanie Laurent Star in Tense Yet Familiar Character Study",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Steps’ Review: Netflix Cinderella Retelling Is the Sister Story ‘Frozen’ Wanted to Be",
-      "canonical_key": "movie_source:what-s-on-netflix:acfb7b0e1d03",
       "required_field_gaps": [
         "release_year"
       ]
