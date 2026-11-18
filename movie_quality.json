@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-17T15:34:57.521868+00:00",
+  "generated_at": "2026-11-18T15:12:55.434049+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 81,
-    "movie_signal_event_count": 82,
+    "release_calendar_events": 74,
+    "movie_signal_event_count": 75,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 36,
-    "proxy_canonical_key_count": 46,
+    "complete_canonical_key_count": 31,
+    "proxy_canonical_key_count": 44,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 82,
-    "release_year_present_count": 36,
-    "rank_present_count": 1,
+    "normalized_title_present_count": 75,
+    "release_year_present_count": 31,
+    "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 77,
-    "event_required_field_gap_count": 49,
+    "platform_present_count": 70,
+    "event_required_field_gap_count": 47,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 39,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 95,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,13 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 81,
-      "event_count": 81,
-      "latest_event_at": "2026-11-17T14:30:50+00:00",
-      "age_days": 0.04,
-      "latest_title": "Netflix UK Is Adding ‘Casualty’ and ‘Holby City’ for the First Time, Plus More BBC and ITV Favorites",
-      "latest_url": "https://www.whats-on-netflix.com/news/netflix-uk-is-adding-casualty-and-holby-city-for-the-first-time-plus-more-bbc-and-itv-favorites",
+      "article_count": 74,
+      "event_count": 74,
+      "latest_event_at": "2026-11-18T14:30:06+00:00",
+      "age_days": 0.03,
+      "latest_title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
+      "latest_url": "https://www.whats-on-netflix.com/news/guarding-stars-writers-on-book-changes-in-netflix-film-and-its-hidden-virgin-river-links",
       "latest_source_signal": [
+        "movie_text_context",
+        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -277,7 +279,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-17T15:34:53.842049+00:00",
+      "latest_event_at": "2026-11-18T15:12:51.519031+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +351,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-17T15:34:53.842049+00:00",
+      "event_at": "2026-11-18T15:12:51.519031+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -395,7 +397,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261117",
+      "event_key": "box_office:907d712300a5:20261118",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -406,6 +408,123 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
+      "url": "https://www.whats-on-netflix.com/news/guarding-stars-writers-on-book-changes-in-netflix-film-and-its-hidden-virgin-river-links",
+      "source_url": "https://www.whats-on-netflix.com/news/guarding-stars-writers-on-book-changes-in-netflix-film-and-its-hidden-virgin-river-links",
+      "event_at": "2026-11-18T14:30:06+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "film"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:be18f19e1837",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d927f8fd9e06:20261118",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘KPop Demon Hunters’ Lands in Netflix Minigolf With HUNTR/X Courses and New Avatars",
+      "url": "https://www.whats-on-netflix.com/news/netflix-games/kpop-demon-hunters-jet-playable-level-netflix-minigolf",
+      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/kpop-demon-hunters-jet-playable-level-netflix-minigolf",
+      "event_at": "2026-11-18T10:37:26+00:00",
+      "movie_id": "",
+      "normalized_title": "‘KPop Demon Hunters’ Lands in Netflix Minigolf With HUNTR/X Courses and New Avatars",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bb95dc74d3e7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b4152aae437a:20261118",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4683,553 +4802,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Take’ Netflix Heist-Thriller Starring Denzel Washington, Daisy Edger Jones & Robert Pattinson: What We Know So Far",
-      "url": "https://www.whats-on-netflix.com/news/the-take-netflix-heist-thriller-what-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/the-take-netflix-heist-thriller-what-we-know-so-far",
-      "event_at": "2026-11-04T14:26:59+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Take’ Netflix Heist-Thriller Starring Denzel Washington, Daisy Edger Jones & Robert Pattinson: What We Know So Far",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:the-take-netflix-heist-thriller-starring-denzel-washington-daisy-edger-jones-robert-pattinson-what-we-know-so-far:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:8b4d316839a2:20261104",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "First Look at What’s Coming to Netflix in December 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-december-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/first-look-at-whats-coming-to-netflix-in-december-2026",
-      "event_at": "2026-11-04T13:55:54+00:00",
-      "movie_id": "",
-      "normalized_title": "First Look at What’s Coming to Netflix in December 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "tarantino"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "coming"
-      ],
-      "film_general": [
-        "latest",
-        "first",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:first-look-at-what-s-coming-to-netflix-in-december-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:48ef6582b405:20261104",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Sets December 2026 Release Date for YA Drama ‘Sunshine Girls’",
-      "url": "https://www.whats-on-netflix.com/news/sunshine-girls-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/sunshine-girls-netflix-release-date",
-      "event_at": "2026-11-04T11:52:11+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Sets December 2026 Release Date for YA Drama ‘Sunshine Girls’",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-sets-december-2026-release-date-for-ya-drama-sunshine-girls:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:347de6c006ff:20261104",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Top 10s: Matthew Perry Doc Series Debuts at #1 as English Movie Viewership Continues to Tank",
-      "url": "https://www.whats-on-netflix.com/news/netflix-top-10s-matthew-perry-doc-series-debuts-at-1-as-english-movie-viewership-continues-to-tank",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-top-10s-matthew-perry-doc-series-debuts-at-1-as-english-movie-viewership-continues-to-tank",
-      "event_at": "2026-11-03T21:10:08+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Top 10s: Matthew Perry Doc Series Debuts at #1 as English Movie Viewership Continues to Tank",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": 1,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "movie",
-        "top",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:ed31a69e4b8c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:109de9fc71e9:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Upcoming Netflix Spanish Series in 2026 & 2027: New ‘Money Heist’ Spin-Offs, ‘Gangs of Galicia’ Season 3 & More",
-      "url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-netflix-series-2026-2027-slate",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/upcoming-spanish-netflix-series-2026-2027-slate",
-      "event_at": "2026-11-03T19:55:57+00:00",
-      "movie_id": "",
-      "normalized_title": "Upcoming Netflix Spanish Series in 2026 & 2027: New ‘Money Heist’ Spin-Offs, ‘Gangs of Galicia’ Season 3 & More",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "preview",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "preview"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "new",
-        "here"
-      ],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:upcoming-netflix-spanish-series-in-2026-2027-new-money-heist-spin-offs-gangs-of-galicia-season-3-more:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:ea48a60a8f28:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "When Will ‘Murder in a Small Town’ Season 3 Be on Netflix?",
-      "url": "https://www.whats-on-netflix.com/news/murder-in-a-small-town-season-3-netflix-release-date-fox",
-      "source_url": "https://www.whats-on-netflix.com/news/murder-in-a-small-town-season-3-netflix-release-date-fox",
-      "event_at": "2026-11-03T18:49:30+00:00",
-      "movie_id": "",
-      "normalized_title": "When Will ‘Murder in a Small Town’ Season 3 Be on Netflix?",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [
-        "new",
-        "latest",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:when-will-murder-in-a-small-town-season-3-be-on-netflix:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:09cef660b8b2:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Beast in Me’ Season 2 Adds Lili Taylor and John Goodman as Aggie’s Stepmother and Father",
-      "url": "https://www.whats-on-netflix.com/news/the-beast-in-me-season-2-adds-lili-taylor-and-john-goodman-as-aggies-stepmother-and-father",
-      "source_url": "https://www.whats-on-netflix.com/news/the-beast-in-me-season-2-adds-lili-taylor-and-john-goodman-as-aggies-stepmother-and-father",
-      "event_at": "2026-11-03T18:10:17+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Beast in Me’ Season 2 Adds Lili Taylor and John Goodman as Aggie’s Stepmother and Father",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e05c87eaae38",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:af41e815efae:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Launches AI Discover: A New TV Tab That Picks What to Watch Based on Your Mood",
-      "url": "https://www.whats-on-netflix.com/news/netflix-ai-discover-tab-launch",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-ai-discover-tab-launch",
-      "event_at": "2026-11-03T18:00:17+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Launches AI Discover: A New TV Tab That Picks What to Watch Based on Your Mood",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "watch",
-        "new",
-        "help"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:8de4b25af573",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:932f7d692757:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Is Testing a Return to Left-Hand Navigation on TVs and Showing More Tiles",
-      "url": "https://www.whats-on-netflix.com/news/netflix-tv-app-redesign-test-sidebar-menu",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-tv-app-redesign-test-sidebar-menu",
-      "event_at": "2026-11-03T18:00:00+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Is Testing a Return to Left-Hand Navigation on TVs and Showing More Tiles",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "screen",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:463b8d55a8c2",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e31a24dcd908:20261103",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5244,6 +4816,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
+      "canonical_key": "movie_source:what-s-on-netflix:be18f19e1837",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘KPop Demon Hunters’ Lands in Netflix Minigolf With HUNTR/X Courses and New Avatars",
+      "canonical_key": "movie_source:what-s-on-netflix:bb95dc74d3e7",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘KPop Demon Hunters’ Lands in Netflix Minigolf With HUNTR/X Courses and New Avatars",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5625,40 +5231,6 @@
       "source": "What's on Netflix",
       "title": "Tiffany Smith Llorens on Why the Visual Effects in ‘The Diplomat’ Have to Remain Completely Invisible",
       "canonical_key": "movie_source:what-s-on-netflix:11b2917254e8",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Tiffany Smith Llorens on Why the Visual Effects in ‘The Diplomat’ Have to Remain Completely Invisible",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s ‘The Further Mis-Adventures of Cliff Booth’ and ‘The Take’ Both Handed R-Ratings",
-      "canonical_key": "movie_source:what-s-on-netflix:ec430c65a97f",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix’s ‘The Further Mis-Adventures of Cliff Booth’ and ‘The Take’ Both Handed R-Ratings",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "John Early’s Cult Comedy ‘Maddie’s Secret’ Sets Netflix Streaming Debut",
-      "canonical_key": "movie_source:what-s-on-netflix:6226fe2eb5da",
       "required_field_gaps": [
         "release_year"
       ]
