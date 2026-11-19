@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-18T15:12:55.434049+00:00",
+  "generated_at": "2026-11-19T15:20:38.324505+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,20 +17,20 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 74,
-    "movie_signal_event_count": 75,
+    "release_calendar_events": 81,
+    "movie_signal_event_count": 82,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 31,
-    "proxy_canonical_key_count": 44,
+    "complete_canonical_key_count": 34,
+    "proxy_canonical_key_count": 48,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 75,
-    "release_year_present_count": 31,
+    "normalized_title_present_count": 82,
+    "release_year_present_count": 34,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 70,
-    "event_required_field_gap_count": 47,
+    "platform_present_count": 77,
+    "event_required_field_gap_count": 51,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,15 +198,13 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 74,
-      "event_count": 74,
-      "latest_event_at": "2026-11-18T14:30:06+00:00",
+      "article_count": 81,
+      "event_count": 81,
+      "latest_event_at": "2026-11-19T14:35:26+00:00",
       "age_days": 0.03,
-      "latest_title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
-      "latest_url": "https://www.whats-on-netflix.com/news/guarding-stars-writers-on-book-changes-in-netflix-film-and-its-hidden-virgin-river-links",
+      "latest_title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
+      "latest_url": "https://www.whats-on-netflix.com/news/millie-bobby-brown-non-refundable-netflix-filming-dates",
       "latest_source_signal": [
-        "movie_text_context",
-        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -228,7 +226,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 6,
+      "article_count": 7,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -279,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-18T15:12:51.519031+00:00",
+      "latest_event_at": "2026-11-19T15:20:32.318924+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -351,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-18T15:12:51.519031+00:00",
+      "event_at": "2026-11-19T15:20:32.318924+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -397,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261118",
+      "event_key": "box_office:907d712300a5:20261119",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -409,6 +407,677 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
+      "url": "https://www.whats-on-netflix.com/news/millie-bobby-brown-non-refundable-netflix-filming-dates",
+      "source_url": "https://www.whats-on-netflix.com/news/millie-bobby-brown-non-refundable-netflix-filming-dates",
+      "event_at": "2026-11-19T14:35:26+00:00",
+      "movie_id": "",
+      "normalized_title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c324239bd645",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:6cfb365b7fdd:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Ali Wong and Stephanie Hsu on Playing Cinderella’s ‘Evil’ Stepsisters in Netflix’s ‘Steps’",
+      "url": "https://www.whats-on-netflix.com/interviews/ali-wong-and-stephanie-hsu-on-playing-cinderellas-evil-stepsisters-in-netflixs-steps",
+      "source_url": "https://www.whats-on-netflix.com/interviews/ali-wong-and-stephanie-hsu-on-playing-cinderellas-evil-stepsisters-in-netflixs-steps",
+      "event_at": "2026-11-19T14:25:42+00:00",
+      "movie_id": "",
+      "normalized_title": "Ali Wong and Stephanie Hsu on Playing Cinderella’s ‘Evil’ Stepsisters in Netflix’s ‘Steps’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "watch"
+      ],
+      "film_general": [
+        "movie",
+        "watch",
+        "one",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:166e4b9c0ad5",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b8635db987d7:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Living the Dream’: First Look and Release Date Set for Animated Netflix Workplace Sitcom From ‘Apple & Onion’ Creator",
+      "url": "https://www.whats-on-netflix.com/news/living-the-dream-netflix-trailer-release-date-first-looks",
+      "source_url": "https://www.whats-on-netflix.com/news/living-the-dream-netflix-trailer-release-date-first-looks",
+      "event_at": "2026-11-19T13:00:18+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Living the Dream’: First Look and Release Date Set for Animated Netflix Workplace Sitcom From ‘Apple & Onion’ Creator",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "coming"
+      ],
+      "film_general": [
+        "time",
+        "new",
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:bc745486ec4b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:7c1faa1593bf:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Diplomat’ Season 5 Gets Filming And Netflix Release Date Update",
+      "url": "https://www.whats-on-netflix.com/news/the-diplomat-season-5-filming-start-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/the-diplomat-season-5-filming-start-release-date",
+      "event_at": "2026-11-19T12:00:35+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Diplomat’ Season 5 Gets Filming And Netflix Release Date Update",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "show",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d134bd068d02",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:b5c4d966ea77:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Guarding Stars’ Netflix Review: Leighton Meester and Jared Padalecki Unite for Montana Christmas Romance",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/is-guarding-stars-worth-watching-on-netflix",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/is-guarding-stars-worth-watching-on-netflix",
+      "event_at": "2026-11-19T11:39:32+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Guarding Stars’ Netflix Review: Leighton Meester and Jared Padalecki Unite for Montana Christmas Romance",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "review",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:d82dded13725",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:62dfa4a7fc70:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Filming Begins on ‘Patricia’, Penélope Cruz’s Second Netflix Original Movie",
+      "url": "https://www.whats-on-netflix.com/news/patricia-penelope-cruz-netflix-movie-filming",
+      "source_url": "https://www.whats-on-netflix.com/news/patricia-penelope-cruz-netflix-movie-filming",
+      "event_at": "2026-11-19T11:33:50+00:00",
+      "movie_id": "",
+      "normalized_title": "Filming Begins on ‘Patricia’, Penélope Cruz’s Second Netflix Original Movie",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:85a70771e266",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:5d7d274999e5:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Marian Keyes’ ‘Grown Ups’ Sets January 2027 Netflix Release Date: First Look Images Revealed",
+      "url": "https://www.whats-on-netflix.com/news/grown-ups-marian-keys-netflix-series-release-date-first-looks",
+      "source_url": "https://www.whats-on-netflix.com/news/grown-ups-marian-keys-netflix-series-release-date-first-looks",
+      "event_at": "2026-11-19T11:12:27+00:00",
+      "movie_id": "",
+      "normalized_title": "Marian Keyes’ ‘Grown Ups’ Sets January 2027 Netflix Release Date: First Look Images Revealed",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "premieres"
+      ],
+      "film_general": [
+        "first",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:marian-keyes-grown-ups-sets-january-2027-netflix-release-date-first-look-images-revealed:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:56963bce9370:20261119",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Joe Thomas and James Buckley Tease ‘The Inbetweeners 3’ Following Seven-Week Filming Schedule",
+      "url": "https://www.whats-on-netflix.com/news/the-inbetweeners-3-netflix-release-date-filming-details",
+      "source_url": "https://www.whats-on-netflix.com/news/the-inbetweeners-3-netflix-release-date-filming-details",
+      "event_at": "2026-11-18T17:24:31+00:00",
+      "movie_id": "",
+      "normalized_title": "Joe Thomas and James Buckley Tease ‘The Inbetweeners 3’ Following Seven-Week Filming Schedule",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:joe-thomas-and-james-buckley-tease-the-inbetweeners-3-following-seven-week-filming-schedule:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:4abb6594fade:20261118",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Upcoming K-Drama ‘Gift’ Brings Supernatural Baseball to Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/gift-k-drama-netflix-december-2026-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/gift-k-drama-netflix-december-2026-release-date",
+      "event_at": "2026-11-18T16:57:21+00:00",
+      "movie_id": "",
+      "normalized_title": "Upcoming K-Drama ‘Gift’ Brings Supernatural Baseball to Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:upcoming-k-drama-gift-brings-supernatural-baseball-to-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:2bd08967e279:20261118",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Guarding Stars’ Soundtrack: Ava Max’s New Single ‘Blockbuster’ and Every Song in Netflix’s Christmas Rom-Com",
+      "url": "https://www.whats-on-netflix.com/news/soundtracks/guarding-stars-soundtrack-list",
+      "source_url": "https://www.whats-on-netflix.com/news/soundtracks/guarding-stars-soundtrack-list",
+      "event_at": "2026-11-18T16:38:38+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Guarding Stars’ Soundtrack: Ava Max’s New Single ‘Blockbuster’ and Every Song in Netflix’s Christmas Rom-Com",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "blockbuster",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "blockbuster"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "max"
+      ],
+      "film_general": [
+        "movie",
+        "score",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:092a107fd5ab",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:d42ca4720927:20261118",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
+      "event_at": "2026-11-18T15:19:30+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f019d840051c:20261118",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -1764,66 +2433,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix in December 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
-      "event_at": "2026-11-12T18:09:30+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix in December 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "tarantino"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "releases",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-in-december-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f019d840051c:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -4617,191 +5226,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/a-dogs-perfect-christmas-netflix-review-dennis-quaid-stars-in-a-moving-holiday-tale-where-the-pup-actually-lives",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/a-dogs-perfect-christmas-netflix-review-dennis-quaid-stars-in-a-moving-holiday-tale-where-the-pup-actually-lives",
-      "event_at": "2026-11-05T10:39:31+00:00",
-      "movie_id": "",
-      "normalized_title": "‘A Dog’s Perfect Christmas’ Netflix Review: Dennis Quaid Stars in a Moving Holiday Tale Where the Pup Actually Lives",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "watch"
-      ],
-      "film_general": [
-        "movie",
-        "watch",
-        "review",
-        "now"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:59fc9396e92e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:e12a4f293411:20261105",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘A Dog’s Perfect Christmas’ Director Cathryn Michon on Adapting the W. Bruce Cameron Novel for Netflix",
-      "url": "https://www.whats-on-netflix.com/interviews/a-dogs-perfect-christmas-netflix-interview-cathryn-michon",
-      "source_url": "https://www.whats-on-netflix.com/interviews/a-dogs-perfect-christmas-netflix-interview-cathryn-michon",
-      "event_at": "2026-11-04T17:18:00+00:00",
-      "movie_id": "",
-      "normalized_title": "‘A Dog’s Perfect Christmas’ Director Cathryn Michon on Adapting the W. Bruce Cameron Novel for Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:bea3cde88611",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:4e20d321ac51:20261104",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Filming Begins on ‘Operation TAP’ Netflix’s First Portuguese Film",
-      "url": "https://www.whats-on-netflix.com/news/operation-tap-netflixs-first-portuguese-film",
-      "source_url": "https://www.whats-on-netflix.com/news/operation-tap-netflixs-first-portuguese-film",
-      "event_at": "2026-11-04T16:50:22+00:00",
-      "movie_id": "",
-      "normalized_title": "Filming Begins on ‘Operation TAP’ Netflix’s First Portuguese Film",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "cast"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "film",
-        "story",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:e795e35a5d10",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:d593ab5fda4e:20261104",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4816,6 +5240,125 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
+      "canonical_key": "movie_source:what-s-on-netflix:c324239bd645",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ali Wong and Stephanie Hsu on Playing Cinderella’s ‘Evil’ Stepsisters in Netflix’s ‘Steps’",
+      "canonical_key": "movie_source:what-s-on-netflix:166e4b9c0ad5",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Ali Wong and Stephanie Hsu on Playing Cinderella’s ‘Evil’ Stepsisters in Netflix’s ‘Steps’",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Living the Dream’: First Look and Release Date Set for Animated Netflix Workplace Sitcom From ‘Apple & Onion’ Creator",
+      "canonical_key": "movie_source:what-s-on-netflix:bc745486ec4b",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Living the Dream’: First Look and Release Date Set for Animated Netflix Workplace Sitcom From ‘Apple & Onion’ Creator",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Diplomat’ Season 5 Gets Filming And Netflix Release Date Update",
+      "canonical_key": "movie_source:what-s-on-netflix:d134bd068d02",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Diplomat’ Season 5 Gets Filming And Netflix Release Date Update",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Guarding Stars’ Netflix Review: Leighton Meester and Jared Padalecki Unite for Montana Christmas Romance",
+      "canonical_key": "movie_source:what-s-on-netflix:d82dded13725",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Guarding Stars’ Netflix Review: Leighton Meester and Jared Padalecki Unite for Montana Christmas Romance",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Filming Begins on ‘Patricia’, Penélope Cruz’s Second Netflix Original Movie",
+      "canonical_key": "movie_source:what-s-on-netflix:85a70771e266",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Filming Begins on ‘Patricia’, Penélope Cruz’s Second Netflix Original Movie",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Guarding Stars’ Soundtrack: Ava Max’s New Single ‘Blockbuster’ and Every Song in Netflix’s Christmas Rom-Com",
+      "canonical_key": "movie_source:what-s-on-netflix:092a107fd5ab",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Guarding Stars’ Soundtrack: Ava Max’s New Single ‘Blockbuster’ and Every Song in Netflix’s Christmas Rom-Com",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5112,125 +5655,6 @@
       "source": "What's on Netflix",
       "title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
       "canonical_key": "movie_source:what-s-on-netflix:46f68b977cce",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
-      "canonical_key": "movie_source:what-s-on-netflix:dac34edb7d92",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Confirms Production on ‘The Twilight Between Us’ Starring Kang Dong Won and Kim Go Eun",
-      "canonical_key": "movie_source:what-s-on-netflix:7b1142b04e9c",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Confirms Production on ‘The Twilight Between Us’ Starring Kang Dong Won and Kim Go Eun",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Announces ‘Russell Brand: Open Secret’ True Crime Documentary Following Comedian’s Conviction",
-      "canonical_key": "movie_source:what-s-on-netflix:42cd7509c0b5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Announces ‘Russell Brand: Open Secret’ True Crime Documentary Following Comedian’s Conviction",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Allen’ Creator Daley Pearson on Ludo Studio’s Leap From ‘Bluey’ to Live-Action and How The Film Evolved From A Series",
-      "canonical_key": "movie_source:what-s-on-netflix:b1368ba69844",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Allen’ Creator Daley Pearson on Ludo Studio’s Leap From ‘Bluey’ to Live-Action and How The Film Evolved From A Series",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Ludo Studio Made ‘Allen’: Gecko Smiles, Eight Puppets and an Animatronic That “Didn’t Fly”",
-      "canonical_key": "movie_source:what-s-on-netflix:c600c32247bc",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "How Ludo Studio Made ‘Allen’: Gecko Smiles, Eight Puppets and an Animatronic That “Didn’t Fly”",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Where Was ‘Allen’ Filmed? A Guide to the Real-Life Queensland Locations in Netflix’s New Sci-Fi Comedy",
-      "canonical_key": "movie_source:what-s-on-netflix:14ca63b26a98",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Where Was ‘Allen’ Filmed? A Guide to the Real-Life Queensland Locations in Netflix’s New Sci-Fi Comedy",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Tiffany Smith Llorens on Why the Visual Effects in ‘The Diplomat’ Have to Remain Completely Invisible",
-      "canonical_key": "movie_source:what-s-on-netflix:11b2917254e8",
       "required_field_gaps": [
         "release_year"
       ]
