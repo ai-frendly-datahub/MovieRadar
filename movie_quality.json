@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-20T14:58:58.366083+00:00",
+  "generated_at": "2026-11-21T14:18:48.207232+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 78,
-    "movie_signal_event_count": 79,
+    "release_calendar_events": 79,
+    "movie_signal_event_count": 80,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 30,
+    "complete_canonical_key_count": 31,
     "proxy_canonical_key_count": 49,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 79,
-    "release_year_present_count": 30,
+    "normalized_title_present_count": 80,
+    "release_year_present_count": 31,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 76,
+    "platform_present_count": 77,
     "event_required_field_gap_count": 52,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 98,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 50,
+      "article_count": 48,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,16 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 78,
-      "event_count": 78,
-      "latest_event_at": "2026-11-20T14:00:34+00:00",
-      "age_days": 0.04,
-      "latest_title": "‘Nemesis’ Season 2 Finally Gets Filming Start Date Update Plus New Showrunner",
-      "latest_url": "https://www.whats-on-netflix.com/news/nemesis-season-2-filming-start-date-los-angeles-netflix",
+      "article_count": 79,
+      "event_count": 79,
+      "latest_event_at": "2026-11-20T17:35:27+00:00",
+      "age_days": 0.86,
+      "latest_title": "Netflix Slates 17 New Documentaries for December 2026: See the Full List",
+      "latest_url": "https://www.whats-on-netflix.com/coming-soon/new-documentaries-on-netflix-december-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
-        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -278,7 +277,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-20T14:58:53.380519+00:00",
+      "latest_event_at": "2026-11-21T14:18:42.258512+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +349,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-20T14:58:53.380519+00:00",
+      "event_at": "2026-11-21T14:18:42.258512+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -383,10 +382,10 @@
         "viewing",
         "story",
         "time",
-        "best",
         "top",
         "new",
-        "latest"
+        "latest",
+        "here"
       ],
       "source_signal": [
         "box_office",
@@ -396,7 +395,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261120",
+      "event_key": "box_office:907d712300a5:20261121",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -421,12 +420,70 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "‘Nemesis’ Season 2 Finally Gets Filming Start Date Update Plus New Showrunner",
-      "url": "https://www.whats-on-netflix.com/news/nemesis-season-2-filming-start-date-los-angeles-netflix",
-      "source_url": "https://www.whats-on-netflix.com/news/nemesis-season-2-filming-start-date-los-angeles-netflix",
-      "event_at": "2026-11-20T14:00:34+00:00",
+      "title": "Netflix Slates 17 New Documentaries for December 2026: See the Full List",
+      "url": "https://www.whats-on-netflix.com/coming-soon/new-documentaries-on-netflix-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/new-documentaries-on-netflix-december-2026",
+      "event_at": "2026-11-20T17:35:27+00:00",
       "movie_id": "",
-      "normalized_title": "‘Nemesis’ Season 2 Finally Gets Filming Start Date Update Plus New Showrunner",
+      "normalized_title": "Netflix Slates 17 New Documentaries for December 2026: See the Full List",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "films",
+        "see",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-slates-17-new-documentaries-for-december-2026-see-the-full-list:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:e68615721c0a:20261120",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Steps’ Ending Explained: Why Cinderella Rewrites Her Own Fairy Tale",
+      "url": "https://www.whats-on-netflix.com/what-to-watch/steps-ending-explained-why-cinderella-rewrote-her-own-fairy-tale-history",
+      "source_url": "https://www.whats-on-netflix.com/what-to-watch/steps-ending-explained-why-cinderella-rewrote-her-own-fairy-tale-history",
+      "event_at": "2026-11-20T15:52:10+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Steps’ Ending Explained: Why Cinderella Rewrites Her Own Fairy Tale",
       "release_year": "",
       "country": "US",
       "region": "US",
@@ -447,8 +504,190 @@
         "netflix"
       ],
       "film_general": [
-        "now",
+        "film",
+        "time",
         "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:473c54f8de37",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:144ac55b1dc9:20261120",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Mission: Cross 2’ Sets December 2026 Netflix Release After Delay",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/mission-cross-2-december-2026-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/mission-cross-2-december-2026-netflix-release-date",
+      "event_at": "2026-11-20T15:12:49+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Mission: Cross 2’ Sets December 2026 Netflix Release After Delay",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:mission-cross-2-sets-december-2026-netflix-release-after-delay:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:cdcdfe27a6b5:20261120",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Alyce Tzue and John Ripa on Netflix’s ‘Steps’ and Seeing Cinderella’s Story Through New Eyes",
+      "url": "https://www.whats-on-netflix.com/interviews/steps-netflix-movie-streaming-directors-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/steps-netflix-movie-streaming-directors-interview",
+      "event_at": "2026-11-20T15:07:42+00:00",
+      "movie_id": "",
+      "normalized_title": "Alyce Tzue and John Ripa on Netflix’s ‘Steps’ and Seeing Cinderella’s Story Through New Eyes",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "production",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "seeing",
+        "story",
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_url_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:58b83e648f05",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3ba515dbc847:20261120",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Nemesis’ Season 2 Finally Gets Filming Update With Gabriela Uribe Taking Over Showrunner Duties",
+      "url": "https://www.whats-on-netflix.com/news/nemesis-season-2-filming-start-date-los-angeles-netflix",
+      "source_url": "https://www.whats-on-netflix.com/news/nemesis-season-2-filming-start-date-los-angeles-netflix",
+      "event_at": "2026-11-20T14:00:34+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Nemesis’ Season 2 Finally Gets Filming Update With Gabriela Uribe Taking Over Showrunner Duties",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "now"
       ],
       "source_signal": [
         "movie_text_context",
@@ -456,9 +695,9 @@
         "ott_release_context",
         "release_calendar"
       ],
-      "canonical_key": "movie_source:what-s-on-netflix:bdabc3ccbd10",
+      "canonical_key": "movie_source:what-s-on-netflix:d9ec8c619dd3",
       "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:91817bb59cdc:20261120",
+      "event_key": "release_calendar:304ceee6f94d:20261120",
       "required_field_proxy": {
         "title": true,
         "release_year": false,
@@ -4868,190 +5107,6 @@
       "required_field_gaps": [
         "release_year"
       ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Welcome to El Bulli’: Ferran Adrià Chef Drama Sets Netflix Release Date",
-      "url": "https://www.whats-on-netflix.com/news/welcome-to-el-bulli-ferran-adria-chef-drama-sets-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/welcome-to-el-bulli-ferran-adria-chef-drama-sets-netflix-release-date",
-      "event_at": "2026-11-06T20:06:57+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Welcome to El Bulli’: Ferran Adrià Chef Drama Sets Netflix Release Date",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:a37e16bcae2e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:fdeb52d3bfd3:20261106",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "12 Best New Movies on Netflix in November 2026",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/best-new-movies-on-netflix-november-2026",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/best-new-movies-on-netflix-november-2026",
-      "event_at": "2026-11-06T19:57:08+00:00",
-      "movie_id": "",
-      "normalized_title": "12 Best New Movies on Netflix in November 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movies",
-        "best",
-        "new",
-        "latest",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:12-best-new-movies-on-netflix-in-november-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:65cb4b267488:20261106",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Shifting Gears’ Heading to Netflix Globally Ahead of Season 3 Premiere",
-      "url": "https://www.whats-on-netflix.com/news/shifting-gears-sitcom-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/shifting-gears-sitcom-netflix-release-date",
-      "event_at": "2026-11-06T17:48:45+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Shifting Gears’ Heading to Netflix Globally Ahead of Season 3 Premiere",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "premiere"
-      ],
-      "film_general": [
-        "now",
-        "one",
-        "two",
-        "latest",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:bdb569ee9858",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:360cf2e4f04c:20261106",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5071,8 +5126,8 @@
       "reason": "missing_required_fields",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "‘Nemesis’ Season 2 Finally Gets Filming Start Date Update Plus New Showrunner",
-      "canonical_key": "movie_source:what-s-on-netflix:bdabc3ccbd10",
+      "title": "‘Steps’ Ending Explained: Why Cinderella Rewrites Her Own Fairy Tale",
+      "canonical_key": "movie_source:what-s-on-netflix:473c54f8de37",
       "required_field_gaps": [
         "release_year"
       ]
@@ -5081,7 +5136,41 @@
       "reason": "proxy_canonical_key",
       "event_model": "release_calendar",
       "source": "What's on Netflix",
-      "title": "‘Nemesis’ Season 2 Finally Gets Filming Start Date Update Plus New Showrunner",
+      "title": "‘Steps’ Ending Explained: Why Cinderella Rewrites Her Own Fairy Tale",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Alyce Tzue and John Ripa on Netflix’s ‘Steps’ and Seeing Cinderella’s Story Through New Eyes",
+      "canonical_key": "movie_source:what-s-on-netflix:58b83e648f05",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Alyce Tzue and John Ripa on Netflix’s ‘Steps’ and Seeing Cinderella’s Story Through New Eyes",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Nemesis’ Season 2 Finally Gets Filming Update With Gabriela Uribe Taking Over Showrunner Duties",
+      "canonical_key": "movie_source:what-s-on-netflix:d9ec8c619dd3",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Nemesis’ Season 2 Finally Gets Filming Update With Gabriela Uribe Taking Over Showrunner Duties",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -5447,40 +5536,6 @@
       "source": "What's on Netflix",
       "title": "George Clooney and Adam Sandler’s Netflix Movie Is Getting a Criterion Collection 4K Release",
       "canonical_key": "movie_source:what-s-on-netflix:c1e962ede811",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "George Clooney and Adam Sandler’s Netflix Movie Is Getting a Criterion Collection 4K Release",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "84,000 Signed Petition for Netflix to Cancel ‘The Body,’ Yet It’s Surging Up Charts After 100% Rotten Tomatoes Debut",
-      "canonical_key": "movie_source:what-s-on-netflix:71352d495c14",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "84,000 Signed Petition for Netflix to Cancel ‘The Body,’ Yet It’s Surging Up Charts After 100% Rotten Tomatoes Debut",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Heartland’ Director Shana Feste on Turning Jessica Chastain Into a Country Music Star",
-      "canonical_key": "movie_source:what-s-on-netflix:fa3cdccace36",
       "required_field_gaps": [
         "release_year"
       ]
