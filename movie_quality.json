@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-22T14:09:51.644679+00:00",
+  "generated_at": "2026-11-23T17:31:22.918715+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -17,19 +17,19 @@
     "reservation_ranking_events": 0,
     "box_office_events": 1,
     "ott_ranking_events": 0,
-    "release_calendar_events": 79,
-    "movie_signal_event_count": 80,
+    "release_calendar_events": 78,
+    "movie_signal_event_count": 79,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
+    "complete_canonical_key_count": 31,
     "proxy_canonical_key_count": 48,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
-    "normalized_title_present_count": 80,
-    "release_year_present_count": 32,
+    "normalized_title_present_count": 79,
+    "release_year_present_count": 31,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 77,
+    "platform_present_count": 76,
     "event_required_field_gap_count": 51,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 99,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -124,7 +124,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 38,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -198,14 +198,15 @@
       "event_model": "release_calendar",
       "freshness_sla_days": 14.0,
       "status": "fresh",
-      "article_count": 79,
-      "event_count": 79,
-      "latest_event_at": "2026-11-21T21:19:18+00:00",
-      "age_days": 0.7,
-      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 21, 2026",
-      "latest_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-21-2026",
+      "article_count": 78,
+      "event_count": 78,
+      "latest_event_at": "2026-11-23T17:09:38+00:00",
+      "age_days": 0.02,
+      "latest_title": "David Fincher Says Netflix’s ‘Cliff Booth’ Movie Didn’t Cost $200 Million: “I Wish We Had 200”",
+      "latest_url": "https://www.whats-on-netflix.com/news/david-fincher-says-netflixs-cliff-booth-movie-didnt-cost-200-million-i-wish-we-had-200",
       "latest_source_signal": [
         "movie_text_context",
+        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -227,7 +228,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 8,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -278,7 +279,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-22T14:09:45.674679+00:00",
+      "latest_event_at": "2026-11-23T17:31:16.328345+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +351,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-22T14:09:45.674679+00:00",
+      "event_at": "2026-11-23T17:31:16.328345+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -393,7 +394,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261122",
+      "event_key": "box_office:907d712300a5:20261123",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -404,6 +405,371 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "David Fincher Says Netflix’s ‘Cliff Booth’ Movie Didn’t Cost $200 Million: “I Wish We Had 200”",
+      "url": "https://www.whats-on-netflix.com/news/david-fincher-says-netflixs-cliff-booth-movie-didnt-cost-200-million-i-wish-we-had-200",
+      "source_url": "https://www.whats-on-netflix.com/news/david-fincher-says-netflixs-cliff-booth-movie-didnt-cost-200-million-i-wish-we-had-200",
+      "event_at": "2026-11-23T17:09:38+00:00",
+      "movie_id": "",
+      "normalized_title": "David Fincher Says Netflix’s ‘Cliff Booth’ Movie Didn’t Cost $200 Million: “I Wish We Had 200”",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "tarantino",
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "movie",
+        "year"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:485a55cf64f6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:a4597a2cf5fb:20261123",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "True Crime Doc ‘A Deadly Affair: The Pamela Smart Story’ Coming to Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/news/most-hated-woman-pamela-smart-netflix-documentary",
+      "source_url": "https://www.whats-on-netflix.com/news/most-hated-woman-pamela-smart-netflix-documentary",
+      "event_at": "2026-11-23T14:11:30+00:00",
+      "movie_id": "",
+      "normalized_title": "True Crime Doc ‘A Deadly Affair: The Pamela Smart Story’ Coming to Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "coming"
+      ],
+      "film_general": [
+        "screens",
+        "story",
+        "most",
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:true-crime-doc-a-deadly-affair-the-pamela-smart-story-coming-to-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:fb1eb63a7652:20261123",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Why ‘Mindhunter’ Season 3 Never Happened: David Fincher Reveals What Netflix Asked For",
+      "url": "https://www.whats-on-netflix.com/news/why-mindhunter-season-3-didnt-happen",
+      "source_url": "https://www.whats-on-netflix.com/news/why-mindhunter-season-3-didnt-happen",
+      "event_at": "2026-11-23T12:21:18+00:00",
+      "movie_id": "",
+      "normalized_title": "Why ‘Mindhunter’ Season 3 Never Happened: David Fincher Reveals What Netflix Asked For",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "show"
+      ],
+      "film_general": [
+        "anyone"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c6c4b73c604e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:7cf6153def16:20261123",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Original Showa-Era ‘Ultraman’ Films Heading to Netflix For First Time",
+      "url": "https://www.whats-on-netflix.com/news/classic-ultraman-movies-netflix-release-date-2026",
+      "source_url": "https://www.whats-on-netflix.com/news/classic-ultraman-movies-netflix-release-date-2026",
+      "event_at": "2026-11-23T12:05:03+00:00",
+      "movie_id": "",
+      "normalized_title": "Original Showa-Era ‘Ultraman’ Films Heading to Netflix For First Time",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "films",
+        "movies",
+        "time",
+        "two",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:original-showa-era-ultraman-films-heading-to-netflix-for-first-time:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:08e80c482fd4:20261123",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s Swedish Comedy Permafrost Arrives December 2026: Plot, Cast & Official Trailer",
+      "url": "https://www.whats-on-netflix.com/news/permafrost-netflix-december-2026-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/permafrost-netflix-december-2026-release-date",
+      "event_at": "2026-11-23T11:02:41+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s Swedish Comedy Permafrost Arrives December 2026: Plot, Cast & Official Trailer",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [
+        "cast"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "two"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-s-swedish-comedy-permafrost-arrives-december-2026-plot-cast-official-trailer:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:489e5b496959:20261123",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Trust’: Sir Idris Elba and King Charles III Documentary Sets Netflix Release, Drops Trailer",
+      "url": "https://www.whats-on-netflix.com/news/the-trust-sir-idris-elba-and-king-charles-iii-documentary-sets-netflix-release-drops-trailer",
+      "source_url": "https://www.whats-on-netflix.com/news/the-trust-sir-idris-elba-and-king-charles-iii-documentary-sets-netflix-release-drops-trailer",
+      "event_at": "2026-11-23T08:45:56+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Trust’: Sir Idris Elba and King Charles III Documentary Sets Netflix Release, Drops Trailer",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "trailer",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "trailer"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:db872c75237d",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:3db74e3c5e9a:20261123",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4692,423 +5058,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Football Manager Mobile’ Getting Major Update on Netflix",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/football-manager-2027-mobile-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/football-manager-2027-mobile-netflix-release-date",
-      "event_at": "2026-11-09T16:08:01+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Football Manager Mobile’ Getting Major Update on Netflix",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "most",
-        "new"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:football-manager-mobile-getting-major-update-on-netflix:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b4e91c476cb6:20261109",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Denzel Washington and Robert Pattinson Heist Thriller ‘The Take’ Gets Netflix Release Date & First Looks",
-      "url": "https://www.whats-on-netflix.com/news/the-take-netflix-release-date-denzel-washington-robert-pattinson",
-      "source_url": "https://www.whats-on-netflix.com/news/the-take-netflix-release-date-denzel-washington-robert-pattinson",
-      "event_at": "2026-11-09T14:58:39+00:00",
-      "movie_id": "",
-      "normalized_title": "Denzel Washington and Robert Pattinson Heist Thriller ‘The Take’ Gets Netflix Release Date & First Looks",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:denzel-washington-and-robert-pattinson-heist-thriller-the-take-gets-netflix-release-date-first-looks:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b83c67c9a607:20261109",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix This Week: November 9 to 15, 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-november-9-to-15-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-this-week-november-9-to-15-2026",
-      "event_at": "2026-11-09T13:23:48+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix This Week: November 9 to 15, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows",
-        "coming"
-      ],
-      "film_general": [
-        "movies",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-this-week-november-9-to-15-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:52e5e69616dd:20261109",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix To Stream Jenna Ortega and Natalie Portman’s ‘The Gallerist’ Outside the United States",
-      "url": "https://www.whats-on-netflix.com/news/the-gallerist-netflix-international-release",
-      "source_url": "https://www.whats-on-netflix.com/news/the-gallerist-netflix-international-release",
-      "event_at": "2026-11-09T11:59:58+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix To Stream Jenna Ortega and Natalie Portman’s ‘The Gallerist’ Outside the United States",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:dca06a823ea5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6abde7de4e82:20261109",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘The Good Lawyer’ Review: Laurent Lafitte and Mélanie Laurent Star in Tense Yet Familiar Character Study",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/the-good-lawyer-netflix-movie-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/the-good-lawyer-netflix-movie-review",
-      "event_at": "2026-11-09T11:37:34+00:00",
-      "movie_id": "",
-      "normalized_title": "‘The Good Lawyer’ Review: Laurent Lafitte and Mélanie Laurent Star in Tense Yet Familiar Character Study",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "coming",
-        "premiere"
-      ],
-      "film_general": [
-        "review",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:20716e60c48c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a3f0f8599366:20261109",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Steps’ Review: Netflix Cinderella Retelling Is the Sister Story ‘Frozen’ Wanted to Be",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/steps-netflix-movie-review",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/steps-netflix-movie-review",
-      "event_at": "2026-11-08T23:30:21+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Steps’ Review: Netflix Cinderella Retelling Is the Sister Story ‘Frozen’ Wanted to Be",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "watch"
-      ],
-      "film_general": [
-        "watch",
-        "review",
-        "story"
-      ],
-      "source_signal": [
-        "movie_url_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:acfb7b0e1d03",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:f038efadaf05:20261108",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 8, 2026",
-      "url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-8-2026",
-      "source_url": "https://www.whats-on-netflix.com/whats-new/new-releases-on-netflix-this-week-and-top-10-movies-series-november-8-2026",
-      "event_at": "2026-11-08T14:24:40+00:00",
-      "movie_id": "",
-      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: November 8, 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "releases"
-      ],
-      "film_general": [
-        "movies",
-        "top",
-        "new",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-november-8-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:0161ea275457:20261108",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -5123,6 +5072,57 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "David Fincher Says Netflix’s ‘Cliff Booth’ Movie Didn’t Cost $200 Million: “I Wish We Had 200”",
+      "canonical_key": "movie_source:what-s-on-netflix:485a55cf64f6",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "David Fincher Says Netflix’s ‘Cliff Booth’ Movie Didn’t Cost $200 Million: “I Wish We Had 200”",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why ‘Mindhunter’ Season 3 Never Happened: David Fincher Reveals What Netflix Asked For",
+      "canonical_key": "movie_source:what-s-on-netflix:c6c4b73c604e",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Why ‘Mindhunter’ Season 3 Never Happened: David Fincher Reveals What Netflix Asked For",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Trust’: Sir Idris Elba and King Charles III Documentary Sets Netflix Release, Drops Trailer",
+      "canonical_key": "movie_source:what-s-on-netflix:db872c75237d",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Trust’: Sir Idris Elba and King Charles III Documentary Sets Netflix Release, Drops Trailer",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5487,57 +5487,6 @@
       "source": "What's on Netflix",
       "title": "‘Cunk on Cinema’ Isn’t the Same Show on Netflix As It Is On The BBC",
       "canonical_key": "movie_source:what-s-on-netflix:0b329966e834",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Cunk on Cinema’ Isn’t the Same Show on Netflix As It Is On The BBC",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Series ‘How to Kill Your Family’ Filming Moves to Spain: Anya Taylor-Joy Spotted in Barcelona",
-      "canonical_key": "movie_source:what-s-on-netflix:30fd538dcc93",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Series ‘How to Kill Your Family’ Filming Moves to Spain: Anya Taylor-Joy Spotted in Barcelona",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Testing Running Trailers for Its Own Titles Before Episodes (Again)",
-      "canonical_key": "movie_source:what-s-on-netflix:2158373459c4",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Netflix Testing Running Trailers for Its Own Titles Before Episodes (Again)",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "George Clooney and Adam Sandler’s Netflix Movie Is Getting a Criterion Collection 4K Release",
-      "canonical_key": "movie_source:what-s-on-netflix:c1e962ede811",
       "required_field_gaps": [
         "release_year"
       ]
