@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-25T16:53:16.504304+00:00",
+  "generated_at": "2026-11-26T16:30:34.140296+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 77,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 24,
-    "proxy_canonical_key_count": 53,
+    "complete_canonical_key_count": 28,
+    "proxy_canonical_key_count": 49,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 77,
-    "release_year_present_count": 24,
+    "release_year_present_count": 28,
     "rank_present_count": 0,
     "gross_present_count": 0,
-    "platform_present_count": 74,
-    "event_required_field_gap_count": 56,
+    "platform_present_count": 72,
+    "event_required_field_gap_count": 52,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 79,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 94,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,12 +200,13 @@
       "status": "fresh",
       "article_count": 76,
       "event_count": 76,
-      "latest_event_at": "2026-11-25T15:45:13+00:00",
-      "age_days": 0.05,
-      "latest_title": "Kota Factory Team Reunites For Army Drama Series Fauj Starring Babil Khan; Premiere Eyed for 2027",
-      "latest_url": "https://www.whats-on-netflix.com/news/fauj-netflix-babil-khan-series",
+      "latest_event_at": "2026-11-26T16:21:51+00:00",
+      "age_days": 0.01,
+      "latest_title": "‘Good Sex’ Natalie Portman Rom-Com: Netflix Confirms Spring 2027 Release Window",
+      "latest_url": "https://www.whats-on-netflix.com/news/good-sex-netflix-movie-spring-2027-release",
       "latest_source_signal": [
         "movie_text_context",
+        "movie_url_context",
         "ott_release",
         "ott_release_context",
         "release_calendar"
@@ -278,7 +279,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-25T16:53:12.855593+00:00",
+      "latest_event_at": "2026-11-26T16:30:28.101991+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -350,7 +351,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-25T16:53:12.855593+00:00",
+      "event_at": "2026-11-26T16:30:28.101991+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -376,6 +377,7 @@
       ],
       "film_general": [
         "movie",
+        "movies",
         "story",
         "time",
         "top",
@@ -391,7 +393,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261125",
+      "event_key": "box_office:907d712300a5:20261126",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -403,6 +405,647 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Good Sex’ Natalie Portman Rom-Com: Netflix Confirms Spring 2027 Release Window",
+      "url": "https://www.whats-on-netflix.com/news/good-sex-netflix-movie-spring-2027-release",
+      "source_url": "https://www.whats-on-netflix.com/news/good-sex-netflix-movie-spring-2027-release",
+      "event_at": "2026-11-26T16:21:51+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Good Sex’ Natalie Portman Rom-Com: Netflix Confirms Spring 2027 Release Window",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "movie_url_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:good-sex-natalie-portman-rom-com-netflix-confirms-spring-2027-release-window:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:d2497386b7fc:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Every Board Game Adaptation In The Works at Netflix",
+      "url": "https://www.whats-on-netflix.com/coming-soon/netflix-board-game-adaptations-list",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/netflix-board-game-adaptations-list",
+      "event_at": "2026-11-26T16:10:50+00:00",
+      "movie_id": "",
+      "normalized_title": "Every Board Game Adaptation In The Works at Netflix",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:c776ac962842",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:700a9b077b77:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Where Was ‘The Hunting Wives’ Seasons 1-2 Filmed? Complete Filming Locations Guide",
+      "url": "https://www.whats-on-netflix.com/news/the-hunting-wives-season-1-2-filming-locations",
+      "source_url": "https://www.whats-on-netflix.com/news/the-hunting-wives-season-1-2-filming-locations",
+      "event_at": "2026-11-26T15:56:28+00:00",
+      "movie_id": "",
+      "normalized_title": "Where Was ‘The Hunting Wives’ Seasons 1-2 Filmed? Complete Filming Locations Guide",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:a48b41d6b15f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:bb7b63145aec:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Action-Thriller ‘Fairytale in New York’ Starring Aaron Pierre: Everything We Know So Far",
+      "url": "https://www.whats-on-netflix.com/news/fairytale-in-new-york-netflix-action-movie",
+      "source_url": "https://www.whats-on-netflix.com/news/fairytale-in-new-york-netflix-action-movie",
+      "event_at": "2026-11-26T15:04:19+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Action-Thriller ‘Fairytale in New York’ Starring Aaron Pierre: Everything We Know So Far",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:netflix-action-thriller-fairytale-in-new-york-starring-aaron-pierre-everything-we-know-so-far:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:8f880ad0e129:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "What’s Coming to Netflix in December 2026",
+      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
+      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
+      "event_at": "2026-11-26T13:49:30+00:00",
+      "movie_id": "",
+      "normalized_title": "What’s Coming to Netflix in December 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "tarantino"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "releases",
+        "coming"
+      ],
+      "film_general": [
+        "movie",
+        "here"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:what-s-coming-to-netflix-in-december-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:f019d840051c:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Mission: Cross 2’ Sets Christmas Day 2026 Netflix Release",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/mission-cross-2-christmas-day-2026-netflix-release-date",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/mission-cross-2-christmas-day-2026-netflix-release-date",
+      "event_at": "2026-11-26T13:03:49+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Mission: Cross 2’ Sets Christmas Day 2026 Netflix Release",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:mission-cross-2-sets-christmas-day-2026-netflix-release:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:5e0c8bbedf25:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix’s First Pakistani Original ‘All The Love Our Hearts Carry’ Sets December Premiere, But Won’t Stream in India",
+      "url": "https://www.whats-on-netflix.com/news/jo-bachay-hain-sang-samait-lo-netflix-release-date-india-ban",
+      "source_url": "https://www.whats-on-netflix.com/news/jo-bachay-hain-sang-samait-lo-netflix-release-date-india-ban",
+      "event_at": "2026-11-26T11:53:06+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix’s First Pakistani Original ‘All The Love Our Hearts Carry’ Sets December Premiere, But Won’t Stream in India",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "premiere",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [
+        "premiere"
+      ],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release",
+        "premiere"
+      ],
+      "film_general": [
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:4e12a9a4f385",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:252f81052084:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘The Hunting Wives’ Season 2 Director Melanie Mayron on Sophie and Margo’s Story, Intimacy, & More",
+      "url": "https://www.whats-on-netflix.com/interviews/the-hunting-wives-season-2-director-melanie-mayron-interview",
+      "source_url": "https://www.whats-on-netflix.com/interviews/the-hunting-wives-season-2-director-melanie-mayron-interview",
+      "event_at": "2026-11-26T11:34:19+00:00",
+      "movie_id": "",
+      "normalized_title": "‘The Hunting Wives’ Season 2 Director Melanie Mayron on Sophie and Margo’s Story, Intimacy, & More",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "",
+      "release_date": "",
+      "box_office": [],
+      "director": [
+        "director"
+      ],
+      "actor": [],
+      "award": [],
+      "studio": [],
+      "platform": [],
+      "film_general": [
+        "story",
+        "most"
+      ],
+      "source_signal": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:36910e5793cf",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:90fde61d2700:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Netflix Lands International Rights to Lee Do Hyun’s Crime K-Drama ‘The Man Called H’",
+      "url": "https://www.whats-on-netflix.com/news/k-dramas/netflix-rights-the-man-called-h-k-drama",
+      "source_url": "https://www.whats-on-netflix.com/news/k-dramas/netflix-rights-the-man-called-h-k-drama",
+      "event_at": "2026-11-26T10:50:02+00:00",
+      "movie_id": "",
+      "normalized_title": "Netflix Lands International Rights to Lee Do Hyun’s Crime K-Drama ‘The Man Called H’",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [
+        "starring"
+      ],
+      "award": [],
+      "studio": [
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "streaming"
+      ],
+      "film_general": [],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f800ef6e2b69",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:58be077bfe12:20261126",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "The Night Agent Season 4: Expected Netflix Release Date & Everything We Know",
+      "url": "https://www.whats-on-netflix.com/news/the-night-agent-season-4-netflix-release-date-production-wrap",
+      "source_url": "https://www.whats-on-netflix.com/news/the-night-agent-season-4-netflix-release-date-production-wrap",
+      "event_at": "2026-11-25T20:24:14+00:00",
+      "movie_id": "",
+      "normalized_title": "The Night Agent Season 4: Expected Netflix Release Date & Everything We Know",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "one"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:the-night-agent-season-4-expected-netflix-release-date-everything-we-know:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:0977f833ef0a:20261125",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "Sofia Carson to Headline Netflix’s NFL Christmas Rom-Com ‘The Christmas Game’",
+      "url": "https://www.whats-on-netflix.com/news/sofia-carson-to-headline-netflixs-nfl-christmas-rom-com-the-christmas-game",
+      "source_url": "https://www.whats-on-netflix.com/news/sofia-carson-to-headline-netflixs-nfl-christmas-rom-com-the-christmas-game",
+      "event_at": "2026-11-25T17:26:38+00:00",
+      "movie_id": "",
+      "normalized_title": "Sofia Carson to Headline Netflix’s NFL Christmas Rom-Com ‘The Christmas Game’",
+      "release_year": "2027",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "year",
+        "new"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:sofia-carson-to-headline-netflix-s-nfl-christmas-rom-com-the-christmas-game:2027:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:a9da70166b35:20261125",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "What's on Netflix",
@@ -2910,66 +3553,6 @@
         "release_calendar"
       ],
       "event_model": "release_calendar",
-      "title": "What’s Coming to Netflix in December 2026",
-      "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
-      "source_url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-december-2026",
-      "event_at": "2026-11-18T15:19:30+00:00",
-      "movie_id": "",
-      "normalized_title": "What’s Coming to Netflix in December 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "tarantino"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "releases",
-        "coming"
-      ],
-      "film_general": [
-        "movie",
-        "here"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:what-s-coming-to-netflix-in-december-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f019d840051c:20261118",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
       "title": "‘Guarding Stars’ Team on Book Changes In Netflix Film and Its Hidden ‘Virgin River’ Links",
       "url": "https://www.whats-on-netflix.com/news/guarding-stars-writers-on-book-changes-in-netflix-film-and-its-hidden-virgin-river-links",
       "source_url": "https://www.whats-on-netflix.com/news/guarding-stars-writers-on-book-changes-in-netflix-film-and-its-hidden-virgin-river-links",
@@ -4367,605 +4950,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Ray Gunn’ Gets Its Most Revealing Trailer Yet Plus a New Poster and First Looks (With a Pixar Easter Egg)",
-      "url": "https://www.whats-on-netflix.com/news/ray-gunn-gets-its-most-revealing-trailer-yet-plus-a-new-poster-and-first-looks-with-a-pixar-easter-egg",
-      "source_url": "https://www.whats-on-netflix.com/news/ray-gunn-gets-its-most-revealing-trailer-yet-plus-a-new-poster-and-first-looks-with-a-pixar-easter-egg",
-      "event_at": "2026-11-12T14:30:24+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Ray Gunn’ Gets Its Most Revealing Trailer Yet Plus a New Poster and First Looks (With a Pixar Easter Egg)",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "trailer",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "trailer"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "story",
-        "most",
-        "new",
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:91601ccee119",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:70efcbcb792a:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
-      "url": "https://www.whats-on-netflix.com/news/league-of-legends-music-collection-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/league-of-legends-music-collection-netflix-release-date",
-      "event_at": "2026-11-12T14:25:22+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Arcane’ May Be Over, But Riot Games is Bringing a ‘League of Legends’ Music Anthology to Netflix",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "cinematic",
-        "this"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:46f68b977cce",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:715fe80b7910:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
-      "url": "https://www.whats-on-netflix.com/news/the-ghost-and-the-gun-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/the-ghost-and-the-gun-netflix-release-date",
-      "event_at": "2026-11-12T14:16:36+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Lands Global Streaming Debut of WWII Film ‘The Ghost and the Gun’",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "streaming",
-        "coming"
-      ],
-      "film_general": [
-        "film",
-        "this",
-        "post"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:dac34edb7d92",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:636561c5d916:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Confirms Production on ‘The Twilight Between Us’ Starring Kang Dong Won and Kim Go Eun",
-      "url": "https://www.whats-on-netflix.com/news/k-drama-the-twilight-between-us-filming-and-everything-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/k-drama-the-twilight-between-us-filming-and-everything-we-know-so-far",
-      "event_at": "2026-11-12T11:10:38+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Confirms Production on ‘The Twilight Between Us’ Starring Kang Dong Won and Kim Go Eun",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "netflix",
-        "production"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:7b1142b04e9c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:139b1d81ec11:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Announces ‘Russell Brand: Open Secret’ True Crime Documentary Following Comedian’s Conviction",
-      "url": "https://www.whats-on-netflix.com/news/russell-brand-open-secret-netflix-release-date",
-      "source_url": "https://www.whats-on-netflix.com/news/russell-brand-open-secret-netflix-release-date",
-      "event_at": "2026-11-12T10:32:08+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Announces ‘Russell Brand: Open Secret’ True Crime Documentary Following Comedian’s Conviction",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "latest",
-        "this"
-      ],
-      "source_signal": [
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:42cd7509c0b5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:57d485ff0a6b:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "‘Allen’ Creator Daley Pearson on Ludo Studio’s Leap From ‘Bluey’ to Live-Action and How The Film Evolved From A Series",
-      "url": "https://www.whats-on-netflix.com/interviews/daley-pearson-interview-allen-netflix-movie",
-      "source_url": "https://www.whats-on-netflix.com/interviews/daley-pearson-interview-allen-netflix-movie",
-      "event_at": "2026-11-12T10:00:42+00:00",
-      "movie_id": "",
-      "normalized_title": "‘Allen’ Creator Daley Pearson on Ludo Studio’s Leap From ‘Bluey’ to Live-Action and How The Film Evolved From A Series",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "studio"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:b1368ba69844",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:becb0356a6b6:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "How Ludo Studio Made ‘Allen’: Gecko Smiles, Eight Puppets and an Animatronic That “Didn’t Fly”",
-      "url": "https://www.whats-on-netflix.com/interviews/designing-allen-netflix-puppet-effects",
-      "source_url": "https://www.whats-on-netflix.com/interviews/designing-allen-netflix-puppet-effects",
-      "event_at": "2026-11-12T10:00:22+00:00",
-      "movie_id": "",
-      "normalized_title": "How Ludo Studio Made ‘Allen’: Gecko Smiles, Eight Puppets and an Animatronic That “Didn’t Fly”",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "studio"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "movie",
-        "year",
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c600c32247bc",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ffb9690c34a2:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Where Was ‘Allen’ Filmed? A Guide to the Real-Life Queensland Locations in Netflix’s New Sci-Fi Comedy",
-      "url": "https://www.whats-on-netflix.com/what-to-watch/allen-netflix-filming-locations-guide",
-      "source_url": "https://www.whats-on-netflix.com/what-to-watch/allen-netflix-filming-locations-guide",
-      "event_at": "2026-11-12T10:00:12+00:00",
-      "movie_id": "",
-      "normalized_title": "Where Was ‘Allen’ Filmed? A Guide to the Real-Life Queensland Locations in Netflix’s New Sci-Fi Comedy",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "new",
-        "netflix",
-        "studio"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [
-        "new"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:14ca63b26a98",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:6416aa834c0b:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix’s ‘Trigger Point’ Starring Joel Edgerton Eyes December 2026 Film Start",
-      "url": "https://www.whats-on-netflix.com/news/trigger-point-netflix-series-what-we-know-so-far",
-      "source_url": "https://www.whats-on-netflix.com/news/trigger-point-netflix-series-what-we-know-so-far",
-      "event_at": "2026-11-12T09:40:33+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix’s ‘Trigger Point’ Starring Joel Edgerton Eyes December 2026 Film Start",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [
-        "starring"
-      ],
-      "award": [],
-      "studio": [
-        "a24",
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "series"
-      ],
-      "film_general": [
-        "film"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-s-trigger-point-starring-joel-edgerton-eyes-december-2026-film-start:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:6ea4817224f2:20261112",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Tiffany Smith Llorens on Why the Visual Effects in ‘The Diplomat’ Have to Remain Completely Invisible",
-      "url": "https://www.whats-on-netflix.com/interviews/tiffany-smith-llorens-vfx-career-interview-ripley",
-      "source_url": "https://www.whats-on-netflix.com/interviews/tiffany-smith-llorens-vfx-career-interview-ripley",
-      "event_at": "2026-11-11T19:05:09+00:00",
-      "movie_id": "",
-      "normalized_title": "Tiffany Smith Llorens on Why the Visual Effects in ‘The Diplomat’ Have to Remain Completely Invisible",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix",
-        "shows"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:11b2917254e8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:ccca20a3e7be:20261111",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -4980,6 +4964,91 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Board Game Adaptation In The Works at Netflix",
+      "canonical_key": "movie_source:what-s-on-netflix:c776ac962842",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Every Board Game Adaptation In The Works at Netflix",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Where Was ‘The Hunting Wives’ Seasons 1-2 Filmed? Complete Filming Locations Guide",
+      "canonical_key": "movie_source:what-s-on-netflix:a48b41d6b15f",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Where Was ‘The Hunting Wives’ Seasons 1-2 Filmed? Complete Filming Locations Guide",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s First Pakistani Original ‘All The Love Our Hearts Carry’ Sets December Premiere, But Won’t Stream in India",
+      "canonical_key": "movie_source:what-s-on-netflix:4e12a9a4f385",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix’s First Pakistani Original ‘All The Love Our Hearts Carry’ Sets December Premiere, But Won’t Stream in India",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Hunting Wives’ Season 2 Director Melanie Mayron on Sophie and Margo’s Story, Intimacy, & More",
+      "canonical_key": "movie_source:what-s-on-netflix:36910e5793cf",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘The Hunting Wives’ Season 2 Director Melanie Mayron on Sophie and Margo’s Story, Intimacy, & More",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Lands International Rights to Lee Do Hyun’s Crime K-Drama ‘The Man Called H’",
+      "canonical_key": "movie_source:what-s-on-netflix:f800ef6e2b69",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "Netflix Lands International Rights to Lee Do Hyun’s Crime K-Drama ‘The Man Called H’",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5310,91 +5379,6 @@
       "source": "What's on Netflix",
       "title": "The 50 Most-Watched Christmas Movies on Netflix",
       "canonical_key": "movie_source:what-s-on-netflix:2485853829dd",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "The 50 Most-Watched Christmas Movies on Netflix",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Riley Keough and Aaron Paul Cast in ‘The Beast in Me’ Season 2 as Filming Gets Underway",
-      "canonical_key": "movie_source:what-s-on-netflix:66998e391b79",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Riley Keough and Aaron Paul Cast in ‘The Beast in Me’ Season 2 as Filming Gets Underway",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
-      "canonical_key": "movie_source:what-s-on-netflix:c324239bd645",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Everything We Know About ‘Non-Refundable’: Netflix’s Rom-Com with Millie Bobby Brown & Jack Innanen",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ali Wong and Stephanie Hsu on Playing Cinderella’s ‘Evil’ Stepsisters in Netflix’s ‘Steps’",
-      "canonical_key": "movie_source:what-s-on-netflix:166e4b9c0ad5",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Ali Wong and Stephanie Hsu on Playing Cinderella’s ‘Evil’ Stepsisters in Netflix’s ‘Steps’",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Living the Dream’: First Look and Release Date Set for Animated Netflix Workplace Sitcom From ‘Apple & Onion’ Creator",
-      "canonical_key": "movie_source:what-s-on-netflix:bc745486ec4b",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Living the Dream’: First Look and Release Date Set for Animated Netflix Workplace Sitcom From ‘Apple & Onion’ Creator",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘The Diplomat’ Season 5 Gets Filming And Netflix Release Date Update",
-      "canonical_key": "movie_source:what-s-on-netflix:d134bd068d02",
       "required_field_gaps": [
         "release_year"
       ]
