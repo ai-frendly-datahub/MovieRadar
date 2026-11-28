@@ -1,6 +1,6 @@
 {
   "category": "movie",
-  "generated_at": "2026-11-27T16:15:34.649527+00:00",
+  "generated_at": "2026-11-28T15:08:48.633705+00:00",
   "scope_note": "MovieRadar separates box-office, reservation, OTT ranking, and release-calendar evidence from broad entertainment feeds. Broad feeds require movie-specific URL, text, or entity evidence before they enter reports.",
   "summary": {
     "total_sources": 12,
@@ -21,16 +21,16 @@
     "movie_signal_event_count": 78,
     "official_or_operational_event_count": 0,
     "news_proxy_event_count": 0,
-    "complete_canonical_key_count": 31,
-    "proxy_canonical_key_count": 47,
+    "complete_canonical_key_count": 30,
+    "proxy_canonical_key_count": 48,
     "missing_canonical_key_count": 0,
     "movie_id_present_count": 0,
     "normalized_title_present_count": 78,
-    "release_year_present_count": 31,
+    "release_year_present_count": 30,
     "rank_present_count": 0,
     "gross_present_count": 0,
     "platform_present_count": 75,
-    "event_required_field_gap_count": 50,
+    "event_required_field_gap_count": 51,
     "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
@@ -52,7 +52,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 95,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -76,7 +76,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -100,7 +100,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 92,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -148,7 +148,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 40,
+      "article_count": 44,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -173,7 +173,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -200,13 +200,14 @@
       "status": "fresh",
       "article_count": 77,
       "event_count": 77,
-      "latest_event_at": "2026-11-27T15:52:01+00:00",
-      "age_days": 0.02,
-      "latest_title": "“You Don’t Need to Fight the Format”: ‘La Bola Negra’ Cinematographer Gris Jordana on Shooting Netflix’s Oscar Contender on 35mm",
-      "latest_url": "https://www.whats-on-netflix.com/interviews/you-dont-need-to-fight-the-format-la-bola-negra-cinematographer-gris-jordana-on-shooting-netflixs-oscar-contender-on-35mm",
+      "latest_event_at": "2026-11-28T13:54:01+00:00",
+      "age_days": 0.05,
+      "latest_title": "New Releases on Netflix This Week and Top 10 Movies & Series: Thanksgiving Weekend 2026",
+      "latest_url": "https://www.whats-on-netflix.com/whats-new/netflix-new-releases-thanksgiving-week-november-2026",
       "latest_source_signal": [
         "movie_text_context",
         "ott_release",
+        "ott_release_context",
         "release_calendar"
       ],
       "errors": []
@@ -226,7 +227,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 7,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -277,7 +278,7 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-11-27T16:15:30.434220+00:00",
+      "latest_event_at": "2026-11-28T15:08:45.141264+00:00",
       "age_days": 0.0,
       "latest_title": "Home - Box Office Mojo",
       "latest_url": "https://www.boxofficemojo.com/",
@@ -349,7 +350,7 @@
       "title": "Home - Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
       "source_url": "https://www.boxofficemojo.com/",
-      "event_at": "2026-11-27T16:15:30.434220+00:00",
+      "event_at": "2026-11-28T15:08:45.141264+00:00",
       "movie_id": "",
       "normalized_title": "Home - Box Office Mojo",
       "release_year": "2026",
@@ -391,7 +392,7 @@
       ],
       "canonical_key": "movie:home-box-office-mojo:2026:us",
       "canonical_key_status": "complete",
-      "event_key": "box_office:907d712300a5:20261127",
+      "event_key": "box_office:907d712300a5:20261128",
       "required_field_proxy": {
         "movie_id": false,
         "rank": false,
@@ -402,6 +403,190 @@
         "movie_id",
         "rank",
         "gross"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "New Releases on Netflix This Week and Top 10 Movies & Series: Thanksgiving Weekend 2026",
+      "url": "https://www.whats-on-netflix.com/whats-new/netflix-new-releases-thanksgiving-week-november-2026",
+      "source_url": "https://www.whats-on-netflix.com/whats-new/netflix-new-releases-thanksgiving-week-november-2026",
+      "event_at": "2026-11-28T13:54:01+00:00",
+      "movie_id": "",
+      "normalized_title": "New Releases on Netflix This Week and Top 10 Movies & Series: Thanksgiving Weekend 2026",
+      "release_year": "2026",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series",
+        "releases"
+      ],
+      "film_general": [
+        "movies",
+        "top",
+        "new",
+        "this"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie:new-releases-on-netflix-this-week-and-top-10-movies-series-thanksgiving-weekend-2026:2026:us",
+      "canonical_key_status": "complete",
+      "event_key": "release_calendar:488617095256:20261128",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": true,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "‘Spider-Man: Brand New Day’ Hits No. 1 on Netflix in Nearly 40 Countries; No US Release Yet",
+      "url": "https://www.whats-on-netflix.com/news/spider-man-brand-new-day-netflix-international-release-no-us-date",
+      "source_url": "https://www.whats-on-netflix.com/news/spider-man-brand-new-day-netflix-international-release-no-us-date",
+      "event_at": "2026-11-27T23:02:15+00:00",
+      "movie_id": "",
+      "normalized_title": "‘Spider-Man: Brand New Day’ Hits No. 1 on Netflix in Nearly 40 Countries; No US Release Yet",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix",
+        "release"
+      ],
+      "platform": [
+        "netflix",
+        "release"
+      ],
+      "film_general": [
+        "one",
+        "new"
+      ],
+      "source_signal": [
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f72a70407bc9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:c588e238eb72:20261127",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "source": "What's on Netflix",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "release_calendar",
+      "collection_tier": "C1_rss",
+      "producer_role": "platform_media",
+      "info_purpose": [
+        "ott_release",
+        "release_calendar"
+      ],
+      "event_model": "release_calendar",
+      "title": "First Look at Naomi Watts Filming ‘The Watcher’ Season 2 in New York City",
+      "url": "https://www.whats-on-netflix.com/news/first-look-at-naomi-watts-filming-the-watcher-season-2-in-new-york-city",
+      "source_url": "https://www.whats-on-netflix.com/news/first-look-at-naomi-watts-filming-the-watcher-season-2-in-new-york-city",
+      "event_at": "2026-11-27T16:24:18+00:00",
+      "movie_id": "",
+      "normalized_title": "First Look at Naomi Watts Filming ‘The Watcher’ Season 2 in New York City",
+      "release_year": "",
+      "country": "US",
+      "region": "US",
+      "market": "US",
+      "rank": null,
+      "gross": null,
+      "platform_name": "netflix",
+      "release_date": "",
+      "box_office": [],
+      "director": [],
+      "actor": [],
+      "award": [],
+      "studio": [
+        "new",
+        "netflix"
+      ],
+      "platform": [
+        "netflix",
+        "series"
+      ],
+      "film_general": [
+        "new",
+        "first"
+      ],
+      "source_signal": [
+        "movie_text_context",
+        "ott_release",
+        "ott_release_context",
+        "release_calendar"
+      ],
+      "canonical_key": "movie_source:what-s-on-netflix:f141d5090d93",
+      "canonical_key_status": "source_proxy",
+      "event_key": "release_calendar:4b927887b9ad:20261127",
+      "required_field_proxy": {
+        "title": true,
+        "release_year": false,
+        "country": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "release_year"
       ]
     },
     {
@@ -4854,184 +5039,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Reveals Title, 2027 Release Window & First Look for ‘Magic: The Gathering: Planeswalker’ Animated Series",
-      "url": "https://www.whats-on-netflix.com/news/magic-the-gathering-netflix-series-title-2027-release",
-      "source_url": "https://www.whats-on-netflix.com/news/magic-the-gathering-netflix-series-title-2027-release",
-      "event_at": "2026-11-13T19:31:17+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Reveals Title, 2027 Release Window & First Look for ‘Magic: The Gathering: Planeswalker’ Animated Series",
-      "release_year": "2027",
-      "country": "US",
-      "region": "US",
-      "market": "premiere",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [
-        "premiere"
-      ],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "series",
-        "release",
-        "premiere"
-      ],
-      "film_general": [
-        "first"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-reveals-title-2027-release-window-first-look-for-magic-the-gathering-planeswalker-animated-series:2027:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:b65a12bf1f1b:20261113",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "Netflix Is Shutting Down Zack Snyder’s ‘Blood Line: A Rebel Moon Game’ in December 2026",
-      "url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-is-shutting-down-zack-snyders-blood-line-a-rebel-moon-game-in-december-2026",
-      "source_url": "https://www.whats-on-netflix.com/news/netflix-games/netflix-is-shutting-down-zack-snyders-blood-line-a-rebel-moon-game-in-december-2026",
-      "event_at": "2026-11-13T17:17:01+00:00",
-      "movie_id": "",
-      "normalized_title": "Netflix Is Shutting Down Zack Snyder’s ‘Blood Line: A Rebel Moon Game’ in December 2026",
-      "release_year": "2026",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix"
-      ],
-      "platform": [
-        "netflix"
-      ],
-      "film_general": [],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie:netflix-is-shutting-down-zack-snyder-s-blood-line-a-rebel-moon-game-in-december-2026:2026:us",
-      "canonical_key_status": "complete",
-      "event_key": "release_calendar:f52cf622e961:20261113",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": true,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "What's on Netflix",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "release_calendar",
-      "collection_tier": "C1_rss",
-      "producer_role": "platform_media",
-      "info_purpose": [
-        "ott_release",
-        "release_calendar"
-      ],
-      "event_model": "release_calendar",
-      "title": "George Clooney and Adam Sandler’s Netflix Movie Is Getting a Criterion Collection 4K Release",
-      "url": "https://www.whats-on-netflix.com/news/jay-kelly-joining-criterion-collection",
-      "source_url": "https://www.whats-on-netflix.com/news/jay-kelly-joining-criterion-collection",
-      "event_at": "2026-11-13T16:46:15+00:00",
-      "movie_id": "",
-      "normalized_title": "George Clooney and Adam Sandler’s Netflix Movie Is Getting a Criterion Collection 4K Release",
-      "release_year": "",
-      "country": "US",
-      "region": "US",
-      "market": "US",
-      "rank": null,
-      "gross": null,
-      "platform_name": "netflix",
-      "release_date": "",
-      "box_office": [],
-      "director": [
-        "director"
-      ],
-      "actor": [],
-      "award": [],
-      "studio": [
-        "netflix",
-        "release"
-      ],
-      "platform": [
-        "netflix",
-        "release"
-      ],
-      "film_general": [
-        "movie"
-      ],
-      "source_signal": [
-        "movie_text_context",
-        "ott_release",
-        "ott_release_context",
-        "release_calendar"
-      ],
-      "canonical_key": "movie_source:what-s-on-netflix:c1e962ede811",
-      "canonical_key_status": "source_proxy",
-      "event_key": "release_calendar:a63125c56260:20261113",
-      "required_field_proxy": {
-        "title": true,
-        "release_year": false,
-        "country": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "release_year"
-      ]
     }
   ],
   "daily_review_items": [
@@ -5046,6 +5053,40 @@
         "rank",
         "gross"
       ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Spider-Man: Brand New Day’ Hits No. 1 on Netflix in Nearly 40 Countries; No US Release Yet",
+      "canonical_key": "movie_source:what-s-on-netflix:f72a70407bc9",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "‘Spider-Man: Brand New Day’ Hits No. 1 on Netflix in Nearly 40 Countries; No US Release Yet",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look at Naomi Watts Filming ‘The Watcher’ Season 2 in New York City",
+      "canonical_key": "movie_source:what-s-on-netflix:f141d5090d93",
+      "required_field_gaps": [
+        "release_year"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "release_calendar",
+      "source": "What's on Netflix",
+      "title": "First Look at Naomi Watts Filming ‘The Watcher’ Season 2 in New York City",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -5427,40 +5468,6 @@
       "source": "What's on Netflix",
       "title": "‘Steps’ Ending Explained: Why Cinderella Rewrites Her Own Fairy Tale",
       "canonical_key": "movie_source:what-s-on-netflix:473c54f8de37",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Steps’ Ending Explained: Why Cinderella Rewrites Her Own Fairy Tale",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Alyce Tzue and John Ripa on Netflix’s ‘Steps’ and Seeing Cinderella’s Story Through New Eyes",
-      "canonical_key": "movie_source:what-s-on-netflix:58b83e648f05",
-      "required_field_gaps": [
-        "release_year"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "Alyce Tzue and John Ripa on Netflix’s ‘Steps’ and Seeing Cinderella’s Story Through New Eyes",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "release_calendar",
-      "source": "What's on Netflix",
-      "title": "‘Nemesis’ Season 2 Finally Gets Filming Update With Gabriela Uribe Taking Over Showrunner Duties",
-      "canonical_key": "movie_source:what-s-on-netflix:d9ec8c619dd3",
       "required_field_gaps": [
         "release_year"
       ]
